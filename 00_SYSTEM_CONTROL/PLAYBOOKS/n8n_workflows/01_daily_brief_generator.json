@@ -1,0 +1,55 @@
+{
+  "name": "Daily Brief Generator (NON CONNESSO - esempio, import disattivato)",
+  "active": false,
+  "nodes": [
+    {
+      "id": "trigger",
+      "name": "Ogni mattina 07:30",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [0, 0],
+      "parameters": {
+        "rule": { "interval": [{ "field": "cronExpression", "expression": "30 7 * * *" }] }
+      }
+    },
+    {
+      "id": "read_state",
+      "name": "Leggi MACHINE_STATE + BACKLOG + INDICE",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [220, 0],
+      "parameters": {
+        "operation": "read",
+        "fileSelector": "<VAULT_ROOT>/00_SYSTEM_CONTROL/MACHINE_STATE.md, <VAULT_ROOT>/00_SYSTEM_CONTROL/BACKLOG.md, <VAULT_ROOT>/00_SYSTEM_CONTROL/RESEARCH_MEMORY_INDEX.md"
+      }
+    },
+    {
+      "id": "compose",
+      "name": "Componi brief (placeholder - qui si può chiamare Claude via CLI locale)",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [440, 0],
+      "parameters": {
+        "jsCode": "// PLACEHOLDER: concatena gli input e produce il testo del brief.\n// In produzione: Execute Command node -> `claude -p \"/daily-brief\"` (locale, nessuna credenziale esterna).\nreturn items;"
+      }
+    },
+    {
+      "id": "write_brief",
+      "name": "Scrivi DAILY_BRIEF nel vault",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [660, 0],
+      "parameters": {
+        "operation": "write",
+        "fileName": "<VAULT_ROOT>/10_OUTPUTS/SYSTEM_REPORTS/{{ $now.format('yyyy-MM-dd') }}_daily_brief.md"
+      }
+    }
+  ],
+  "connections": {
+    "Ogni mattina 07:30": { "main": [[{ "node": "Leggi MACHINE_STATE + BACKLOG + INDICE", "type": "main", "index": 0 }]] },
+    "Leggi MACHINE_STATE + BACKLOG + INDICE": { "main": [[{ "node": "Componi brief (placeholder - qui si può chiamare Claude via CLI locale)", "type": "main", "index": 0 }]] },
+    "Componi brief (placeholder - qui si può chiamare Claude via CLI locale)": { "main": [[{ "node": "Scrivi DAILY_BRIEF nel vault", "type": "main", "index": 0 }]] }
+  },
+  "settings": { "executionOrder": "v1" },
+  "meta": { "note": "Solo file locali, zero credenziali esterne. Import: n8n import:workflow --input=01_daily_brief_generator.json (resta disattivato di default)." }
+}

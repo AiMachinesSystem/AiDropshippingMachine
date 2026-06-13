@@ -1,0 +1,74 @@
+filters:
+  and:
+    - 'type == "task"'
+    - file.inFolder("00_SYSTEM_CONTROL/TASKS")
+
+formulas:
+  prio_label: 'if(priority == 1, "🔴 1 — alta", if(priority == 2, "🟡 2 — media", "🟢 3 — bassa"))'
+  bloccato: 'if(blocked_by != "", "⛔ " + blocked_by, "—")'
+  chi: 'if(owner == "owner", "👤 owner", "🤖 macchina")'
+
+properties:
+  formula.prio_label:
+    displayName: "Priorità"
+  formula.bloccato:
+    displayName: "Bloccato da"
+  formula.chi:
+    displayName: "Chi"
+  minutes:
+    displayName: "Min stimati"
+  date:
+    displayName: "Data"
+
+views:
+  - type: table
+    name: "Aperti per priorità"
+    filters:
+      and:
+        - 'status == "open"'
+    order:
+      - file.name
+      - formula.prio_label
+      - formula.chi
+      - minutes
+      - formula.bloccato
+    groupBy:
+      property: priority
+      direction: ASC
+    summaries:
+      minutes: Sum
+
+  - type: table
+    name: "Tocca all'owner"
+    filters:
+      and:
+        - 'status == "open"'
+        - 'owner == "owner"'
+    order:
+      - file.name
+      - formula.prio_label
+      - minutes
+      - formula.bloccato
+    summaries:
+      minutes: Sum
+
+  - type: table
+    name: "Lato macchina"
+    filters:
+      and:
+        - 'status == "open"'
+        - 'owner == "machine"'
+    order:
+      - file.name
+      - formula.prio_label
+      - minutes
+      - formula.bloccato
+
+  - type: table
+    name: "Chiusi"
+    filters:
+      and:
+        - 'status == "done"'
+    order:
+      - file.name
+      - date

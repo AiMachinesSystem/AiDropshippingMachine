@@ -1,0 +1,66 @@
+filters:
+  and:
+    - file.inFolder("10_OUTPUTS")
+    - 'type == "report"'
+
+# NOTA TEMPLATE: la formula `progetto` e le viste per-progetto usano placeholder.
+# Sostituisci i tag e i nomi con i progetti reali; aggiungi una vista per progetto.
+formulas:
+  progetto: 'if(file.hasTag("<PROJECT_A_TAG>"), "<PROJECT_A>", if(file.hasTag("<PROJECT_B_TAG>"), "<PROJECT_B>", "Macchina"))'
+  tipo_cartella: 'file.folder.split("/").reverse().slice(0, 1).join("")'
+
+properties:
+  formula.progetto:
+    displayName: "Progetto"
+  formula.tipo_cartella:
+    displayName: "Tipo"
+  date:
+    displayName: "Data"
+  status:
+    displayName: "Status"
+
+views:
+  - type: table
+    name: "Tutti i report"
+    order:
+      - file.name
+      - formula.progetto
+      - formula.tipo_cartella
+      - date
+      - status
+    groupBy:
+      property: formula.tipo_cartella
+      direction: ASC
+
+  - type: table
+    name: "<PROJECT_A>"
+    filters:
+      and:
+        - file.hasTag("<PROJECT_A_TAG>")
+    order:
+      - file.name
+      - formula.tipo_cartella
+      - date
+      - status
+
+  - type: table
+    name: "<PROJECT_B>"
+    filters:
+      and:
+        - file.hasTag("<PROJECT_B_TAG>")
+    order:
+      - file.name
+      - formula.tipo_cartella
+      - date
+      - status
+
+  - type: table
+    name: "Macchina"
+    filters:
+      and:
+        - file.hasTag("machine")
+    order:
+      - file.name
+      - formula.tipo_cartella
+      - date
+      - status

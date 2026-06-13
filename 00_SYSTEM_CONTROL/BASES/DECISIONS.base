@@ -1,0 +1,60 @@
+filters:
+  and:
+    - 'type == "decision"'
+    - file.inFolder("00_SYSTEM_CONTROL/DECISIONS")
+
+# NOTA TEMPLATE: la formula `progetto` mappa i tag-progetto del vault a etichette
+# leggibili. Sostituisci i placeholder con i tag e i nomi reali dei tuoi progetti.
+formulas:
+  stato: 'if(status == "pending", "⏳ pendente", if(status == "active", "✅ attiva", status))'
+  progetto: 'if(file.hasTag("<PROJECT_A_TAG>"), "<PROJECT_A>", if(file.hasTag("<PROJECT_B_TAG>"), "<PROJECT_B>", "Macchina"))'
+
+properties:
+  decision_id:
+    displayName: "ID"
+  formula.stato:
+    displayName: "Stato"
+  formula.progetto:
+    displayName: "Progetto"
+  owner:
+    displayName: "Decide"
+  date:
+    displayName: "Data"
+
+views:
+  - type: table
+    name: "Pendenti owner"
+    filters:
+      and:
+        - 'status == "pending"'
+    order:
+      - decision_id
+      - file.name
+      - formula.progetto
+      - priority
+      - date
+
+  - type: table
+    name: "Attive"
+    filters:
+      and:
+        - 'status == "active"'
+    order:
+      - decision_id
+      - file.name
+      - formula.progetto
+      - owner
+      - date
+
+  - type: table
+    name: "Tutte"
+    order:
+      - decision_id
+      - file.name
+      - formula.stato
+      - formula.progetto
+      - owner
+      - date
+    groupBy:
+      property: status
+      direction: ASC

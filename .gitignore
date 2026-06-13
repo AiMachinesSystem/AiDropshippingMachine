@@ -1,0 +1,17 @@
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+*.log
+.obsidian/workspace*.json
+
+# --- dipendenze locali ---
+node_modules/
+
+# --- 90_CACHE: NON versionata (si mantiene solo lo scheletro via .gitkeep) ---
+/90_CACHE/fetches/**
+/90_CACHE/screenshots/**
+/90_CACHE/tools/**
+/90_CACHE/selftests/**
+
+# riammetti i segnaposto di struttura
+!**/.gitkeep

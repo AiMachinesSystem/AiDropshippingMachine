@@ -1,0 +1,40 @@
+{
+  "name": "Shopify Read-Only Daily Snapshot (RICHIEDE CREDENZIALI OWNER + GO - esempio non connesso)",
+  "active": false,
+  "nodes": [
+    {
+      "id": "trigger",
+      "name": "Ogni sera 23:00",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [0, 0],
+      "parameters": { "rule": { "interval": [{ "field": "cronExpression", "expression": "0 23 * * *" }] } }
+    },
+    {
+      "id": "shopify_orders",
+      "name": "Shopify - ordini ultime 24h (READ-ONLY)",
+      "type": "n8n-nodes-base.shopify",
+      "typeVersion": 1,
+      "position": [220, 0],
+      "parameters": { "resource": "order", "operation": "getAll", "returnAll": true },
+      "credentials": { "shopifyApi": { "id": "PLACEHOLDER_OWNER_GO_REQUIRED", "name": "Shopify RO - da creare SOLO con GO owner" } }
+    },
+    {
+      "id": "snapshot",
+      "name": "Scrivi snapshot in 02_DATA (raw, etichettato OBSERVED)",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [440, 0],
+      "parameters": {
+        "operation": "write",
+        "fileName": "<VAULT_ROOT>/02_DATA/STORE_SNAPSHOTS/{{ $now.format('yyyy-MM-dd') }}_orders_snapshot.json"
+      }
+    }
+  ],
+  "connections": {
+    "Ogni sera 23:00": { "main": [[{ "node": "Shopify - ordini ultime 24h (READ-ONLY)", "type": "main", "index": 0 }]] },
+    "Shopify - ordini ultime 24h (READ-ONLY)": { "main": [[{ "node": "Scrivi snapshot in 02_DATA (raw, etichettato OBSERVED)", "type": "main", "index": 0 }]] }
+  },
+  "settings": { "executionOrder": "v1" },
+  "meta": { "note": "GATED: le credenziali Shopify (Admin API token read-only) le crea e inserisce SOLO l'owner. Il workflow legge soltanto; nessuna write su store. Schema Layer 6: read-only first." }
+}
