@@ -26,7 +26,7 @@ description: "Cockpit unico della macchina: stato, decisioni owner pendenti, top
 | # | Decisione | Perché blocca |
 |---|---|---|
 | 1 | GO alla **Strategy** — solo dopo i dati fornitori/economici | Blocca tutto il flusso a valle |
-| 2 | Scegliere il prossimo step interno: **Analysis Delta** o **AutoDS Read-Only Intake Plan** (pending GO) | Determina cosa fa la macchina dopo il context save |
+| 2 | Scegliere il prossimo step: **avviare l'intake AutoDS** (prereq + GO) o **Analysis Delta** | Determina cosa fa la macchina dopo il piano AutoDS |
 
 > **Risolte 2026-06-15 (governance closeout):** identità owner = **Luca**; etichette evidenza = **solo set costituzionale §0.4** (il superset di `OPERATING_RULES §3` resta in **quarantena**, NON ratificato); compilazione `VISION_ALIGNMENT` **rinviata** per scelta owner.
 > **Risolte 2026-06-15 (owner context):** buyer = **US / eBay.com** (USD), secondario NESSUNO; **seller = US-registrato + US-located**; Italy/EU **NON rilevante**. Lo schema eBay.com/US è ora il riferimento **vincolante**.
@@ -35,7 +35,7 @@ description: "Cockpit unico della macchina: stato, decisioni owner pendenti, top
 
 | # | Azione | Chi | Min | Scadenza/blocco |
 |---|---|---|---|---|
-| 1 | Scegliere il prossimo step: Analysis Delta o AutoDS Read-Only Intake Plan (o GO Strategy dopo i dati economici) | 👤 owner | ~5 | determina la fase successiva |
+| 1 | Fornire prerequisiti AutoDS + GO per avviare l'intake read-only, oppure scegliere Analysis Delta | 👤 owner | ~5 | determina la fase successiva |
 
 Lista completa e priorità: ![[BACKLOG.base#Aperti per priorità]]
 
@@ -47,6 +47,7 @@ Lista completa e priorità: ![[BACKLOG.base#Aperti per priorità]]
 | 2026-06-15 | Ricerca pubblica policy/fee/feature (eBay+AutoDS) | 21 fonti in cache; 6 output dati + intake report; 0 azioni live; stop prima dell'analisi |
 | 2026-06-15 | Analisi policy/fee/feature (eBay+AutoDS) | Mappe constraint/fee/risk/account-health/dependency evidence-graded; buyer vs seller-country split; niente strategia/raccomandazioni; verifica adversarial PASS; gate Analysis→Strategy chiuso |
 | 2026-06-15 | Contesto seller (USER-PROVIDED) | seller US-registrato + US-located, USD; Italy/EU non rilevante; dependency principale dell'analisi risolta; Strategy ancora bloccata |
+| 2026-06-15 | AutoDS Read-Only Data Intake Plan | piano (categorie/cattura/storage/forbidden/checklist/prereq) + report; 0 accessi/login/dati; intake non avviato |
 
 Memoria interrogabile di tutti i run: [[RESEARCH_MEMORY_INDEX]] (QUERY MODE).
 
@@ -54,7 +55,7 @@ Memoria interrogabile di tutti i run: [[RESEARCH_MEMORY_INDEX]] (QUERY MODE).
 
 | KPI | Valore |
 |---|---|
-| Report datati in 10_OUTPUTS | 4 (init · stabilization · data-collection · analysis) |
+| Report datati in 10_OUTPUTS | 5 (init · stabilization · data-collection · analysis · autods-intake-plan) |
 | Note attive nel vault | n/d (non conteggiate) |
 | % vision realizzata | n/d (vision non compilata) |
 | Azioni live mai eseguite | 0 |

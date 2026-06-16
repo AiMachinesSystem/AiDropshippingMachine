@@ -25,3 +25,4 @@ date: 2026-06-15
 | 2026-06-15 | Analysis (policy/fee/feature): evidence-graded constraint/fee/risk/account-health/dependency maps + conclusions; adversarial verify PASS; stopped before strategy | Analysis | No | No | Complete |
 | 2026-06-15 | Internal dry-run QA test with MOCK data (15/15 gate checks PASS); mock isolated in 10_OUTPUTS/SYSTEM_TESTS; no real data, no gate advanced | System | No | No | Complete |
 | 2026-06-15 | Saved USER-PROVIDED CONTEXT: seller = US-registered + US-located (USD); Italy/EU not relevant; main analysis dependency resolved; Strategy still blocked | Data | No | No | Complete |
+| 2026-06-15 | Created AutoDS Read-Only Data Intake Plan (categories/capture/storage/forbidden/checklist/prereqs); plan only, no login/access/live data | Data | No | No | Complete |

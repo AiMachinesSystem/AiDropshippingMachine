@@ -16,11 +16,11 @@ description: "Lista chiara delle prossime azioni. Refreshata a fine run (regola 
 - Nessuna azione browser autorizzata in questa fase: nessun login, nessun accesso a eBay/AutoDS/fornitori. Ogni azione esterna richiede GO esplicito.
 
 ## Exact Next Step
-> Contesto seller risolto (2026-06-15): seller **US-registrato + US-located**, USD; **Italy/EU NON RILEVANTE**. La dependency principale dell'analisi è chiusa. **Gate Analysis → Strategy resta CHIUSO** (Strategy richiede GO owner). **Prossimo step consentito (a scelta owner, pending approvazione):** **(1) Analysis Delta Only** — aggiornare le conclusioni di dependency dell'analisi al contesto US-seller (interno, no nuovi dati); **oppure (2) AutoDS Read-Only Data Intake Plan** — solo il *piano* di intake read-only AutoDS (nessun accesso/login). Nessuna delle due parte senza tuo GO.
+> AutoDS Read-Only Intake **Plan creato** (2026-06-15) → `02_DATA/00_SOURCE_DISCOVERY/` + report in `10_OUTPUTS/SYSTEM_REPORTS/`. **Gate Analysis → Strategy resta CHIUSO.** Prossimo step consentito (a scelta owner, pending GO): **(1)** fornire i prerequisiti AutoDS (`02_DATA/03_MISSING_DATA/autods_intake_missing_owner_inputs.md`) + **GO per AVVIARE l'intake read-only** (scegliendo il metodo di cattura); **(2) Analysis Delta Only** (interno); **(3)** GO Strategy solo dopo i dati fornitori/economici. Nessun login/accesso senza GO (il controlled login è un GO separato, non concesso).
 
 ## Parked Options (each needs its own explicit GO)
-1. **Analysis Delta Only** — aggiornare le conclusioni di dependency dell'analisi al contesto US-seller (interno).
-2. **AutoDS Read-Only Data Intake Plan** — pianificare l'intake read-only AutoDS (solo piano; nessun accesso, nessun login).
+1. **Avviare l'intake AutoDS read-only** — pending prerequisiti (§6 del piano) + GO; metodo: export/screenshot/guided. (Controlled login = GO separato.)
+2. **Analysis Delta Only** — aggiornare le conclusioni di dependency dell'analisi al contesto US-seller (interno).
 3. **Strategy** (offer/pricing/listing/supplier/risk) — BLOCCATA: richiede GO owner + dati fornitori/economici.
 4. **Raccolta dati owner** (eBay Seller Hub, AutoDS, fornitori da export/screenshot) — GO classe: accesso a dati owner.
 5. **Raccolta dati fornitori/competitor/prodotto** (economics) — GO classe: ricerca esterna (nuovo scope).
@@ -61,3 +61,4 @@ Stop before analysis.
 - [x] 2026-06-15 — Contesto owner salvato (USER-PROVIDED): buyer market = US / eBay.com, USD; seller country/location restano USER INPUT NEEDED. Gate Data → Analysis preservato.
 - [x] 2026-06-15 — Analisi policy/fee/feature completata (evidence-graded; buyer vs seller-country split; niente strategia/raccomandazioni/profittabilità; verifica adversarial 3-agent = PASS). Gate Analysis → Strategy chiuso.
 - [x] 2026-06-15 — Contesto seller salvato (USER-PROVIDED): seller US-registrato + US-located, USD; Italy/EU non rilevante. Dependency principale dell'analisi risolta; Strategy resta bloccata.
+- [x] 2026-06-15 — AutoDS Read-Only Data Intake Plan creato (piano + prerequisiti + report). Solo piano; nessun login/accesso/dato AutoDS; intake non avviato.
