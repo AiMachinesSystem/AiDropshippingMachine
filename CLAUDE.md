@@ -1,11 +1,11 @@
 # `eBay / AutoDS Dropshipping Machine` — Costituzione operativa (v1)
 
-`eBay / AutoDS Dropshipping Machine`: ricercare, validare, lanciare, gestire, misurare, migliorare e scalare un business di dropshipping su eBay tramite AutoDS, nel dominio dropshipping eBay / automazione marketplace e sourcing prodotti via AutoDS. Owner: `<OWNER_NAME>` (USER INPUT NEEDED — nome non ancora fornito), comandi one-line in italiano.
+`eBay / AutoDS Dropshipping Machine`: ricercare, validare, lanciare, gestire, misurare, migliorare e scalare un business di dropshipping su eBay tramite AutoDS, nel dominio dropshipping eBay / automazione marketplace e sourcing prodotti via AutoDS. Owner: Luca, comandi one-line in italiano.
 
 > **MACCHINA ISTANZIATA (2026-06-15).** Questo file è la costituzione operativa della macchina
 > eBay / AutoDS Dropshipping Machine, istanziata dal template madre `machine-template`. I placeholder
-> di identità sono stati sostituiti durante l'import della foundation eBay/AutoDS; resta da confermare
-> `<OWNER_NAME>`. Genealogia tecnica in `00_SYSTEM_CONTROL\MACHINE_STATE.md`; battesimo e sessioni
+> di identità sono stati sostituiti durante l'import della foundation eBay/AutoDS; owner confermato:
+> Luca (2026-06-15). Genealogia tecnica in `00_SYSTEM_CONTROL\MACHINE_STATE.md`; battesimo e sessioni
 > autonome via `00_SYSTEM_CONTROL\SESSION_START_PROTOCOL_v0.1.md`. Nessun dato live, account, numero o
 > decisione di mercato è inventato in questo file.
 

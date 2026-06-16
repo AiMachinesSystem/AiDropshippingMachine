@@ -26,15 +26,14 @@ description: "Cockpit unico della macchina: stato, decisioni owner pendenti, top
 | # | Decisione | Perché blocca |
 |---|---|---|
 | 1 | Scegliere il percorso dati: (A) export/screenshot owner oppure (B) ricerca pubblica esterna | Blocca l'intero flusso Data → Analysis → Strategy |
-| 2 | Confermare l'identità owner (nome per la costituzione) | `<OWNER_NAME>` resta placeholder in CLAUDE.md |
-| 3 | Ratificare o respingere il set esteso di evidence label proposto in `01_SYSTEM/OPERATING_RULES.md §3` | Conflitto con il set costituzionale §0.4 (non adottato finché non ratificato) |
+
+> **Risolte 2026-06-15 (governance closeout):** identità owner = **Luca**; etichette evidenza = **solo set costituzionale §0.4** (il superset di `OPERATING_RULES §3` resta in **quarantena**, NON ratificato); compilazione `VISION_ALIGNMENT` **rinviata** per scelta owner.
 
 ## 3 · Prossime azioni (per impatto)
 
 | # | Azione | Chi | Min | Scadenza/blocco |
 |---|---|---|---|---|
 | 1 | Scegliere il percorso dati (A o B) e dare il GO | 👤 owner | ~10 | blocca la fase Data |
-| 2 | Fornire il nome owner | 👤 owner | ~1 | sblocca `<OWNER_NAME>` |
 
 Lista completa e priorità: ![[BACKLOG.base#Aperti per priorità]]
 

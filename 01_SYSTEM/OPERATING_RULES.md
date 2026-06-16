@@ -13,11 +13,12 @@ date: 2026-06-15
 > wins. In particular, the **constitutional evidence-label set** is the one in `CLAUDE.md §0.4`
 > — `[OBSERVED — source+date]`, `[INFERRED — basis]`, `[UNKNOWN]`, `[PUBLIC RESEARCH REQUIRED]`,
 > `[ESTIMATE declared]`. The expanded label table in §3 below (FACT / VERIFIED FACT / ASSUMPTION /
-> LIVE ACCESS REQUIRED / OWNER GO REQUIRED) is a **proposed domain superset that is NOT yet
-> adopted**: per `CLAUDE.md` AUTONOMIA §10, introducing new evidence labels is a deliberate
-> amendment requiring explicit owner ratification. Until ratified, use only the §0.4 set in live
-> claims. The behavioural rules below (gates, stop rules, language) are consistent with the
-> constitution and are in force.
+> LIVE ACCESS REQUIRED / OWNER GO REQUIRED) is a proposed domain superset that the owner has
+> **explicitly DECLINED to ratify (governance closeout decision, 2026-06-15)**: per `CLAUDE.md`
+> AUTONOMIA §10 it remains **quarantined and inactive** unless the owner explicitly approves it
+> later. The `CLAUDE.md §0.4` set is the **primary and only active** evidence-label set — use only
+> §0.4 in live claims. The behavioural rules below (gates, stop rules, language) are consistent
+> with the constitution and are in force.
 
 ## 1. Phase Discipline
 

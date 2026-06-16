@@ -19,3 +19,4 @@ date: 2026-06-15
 | 2026-06-15 | Created Scaling Gate | Scaling | No | No | Complete |
 | 2026-06-15 | Merged initialization foundation into machine architecture (commit c994aed) | System | No | No | Complete |
 | 2026-06-15 | Stabilization sprint: routing-index fix, learning entry, error-registry near-miss, machine test | System | No | No | Complete |
+| 2026-06-15 | Governance closeout: recorded 6 owner decisions (owner=Luca; §0.4-only labels; §3 quarantined; VISION deferred) | System | No | No | Complete |

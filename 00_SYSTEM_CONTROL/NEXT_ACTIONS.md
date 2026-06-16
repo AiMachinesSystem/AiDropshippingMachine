@@ -47,9 +47,9 @@ Stop before analysis.
 ```
 
 ## Waiting / Blocked
-- Identità owner (nome) — USER INPUT NEEDED.
 - Stato account eBay / AutoDS, lista fornitori, nicchia/categoria, target margine, baseline performance — USER INPUT NEEDED (lista completa: [[MISSING_OWNER_INPUTS]]).
 - Policy/fee/feature correnti eBay + AutoDS — PUBLIC RESEARCH REQUIRED (ricerca non ancora approvata).
 
 ## Completed
 - [x] 2026-06-15 — Import e merge della foundation eBay/AutoDS nella struttura della macchina (Phase 1 — system initialization completata).
+- [x] 2026-06-15 — Governance closeout: owner = Luca; etichette = solo set §0.4 (superset `OPERATING_RULES §3` in quarantena, non ratificato); compilazione `VISION_ALIGNMENT` rinviata.
