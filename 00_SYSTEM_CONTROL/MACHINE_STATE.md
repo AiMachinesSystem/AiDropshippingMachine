@@ -8,10 +8,11 @@ description: "Stato sintetico della macchina: skill installate con versioni, str
 
 # MACHINE_STATE — stato sintetico della macchina
 
-> **GENEALOGIA (origine tecnica, NON identità):** template estratto da una macchina di
-> intelligence & execution in data `<DATA_ESTRAZIONE>`, post CLOSEOUT + AUTONOMIA v0.1 +
-> TOOLSMITH + SESSION_START. Questa riga dichiara solo la provenienza dello scheletro: la
-> nuova macchina NON è la macchina sorgente e non ne eredita dati, progetti, output o decisioni.
+> **GENEALOGIA (origine tecnica, NON identità):** template `machine-template` estratto da una macchina
+> di intelligence & execution in data 2026-06-12 (commit `af792f0`), post CLOSEOUT + AUTONOMIA v0.1 +
+> TOOLSMITH + SESSION_START. **Istanziata come `eBay / AutoDS Dropshipping Machine` il 2026-06-15**
+> tramite import della foundation in `_IMPORT/ebay_autods_initialization/`. Questa riga dichiara solo la
+> provenienza dello scheletro: la macchina NON eredita dati, progetti, output o decisioni della sorgente.
 >
 > Aggiornare a ogni cambiamento di skill, integrazione o fase progetto. Fonte di verità per `/daily-brief`.
 
@@ -45,14 +46,13 @@ Commands: /niche-run · /competitor-scan · /ads-scan · /launch-prep · /daily-
 - Costituzione operativa: `CLAUDE.md` · convenzioni: `VAULT_CONVENTIONS.md` · vision: `VISION_SCHEMA.md` + `VISION_GAP_MATRIX.md`.
 
 ## INTEGRAZIONI
-- `<connettore dati / MCP>`: `<stato>`. Solo lettura finché non c'è GO per write-action.
+- Connettori/MCP dati: nessuno collegato. Nessun accesso a eBay, AutoDS o fornitori. Solo lettura di pagine pubbliche (via proxy) finché non c'è GO per write-action.
 - Metodo web validato: pagine bloccate leggibili via prefisso `https://r.jina.ai/` (lower bound, retry ≤2).
 
 ## PROGETTI E FASE
 | Progetto | Fase | Note |
 |---|---|---|
-| `<PROJECT_A>` | `<fase>` | `<firewall/gate se applicabile>` |
-| `<PROJECT_B>` | `<fase>` | `<note>` |
+| store eBay/AutoDS | System initialization completa → gate **Data Collection** | richiede GO owner per dati/ricerca; firewall per-progetto attivo; execution in `05_EXECUTION\ebay-autods-store\` (ancora da creare) |
 
 ## INDICI E ROUTINE
 - `00_SYSTEM_CONTROL\RESEARCH_MEMORY_INDEX.md` = memoria interrogabile dei run (QUERY MODE).

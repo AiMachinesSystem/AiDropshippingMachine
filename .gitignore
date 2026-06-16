@@ -15,3 +15,7 @@ node_modules/
 
 # riammetti i segnaposto di struttura
 !**/.gitkeep
+
+# --- scaffolding di import (NON versionato; rimuovibile dopo verifica owner) ---
+/_IMPORT/
+/ebay_autods_dropshipping_machine.zip
