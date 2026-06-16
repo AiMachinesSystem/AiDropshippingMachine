@@ -17,3 +17,5 @@ date: 2026-06-15
 | 2026-06-15 | Created Execution Gate Structure | Execution | No | No | Complete |
 | 2026-06-15 | Created Learning System | Learning | No | No | Complete |
 | 2026-06-15 | Created Scaling Gate | Scaling | No | No | Complete |
+| 2026-06-15 | Merged initialization foundation into machine architecture (commit c994aed) | System | No | No | Complete |
+| 2026-06-15 | Stabilization sprint: routing-index fix, learning entry, error-registry near-miss, machine test | System | No | No | Complete |

@@ -31,4 +31,11 @@ description: "Registro errori della macchina (protocollo AUTONOMIA CONTROLLATA v
 
 ---
 
+## E-001 — Import incompleto evitato: glob troppo stretto sui file d'archivio
+- **Data:** 2026-06-15 (missione EBAY-IMPORT / foundation merge) · **Fix:** c994aed
+- **ERRORE:** durante il merge della foundation, il glob di copia `STERILE_BASELINE__*.md` non includeva `99_ARCHIVE/README.md` (1 file su 42). Near-miss: intercettato dalla reconciliation per-file PRIMA del commit, danno reale = zero (file poi copiato e committato).
+- **CAUSA:** [OBSERVED] copia per pattern (glob) invece di copia per inventario completo; il pattern copriva solo i baseline e non gli altri file della stessa cartella.
+- **REGOLA:** prima di committare qualunque import/merge, eseguire una reconciliation per-file sorgente→target che deve dare 0 mancanti su N totali; mai fidarsi di un glob come prova di copertura completa.
+- **TEST DI REGRESSIONE:** script di reconciliation (find su sorgente → check esistenza target) = `UNRESOLVED MISSING: 0 / 42` → PASS (evidenza nel report d'import e nel run log della missione). Ri-verificato in stabilization sprint: PASS.
+
 <!-- Nessun errore registrato. La prima voce reale va sopra questa riga. -->

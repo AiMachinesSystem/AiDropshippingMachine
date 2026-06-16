@@ -27,6 +27,8 @@ description: "Dispatcher owner: mappa intento → routine/skill. PARTE come sche
 | "brief del giorno" | `/daily-brief` | legge dashboard + TASKS + git |
 | "cosa hai imparato questa settimana" | `weekly-learning-update` | un report + cockpit refresh |
 | "riordina/audit del vault" | `vault-librarian` | manutenzione conservativa output di ricerca |
+| intenti operativi eBay/AutoDS ("setup AutoDS", "crea/modifica listing", "pricing/repricing", "fulfillment/ordini", "fornitori", "account/policy eBay") | disciplina di fase: `01_SYSTEM/SYSTEM_BLUEPRINT.md` + `01_SYSTEM/OPERATING_RULES.md` + `00_SYSTEM_CONTROL/APPROVAL_GATES.md` | TUTTO GO-gated; fase corrente in `00_SYSTEM_CONTROL/CURRENT_STATUS.md`; niente live/esterno senza GO; execution solo entro la gate structure |
+| "a che punto siamo / prossimo passo / stato macchina" | `00_SYSTEM_CONTROL/CURRENT_STATUS.md` + `NEXT_ACTIONS.md` + `/daily-brief` | lookup di stato dal cockpit; mai ri-lanciare ricerche per un lookup |
 | `<altro intento ricorrente>` | `<routine/skill>` | `<note>` |
 
 ## REGOLE DI ROUTING
