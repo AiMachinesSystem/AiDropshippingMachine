@@ -16,12 +16,13 @@ description: "Lista chiara delle prossime azioni. Refreshata a fine run (regola 
 - Nessuna azione browser autorizzata in questa fase: nessun login, nessun accesso a eBay/AutoDS/fornitori. Ogni azione esterna richiede GO esplicito.
 
 ## Exact Next Step
-> L'owner sceglie UN percorso dati: **(A)** approvare la raccolta dati SOLO da export/screenshot forniti dall'owner, **oppure (B)** approvare la ricerca pubblica esterna su policy/fee/feature di eBay e AutoDS. Finché non arriva un GO, la macchina resta in stop di inizializzazione.
+> Ricerca pubblica policy/fee/feature (percorso B) **COMPLETATA** il 2026-06-15 → dati in `02_DATA`, report in `10_OUTPUTS/SYSTEM_REPORTS`. Siamo al **gate Data → Analysis**. L'owner sceglie: **(1)** autorizzare l'**Analisi** dei dati raccolti (interna), **(2)** confermare il **mercato eBay** (eBay.it/eBay.co.uk/eBay.com) + fornire input account/AutoDS, oppure **(3)** approvare una **ricerca di follow-up** per i gap `PUBLIC RESEARCH REQUIRED`.
 
 ## Parked Options (each needs its own explicit GO)
-1. **Raccolta dati owner** (eBay Seller Hub, AutoDS dashboard, lista fornitori da export/screenshot) — GO classe: accesso a dati owner. Stop prima dell'analisi.
-2. **Ricerca pubblica esterna** (policy/fee/feature correnti eBay + AutoDS) — GO classe: ricerca esterna.
-3. Bloccate finché non esistono dati + analisi autorizzati: strategia · execution/SOP oltre la gate structure · pubblicazione/modifica listing · modifiche/automazioni AutoDS · ordini e pagamenti fornitori · scaling.
+1. **Autorizzare l'Analisi** dei dati policy/fee/feature raccolti (interna; richiede GO del gate Analysis).
+2. **Raccolta dati owner** (eBay Seller Hub, AutoDS dashboard, lista fornitori da export/screenshot) — GO classe: accesso a dati owner. Stop prima dell'analisi.
+3. **Ricerca pubblica di follow-up** (eBay.it/EU una volta noto il mercato; numerici US-help dietro fetch wall; pricing AutoDS in EUR) — GO classe: ricerca esterna.
+4. Bloccate finché non esistono dati + analisi autorizzati: strategia · execution/SOP oltre la gate structure · pubblicazione/modifica listing · modifiche/automazioni AutoDS · ordini e pagamenti fornitori · scaling.
 
 ## Comando pronto (data collection, GATED — copia/incolla per dare il GO)
 ```text
@@ -48,8 +49,10 @@ Stop before analysis.
 
 ## Waiting / Blocked
 - Stato account eBay / AutoDS, lista fornitori, nicchia/categoria, target margine, baseline performance — USER INPUT NEEDED (lista completa: [[MISSING_OWNER_INPUTS]]).
-- Policy/fee/feature correnti eBay + AutoDS — PUBLIC RESEARCH REQUIRED (ricerca non ancora approvata).
+- **Mercato eBay di Luca (eBay.it/eBay.co.uk/eBay.com)** — USER INPUT NEEDED (determina lo schema fee/policy vincolante).
+- Policy/fee/feature: baseline eBay.com/US raccolta 2026-06-15; **eBay.it/EU localizzati + numerici US-help dietro fetch wall + pricing AutoDS in EUR** — PUBLIC RESEARCH REQUIRED (dettaglio: `02_DATA/03_MISSING_DATA/2026-06-15_public-research-missing-data-log.md`).
 
 ## Completed
 - [x] 2026-06-15 — Import e merge della foundation eBay/AutoDS nella struttura della macchina (Phase 1 — system initialization completata).
 - [x] 2026-06-15 — Governance closeout: owner = Luca; etichette = solo set §0.4 (superset `OPERATING_RULES §3` in quarantena, non ratificato); compilazione `VISION_ALIGNMENT` rinviata.
+- [x] 2026-06-15 — Ricerca pubblica policy/fee/feature eBay+AutoDS (percorso B): 21 fonti in cache → 3 raw + 3 tabelle pulite + note fonti/qualità/missing + data intake report. Stop prima dell'analisi.

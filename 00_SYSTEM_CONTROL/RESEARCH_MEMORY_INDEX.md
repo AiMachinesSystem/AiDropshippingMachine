@@ -39,4 +39,18 @@ description: "Memoria interrogabile di tutti i run di ricerca. Ogni run di niche
 
 ---
 
+## PLATFORM / POLICY REFERENCE RUNS (non-niche)
+
+> Non-niche reference-data runs (policy/fee/feature). QUERY MODE: "what do we know about eBay/AutoDS
+> policy/fees?" → read the cleaned tables; numbers are eBay.com (US)/EN-mirror unless market confirmed.
+
+### eBay + AutoDS — public policy / fee / feature (run 2026-06-15, data-collection v1)
+- last_run: 2026-06-15 · type: data-collection (public, read-only) · report: `10_OUTPUTS/SYSTEM_REPORTS/2026-06-15_data-collection-public-research_report_v1.md`
+- cleaned data: `02_DATA/02_CLEANED_DATA/{fee_table,policy_risk_table,autods_features_table}.md` · raw: `02_DATA/01_RAW_DATA/` · evidence: `90_CACHE/fetches/` (21 files)
+- key canon (eBay.com US / EN-mirror — Luca's market UNCONFIRMED): dropshipping retail-arbitrage **prohibited**, wholesale allowed · defect ≤2% · late-ship ≤3% (TRS) · FVF most cat. 13.6% + $0.30/$0.40 · regulatory fee 0.35% on eBay.it/EU · AutoDS eBay plan ~$29.90/mo (Starter 400)
+- open items: confirm eBay market (USER INPUT NEEDED); eBay.it/EU schedule + walled US-help numerics (PUBLIC RESEARCH REQUIRED)
+- integrity flags: AutoDS lists many retailer suppliers (Amazon/Walmart) — recording only; arbitrage prohibition noted, never to be advised
+
+---
+
 <!-- Nessun run registrato. Il primo blocco nicchia reale va sopra questa riga. -->
