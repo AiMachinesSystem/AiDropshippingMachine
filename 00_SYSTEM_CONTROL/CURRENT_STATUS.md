@@ -11,16 +11,16 @@ date: 2026-06-15
 | Field | Value |
 |---|---|
 | Machine | eBay / AutoDS Dropshipping Machine |
-| Current Phase | Data collection (public policy/fee/feature) completed — 2026-06-15 |
-| Active Module | Data |
+| Current Phase | Analysis (policy/fee/feature) completed — 2026-06-15 |
+| Active Module | Analysis |
 | Live Access | Not approved (no login performed) |
 | External Research | Public policy/fee/feature: COMPLETED (read-only, cached). Account/market-specific research: Not approved |
 | Strategy | Not authorized |
 | Execution | Not authorized |
 | Measurement | Not started |
 | Scaling | Forbidden until validation |
-| Current Gate | Public policy/fee/feature data collected & cached → **Data → Analysis gate** (Analysis requires owner authorization) |
-| Stop Condition Met | Yes — data intake report delivered, stopped before analysis |
+| Current Gate | Analysis completed & evidence-graded → **Analysis → Strategy gate (CLOSED)** (Strategy requires owner GO + missing inputs in analysis §9) |
+| Stop Condition Met | Yes — analysis report delivered, stopped before strategy |
 
 ## Completed Internally
 
@@ -37,6 +37,7 @@ date: 2026-06-15
 - Missing owner inputs logged.
 - No account login, no live platform changes, no supplier access at any point.
 - 2026-06-15: Public eBay/AutoDS policy/fee/feature research completed (read-only web, 21 cached sources) → raw notes + cleaned fee/policy/feature tables + source/quality/missing-data notes + intake report. Stopped before analysis.
+- 2026-06-15: Analysis (policy/fee/feature) completed — evidence-graded constraint/fee/risk/account-health/dependency maps + conclusions; buyer-market vs seller-country split; NO strategy, NO recommendations, NO profitability. Reports in 03_ANALYSIS + 10_OUTPUTS/ANALYSIS_REPORTS. Stopped before strategy.
 
 ## Current Blockers
 

@@ -11,8 +11,8 @@ date: 2026-06-15
 | # | Module | Status | Primary File |
 |---|---|---|---|
 | 1 | System | Initialized | 01_SYSTEM/SYSTEM_BLUEPRINT.md |
-| 2 | Data | Planned | 02_DATA/DATA_MAP.md |
-| 3 | Analysis | Gate closed | 03_ANALYSIS/RISK_MAP.md |
+| 2 | Data | Public policy/fee/feature collected (2026-06-15) | 02_DATA/02_CLEANED_DATA/ |
+| 3 | Analysis | Policy/fee/feature analysis done (2026-06-15) | 03_ANALYSIS/2026-06-15_ebay-autods-policy-fee-feature_analysis.md |
 | 4 | Strategy | Not authorized | 04_STRATEGY/README.md |
 | 5 | Execution | Gate defined, not authorized | 05_EXECUTION/EXECUTION_GATE_STRUCTURE.md |
 | 6 | Measurement | Planned | 06_MEASUREMENT/KPI_MAP.md |
@@ -21,6 +21,6 @@ date: 2026-06-15
 
 ## Current Handoff
 
-System → Data Source Discovery
+Analysis → Strategy (gate CLOSED)
 
-Status: Source plan prepared. Collection requires owner approval.
+Status: Policy/fee/feature analysis complete. Strategy requires owner GO + seller registration country + supplier/economic data.
