@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "eBay listing input (divinit-92-us)",
+  "description": "Required fields for one eBay.com/US listing prepared for AutoDS. Template/schema only — no real data.",
+  "type": "object",
+  "required": [
+    "sku", "title", "description", "category", "source_url", "supplier",
+    "cost", "sale_price", "shipping_policy", "return_policy", "handling_time",
+    "quantity", "images", "condition", "marketplace", "currency", "validation_status"
+  ],
+  "properties": {
+    "sku": { "type": "string", "description": "unique internal SKU; must not duplicate" },
+    "title": { "type": "string", "maxLength": 80, "description": "eBay title, <=80 chars" },
+    "description": { "type": "string" },
+    "category": { "type": "string", "description": "eBay category (id or path)" },
+    "source_url": { "type": "string", "format": "uri", "description": "supplier product URL" },
+    "supplier": { "type": "string", "description": "supplier name (see eBay sourcing policy: wholesale allowed, retail arbitrage prohibited)" },
+    "cost": { "type": "number", "minimum": 0, "description": "supplier cost (USD)" },
+    "sale_price": { "type": "number", "minimum": 0, "description": "intended eBay price (USD)" },
+    "shipping_policy": { "type": "string" },
+    "return_policy": { "type": "string", "description": "e.g. 30-day; see eBay returns policy" },
+    "handling_time": { "type": "integer", "minimum": 0, "description": "business days; eBay recommends <=2" },
+    "quantity": { "type": "integer", "minimum": 0 },
+    "images": { "type": "array", "items": { "type": "string", "format": "uri" }, "minItems": 1, "description": "image URLs (CSV: pipe-separated)" },
+    "condition": { "type": "string", "enum": ["New", "Used", "Refurbished", "Other"] },
+    "marketplace": { "type": "string", "const": "eBay.com" },
+    "currency": { "type": "string", "const": "USD" },
+    "validation_status": { "type": "string", "enum": ["draft", "validated", "rejected"], "default": "draft" }
+  },
+  "additionalProperties": false
+}

@@ -19,3 +19,16 @@ node_modules/
 # --- scaffolding di import (NON versionato; rimuovibile dopo verifica owner) ---
 /_IMPORT/
 /ebay_autods_dropshipping_machine.zip
+
+# --- SECRETS: MAI versionati (real .env, chiavi, token, credenziali). .env.example resta tracciato ---
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+secrets.json
+credentials.json
+*.secret
+*.token

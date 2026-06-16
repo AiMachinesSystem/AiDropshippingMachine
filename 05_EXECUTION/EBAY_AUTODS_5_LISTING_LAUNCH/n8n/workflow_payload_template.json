@@ -1,0 +1,34 @@
+{
+  "_comment": "PLACEHOLDER n8n workflow template — NOT a live workflow, NO real credentials. AutoDS HTTP node is DISABLED until the matching GO gate. Credential referenced by name 'autods_api' only.",
+  "meta": {
+    "project": "EBAY_AUTODS_5_LISTING_LAUNCH",
+    "store_name": "divinit-92-us",
+    "marketplace": "eBay.com",
+    "country": "US",
+    "currency": "USD",
+    "scope": "5 listings",
+    "live": false
+  },
+  "nodes": [
+    { "id": 1, "stage": "manual_trigger", "type": "n8n-nodes-base.manualTrigger", "disabled": false },
+    { "id": 2, "stage": "load_5_listing_rows", "type": "n8n-nodes-base.readBinaryFile/csv", "params": { "path": "../listings/sample_5_listing_input.csv" }, "disabled": false },
+    { "id": 3, "stage": "validate_required_fields", "type": "n8n-nodes-base.function", "params": { "schema": "../listings/ebay_listing_schema.json" }, "disabled": false },
+    { "id": 4, "stage": "prepare_autods_payload", "type": "n8n-nodes-base.function", "disabled": false },
+    { "id": 5, "stage": "approval_gate", "type": "n8n-nodes-base.wait", "params": { "blockUntil": "owner_GO" }, "disabled": false, "_note": "HARD STOP — releases only on GO_IMPORT_5_DRAFTS / GO_PUBLISH_5" },
+    { "id": 6, "stage": "autods_api_call_placeholder", "type": "n8n-nodes-base.httpRequest", "credentials": { "autodsApi": "autods_api" }, "params": { "url": "={{$env.AUTODS_API_BASE_URL}}", "method": "PLACEHOLDER", "body": "{{autods_draft_payload}}" }, "disabled": true, "_note": "DISABLED until gate open; drafts before publish" },
+    { "id": 7, "stage": "response_logging", "type": "n8n-nodes-base.set", "params": { "log": "status_and_ids_only" }, "disabled": false },
+    { "id": 8, "stage": "measurement_tracking", "type": "n8n-nodes-base.writeBinaryFile", "params": { "path": "../measurement/EBAY_5_LISTING_MEASUREMENT_TRACKER.md" }, "disabled": false }
+  ],
+  "autods_draft_payload_template": {
+    "store_id": "{{AUTODS_STORE_ID}}",
+    "store_name": "divinit-92-us",
+    "mode": "draft",
+    "listing": {
+      "sku": "", "title": "", "description": "", "category": "",
+      "source_url": "", "supplier": "", "cost": null, "sale_price": null,
+      "shipping_policy": "", "return_policy": "", "handling_time": null,
+      "quantity": null, "images": [], "condition": "", "marketplace": "eBay.com", "currency": "USD"
+    }
+  },
+  "credentials_note": "Real AutoDS key lives ONLY in the n8n credential 'autods_api' (encrypted vault) or local .env. Never in this file."
+}

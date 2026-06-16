@@ -41,6 +41,7 @@ date: 2026-06-15
 - 2026-06-15: Internal dry-run QA test (MOCK data only) — 15/15 gate checks PASS; live-action gates (Strategy/Execution/Scaling) held; mock isolated in 10_OUTPUTS/SYSTEM_TESTS, no business gate advanced. (System QA — phase/gate unchanged.)
 - 2026-06-15: Owner context updated — seller = **US-registered + US-located** (USER-PROVIDED); Italy/EU dropped. Largest analysis dependency resolved; Strategy still blocked. (Phase/gate unchanged.)
 - 2026-06-15: AutoDS Read-Only Data Intake **Plan** created (categories/capture/storage/forbidden/checklist/prereqs). Plan only — no AutoDS access/data; intake not started; phase/gate unchanged.
+- 2026-06-16: Internal integration **scaffold** built under `05_EXECUTION/EBAY_AUTODS_5_LISTING_LAUNCH/` (README/status/GO-gates/secrets-policy + AutoDS API readiness/spec/store-mapping/.env.example + n8n blueprint/payload/credential-setup + eBay listing schema/sample CSV/validation checklist + measurement tracker). `.gitignore` hardened for secrets. No live action, no secrets, no API calls. Phase/gate unchanged (execution-planning).
 
 ## Current Blockers
 

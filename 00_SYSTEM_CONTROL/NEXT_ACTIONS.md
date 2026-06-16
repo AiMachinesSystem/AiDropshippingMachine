@@ -16,9 +16,7 @@ description: "Lista chiara delle prossime azioni. Refreshata a fine run (regola 
 - Nessuna azione browser autorizzata in questa fase: nessun login, nessun accesso a eBay/AutoDS/fornitori. Ogni azione esterna richiede GO esplicito.
 
 ## Exact Next Step
-> **APPROVE STRATEGY + EXECUTION PLANNING ONLY — 5 eBay Listing Launch Sprint**
->
-> Obiettivo owner: **5 listing eBay.com pubblicati** (launch-oriented — vedi `01_SYSTEM/LAUNCH_ORIENTED_OPERATING_PROTOCOL.md`). Il prossimo passo è il tuo **GO** per sbloccare **Strategy + Execution planning (SOLO interno)** dello sprint dei 5 listing. La pubblicazione live e ogni azione AutoDS/eBay/fornitori restano dietro **GO finale esplicito, per azione**.
+> Scaffold di integrazione **creato** (2026-06-16) in `05_EXECUTION/EBAY_AUTODS_5_LISTING_LAUNCH/` (dettaglio: il suo `NEXT_ACTIONS.md` + `GO_GATES.md`). **Prossimo passo a contatto-live (gated): `GO_AUTODS_API_READ_ONLY_TEST`** — test API AutoDS in sola lettura per `divinit-92-us` (nessuna scrittura/import/publish). Interno senza GO: compilare le 5 righe in `listings/sample_5_listing_input.csv` e rivedere schema + checklist. Import/Publish = GO separati (`GO_IMPORT_5_DRAFTS` / `GO_PUBLISH_5`).
 
 ## Parked Options (each needs its own explicit GO)
 1. **Avviare l'intake AutoDS read-only** — pending prerequisiti (§6 del piano) + GO; metodo: export/screenshot/guided. (Controlled login = GO separato.)
