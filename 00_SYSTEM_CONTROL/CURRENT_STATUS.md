@@ -46,8 +46,8 @@ date: 2026-06-15
 | AutoDS account status unknown | USER INPUT NEEDED |
 | Supplier list unknown | USER INPUT NEEDED |
 | eBay/AutoDS policy/fee/feature baseline | COLLECTED 2026-06-15 (eBay.com/US + EN-mirror) — see 02_DATA |
-| eBay market/site unconfirmed (sets binding fees/policy) | USER INPUT NEEDED |
-| eBay.it/EU localized policy/fees + walled US-help numerics | PUBLIC RESEARCH REQUIRED |
-| Actual fee structure for Luca's market/category/tier | USER INPUT NEEDED / PUBLIC RESEARCH REQUIRED |
+| Buyer market / marketplace | RESOLVED 2026-06-15: **US / eBay.com** (USER-PROVIDED, USD) — see `02_DATA/owner_context.md` |
+| Seller account registration country + physical location | USER INPUT NEEDED — do NOT assume US seller; sets the binding fee/tax/payment schedule |
+| eBay.it/EU localized fees (if seller registered in EU) + walled US-help numerics | PUBLIC RESEARCH REQUIRED |
 | Product niche/category focus unknown | USER INPUT NEEDED |
 | Baseline performance data missing | USER INPUT NEEDED |

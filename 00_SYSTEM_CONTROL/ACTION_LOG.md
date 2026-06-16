@@ -21,3 +21,4 @@ date: 2026-06-15
 | 2026-06-15 | Stabilization sprint: routing-index fix, learning entry, error-registry near-miss, machine test | System | No | No | Complete |
 | 2026-06-15 | Governance closeout: recorded 6 owner decisions (owner=Luca; §0.4-only labels; §3 quarantined; VISION deferred) | System | No | No | Complete |
 | 2026-06-15 | Public policy/fee/feature research — eBay + AutoDS (21 cached sources → 6 data outputs + intake report); stopped before analysis | Data | Yes (public web, read-only) | No | Complete |
+| 2026-06-15 | Saved USER-PROVIDED CONTEXT: buyer market = US / eBay.com (USD); seller country/location kept USER INPUT NEEDED | Data | No | No | Complete |

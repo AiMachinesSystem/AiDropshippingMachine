@@ -19,23 +19,24 @@ description: "Cockpit unico della macchina: stato, decisioni owner pendenti, top
 | Vision (criterio dichiarato) | n/d — `VISION_ALIGNMENT`/`VISION_GAP_MATRIX` non ancora compilate dall'owner |
 | Skill di business | 14 (toolkit del template, non specifiche eBay) — [[MACHINE_STATE]] |
 | Integrazioni | nessuna — nessun connettore, nessun accesso account (eBay/AutoDS/fornitori) |
-| Progetto: store eBay/AutoDS | Data collection (policy/fee/feature) completa → gate **Data → Analysis** (Analysis richiede GO owner) |
+| Progetto: store eBay/AutoDS (buyer market: **US / eBay.com**, USD) | Data collection (policy/fee/feature) completa → gate **Data → Analysis** (Analysis richiede GO owner) |
 
 ## 2 · Decisioni owner pendenti
 
 | # | Decisione | Perché blocca |
 |---|---|---|
 | 1 | Autorizzare l'**Analisi** dei dati policy/fee/feature raccolti (interna) | Blocca Data → Analysis → Strategy |
-| 2 | Confermare il **mercato eBay** (eBay.it/eBay.co.uk/eBay.com) | Determina lo schema fee/policy vincolante; senza, i numeri restano US/EN-mirror |
+| 2 | Fornire il **paese di registrazione del seller** (NON assumere USA) | Determina lo schema fee/tax/payment vincolante; i numeri US/eBay.com sono il riferimento buyer, non confermati lato seller |
 
 > **Risolte 2026-06-15 (governance closeout):** identità owner = **Luca**; etichette evidenza = **solo set costituzionale §0.4** (il superset di `OPERATING_RULES §3` resta in **quarantena**, NON ratificato); compilazione `VISION_ALIGNMENT` **rinviata** per scelta owner.
+> **Risolte 2026-06-15 (owner context):** buyer market/marketplace = **US / eBay.com** (USD); secondario = NESSUNO. Resta aperto: **paese/posizione del seller** (USER INPUT NEEDED — niente assunzione "seller USA").
 
 ## 3 · Prossime azioni (per impatto)
 
 | # | Azione | Chi | Min | Scadenza/blocco |
 |---|---|---|---|---|
 | 1 | Autorizzare l'Analisi (o approvare ricerca di follow-up) | 👤 owner | ~5 | blocca la fase Analysis |
-| 2 | Confermare il mercato eBay di Luca | 👤 owner | ~1 | sblocca lo schema fee/policy reale |
+| 2 | Fornire il paese di registrazione del seller | 👤 owner | ~1 | sblocca lo schema fee/tax seller-side |
 
 Lista completa e priorità: ![[BACKLOG.base#Aperti per priorità]]
 

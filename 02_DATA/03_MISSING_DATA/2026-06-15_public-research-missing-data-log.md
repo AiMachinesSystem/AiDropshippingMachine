@@ -15,7 +15,7 @@ scope: "gaps from the 2026-06-15 public policy/fee/feature research run"
 ## A. USER INPUT NEEDED (only Luca / his accounts can resolve)
 | # | Item | Needed for |
 |---|---|---|
-| U1 | **Confirm eBay market/site** (eBay.it / eBay.co.uk / eBay.com) | Selects the binding fee schedule, policy text, Top Rated criteria |
+| U1 | Buyer market / marketplace = **US / eBay.com — RESOLVED 2026-06-15** (owner_context.md). STILL OPEN: seller **account registration country** + **physical location** | Buyer/marketplace reference is set (US); the binding **seller-side** fee/tax/payment schedule still depends on seller country (do not assume US seller) |
 | U2 | eBay account: store tier (if any), seller level, current selling limits, account health metrics | Real fees, limits, performance baseline |
 | U3 | AutoDS: current plan/tier, add-ons (Orders Processor?), billing currency | Real automation capability + cost |
 | U4 | Intended product category | FVF varies by category; limits vary by category |

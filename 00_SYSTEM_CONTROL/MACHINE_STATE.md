@@ -52,7 +52,7 @@ Commands: /niche-run · /competitor-scan · /ads-scan · /launch-prep · /daily-
 ## PROGETTI E FASE
 | Progetto | Fase | Note |
 |---|---|---|
-| store eBay/AutoDS | System initialization completa → gate **Data Collection** | richiede GO owner per dati/ricerca; firewall per-progetto attivo; execution in `05_EXECUTION\ebay-autods-store\` (ancora da creare) |
+| store eBay/AutoDS (buyer market: US / eBay.com, USD) | Data collection policy/fee/feature completa → gate **Data → Analysis** | seller country/location USER INPUT NEEDED (no assunzione "seller USA"); GO owner per Analysis; firewall attivo; execution in `05_EXECUTION\ebay-autods-store\` (da creare) |
 
 ## INDICI E ROUTINE
 - `00_SYSTEM_CONTROL\RESEARCH_MEMORY_INDEX.md` = memoria interrogabile dei run (QUERY MODE).
