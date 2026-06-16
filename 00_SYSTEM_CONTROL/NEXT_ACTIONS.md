@@ -16,7 +16,9 @@ description: "Lista chiara delle prossime azioni. Refreshata a fine run (regola 
 - Nessuna azione browser autorizzata in questa fase: nessun login, nessun accesso a eBay/AutoDS/fornitori. Ogni azione esterna richiede GO esplicito.
 
 ## Exact Next Step
-> AutoDS Read-Only Intake **Plan creato** (2026-06-15) → `02_DATA/00_SOURCE_DISCOVERY/` + report in `10_OUTPUTS/SYSTEM_REPORTS/`. **Gate Analysis → Strategy resta CHIUSO.** Prossimo step consentito (a scelta owner, pending GO): **(1)** fornire i prerequisiti AutoDS (`02_DATA/03_MISSING_DATA/autods_intake_missing_owner_inputs.md`) + **GO per AVVIARE l'intake read-only** (scegliendo il metodo di cattura); **(2) Analysis Delta Only** (interno); **(3)** GO Strategy solo dopo i dati fornitori/economici. Nessun login/accesso senza GO (il controlled login è un GO separato, non concesso).
+> **APPROVE STRATEGY + EXECUTION PLANNING ONLY — 5 eBay Listing Launch Sprint**
+>
+> Obiettivo owner: **5 listing eBay.com pubblicati** (launch-oriented — vedi `01_SYSTEM/LAUNCH_ORIENTED_OPERATING_PROTOCOL.md`). Il prossimo passo è il tuo **GO** per sbloccare **Strategy + Execution planning (SOLO interno)** dello sprint dei 5 listing. La pubblicazione live e ogni azione AutoDS/eBay/fornitori restano dietro **GO finale esplicito, per azione**.
 
 ## Parked Options (each needs its own explicit GO)
 1. **Avviare l'intake AutoDS read-only** — pending prerequisiti (§6 del piano) + GO; metodo: export/screenshot/guided. (Controlled login = GO separato.)

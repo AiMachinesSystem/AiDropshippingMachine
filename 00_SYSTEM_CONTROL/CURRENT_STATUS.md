@@ -11,15 +11,15 @@ date: 2026-06-15
 | Field | Value |
 |---|---|
 | Machine | eBay / AutoDS Dropshipping Machine |
-| Current Phase | Analysis (policy/fee/feature) completed — 2026-06-15 |
-| Active Module | Analysis |
+| Current Phase | Launch-oriented — target: **5 eBay.com listings** (post-analysis) |
+| Active Module | Strategy/Execution planning (pending owner GO) |
 | Live Access | Not approved (no login performed) |
 | External Research | Public policy/fee/feature: COMPLETED (read-only, cached). Account/market-specific research: Not approved |
 | Strategy | Not authorized |
 | Execution | Not authorized |
 | Measurement | Not started |
 | Scaling | Forbidden until validation |
-| Current Gate | Analysis completed & evidence-graded → **Analysis → Strategy gate (CLOSED)** (Strategy requires owner GO + missing inputs in analysis §9) |
+| Current Gate | **Analysis → Strategy gate**: awaiting owner GO to unlock Strategy + Execution **planning (internal only)** for the 5-listing launch sprint; live publish / AutoDS / eBay actions need explicit final GO per action (`01_SYSTEM/LAUNCH_ORIENTED_OPERATING_PROTOCOL.md`) |
 | Stop Condition Met | Yes — analysis report delivered, stopped before strategy |
 
 ## Completed Internally
