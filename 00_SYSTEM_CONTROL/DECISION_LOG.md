@@ -24,3 +24,5 @@ date: 2026-06-15
 | 2026-06-15 | Ignore jina-method.md (pre-existing EOL change) for now | Owner instruction (governance closeout) | Accepted |
 | 2026-06-15 | Target United States BUYER market only via eBay.com (USD); secondary marketplace NONE | Owner instruction (USER-PROVIDED CONTEXT) | Accepted |
 | 2026-06-15 | Do NOT assume seller is US-located; seller account country/location remain USER INPUT NEEDED; seller-location-dependent fees/taxes/payment kept unresolved | Owner instruction (USER-PROVIDED CONTEXT) | Accepted |
+| 2026-06-15 | Seller account registration country + physical location = United States (US-domestic: US seller → US buyers); the eBay.com/US schedule is the binding seller-side reference | Owner instruction (USER-PROVIDED CONTEXT) | Accepted |
+| 2026-06-15 | Italy / EU seller-side context = NOT RELEVANT for this machine unless explicitly reintroduced by owner | Owner instruction (USER-PROVIDED CONTEXT) | Accepted |

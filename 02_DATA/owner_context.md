@@ -9,10 +9,10 @@ label: USER-PROVIDED CONTEXT
 analysis: none
 ---
 
-# Owner Context — US Buyer-Market Selection (USER-PROVIDED CONTEXT)
+# Owner Context — US Buyer-Market + US Seller (USER-PROVIDED CONTEXT)
 
-> Recorded as **USER-PROVIDED CONTEXT** (owner statement, not researched, not analysed). Saved 2026-06-15.
-> Stop after saving. No external data, no analysis, no strategy.
+> Recorded as **USER-PROVIDED CONTEXT** (owner statement, not researched, not analysed).
+> Saved 2026-06-15; updated 2026-06-15 with seller country/location. No external data, no analysis, no strategy.
 
 ## Provided by owner (Luca)
 | Field | Value | Label |
@@ -21,27 +21,29 @@ analysis: none
 | Primary eBay marketplace | eBay.com | USER-PROVIDED CONTEXT |
 | Target **buyer** market | United States only | USER-PROVIDED CONTEXT |
 | Secondary eBay marketplace | NONE | USER-PROVIDED CONTEXT |
-| Primary operating currency (research reference) | USD | USER-PROVIDED CONTEXT |
+| **Seller account registration country** | **United States** | USER-PROVIDED CONTEXT |
+| **Seller physical location** | **United States** | USER-PROVIDED CONTEXT |
+| Primary operating currency | USD | USER-PROVIDED CONTEXT |
+| Italy / EU context | NOT RELEVANT unless explicitly reintroduced by owner | USER-PROVIDED CONTEXT |
 | eBay account access | NOT CONNECTED | USER-PROVIDED CONTEXT |
 | AutoDS access | NOT CONNECTED | USER-PROVIDED CONTEXT |
 | Supplier access | NOT CONNECTED | USER-PROVIDED CONTEXT |
 | Current business data | NOT PROVIDED YET | USER-PROVIDED CONTEXT |
 
-## Still open (NOT provided)
+## Resolved (2026-06-15)
+- Seller registration country + physical location = **United States** → previously "USER INPUT NEEDED", now provided.
+- **Italy / EU seller context is dropped** (NOT RELEVANT) unless the owner explicitly reintroduces it later.
+
+## Binding interpretation (direct consequence of the provided context — NOT analysis)
+- The scenario is **US-registered seller → US buyers on eBay.com** (a US-domestic setup, USD).
+- The eBay.com (US) fee/policy data in `02_DATA/02_CLEANED_DATA/` is now the **binding seller-side reference**, not merely a buyer reference.
+- Items previously marked **seller-country-DEPENDENT** now resolve to the **US seller** context. Re-deriving the analysis's dependency conclusions (e.g. which previously-DEP fees apply) is deferred to the **Analysis Delta** next step — **not performed here**.
+- eBay.it / EU localized schedule and EU-seller international-fee table = **NOT RELEVANT** for this machine going forward.
+
+## Still open (account-specific — USER INPUT NEEDED / for later phases)
 | Field | Label |
 |---|---|
-| Seller **account registration country** | USER INPUT NEEDED |
-| Seller **physical location** | USER INPUT NEEDED |
-
-## CRITICAL DISTINCTION (binding interpretation rule for this machine)
-- **Confirmed:** the business sells to the **United States buyer market only**, on **eBay.com**, with **USD** as the research reference currency. → eBay.com / US is the correct **marketplace and buyer-market reference** for all future work.
-- **NOT confirmed / do NOT assume:** that the **seller is located in the US**, or that **US seller fee/tax/payment rules apply to Luca's account**. The seller account registration country and physical location are **UNKNOWN**.
-- Therefore, **seller-location-dependent** items remain unresolved and labelled accordingly:
-  - Which fee schedule actually **binds** the account (US-registered vs non-US-registered seller selling on eBay.com) → USER INPUT NEEDED / PUBLIC RESEARCH REQUIRED.
-  - **International / cross-border seller fee** applicability (e.g. a non-US seller shipping to US buyers) → USER INPUT NEEDED.
-  - **Taxes / VAT / payment-payout rules** tied to seller country → USER INPUT NEEDED / PUBLIC RESEARCH REQUIRED.
-  - eBay **regulatory operating fee** (applies to listings on eBay.it/EU/UK sites) → applicability depends on the seller's listing site, still unconfirmed.
-
-## Effect on already-collected data (2026-06-15 research)
-- The eBay.com (US) fee/policy figures in `02_DATA/02_CLEANED_DATA/` are now the **correct buyer-market/marketplace reference**.
-- They are **NOT yet confirmed as the binding seller-side schedule** for Luca's account until seller registration country is known. Keep that caveat on any fee figure used for the account.
+| eBay account: store tier, seller level, selling limits, account health, payment/account settings | USER INPUT NEEDED |
+| AutoDS: plan/add-ons/settings | USER INPUT NEEDED |
+| Suppliers, product category, target margins, business/economics data | USER INPUT NEEDED |
+| Exact US-seller fee/tax/payment specifics not captured verbatim (walled US-help numerics) | PUBLIC RESEARCH REQUIRED |

@@ -15,7 +15,7 @@ scope: "gaps from the 2026-06-15 public policy/fee/feature research run"
 ## A. USER INPUT NEEDED (only Luca / his accounts can resolve)
 | # | Item | Needed for |
 |---|---|---|
-| U1 | Buyer market / marketplace = **US / eBay.com — RESOLVED 2026-06-15** (owner_context.md). STILL OPEN: seller **account registration country** + **physical location** | Buyer/marketplace reference is set (US); the binding **seller-side** fee/tax/payment schedule still depends on seller country (do not assume US seller) |
+| U1 | Market + seller **fully RESOLVED 2026-06-15** (owner_context.md): buyer = **US / eBay.com**, seller = **US-registered, US-located**, USD. The eBay.com (US) schedule is the binding seller-side reference. | RESOLVED — no longer open |
 | U2 | eBay account: store tier (if any), seller level, current selling limits, account health metrics | Real fees, limits, performance baseline |
 | U3 | AutoDS: current plan/tier, add-ons (Orders Processor?), billing currency | Real automation capability + cost |
 | U4 | Intended product category | FVF varies by category; limits vary by category |
@@ -23,7 +23,7 @@ scope: "gaps from the 2026-06-15 public policy/fee/feature research run"
 ## B. PUBLIC RESEARCH REQUIRED (re-fetchable later, not approved/captured this run)
 | # | Item | Why missing |
 |---|---|---|
-| P1 | eBay.it / EU localized fee schedule + policy text | This run captured eBay.com (US) / EN-mirror; market not confirmed |
+| P1 | eBay.it / EU localized fee schedule + policy text | **NOT RELEVANT** (2026-06-15) — seller & buyer both US; revisit only if owner reintroduces EU |
 | P2 | Verbatim www.ebay.com US help pages (id=4080/4347/4351/4107/4822/4809/5224/4210/4079) | Fetch wall (timeouts) on 2026-06-15 |
 | P3 | Exact late-shipment minimum-volume gate; stricter Top Rated numerics; Below-Standard FVF uplift % | Not present on fetched pages |
 | P4 | US-registered flat international fee (reported 1.65%); +5% INAD/below-standard fee; Promoted Listings ad rate | WebSearch-only, not captured verbatim |

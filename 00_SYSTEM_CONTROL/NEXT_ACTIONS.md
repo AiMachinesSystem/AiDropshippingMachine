@@ -16,15 +16,16 @@ description: "Lista chiara delle prossime azioni. Refreshata a fine run (regola 
 - Nessuna azione browser autorizzata in questa fase: nessun login, nessun accesso a eBay/AutoDS/fornitori. Ogni azione esterna richiede GO esplicito.
 
 ## Exact Next Step
-> Analisi policy/fee/feature **COMPLETATA** (2026-06-15) → `03_ANALYSIS/` + `10_OUTPUTS/ANALYSIS_REPORTS/`. Siamo al **gate Analysis → Strategy (CHIUSO)**. **Prossimo step consentito: nessuna Strategy senza GO owner.** Per sbloccare servono (analisi §9): **paese di registrazione del seller** (dependency principale) + dati **fornitori/economici** (GO di raccolta separato). L'owner può: (1) dare il GO alla Strategy una volta colmati i blocker, (2) fornire il paese seller, (3) approvare una raccolta dati fornitori/competitor (nuovo GO).
+> Contesto seller risolto (2026-06-15): seller **US-registrato + US-located**, USD; **Italy/EU NON RILEVANTE**. La dependency principale dell'analisi è chiusa. **Gate Analysis → Strategy resta CHIUSO** (Strategy richiede GO owner). **Prossimo step consentito (a scelta owner, pending approvazione):** **(1) Analysis Delta Only** — aggiornare le conclusioni di dependency dell'analisi al contesto US-seller (interno, no nuovi dati); **oppure (2) AutoDS Read-Only Data Intake Plan** — solo il *piano* di intake read-only AutoDS (nessun accesso/login). Nessuna delle due parte senza tuo GO.
 
 ## Parked Options (each needs its own explicit GO)
-1. **Strategy** (offer/pricing/listing/supplier/risk) — BLOCCATA: richiede GO owner + paese seller + dati fornitori/economici.
-2. **Fornire il paese di registrazione del seller** (+ posizione) — sblocca lo schema fee/tax/payment vincolante.
-3. **Raccolta dati owner** (eBay Seller Hub, AutoDS, fornitori da export/screenshot) — GO classe: accesso a dati owner.
-4. **Raccolta dati fornitori/competitor/prodotto** (economics) — GO classe: ricerca esterna (nuovo scope, fuori da policy/fee/feature).
-5. **Ricerca pubblica di follow-up** (fee seller-side se EU; numerici US-help; pricing AutoDS EUR) — GO classe: ricerca esterna.
-6. Sempre bloccate finché non c'è strategia approvata: execution/SOP oltre la gate structure · pubblicazione/modifica listing · automazioni AutoDS · ordini/pagamenti fornitori · scaling.
+1. **Analysis Delta Only** — aggiornare le conclusioni di dependency dell'analisi al contesto US-seller (interno).
+2. **AutoDS Read-Only Data Intake Plan** — pianificare l'intake read-only AutoDS (solo piano; nessun accesso, nessun login).
+3. **Strategy** (offer/pricing/listing/supplier/risk) — BLOCCATA: richiede GO owner + dati fornitori/economici.
+4. **Raccolta dati owner** (eBay Seller Hub, AutoDS, fornitori da export/screenshot) — GO classe: accesso a dati owner.
+5. **Raccolta dati fornitori/competitor/prodotto** (economics) — GO classe: ricerca esterna (nuovo scope).
+6. **Ricerca pubblica di follow-up** (numerici US-help esatti; pricing AutoDS) — GO classe: ricerca esterna. (eBay.it/EU NON più rilevante.)
+7. Sempre bloccate finché non c'è strategia approvata: execution/SOP oltre la gate structure · pubblicazione/modifica listing · automazioni AutoDS · ordini/pagamenti fornitori · scaling.
 
 ## Comando pronto (data collection, GATED — copia/incolla per dare il GO)
 ```text
@@ -50,9 +51,8 @@ Stop before analysis.
 ```
 
 ## Waiting / Blocked
-- Stato account eBay / AutoDS, lista fornitori, nicchia/categoria, target margine, baseline performance — USER INPUT NEEDED (lista completa: [[MISSING_OWNER_INPUTS]]).
-- **Paese di registrazione + posizione fisica del seller** — USER INPUT NEEDED (NON assumere seller USA; determina lo schema fee/tax/payment vincolante).
-- Policy/fee/feature: baseline eBay.com/US raccolta 2026-06-15; **fee seller-side (se seller EU) + numerici US-help dietro fetch wall + pricing AutoDS in EUR** — PUBLIC RESEARCH REQUIRED (dettaglio: `02_DATA/03_MISSING_DATA/2026-06-15_public-research-missing-data-log.md`).
+- Dati account-specifici eBay/AutoDS/fornitori/economics (account health, limiti, store tier, payment settings, piano AutoDS, fornitori, categoria, margini, dati business) — USER INPUT NEEDED ([[MISSING_OWNER_INPUTS]]).
+- Numerici US-seller esatti dietro le pagine US-help (fetch wall) — PUBLIC RESEARCH REQUIRED. (eBay.it/EU non più rilevante.)
 
 ## Completed
 - [x] 2026-06-15 — Import e merge della foundation eBay/AutoDS nella struttura della macchina (Phase 1 — system initialization completata).
@@ -60,3 +60,4 @@ Stop before analysis.
 - [x] 2026-06-15 — Ricerca pubblica policy/fee/feature eBay+AutoDS (percorso B): 21 fonti in cache → 3 raw + 3 tabelle pulite + note fonti/qualità/missing + data intake report. Stop prima dell'analisi.
 - [x] 2026-06-15 — Contesto owner salvato (USER-PROVIDED): buyer market = US / eBay.com, USD; seller country/location restano USER INPUT NEEDED. Gate Data → Analysis preservato.
 - [x] 2026-06-15 — Analisi policy/fee/feature completata (evidence-graded; buyer vs seller-country split; niente strategia/raccomandazioni/profittabilità; verifica adversarial 3-agent = PASS). Gate Analysis → Strategy chiuso.
+- [x] 2026-06-15 — Contesto seller salvato (USER-PROVIDED): seller US-registrato + US-located, USD; Italy/EU non rilevante. Dependency principale dell'analisi risolta; Strategy resta bloccata.

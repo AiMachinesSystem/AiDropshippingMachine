@@ -11,8 +11,8 @@ date: 2026-06-15
 | Input | Label | Needed For | Notes |
 |---|---|---|---|
 | Target buyer market / marketplace | RESOLVED (USER-PROVIDED 2026-06-15) | Fee/policy/buyer reference | **United States only / eBay.com**, USD — see `owner_context.md` |
-| Seller account **registration country** | USER INPUT NEEDED | Which fee/tax/payment schedule actually binds the account | Not provided — do NOT assume US seller |
-| Seller **physical location** | USER INPUT NEEDED | Shipping origin, handling-time feasibility, seller-location rules | Not provided |
+| Seller account **registration country** | RESOLVED (USER-PROVIDED 2026-06-15) | Binding fee/tax/payment schedule | **United States** — US seller-side schedule binds; Italy/EU NOT RELEVANT |
+| Seller **physical location** | RESOLVED (USER-PROVIDED 2026-06-15) | Shipping origin, handling-time feasibility | **United States** |
 | eBay store/account type | USER INPUT NEEDED | Fee/account health analysis | Not provided |
 | eBay account age/status | USER INPUT NEEDED | Risk analysis | Not provided |
 | eBay account limits | USER INPUT NEEDED | Listing volume planning | Not provided |
