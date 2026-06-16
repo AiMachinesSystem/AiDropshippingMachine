@@ -12,18 +12,28 @@ created_real: 2026-06-16
 > Language-agnostic specification for a future AutoDS client. **Spec only — no client built, no calls made.**
 > Concrete endpoints/auth = **confirm from official AutoDS API docs** (not invented here).
 
+> **Access note (2026-06-16):** the AutoDS API is application-gated + paid (no free trial); the JWT credential
+> is issued only after approval + activation fee. See `AUTODS_API_READINESS.md` ⛔ BLOCKER. Endpoints below are
+> VERIFIED from the public OpenAPI spec but **cannot be called until access is granted**.
+
 ## Configuration (from env / n8n credential — never hard-coded)
-- `AUTODS_API_BASE_URL` · `AUTODS_API_KEY` · `AUTODS_STORE_ID` · `AUTODS_STORE_NAME=divinit-92-us`
+- `AUTODS_API_BASE_URL` = `https://gw.autods.com` [VERIFIED — gw-docs.autods.com/openapi.json, 2026-06-16]
+- `AUTODS_API_KEY` (bearer JWT) · `AUTODS_STORE_ID` · `AUTODS_STORE_NAME=divinit-92-us`
+- Public spec/Swagger: `https://gw-docs.autods.com/openapi.json` (AutoDS Gateway, OpenAPI 3.0.3, v1.0.11).
 
 ## Auth
-- Token/key in an `Authorization` header (exact scheme TBD from AutoDS docs). Key sourced from env/credential vault; never logged.
+- **Bearer JWT** — header `Authorization: Bearer <JWT>` (`autods_auth` = http/bearer/JWT) [VERIFIED]. POST bodies `application/json`.
+- JWT issued **only after AutoDS API-feature approval + activation fee** [REQUIRES ACCOUNT ACCESS]; from env/credential vault; never logged or in repo/chat.
 
 ## Methods — PHASE 1: READ-ONLY ONLY (the only methods allowed until later GO)
 | Method | Purpose | HTTP | Endpoint | Gate |
 |---|---|---|---|---|
-| `getAccount()` | account/plan info | GET | `<TBD — AutoDS docs>` | `GO_AUTODS_API_READ_ONLY_TEST` |
-| `getStore(storeId)` | store status for `divinit-92-us` | GET | `<TBD>` | `GO_AUTODS_API_READ_ONLY_TEST` |
-| `listProducts(storeId)` | existing products (read) | GET | `<TBD>` | `GO_AUTODS_API_READ_ONLY_TEST` |
+| `getUserDetails()` | account/user details (best first-test) | GET | `/auto-order-v3/users/external/user-details` [VERIFIED] | `GO_AUTODS_API_READ_ONLY_TEST` |
+| `getCurrentUser()` | current user | GET | `/v1/users/current` [VERIFIED] | `GO_AUTODS_API_READ_ONLY_TEST` |
+| `getSupportedSuppliers()` | supported suppliers | GET | `/auto-order-v3/suppliers/external/supported` [VERIFIED] | `GO_AUTODS_API_READ_ONLY_TEST` |
+| `getProduct(productId)` | a product (read) | GET | `/api/products/{product_id}` [VERIFIED] | `GO_AUTODS_API_READ_ONLY_TEST` |
+
+> No public "list stores" endpoint — stores appear only as a `{store_ids}` path param on write endpoints [VERIFIED].
 
 ## Methods — PHASE 2+: WRITE (NOT in scope; each behind its own GO)
 `createDraft()` (`GO_IMPORT_5_DRAFTS`) · `publishListing()` (`GO_PUBLISH_5`) · `setRepricing()` (`GO_ENABLE_REPRICING`) · `enableAutoOrder()` (`GO_ENABLE_AUTO_ORDERING`). **Do not implement until the gate is open.**

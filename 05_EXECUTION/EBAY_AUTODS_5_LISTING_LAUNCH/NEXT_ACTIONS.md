@@ -10,8 +10,12 @@ created_real: 2026-06-16
 # Next Actions — 5 Listing Launch
 
 ## Exact next step
-> Owner reviews this scaffold. To take the first live-touch step, give **`GO_AUTODS_API_READ_ONLY_TEST`** —
-> a read-only AutoDS API check to confirm credentials/connectivity for store `divinit-92-us`. No writes, no import, no publish.
+> **Docs discovery (2026-06-16): the AutoDS API is application-gated + PAID** (one-time activation fee + ongoing
+> subscription, **no free trial**; credentials issued only post-approval; **no read-only scope**). So
+> `GO_AUTODS_API_READ_ONLY_TEST` via the official API **cannot proceed without first applying/qualifying/paying**.
+> **Owner decision required:** **(A)** apply for the AutoDS API at `autods.com/api` (paid) → unlocks the API path;
+> **or (B)** skip the API for now and use the **UI-based read-only intake** (guided review / screenshots) to gather
+> the same store data with zero cost. Until decided, no live API step. See `integrations/autods/AUTODS_API_READINESS.md` ⛔.
 
 ## Internal (no GO needed)
 - [ ] Owner-side: confirm AutoDS API access exists (key obtainable from AutoDS account) — do NOT paste it in chat.

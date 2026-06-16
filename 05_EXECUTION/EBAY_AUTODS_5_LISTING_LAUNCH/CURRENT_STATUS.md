@@ -13,7 +13,7 @@ created_real: 2026-06-16
 |---|---|
 | AutoDS account | **USER-PROVIDED CONTEXT — exists** |
 | eBay store connected | **USER-PROVIDED CONTEXT — `divinit-92-us` (eBay.com / US / USD)** |
-| AutoDS API status | **unknown** (no readiness test run; `GO_AUTODS_API_READ_ONLY_TEST` pending) |
+| AutoDS API status | **documented but GATED** (2026-06-16 docs discovery): public OpenAPI at `gw-docs.autods.com`, base `https://gw.autods.com`, Bearer JWT; access = **application + paid activation fee + subscription, no free trial, no read-only scope** → `GO_AUTODS_API_READ_ONLY_TEST` blocked without applying |
 | n8n status | **not connected** (blueprint only; not installed/credentialed) |
 | Integration scaffold | **created (internal)** — schemas/blueprints/checklists/templates only |
 | Secrets | no `.env` values stored; `.env.example` = names only |
