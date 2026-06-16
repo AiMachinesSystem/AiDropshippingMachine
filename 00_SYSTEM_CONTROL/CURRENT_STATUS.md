@@ -38,6 +38,7 @@ date: 2026-06-15
 - No account login, no live platform changes, no supplier access at any point.
 - 2026-06-15: Public eBay/AutoDS policy/fee/feature research completed (read-only web, 21 cached sources) → raw notes + cleaned fee/policy/feature tables + source/quality/missing-data notes + intake report. Stopped before analysis.
 - 2026-06-15: Analysis (policy/fee/feature) completed — evidence-graded constraint/fee/risk/account-health/dependency maps + conclusions; buyer-market vs seller-country split; NO strategy, NO recommendations, NO profitability. Reports in 03_ANALYSIS + 10_OUTPUTS/ANALYSIS_REPORTS. Stopped before strategy.
+- 2026-06-15: Internal dry-run QA test (MOCK data only) — 15/15 gate checks PASS; live-action gates (Strategy/Execution/Scaling) held; mock isolated in 10_OUTPUTS/SYSTEM_TESTS, no business gate advanced. (System QA — phase/gate unchanged.)
 
 ## Current Blockers
 

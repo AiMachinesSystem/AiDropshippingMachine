@@ -45,3 +45,20 @@ date: 2026-06-15
 | Repeatability condition | N/A |
 | SOP update needed | No. Fixed in this sprint by adding 2 routing rows. |
 | Scaling relevance | Not applicable. |
+
+## L-003 — Mock/test-data isolation convention
+
+| Field | Value |
+|---|---|
+| Date | 2026-06-15 |
+| Source action | Internal dry-run mock-data test (DRY_RUN_MOCK_TEST mission) |
+| Source KPI/report | `10_OUTPUTS/SYSTEM_TESTS/2026-06-15_dry-run-mock/DRY_RUN_TEST_REPORT.md` (15/15 PASS) |
+| What happened | The machine had no explicit, written convention for where MOCK/test data lives or how it is labeled, creating a latent risk of mock data contaminating real `02_DATA`/`03_ANALYSIS` or being mistaken for business evidence. The dry-run handled isolation correctly but only by ad-hoc discipline. |
+| Evidence label | [OBSERVED — dry-run test, 2026-06-15] |
+| Affected module | System / test & data hygiene |
+| KPI impact | None (no live KPIs) |
+| Root cause | No declared test-data isolation rule in conventions. |
+| Prevention rule | Mock/test data lives ONLY under `10_OUTPUTS/SYSTEM_TESTS/<date>_<slug>/`, every item labeled `MOCK DATA / NOT REAL`, never written to `02_DATA`/`03_ANALYSIS`/`RESEARCH_MEMORY_INDEX`, never treated as business evidence, never advances a real gate. |
+| Repeatability condition | N/A (hygiene rule) |
+| SOP update needed | Optional: fold the rule into `VAULT_CONVENTIONS` on owner request (not done now — convention proposed, not yet ratified into governance). |
+| Scaling relevance | Not applicable. |
