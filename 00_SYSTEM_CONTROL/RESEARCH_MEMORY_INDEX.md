@@ -68,6 +68,14 @@ description: "Memoria interrogabile di tutti i run di ricerca. Ogni run di niche
 - integrity flags: VeRO is the dominant risk (avoid brands in titles even 'compatible-with'); never replicate branded winners (Disney duck, Nike, etc.)
 - evidence: `90_CACHE/fetches/autods/marketplace_2026-06-16_233945/`
 
+### Profitability vs Competition — Amazon-sourced niches (run 2026-06-17)
+- last_run: 2026-06-17 · type: profitability-strategy (read-only) · report: `04_STRATEGY/PROFITABILITY_VS_COMPETITION_2026-06-17.md`
+- **CANON: Amazon→eBay arbitrage net margin ceiling ≈ 30–42%** (after FVF 13.6%+$0.40), NOT 50% — Amazon price sits too high; >50% needs AliExpress/CJ. (10 ASINs verified live, no fabricated data.)
+- TOP verified opportunities (niche → Amazon ASIN): dog grooming complete kit `B0BR5H9QM7`/`B0DDBR98MB` (~42%); trunk organizer magnetic-lid `B0DZBFNVZ3` (~33–40%); electric jar opener `B07P1SKJV4` (sold 382/351/160 verified, ~30–37%); neck massager `B0D3DN6CDS` (~27–36%); koi pond aerator `B0CQXHB27H` (largest $ spread, ~28–32%); pegboard+bins kit `B07QR36Z76` (28,838 reviews, ~32–37%)
+- profit levers: differentiated BUNDLE not floor · real cost gap verified both ways · undercut the BRANDED cluster (not the generic floor) · scale on verified sold badges · avoid VeRO+weight · lead with deep-review products
+- integrity flags: Amazon sourcing = eBay retail-arbitrage policy risk (owner-directed); rejected branded (VeRO) + bulky + negative-margin (pond UV clarifier: Amazon > eBay) items
+- evidence: workflow wf_f766e254-d4f (10 ASINs verified live 2026-06-17)
+
 ### Mid-Ticket Product Research (run 2026-06-17, modeled on account winners)
 - last_run: 2026-06-17 · type: product-research (read-only) · report: `03_ANALYSIS/MIDTICKET_PRODUCT_RESEARCH_2026-06-17.md`
 - scope: mid-ticket ($40-150) niche modeled on the 13 proven account winners; 16 candidates cross-checked on eBay
