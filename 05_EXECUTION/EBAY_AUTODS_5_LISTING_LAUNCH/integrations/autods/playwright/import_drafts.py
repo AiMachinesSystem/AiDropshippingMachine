@@ -11,7 +11,7 @@ Usage: import_drafts.py [--confirm]   (default = dry-run: opens modal, fills, do
 import os, re, sys, argparse
 HERE = os.path.dirname(os.path.abspath(__file__)); STATE = os.path.join(HERE, "storage_state.json"); BASE = "https://platform.autods.com"
 
-URLS = [
+DEFAULT_URLS = [
     ("dog_car_hammock", "https://www.aliexpress.com/item/4000283772703.html"),
     ("pc_temp_display", "https://www.aliexpress.com/item/4001179427755.html"),
 ]
@@ -27,7 +27,10 @@ def draft_count(page):
 
 
 def main():
-    ap = argparse.ArgumentParser(); ap.add_argument("--confirm", action="store_true"); args = ap.parse_args()
+    ap = argparse.ArgumentParser(); ap.add_argument("--confirm", action="store_true")
+    ap.add_argument("urls", nargs="*", help="supplier URLs to import (default = the 2 mid-ticket)")
+    args = ap.parse_args()
+    URLS = [("url_%d" % i, u) for i, u in enumerate(args.urls)] if args.urls else DEFAULT_URLS
     from playwright.sync_api import sync_playwright
     with sync_playwright() as p:
         b = p.chromium.launch(headless=True)
