@@ -51,6 +51,23 @@ description: "Memoria interrogabile di tutti i run di ricerca. Ogni run di niche
 - open items: confirm eBay market (USER INPUT NEEDED); eBay.it/EU schedule + walled US-help numerics (PUBLIC RESEARCH REQUIRED)
 - integrity flags: AutoDS lists many retailer suppliers (Amazon/Walmart) — recording only; arbitrage prohibition noted, never to be advised
 
+### AutoDS account read-only status (run 2026-06-16, Playwright read-session)
+- last_run: 2026-06-16 · type: account-intel (read-only, Playwright) · report: `10_OUTPUTS/autods_status_report.md`
+- store: `Divinit-92-Us` (id 3713044, eBay US, USD) · catalog: **214 active listings + 11 drafts (+4 untracked)** · suppliers: Amazon US + AliExpress/CJ
+- sales: 23 lifetime orders; last 7d = 3 orders / $320 rev / $62 profit · pricing: 27% margin, $7 min, round .97 · auto-order ON but **NON-FUNCTIONAL** (0 buyer accts, $0 wallet)
+- subscription: **TRIAL → expires 2026-06-18** · AutoDS REST API = paid/gated (no key); **Playwright read-only path = OPERATIONAL**
+- integrity flags: 1 draft VeRO keyword ('alcohol'); some listings OOS/On-Hold/supplier-title-changed; AutoDS Trending/Hand-Picked view = paid addon (walled)
+- evidence: `90_CACHE/fetches/autods/run_2026-06-16_*` + `products_*` + `drafts_*`
+
+### Deep Product Research 2026 (run 2026-06-16, multi-tool funnel)
+- last_run: 2026-06-16 · type: product-research (read-only) · report: `03_ANALYSIS/DEEP_PRODUCT_RESEARCH_2026.md`
+- funnel: 7 macro trends → 24 sub-niches → 121 AutoDS Marketplace products → 20 eBay cross-checks → TOP 15 + TOP 5 cards
+- top-3 risk-adjusted: phone anti-lost tether ($1.64→$10.99, 68%, 145 sold/listing); 3D anatomy torso kids ($6.14→$23.99, 59%, 204 sold/listing); mascara wands ($3.18→$9.99, 51%, 529 sold/listing)
+- key finding: eBay commodities = race-to-bottom; many ≤$8 items FAIL ≥50% margin at the floor; higher margin = low-comp/novelty + bundling + AliExpress (not Amazon) sourcing
+- open items / walls: eBay aggregate sold = [UNKNOWN] (403 wall; per-listing 'X sold' badges only); AutoDS Trending view paywalled
+- integrity flags: VeRO is the dominant risk (avoid brands in titles even 'compatible-with'); never replicate branded winners (Disney duck, Nike, etc.)
+- evidence: `90_CACHE/fetches/autods/marketplace_2026-06-16_233945/`
+
 ---
 
-<!-- Nessun run registrato. Il primo blocco nicchia reale va sopra questa riga. -->
+<!-- Nessun blocco nicchia formale ancora. Il primo blocco nicchia reale va sopra questa riga. -->

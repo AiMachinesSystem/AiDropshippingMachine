@@ -16,7 +16,10 @@ description: "Lista chiara delle prossime azioni. Refreshata a fine run (regola 
 - Nessuna azione browser autorizzata in questa fase: nessun login, nessun accesso a eBay/AutoDS/fornitori. Ogni azione esterna richiede GO esplicito.
 
 ## Exact Next Step
-> Scaffold di integrazione **creato** (2026-06-16) in `05_EXECUTION/EBAY_AUTODS_5_LISTING_LAUNCH/` (dettaglio: il suo `NEXT_ACTIONS.md` + `GO_GATES.md`). **Prossimo passo a contatto-live (gated): `GO_AUTODS_API_READ_ONLY_TEST`** — test API AutoDS in sola lettura per `divinit-92-us` (nessuna scrittura/import/publish). Interno senza GO: compilare le 5 righe in `listings/sample_5_listing_input.csv` e rivedere schema + checklist. Import/Publish = GO separati (`GO_IMPORT_5_DRAFTS` / `GO_PUBLISH_5`).
+> **Connettore AutoDS read-only via Playwright OPERATIVO** (2026-06-16): account letto, deep product research + **decisione strategica** prodotti (`04_STRATEGY/STRATEGIC_DECISION_2026-06-16.md`). Le prossime mosse vengono da lì.
+> 1. ⏰ **DECISIONE OWNER entro 2026-06-18**: rinnovare il trial AutoDS (piano minimo) o lasciarlo scadere — i 214 listing dipendono dal monitoraggio stock/prezzo AutoDS (GO/spesa).
+> 2. **Interno senza GO (read-only):** tally per-stato dei 214 listing (attivi/OOS/on-hold/errore) via Playwright; re-pull venduti eBay + costo supplier live per i top-3 SKU (oggi 403 wall → domanda aggregata [UNKNOWN]).
+> 3. **GO-class:** fix del draft con flag **VeRO** ('alcohol') e dei listing OOS/errore; import/publish dei test SKU = `GO_IMPORT_5_DRAFTS` / `GO_PUBLISH_5`. Auto-ordering NON va abilitato finché non configurato (0 buyer accounts, $0 wallet).
 
 ## Parked Options (each needs its own explicit GO)
 1. **Avviare l'intake AutoDS read-only** — pending prerequisiti (§6 del piano) + GO; metodo: export/screenshot/guided. (Controlled login = GO separato.)
@@ -62,3 +65,9 @@ Stop before analysis.
 - [x] 2026-06-15 — Analisi policy/fee/feature completata (evidence-graded; buyer vs seller-country split; niente strategia/raccomandazioni/profittabilità; verifica adversarial 3-agent = PASS). Gate Analysis → Strategy chiuso.
 - [x] 2026-06-15 — Contesto seller salvato (USER-PROVIDED): seller US-registrato + US-located, USD; Italy/EU non rilevante. Dependency principale dell'analisi risolta; Strategy resta bloccata.
 - [x] 2026-06-15 — AutoDS Read-Only Data Intake Plan creato (piano + prerequisiti + report). Solo piano; nessun login/accesso/dato AutoDS; intake non avviato.
+- [x] 2026-06-16 — Playwright installato (venv isolato) + smoke test connettività (HTTP 200 su platform.autods.com). Read-only, nessun login.
+- [x] 2026-06-16 — Login AutoDS + sessione salvata (`storage_state.json`, gitignored) sotto GO_PLAYWRIGHT_LOGIN; sessione riutilizzabile verificata.
+- [x] 2026-06-16 — AutoDS read-only status (GO_AUTODS_READ_SESSION): store Divinit-92-Us, 214 listing/11 draft/23 ordini, auto-order ON ma non operativo, trial scade 2026-06-18 → `10_OUTPUTS/autods_status_report.md`.
+- [x] 2026-06-16 — Capability audit read-only (7 agenti) → `10_OUTPUTS/DROPSHIPPING_MACHINE_CAPABILITY_AUDIT_2026-06-16.md`.
+- [x] 2026-06-16 — Deep Product Research (funnel multi-tool) → `03_ANALYSIS/DEEP_PRODUCT_RESEARCH_2026.md`; TOP 15 + 5 schede; muri eBay/AutoDS dichiarati.
+- [x] 2026-06-16 — Decisione strategica autonoma (7gg) → `04_STRATEGY/STRATEGIC_DECISION_2026-06-16.md`. Solo piano; nessuna azione live.
