@@ -18,6 +18,16 @@ method: 3-lens strategist judge-panel (cash-now · margin&moat · risk&complianc
 
 ---
 
+## 🔁 UPDATE 2026-06-17 — read-only audit of the 214 sharpens the product direction
+A full read-only tally of the 214 active listings (cache `90_CACHE/fetches/autods/audit_2026-06-17_012312/`) refines DECISION 1:
+- **Only 13 of 214 listings have ever sold** (34 units total, max 6 on one); **201 are zero-sellers.** 42 have **no available stock** (30 OOS + 15 on-hold); **136 carry errors** (100 supplier-title-changed, **63 VeRO-word**, 10 duplicate); **37 run <20% gross margin** — [OBSERVED].
+- **The proven winners are NOT cheap commodities — they are mid-ticket ($23–$286) niche/problem-solvers:** Pool Fountain Jet ($138, 6 sold), Pet Grooming Loops ($286, 4), Dog Water Ramp ($202, 4), PC ARGB Display ($127, 3), Ham Maker meat press ($42, 5), Dryer Balls ($23, 3) — [OBSERVED].
+- **AliExpress validation of the two keepers:** rubber duck topper **PASSES** the 50% gate (56.9% @ $8.99) → keep as a **cheap novelty probe** only; **3D anatomy torso → DOWNGRADED to bench** — clears 50% only at ≥$17.99 while eBay is saturated with sub-$5 China sellers (conversion doubtful) [OBSERVED 2026-06-17].
+
+**Refined DECISION 1 (supersedes the SKU picks below):** the new core should imitate the account's OWN proven winners — **mid-ticket ($40–$150) niche, problem-solving, low-competition products** (pool/pond, specialty pet, BBQ/meat-prep, PC/desk), **AliExpress/CJ-sourced, brand-free** — NOT cheap commodities and NOT the stale 7 repo drafts. The duck topper stays only as a low-cost test. Dedicated run: `03_ANALYSIS/MIDTICKET_PRODUCT_RESEARCH_2026-06-17.md`. Prune-and-reposition is unchanged and now **quantified**: prune the **201 dead + 42 no-stock + 37 low-margin**, reprice/fix the **13 winners + 63 VeRO + 100 title-changed** (per-listing action list: `05_EXECUTION/EBAY_AUTODS_5_LISTING_LAUNCH/listings/LISTING_AUDIT_2026-06-17.md`).
+
+---
+
 ## DECISION 1 — Product direction: **PIVOT (prune-and-reposition), not "add the 3 found"**
 **Verdict:** The product question is the wrong *first* question. Clean the existing **214** before adding anything. Then add a **2-SKU clean core**, AliExpress/CJ-sourced, strictly generic titles:
 - ✅ **Rubber duck antenna topper — GENERIC** (cost $2.25 / sell $9.99 / **60% margin** / **LOW competition**). The single best fit and the proof-of-concept for the new thesis. *Never* a Disney/branded duck.
