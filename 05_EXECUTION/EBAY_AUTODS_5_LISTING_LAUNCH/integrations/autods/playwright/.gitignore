@@ -3,3 +3,11 @@
 venv/
 __pycache__/
 *.pyc
+
+# --- SECRETS / SESSION: NEVER commit (real credentials + saved login session) ---
+autods_credentials.env
+*.credentials.env
+storage_state.json
+storage_state*.json
+# the .example template IS tracked (no secrets in it)
+!autods_credentials.env.example

@@ -47,6 +47,31 @@ Or with an absolute `--out` path. Output: HTTP status, final URL, page title, sc
 - `RESULT: PASS` — http_status **200**, final_url `https://platform.autods.com/login`, title `AutoDS - Login`.
 - Screenshot: `10_OUTPUTS/playwright_test.png` (~102 KB, full AutoDS login page rendered).
 
-## Next steps (NOT done here — each is GATED)
-- Persistent authenticated session (login) → **GO required** (account access, credentials).
-- Any UI write (import/publish/price/relist/order) → its existing GO gate.
+## Step 2 — login + saved session (GATED: GO_PLAYWRIGHT_LOGIN)
+`login_and_save_session.py` performs the ONE real login and saves an authenticated session for reuse.
+
+- **Credentials:** put your email/password in `autods_credentials.env` (gitignored; values stay on your machine,
+  never in chat, never committed). `autods_credentials.env.example` is the tracked template.
+- **Visible browser:** runs non-headless (`headless=False`) so you can watch and finish any 2FA/captcha by hand.
+- **Output:** `storage_state.json` (gitignored) — the saved session cookies/tokens, reusable by later scripts via
+  `browser.new_context(storage_state="storage_state.json")` so they don't have to log in again.
+
+Run (ONLY after GO):
+```
+.venv\Scripts\python.exe login_and_save_session.py
+.venv\Scripts\python.exe login_and_save_session.py --manual   # log in by hand (Google / 2FA)
+```
+`RESULT: PASS` = logged in and session saved. If it stays on `/login`, nothing is saved (check creds/2FA).
+
+**Safety:** this script does login ONLY — no import/publish/pricing/orders. Those remain behind their own GO gates
+(`GO_IMPORT_5_DRAFTS`, `GO_PUBLISH_5`, `GO_UPDATE_PRICES`, `GO_RELIST_ITEMS`, `GO_ENABLE_REPRICING`).
+
+## Files in this folder
+| File | Tracked? | Purpose |
+|---|---|---|
+| `smoke_test.py` | yes | Step 1 — browser connectivity probe (no login). |
+| `login_and_save_session.py` | yes | Step 2 — login + save session (runs only after GO). |
+| `autods_credentials.env.example` | yes | Template (no secrets). |
+| `autods_credentials.env` | **no (gitignored)** | Your real email/password — local only. |
+| `storage_state.json` | **no (gitignored)** | Saved authenticated session — local only. |
+| `.venv/` | **no (gitignored)** | Isolated Python env (rollback = delete). |
