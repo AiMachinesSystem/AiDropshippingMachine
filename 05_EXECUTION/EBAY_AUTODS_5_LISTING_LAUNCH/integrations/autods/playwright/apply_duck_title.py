@@ -29,21 +29,22 @@ with sync_playwright() as p:
         print("DUCK TITLE INPUT NOT FOUND"); b.close(); sys.exit(1)
     print("current duck title:", cur[:80])
     fld.scroll_into_view_if_needed(timeout=4000)
-    fld.click()
-    pg.keyboard.press("Control+A"); pg.keyboard.press("Delete")
-    pg.wait_for_timeout(300)
-    fld.press_sequentially(NEW_TITLE, delay=20)   # real keystrokes -> fire React onChange
-    pg.wait_for_timeout(600)
-    fld.press("Enter")
-    pg.wait_for_timeout(500)
-    fld.press("Tab")
-    pg.wait_for_timeout(1500)
-    # try an explicit Save/Update button if present
-    for mk in [lambda: pg.get_by_role("button", name=re.compile(r"^\s*(Save|Update|Save changes)\s*$", re.I))]:
-        try:
-            mk().first.click(timeout=3000); print("clicked Save"); break
-        except Exception: pass
-    pg.wait_for_timeout(3500)
+    fld.fill(NEW_TITLE)                 # Playwright fill fires React onChange
+    pg.wait_for_timeout(800)
+    # click the SAVE button scoped to the duck draft card (ancestor of the duck title input)
+    res = pg.evaluate(r"""() => {
+      const inp=[...document.querySelectorAll("input[placeholder='Title']")].find(i=>/duck/i.test(i.value));
+      if(!inp) return 'no-duck-input';
+      let el=inp;
+      for(let k=0;k<14 && el.parentElement;k++){
+        el=el.parentElement;
+        const btn=[...el.querySelectorAll('button')].find(b=>/^\s*save\s*$/i.test(b.innerText||''));
+        if(btn){ btn.scrollIntoView({block:'center'}); btn.click(); return 'saved'; }
+      }
+      return 'no-save-found';
+    }""")
+    print("save click result:", res)
+    pg.wait_for_timeout(4000)
     print("set new title:", NEW_TITLE)
     # verify after reload
     pg.goto(BASE+"/upload",wait_until="domcontentloaded",timeout=60000); pg.wait_for_timeout(7000)
