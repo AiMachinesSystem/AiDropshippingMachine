@@ -16,10 +16,10 @@ description: "Lista chiara delle prossime azioni. Refreshata a fine run (regola 
 - Nessuna azione browser autorizzata in questa fase: nessun login, nessun accesso a eBay/AutoDS/fornitori. Ogni azione esterna richiede GO esplicito.
 
 ## Exact Next Step
-> **Connettore AutoDS read-only via Playwright OPERATIVO** (2026-06-16): account letto, deep product research + **decisione strategica** prodotti (`04_STRATEGY/STRATEGIC_DECISION_2026-06-16.md`). Le prossime mosse vengono da lì.
-> 1. ⏰ **DECISIONE OWNER entro 2026-06-18**: rinnovare il trial AutoDS (piano minimo) o lasciarlo scadere — i 214 listing dipendono dal monitoraggio stock/prezzo AutoDS (GO/spesa).
-> 2. **Interno senza GO (read-only):** tally per-stato dei 214 listing (attivi/OOS/on-hold/errore) via Playwright; re-pull venduti eBay + costo supplier live per i top-3 SKU (oggi 403 wall → domanda aggregata [UNKNOWN]).
-> 3. **GO-class:** fix del draft con flag **VeRO** ('alcohol') e dei listing OOS/errore; import/publish dei test SKU = `GO_IMPORT_5_DRAFTS` / `GO_PUBLISH_5`. Auto-ordering NON va abilitato finché non configurato (0 buyer accounts, $0 wallet).
+> **Stato 2026-06-17:** rimossi 37 OOS morti (AutoDS+eBay) → **177 attivi**. **Trial AutoDS NON rinnovato (owner) → scade 18/06**: il monitoraggio stock/prezzo cessa sui 177.
+> 1. ⏰ **DECISIONE OWNER:** wind-down AutoDS? Se sì → piano per i 177 su eBay (gestione manuale / altro tool / chiusura graduale). Se no → riconsiderare un rinnovo minimo prima del 18/06.
+> 2. **HOLD — import 3 mid-ticket (PC temp display / amaca cane / ham press):** non importare in un account che scade domani; + sourcing **Amazon = rischio policy** (consigliato **AliExpress alto-recensioni**). Sbloccare solo dopo la decisione su AutoDS.
+> 3. **Da fare solo se l'account resta gestito (GO/manuale):** ristoccare i 5 OOS-winner (Dog Water Ramp $202, Pet Grooming Loops $286, Ham Maker…); fix VeRO ('alcohol' draft + 63 attivi) + 100 titoli cambiati.
 
 ## Parked Options (each needs its own explicit GO)
 1. **Avviare l'intake AutoDS read-only** — pending prerequisiti (§6 del piano) + GO; metodo: export/screenshot/guided. (Controlled login = GO separato.)
@@ -73,3 +73,5 @@ Stop before analysis.
 - [x] 2026-06-16 — Decisione strategica autonoma (7gg) → `04_STRATEGY/STRATEGIC_DECISION_2026-06-16.md`. Solo piano; nessuna azione live.
 - [x] 2026-06-17 — Tally read-only dei 214 + lista azioni per-listing (201 close / 13 keep / 63 VeRO / 100 title) → `05_EXECUTION/.../listings/LISTING_AUDIT_2026-06-17.md` + CSV. Da rivedere prima di GO.
 - [x] 2026-06-17 — Update strategia (insight mid-ticket + downgrade torso) + Mid-Ticket Product Research (top 3: PC temp display, dog car hammock, ham press) → `03_ANALYSIS/MIDTICKET_PRODUCT_RESEARCH_2026-06-17.md`. Read-only; costi [ESTIMATE] da confermare prima di GO.
+- [x] 2026-06-17 — **LIVE WRITE (GO owner): rimossi 37 listing OOS mai venduti** (AutoDS + eBay, opzione "AutoDS and Selling Platform"), 214→**177**; 13 venditori + 5 OOS-winner protetti (keep-list hard-bloccata); test 2 + batch verificati (count 177, 0 target residui). Tool: `integrations/autods/playwright/remove_oos_listings.py`.
+- [x] 2026-06-17 — Owner: **NON rinnovare il trial AutoDS** (scade 18/06).

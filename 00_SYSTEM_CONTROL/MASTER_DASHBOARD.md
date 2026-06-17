@@ -19,14 +19,14 @@ description: "Cockpit unico della macchina: stato, decisioni owner pendenti, top
 | Vision (criterio dichiarato) | n/d — `VISION_ALIGNMENT`/`VISION_GAP_MATRIX` non ancora compilate dall'owner |
 | Skill di business | 14 (toolkit del template, non specifiche eBay) — [[MACHINE_STATE]] |
 | Integrazioni | **AutoDS read-only via Playwright OPERATIVO** (sessione salvata, 2026-06-16): letti store/catalogo/ordini/settings. API REST AutoDS = a pagamento/gated (no key). n8n = solo blueprint. **Zero scritture live.** |
-| Progetto: store eBay/AutoDS (**US seller → US buyers**, eBay.com, USD) | Account live letto (**214 listing attivi, 11 draft, 23 ordini, $62 profitto/7gg**). **Deep product research + decisione strategica prodotte (2026-06-16).** Execution live ancora **gated** (import/publish/prezzi/auto-order = GO chiusi). |
+| Progetto: store eBay/AutoDS (**US seller → US buyers**, eBay.com, USD) | **2026-06-17: rimossi 37 listing OOS morti (AutoDS+eBay) → 177 attivi** (tenuti 13 venditori + 5 OOS-winner da ristoccare + margine-bassi). **Trial NON rinnovato (owner) → scade 18/06, monitoraggio cessa.** Import 3 nuovi SKU in **HOLD** (conflitto: non si importa in account che scade). |
 
 ## 2 · Decisioni owner pendenti
 
 | # | Decisione | Perché blocca |
 |---|---|---|
-| 1 | **Rinnovo trial AutoDS — scade 2026-06-18** (GO/spesa): senza rinnovo i 214 listing perdono il monitoraggio stock/prezzo | ⏰ urgente (2 gg); rischio salute account eBay (oversell/OOS) |
-| 2 | GO alle azioni di execution della **decisione strategica** (`04_STRATEGY/STRATEGIC_DECISION_2026-06-16.md`): fix VeRO/OOS, prune/reprice catalogo, test SKU alto-margine | sblocca le mosse a 7 giorni |
+| 1 | **Trial AutoDS NON rinnovato (owner 2026-06-17) → scade 18/06.** Decidere: wind-down AutoDS / gestione eBay manuale / altro tool | i 177 restano senza stock-price sync dal 18/06 (rischio oversell) |
+| 2 | **Conflitto da sciogliere:** import 3 nuovi SKU mid-ticket in un account che scade domani = inutile/rischioso; + sourcing Amazon = rischio policy. Decidere se/come | blocca l'import dei nuovi prodotti |
 
 > **Risolte 2026-06-15 (governance closeout):** identità owner = **Luca**; etichette evidenza = **solo set costituzionale §0.4** (il superset di `OPERATING_RULES §3` resta in **quarantena**, NON ratificato); compilazione `VISION_ALIGNMENT` **rinviata** per scelta owner.
 > **Risolte 2026-06-15 (owner context):** buyer = **US / eBay.com** (USD), secondario NESSUNO; **seller = US-registrato + US-located**; Italy/EU **NON rilevante**. Lo schema eBay.com/US è ora il riferimento **vincolante**.
@@ -45,6 +45,8 @@ Lista completa e priorità: ![[BACKLOG.base#Aperti per priorità]]
 
 | Data | Run | Verdetto |
 |---|---|---|
+| 2026-06-17 | **Rimozione 37 listing OOS morti** (GO owner) | 214→**177** attivi; chiusi anche su eBay ("AutoDS+Selling Platform"); 13 venditori + 5 OOS-winner protetti; verificato. Trial non rinnovato. |
+| 2026-06-17 | Listing audit + mid-ticket research + strategy update | lista azioni per-listing; top 3 mid-ticket; downgrade torso |
 | 2026-06-16 | Decisione strategica autonoma (7gg) | Verdetto su prodotto/trial/sequenza/fix; piano prioritizzato GO vs no-GO → `04_STRATEGY/STRATEGIC_DECISION_2026-06-16.md` |
 | 2026-06-16 | Deep Product Research (funnel multi-tool) | 7 trend → 24 nicchie → 121 prodotti AutoDS → 20 cross-check eBay; TOP 15 + 5 schede; muri eBay/AutoDS dichiarati [UNKNOWN] |
 | 2026-06-16 | Capability audit (read-only, 7 agenti) | Governance/memoria/analisi + AutoDS read-only PROVATE; motore vendite 0% operativo; ~60% reale/40% scaffold |
