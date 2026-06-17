@@ -1,0 +1,5 @@
+# Local Python virtualenv for Playwright automation (reversible: delete this folder)
+.venv/
+venv/
+__pycache__/
+*.pyc

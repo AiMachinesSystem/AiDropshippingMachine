@@ -1,0 +1,3 @@
+# Playwright browser automation for AutoDS (UI control — the API is application-gated + paid).
+# Install into an isolated venv (see README). Browsers are managed by `python -m playwright install chromium`.
+playwright>=1.55,<2.0
