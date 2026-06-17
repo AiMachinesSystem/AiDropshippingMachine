@@ -71,3 +71,5 @@ Stop before analysis.
 - [x] 2026-06-16 — Capability audit read-only (7 agenti) → `10_OUTPUTS/DROPSHIPPING_MACHINE_CAPABILITY_AUDIT_2026-06-16.md`.
 - [x] 2026-06-16 — Deep Product Research (funnel multi-tool) → `03_ANALYSIS/DEEP_PRODUCT_RESEARCH_2026.md`; TOP 15 + 5 schede; muri eBay/AutoDS dichiarati.
 - [x] 2026-06-16 — Decisione strategica autonoma (7gg) → `04_STRATEGY/STRATEGIC_DECISION_2026-06-16.md`. Solo piano; nessuna azione live.
+- [x] 2026-06-17 — Tally read-only dei 214 + lista azioni per-listing (201 close / 13 keep / 63 VeRO / 100 title) → `05_EXECUTION/.../listings/LISTING_AUDIT_2026-06-17.md` + CSV. Da rivedere prima di GO.
+- [x] 2026-06-17 — Update strategia (insight mid-ticket + downgrade torso) + Mid-Ticket Product Research (top 3: PC temp display, dog car hammock, ham press) → `03_ANALYSIS/MIDTICKET_PRODUCT_RESEARCH_2026-06-17.md`. Read-only; costi [ESTIMATE] da confermare prima di GO.

@@ -68,6 +68,15 @@ description: "Memoria interrogabile di tutti i run di ricerca. Ogni run di niche
 - integrity flags: VeRO is the dominant risk (avoid brands in titles even 'compatible-with'); never replicate branded winners (Disney duck, Nike, etc.)
 - evidence: `90_CACHE/fetches/autods/marketplace_2026-06-16_233945/`
 
+### Mid-Ticket Product Research (run 2026-06-17, modeled on account winners)
+- last_run: 2026-06-17 · type: product-research (read-only) · report: `03_ANALYSIS/MIDTICKET_PRODUCT_RESEARCH_2026-06-17.md`
+- scope: mid-ticket ($40-150) niche modeled on the 13 proven account winners; 16 candidates cross-checked on eBay
+- TOP 3 STRONG: mini PC temp display (55 sold, low comp, native $43-150, mirrors $127 ARGB winner); dog car-seat hammock (271/124 sold, ~60% @ $45-55, light ship); bundled ham/meat press (mirrors $42 winner)
+- meta-finding: most mid-ticket niches are ALSO price-compressed near AliExpress cost → only DIFFERENTIATED/bundled/larger SKUs on light-ship goods clear 50%; me-too generics REJECTED
+- open items / walls: AliExpress live cost blocked (CAPTCHA) → costs [ESTIMATE], confirm COGS before GO; eBay aggregate sold [UNKNOWN] (403); re-query proven Dog Water Ramp niche with correct keywords
+- integrity flags: VeRO kills several niches (Suitical/Lodge/Blackstone/CAROTE/BenQ) — generic-only; never replicate branded winners
+- evidence: `90_CACHE/fetches/ebay/2026-06-17_*` + `marketplace_2026-06-17_013237/`
+
 ---
 
 <!-- Nessun blocco nicchia formale ancora. Il primo blocco nicchia reale va sopra questa riga. -->
