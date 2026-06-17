@@ -6,11 +6,13 @@ status: complete
 go_scope: GO_AUTODS_READ_SESSION (read-only, via Playwright)
 date: 2026-06-16
 created_real: 2026-06-16
-method: Playwright headless + saved storage_state.json (no login this run); data from the AutoDS SPA's own GET API responses + rendered UI + screenshots
+method: Playwright headless + saved storage_state.json (no login this run); data from the AutoDS SPA's own GET API responses + rendered UI + screenshots. Read-only clicks performed (owner-approved): dismiss UGC upsell ("No Thanks") + navigate to the Drafts list. No data-mutating clicks.
 evidence_cache:
-  - 90_CACHE/fetches/autods/run_2026-06-16_225027/   (dashboard, products, orders, settings)
-  - 90_CACHE/fetches/autods/run_2026-06-16_224918/   (home discovery)
-  - 90_CACHE/fetches/autods/run_2026-06-16_225346/   (products retry)
+  - 90_CACHE/fetches/autods/run_2026-06-16_225027/        (dashboard, products, orders, settings)
+  - 90_CACHE/fetches/autods/run_2026-06-16_224918/        (home discovery)
+  - 90_CACHE/fetches/autods/run_2026-06-16_225346/        (products retry)
+  - 90_CACHE/fetches/autods/products_2026-06-16_230501/   (upsell dismissed -> 214 active)
+  - 90_CACHE/fetches/autods/drafts_2026-06-16_230951/     (drafts -> 11)
   - 90_CACHE/screenshots/autods/run_2026-06-16_225027/
 ---
 
@@ -22,11 +24,11 @@ evidence_cache:
 > the rendered UI and screenshots. Evidence cached before citing (paths in frontmatter).
 
 ## TL;DR
-- **Store:** `Divinit-92-Us` (ID `3713044`) — **eBay US** store, currency USD. **Active** (real sales) but a brand-new account in onboarding, on a **3-day trial expiring 2026-06-18**.
+- **Store:** `Divinit-92-Us` (ID `3713044`) — **eBay US** store, currency USD. **Operating** (214 live listings + real sales) but a young account on a **3-day trial expiring 2026-06-18**.
+- **Catalog:** **214 published/active eBay listings** (+4 untracked) and **11 drafts** (Scheduled 0 · Recurring 0). Supplier: **Amazon US**. Some listings flagged OOS / On-Hold / supplier-title-change; **1 draft has a VeRO keyword alert ("alcohol")**.
 - **Sales so far:** 23 orders all-time; last 7 days = 3 orders, **$320 revenue / $62 profit**. Top sellers: *Dog Water Ramp* (2), *Hedgehog Dryer Balls* (1).
 - **Pricing:** primary profile = **27% margin**, 15% break-even, **$7 min profit**, prices rounded to `.97`, dynamic eBay business policies ON (3-day handling).
 - **Auto-ordering:** **toggled ON** (cap $500/order, max loss $5) — **BUT 0 buyer accounts connected and $0 wallet**, so it cannot actually purchase yet. ⚠️
-- **Product counts (drafts/published):** **not directly readable** — `/products` redirects to a trial UGC-video upsell that blocks the list. Proxies point to a very small/early catalog. Needs one harmless "No Thanks" dismiss-click (owner OK pending).
 - **Notifications:** header bell badge = **1** (Beamer announcements); active marketing upsells (UGC video, TikTok Ads). No critical system/error alerts observed.
 
 ---
@@ -40,13 +42,16 @@ evidence_cache:
 - **Credits / wallet:** AI credits 30 (plus credit buckets 5 / 400 / 30); auto-order wallet **$0 USD, £0 GBP** — [OBSERVED — `auto-order-v3/wallet/external/list`].
 
 ## 2. Products in DRAFT
-- **Exact count: UNKNOWN via pure read-only** — navigating `/products` (and `/products` on retry) **redirects to `/ugc-offer`**, a trial UGC-video upsell interstitial, so the Drafts/Products list and its count API never load — [OBSERVED — redirect captured twice, runs 225027 & 225346].
-- **Proxies (→ likely 0 or very few):** onboarding step "Add your first draft" still **incomplete**; `store_quotes` count = 0; new products in the last period = 0 — [OBSERVED — dashboard, `store_quotes/3713044/count`].
-- **To get the exact number:** dismiss the upsell ("No Thanks, I'll Miss Out") to reach the list — a click that writes nothing to the store. **Held pending owner OK** (read-only gate).
+- **Drafts: 11** — [OBSERVED — Drafts page (`/upload`, "Drafts (11)") + `products/3713044/count/` → 11, 2026-06-16].
+- Also **Scheduled 0 · Recurring 0** (no scheduled or recurring listings queued) — [OBSERVED].
+- Draft source supplier: **Amazon US** — [OBSERVED — draft cards]. Recent draft-creation jobs visible (e.g. #158504443, 7/7 finished).
+- ⚠️ **At least one draft carries a compliance flag:** *"Product Description contains a VeRO word, keyword (alcohol)"* — an eBay VeRO/keyword warning to resolve before publishing — [OBSERVED — drafts page].
+- Access note: the Drafts list lives at the `/upload` route; the `/products` deep-link first hits a trial UGC upsell, which was dismissed ("No Thanks") to read the lists.
 
 ## 3. Products PUBLISHED (active)
-- **Exact count: UNKNOWN via pure read-only** — same `/products` → `/ugc-offer` wall — [OBSERVED].
-- **Proxies (→ small live catalog):** at least **2 products are live and have sold** — *Dog Water Ramp for Boats & Pools (Holds 200 lbs)* and *Hedgehog Reusable Dryer Balls* — [OBSERVED — `dashboard/3713044/products_report`]; the store has **23 lifetime orders**, implying several live listings. Exact active count pending the dismiss-click above. [LOW-SAMPLE on full catalog.]
+- **Published / active listings: 214** (paginated 20×11) **+ 4 untracked** eBay products not linked to AutoDS — [OBSERVED — Products page "Products (214)" / "out of 214" + `products/3713044/count/` → 214, 2026-06-16].
+- Catalog imported **Dec 18, 2025**; supplier **Amazon US**; sell prices set with the 27% profile (e.g. buy $49.79 → sell $79). Top sellers to date: *Dog Water Ramp* (2 sold), *Hedgehog Dryer Balls* (1) — [OBSERVED].
+- ⚠️ **Listing health issues present:** several products show **Out Of Stock** or **On Hold**, and there are **supplier-side errors** (e.g. "Title on the supplier's side changed") flagged on listings — [OBSERVED — `products/3713044/list/` `error_list` + products page status columns]. Exact per-status breakdown not tallied this run — [LOW-SAMPLE].
 
 ## 4. Active pricing settings
 [OBSERVED — `v2-api.autods.com/store/3713044/settings/list` + Settings → Supplier Settings screenshot, 2026-06-16]
@@ -88,12 +93,14 @@ evidence_cache:
 ## Flags worth the owner's attention
 1. **Auto-ordering can't fulfill as-is** — ON but 0 buyer accounts + $0 wallet. If a supplier order is needed, it would fail/stall until a buying account + funds are added. (GO-gated to fix.)
 2. **Trial ends 2026-06-18 (in 2 days)** — subscription + auto-ordering add-on lapse then; decide upgrade vs. let-expire.
-3. **`/products` blocked by the UGC upsell** — exact draft/active counts and per-product health need the upsell dismissed.
+3. **Compliance: a draft has a VeRO keyword alert ("alcohol")** — review/edit before publishing to avoid an eBay policy hit.
+4. **Listing health** — some of the 214 listings are OOS / On-Hold / carry supplier-change errors; worth a cleanup pass (full per-status tally not done this run).
 
-## What needs a click or a new GO (not done — read-only gate)
-- Dismiss the UGC upsell → read **exact drafts/published counts** + per-product status (stock/price-monitoring errors).
-- Open **Settings → Buyer Accounts** and **→ Notifications** tabs for detail.
+## Open follow-ups (not done this run)
+- **Per-status tally** of the 214 listings (active / OOS / on-hold / error) and the 11 drafts — to quantify the health issues.
+- Open **Settings → Buyer Accounts** and **→ Notifications** tabs for detail (auto-order source accounts + the alert list behind the bell badge).
 - Open **Orders** detail to classify the 23 orders (paid / shipped / pending fulfillment).
+- Resolve the **VeRO draft flag** before any publish (GO-gated).
 
 ## How this was produced (reproducible)
 `integrations/autods/playwright/read_autods_status.py` — reuses `storage_state.json`, navigates read-only, and
