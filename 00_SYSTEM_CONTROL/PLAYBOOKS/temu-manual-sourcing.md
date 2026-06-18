@@ -44,4 +44,4 @@ Vendere su eBay con sourcing da marketplace consumer (Temu, come Amazon/AliExpre
 - Run sorgente: `05_EXECUTION/.../listings/TEMU_MANUAL_SHORTLIST_2026-06-17.md`
 - Tool: `integrations/autods/playwright/check_supported_suppliers.py`
 - Regola copy: [[listing-title-description-rule]] · convenzioni: [[VAULT_CONVENTIONS]]
-- Pipeline import AUTOMATICO (AliExpress/Amazon): `import_drafts.py` + `apply_titles_3.py` + `apply_desc_ckeditor_3.py`
+- Pipeline import AUTOMATICO (AliExpress/Amazon) = **tool canonico `integrations/autods/playwright/manage_draft.py`** (import + titolo + descrizione + immagine in un comando `full`). Vedi [[autods-draft-management]]. NON creare più script one-off per import/titolo/descrizione/immagine.

@@ -11,3 +11,11 @@ storage_state.json
 storage_state*.json
 # the .example template IS tracked (no secrets in it)
 !autods_credentials.env.example
+
+# --- EPHEMERAL / NON-CANONICAL (canonical draft tool = manage_draft.py) ---
+# leading-underscore scripts = throwaway probes/diagnostics (never commit these)
+_*.py
+# local diagnostic screenshots (real evidence belongs in 90_CACHE)
+*.png
+# local scratch dir for ephemeral scripts
+_tmp/

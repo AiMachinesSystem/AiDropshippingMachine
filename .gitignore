@@ -7,6 +7,10 @@ Thumbs.db
 # --- dipendenze locali ---
 node_modules/
 
+# --- scratch effimero (script usa-e-getta, NON versionato; tieni solo il README) ---
+/_tmp/*
+!/_tmp/README.md
+
 # --- 90_CACHE: NON versionata (si mantiene solo lo scheletro via .gitkeep) ---
 /90_CACHE/fetches/**
 /90_CACHE/screenshots/**
