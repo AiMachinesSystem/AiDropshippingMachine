@@ -45,6 +45,7 @@ Lista completa e priorità: ![[BACKLOG.base#Aperti per priorità]]
 
 | Data | Run | Verdetto |
 |---|---|---|
+| 2026-06-17 | **Import 4 draft batch-2 (Temu-validati, fonte Amazon) + titolo≤80 + descrizione CKEditor** (GO owner) | Winner validati via Temu (fabric shaver, mini vacuum, magnetic window cleaner, motion closet light) presi da Amazon (AutoDS importa solo AliExpress/Amazon); draft 19→**23**; titoli + descrizioni applicati e persistiti (×4); pronti per publish (publish = GO). |
 | 2026-06-17 | **Import 3 nuovi draft + titolo≤80 + descrizione VeRO-safe** (GO owner) | Playwright riattivato; ricercati 3 prodotti generici (slow feeder bowl, coffee pod holder, neck fan) con URL Amazon live; draft 16→**19**; titoli 80/79/79 applicati e persistiti; **descrizioni applicate via CKEditor API (muro caduto)** e persistite; 0 publish. |
 | 2026-06-17 | **Rimozione 37 listing OOS morti** (GO owner) | 214→**177** attivi; chiusi anche su eBay ("AutoDS+Selling Platform"); 13 venditori + 5 OOS-winner protetti; verificato. Trial non rinnovato. |
 | 2026-06-17 | Listing audit + mid-ticket research + strategy update | lista azioni per-listing; top 3 mid-ticket; downgrade torso |
