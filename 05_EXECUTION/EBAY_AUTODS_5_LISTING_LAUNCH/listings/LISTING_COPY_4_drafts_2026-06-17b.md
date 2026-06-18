@@ -26,6 +26,13 @@ description: "Copy per 4 nuovi draft (batch 2, 2026-06-17): winner Temu-validati
 **TITOLO (76):** `Motion Sensor LED Closet Light Rechargeable Wireless Under Cabinet Stick On`
 **DESC:** Motion Sensor Closet Light - Instant Light, No Wiring. Lights closets, cabinets, stairs and hallways as you walk by; auto on/off in the dark; USB rechargeable; stick-on magnetic mount; soft even light. What you get: Rechargeable Motion Sensor LED light(s) + magnetic strip + USB cable. Pack/color may vary.
 
+## IMMAGINE PRINCIPALE — fabric shaver (Higgsfield)
+- ✅ Generata via Higgsfield (marketing_studio_image, 2 crediti): dispositivo fabric shaver bianco, sfondo bianco, **no brand/testo (VeRO-safe)** → `listings/images/fabric_shaver_main.png` (URL CloudFront).
+- ✅ **Aggiunta al draft** via "Add Image → Enter Image URL" (CAPABILITY NUOVA: prima si pensava no-upload; ora il draft accetta URL immagine **e** file .png/.jpg). Persiste dopo reload. Tool: `add_fabric_image_url.py`.
+- ⛔ **NON impostabile come principale dentro AutoDS**: le immagini fornitore (scraper Amazon) sono **bloccate** (badge "amazon", nessun trash) e il **drag non persiste** → la mia immagine resta in coda alla galleria, non in posizione 1.
+- 👉 **La main image si imposta su eBay al/dopo il publish** (o via override eBay). La mia immagine è già nella galleria del draft, pronta da promuovere a primaria.
+- ⚠️ Prodotto reale = brand "aparatoo" (visibile sulle foto fornitore = rischio VeRO se usate come main). La mia generata è brand-free → preferibile come principale.
+
 ## STATO (chiuso 2026-06-17)
 - [x] Import draft (4) → drafts 19→23
 - [x] Titoli applicati + persistiti (apply_titles_batch2.py)
