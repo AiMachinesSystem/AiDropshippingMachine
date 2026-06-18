@@ -58,6 +58,8 @@ Stop before analysis.
 - Numerici US-seller esatti dietro le pagine US-help (fetch wall) — PUBLIC RESEARCH REQUIRED. (eBay.it/EU non più rilevante.)
 
 ## Completed
+- [x] 2026-06-17 — **Import 3 nuovi draft (GO owner) con titolo≤80 + descrizione VeRO-safe**: slow feeder dog bowl (B0CJXNXMMY), coffee pod holder (B0CZ6DX9YJ), portable neck fan (B09PCSR9SX). Draft 16→19; titoli 80/79/79 persistiti; descrizioni applicate via CKEditor API su pagina dedicata e persistite (×3); 0 publish. Tool: `import_drafts.py`, `apply_titles_3.py`, `apply_desc_ckeditor_3.py`, `discover_draft_ids.py`. Copy: `…/listings/LISTING_COPY_3_drafts_2026-06-17.md`.
+  - ✅ **MURO CADUTO**: la descrizione draft AutoDS È automatizzabile via `/upload/<id>` + `window.CKEDITOR.instances[0].setData(html)` (prima ritenuta solo-manuale). Aggiornare VAULT_CONVENTIONS muri noti.
 - [x] 2026-06-15 — Import e merge della foundation eBay/AutoDS nella struttura della macchina (Phase 1 — system initialization completata).
 - [x] 2026-06-15 — Governance closeout: owner = Luca; etichette = solo set §0.4 (superset `OPERATING_RULES §3` in quarantena, non ratificato); compilazione `VISION_ALIGNMENT` rinviata.
 - [x] 2026-06-15 — Ricerca pubblica policy/fee/feature eBay+AutoDS (percorso B): 21 fonti in cache → 3 raw + 3 tabelle pulite + note fonti/qualità/missing + data intake report. Stop prima dell'analisi.

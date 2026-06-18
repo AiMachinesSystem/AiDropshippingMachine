@@ -45,6 +45,7 @@ Lista completa e priorità: ![[BACKLOG.base#Aperti per priorità]]
 
 | Data | Run | Verdetto |
 |---|---|---|
+| 2026-06-17 | **Import 3 nuovi draft + titolo≤80 + descrizione VeRO-safe** (GO owner) | Playwright riattivato; ricercati 3 prodotti generici (slow feeder bowl, coffee pod holder, neck fan) con URL Amazon live; draft 16→**19**; titoli 80/79/79 applicati e persistiti; **descrizioni applicate via CKEditor API (muro caduto)** e persistite; 0 publish. |
 | 2026-06-17 | **Rimozione 37 listing OOS morti** (GO owner) | 214→**177** attivi; chiusi anche su eBay ("AutoDS+Selling Platform"); 13 venditori + 5 OOS-winner protetti; verificato. Trial non rinnovato. |
 | 2026-06-17 | Listing audit + mid-ticket research + strategy update | lista azioni per-listing; top 3 mid-ticket; downgrade torso |
 | 2026-06-16 | Decisione strategica autonoma (7gg) | Verdetto su prodotto/trial/sequenza/fix; piano prioritizzato GO vs no-GO → `04_STRATEGY/STRATEGIC_DECISION_2026-06-16.md` |
