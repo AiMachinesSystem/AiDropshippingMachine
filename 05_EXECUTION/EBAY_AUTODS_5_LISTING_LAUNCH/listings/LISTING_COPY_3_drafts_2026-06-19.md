@@ -117,3 +117,12 @@ La **dynamic pricing policy AutoDS** ha auto-prezzato in profitto (NON $0; il "$
 - **Esito:** policy → **nessuna perdita** (profitti positivi), ma **drill e under-sink importati a costi errati/alti** (erano i 2 costi NON confermati per CAPTCHA) → prezzati troppo alto → **non venderanno**. Solo lo **stove** è una listing valida.
 - ⚠️ **E-003 (ERROR_REGISTRY):** lo stove è stato pubblicato da un click "Import" durante un probe diagnostico (card "Import" = publish immediato, senza modal). Esito ok, errore di processo registrato. Drill+under-sink pubblicati deliberatamente.
 - **Azione raccomandata (GO-class):** **deactivate/end** i 2 listing non-viable (drill, under-sink) e ri-sourcing dall'ASIN corretto economico (o AliExpress alto-recensioni) prima di ri-pubblicare. Stove resta live. Policy eBay sul sourcing Amazon = rischio account dichiarato.
+
+## FIXA (2026-06-19, GO owner) — esito
+1. ✅ **Deactivate (live): drill + under-sink ENDED** su AutoDS **ed eBay** ("AutoDS and Selling Platform"), verificato `still present = False` per entrambi (tool `_deactivate_two.py`, dry-run + guard per-riga E-002/E-003). **Stove resta live.**
+2. ⚠️ **Re-source BLOCCATO — AutoDS riporta costi inaffidabili [OBSERVED — AutoDS drafts API 2026-06-19]:**
+   - Drill `B07FPV8F72` (EZ Scrub 3pc, retail reale ~$7.99): AutoDS costo **$133.13** — **identico** al drill vecchio `B0789K37SV` → valore **placeholder/errore**, non scrape reale. Anche **out of stock**.
+   - Under-sink `B0CR2LF5FQ` (2-pack generico, retail reale ~$17): AutoDS costo **$68.99** (gonfiato ~4×).
+   - **Diagnosi:** lo scrape costo AutoDS è degradato/non affidabile → l'auto-pricing pubblica sempre a prezzi assurdi. **Non ri-pubblicato** (avrei ripetuto l'errore). Probabile legame col degrado del price-monitoring (finestra trial), riportato come fatto — nessuna proposta di rinnovo.
+3. **Draft parcheggiati (innocui, non live, $0):** EZ Scrub drill `6a35fc72bdd8f0f8c4fd320c` · under-sink generico `6a35fc977dc899fc0ba6e1b7` — da rimuovere a mano o tenere.
+4. **Stato catalogo nuovi:** **1 listing valido live (stove $19.97 / profit $7.13)**; drill+under-sink chiusi; re-publish in attesa di un costo AutoDS affidabile o di una fonte/costo confermato dall'owner.
