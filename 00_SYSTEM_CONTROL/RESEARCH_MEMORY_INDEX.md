@@ -101,6 +101,18 @@ description: "Memoria interrogabile di tutti i run di ricerca. Ogni run di niche
 #### STORICO (superato da ...)
 <!-- nessuno (v1) -->
 
+### Trend signals untapped (8 segnali emergenti)
+
+#### CANONE CORRENTE (run 2026-06-20, info-gathering v1 — QUERY MODE risponde SOLO da questa sezione)
+- last_run: 2026-06-20 · type: info-gathering v1 (read-only) · file: `10_OUTPUTS/MARKET_RESEARCH_REPORTS/2026-06-20_trend-signals_INFO_GATHERING_v1.md`
+- verdetto: nessun "pursue"; **maybe**: AirTag insole holder (score 4.5, rising, **VeRO HIGH** = mai "AirTag" nel titolo), car windshield sun shade umbrella (4.2, rising/**stagionale estate**, AliExpress $3.13-3.74), fridge bins (3.5), chicken shredder (3.0), ultrasonic cleaner (3.0, ticket alto); **avoid**: sunset lamp (2.5, **declining**), drain hair catcher (2.0, saturo), mini vacuum sealer (2.5, overlap "mini bag sealer")
+- key numbers: AirTag insole AliExpress 2.000+/900+ ordini, costo ~$6.50, margine 34-46% @ $13-17, eBay 8+ seller $16.99-27.99; sun shade AliExpress $3.13-3.74 (2000+/700+ sold), eBay $10.99-27.99 [OBSERVED 2026-06-20]
+- open items: **data_quality debole 7/8** (eBay 403 → domanda da proxy Google-Shop/AliExpress, non venduto eBay confermato); costi AliExpress da confermare in AutoDS; publish bloccato (account eBay)
+- integrity flags: AirTag = marchio Apple (VeRO) → titolo generico obbligatorio; prezzi AliExpress $0.99 = trap primo-ordine (esclusi)
+
+#### STORICO (superato da ...)
+<!-- nessuno (v1) -->
+
 ---
 
 <!-- Nessun altro blocco nicchia formale ancora. Il prossimo blocco nicchia reale va sopra questa riga. -->
