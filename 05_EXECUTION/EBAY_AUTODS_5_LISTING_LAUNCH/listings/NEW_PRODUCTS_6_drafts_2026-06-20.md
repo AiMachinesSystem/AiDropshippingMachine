@@ -53,5 +53,6 @@ Titoli (tutti ≤80) e descrizioni VeRO-safe applicati e **verificati persistiti
 
 ## STATO
 - ✅ **6 importati come DRAFT** (drafts 13→19), titolo+descrizione applicati/verificati.
-- ⛔ **Publish = GO + sbloccare account eBay** (il publish è bloccato a livello account, vedi cockpit). Prima del publish: confermare costo reale AutoDS di ogni SKU.
+- ✅ **2026-06-20: 3 PUBBLICATI (GO owner)** — Backpack Stool, Hinge LED Light, Sink Caddy — titolo ≤80 + desc verificati, **nessun errore eBay** (il blocco account sembra risolto/transitorio), confermati in /products. ⚠️ prezzi live non letti via probe (lag) → controllare in UI, spec. Backpack Stool (costo era CAPTCHA-ignoto).
+- ⏳ **Restano DRAFT (3):** Faucet Splash Mat, Roll-Up Dish Rack, Stretch Lids — pronti, pubblicabili (costo Amazon da confermare prima).
 - Comandi/asset: `listings/copy_2026-06-20_new/*.html`. Fonte workflow: wf_ddc8dc83-231.
