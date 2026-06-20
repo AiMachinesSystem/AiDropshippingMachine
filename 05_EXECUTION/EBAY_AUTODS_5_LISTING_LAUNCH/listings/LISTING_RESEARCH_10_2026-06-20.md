@@ -144,5 +144,5 @@ PYTHONIOENCODING=utf-8 ./.venv/Scripts/python.exe manage_draft.py full --url "ht
 - ✅ **5 IMPORTATI come DRAFT** (AliExpress) con titolo ≤80 + descrizione VeRO-safe applicati e **verificati** (×5):
   - Book Light `6a36f3e934ccb3112fdcf3a2` · Water Bottle `6a36f440bdd8f0f8c4fd3f2a` · Squeegee `6a36f4671ea3c3e963fd35fa` · Dog Bowl `6a36f48ebdd8f0f8c4fd3f30` · Thermometer `6a36f4b66b71e506fe2aabd4`.
   - Nota: titoli/descrizioni applicati con set-title/set-desc separati (scrape-lag) + **guard per-draft** (dopo che un primo giro senza guard aveva rischiato di scrivere su draft sbagliati — verificato: nessuna contaminazione persistita).
-- ⏸️ **Resistance Bands NON importato** (margine sottile a $17.19 — in attesa di fonte più economica).
+- ❌ **Resistance Bands NON importabile**: URL AliExpress `3256811843677080` rifiutato da AutoDS (count non sale, ×2 tentativi — l'ID veniva dal render di ricerca, pagina-item login-walled → non risolve come prodotto importabile). Serve un URL AliExpress/Amazon valido per le resistance bands (owner lo fornisce o ricerca nuova). Era comunque il più debole (margine sottile $17.19).
 - ⛔ **Publish = GO separato** + il publish AutoDS resta instabile (vedi cockpit); prima del publish riconfermare costo reale AutoDS di ogni SKU.
