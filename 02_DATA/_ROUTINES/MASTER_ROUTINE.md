@@ -27,6 +27,7 @@ description: "Dispatcher owner: mappa intento → routine/skill. PARTE come sche
 | "brief del giorno" | `/daily-brief` | legge dashboard + TASKS + git |
 | "cosa hai imparato questa settimana" | `weekly-learning-update` | un report + cockpit refresh |
 | "riordina/audit del vault" | `vault-librarian` | manutenzione conservativa output di ricerca |
+| "ricerca N prodotti e mettili in draft" / "trovami N winner e mettili a draft" / "N nuovi draft (titolo <=80 + descrizione)" | `source-products-to-draft` (`02_DATA/_ROUTINES/source-products-to-draft.md`) | ricerca winner (fonte importabile Amazon/AliExpress) → titolo <=80 + descrizione riscritta → import via `manage_draft.py`; step 1-4 INTERNI, step 5 import = GO-CLASS (`GO_IMPORT_5_DRAFTS`) |
 | intenti operativi eBay/AutoDS ("setup AutoDS", "crea/modifica listing", "pricing/repricing", "fulfillment/ordini", "fornitori", "account/policy eBay") | disciplina di fase: `01_SYSTEM/SYSTEM_BLUEPRINT.md` + `01_SYSTEM/OPERATING_RULES.md` + `00_SYSTEM_CONTROL/APPROVAL_GATES.md` | TUTTO GO-gated; fase corrente in `00_SYSTEM_CONTROL/CURRENT_STATUS.md`; niente live/esterno senza GO; execution solo entro la gate structure |
 | "a che punto siamo / prossimo passo / stato macchina" | `00_SYSTEM_CONTROL/CURRENT_STATUS.md` + `NEXT_ACTIONS.md` + `/daily-brief` | lookup di stato dal cockpit; mai ri-lanciare ricerche per un lookup |
 | `<altro intento ricorrente>` | `<routine/skill>` | `<note>` |

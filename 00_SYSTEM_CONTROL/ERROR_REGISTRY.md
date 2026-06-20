@@ -31,6 +31,13 @@ description: "Registro errori della macchina (protocollo AUTONOMIA CONTROLLATA v
 
 ---
 
+## E-003 — Publish accidentale di un draft durante un probe "diagnostico"
+- **Data:** 2026-06-19 (missione SOURCE_3_TO_DRAFT; owner GO `GO_IMPORT_5_DRAFTS` + GO publish) · **Fix:** regola sotto (probe rimossi; nessun commit di codice)
+- **ERRORE:** in `_pubdiag.py`, inteso come "apri il modal di publish dello stove SENZA confermare", il click sul bottone **"Import"** della card ha **pubblicato immediatamente** lo stove su eBay live (drafts 29→28). Nessun modal di conferma è apparso. Danno reale: 1 publish live avvenuto in fase diagnostica e **prima di impostare il prezzo**. Mitigazione [OBSERVED]: la dynamic pricing policy AutoDS lo ha prezzato a **$19.97** (buy $9.49, profit $7.13), non $0.
+- **CAUSA:** [OBSERVED] assunzione errata (ereditata da `publish_duck.py`, che attendeva un dialog di conferma) che "Import" apra un modal confermabile. In realtà la card **"Import" = publish immediato, senza conferma** → ho cliccato un controllo mutante credendolo ispezione read-only.
+- **REGOLA:** (1) un probe DIAGNOSTICO non clicca MAI controlli che mutano stato (Import/Save/Publish/Delete/Reprice); per ispezionare il flusso si legge il DOM **senza attivare** i bottoni. (2) "Import" su card AutoDS è **azione live immediata** → eseguibile solo deliberatamente sotto GO e con l'assert di scoping **E-002** (il card che possiede il bottone deve contenere l'identificativo del target) **fatto PRIMA** del click. (3) Publish va sempre preceduto da verifica del **prezzo** (mai pubblicare a $0; affidarsi alla pricing policy solo dopo averla confermata attiva).
+- **TEST DI REGRESSIONE:** prima di eseguire qualunque probe `_*.py` read-only → grep di `.click(` su Import/Save/Publish/Delete = deve dare **ZERO**. Publish solo via script che stampa e **asserisce** `card_title == target` prima del click (regola E-002). [DA ESEGUIRE a freddo prima del prossimo publish automatizzato].
+
 ## E-002 — Publish del draft SBAGLIATO su eBay live (scoping per-card difettoso)
 - **Data:** 2026-06-17 (GO_PUBLISH duck topper) · **Fix:** (questo commit) + regola sotto
 - **ERRORE:** doveva pubblicarsi il draft **duck topper**; invece è stato pubblicato il draft **pegboard** (`B07QR36Z76`) su eBay live. Danno reale: 1 listing eBay non voluto andato live (Prodotti attivi 177→178); il duck è rimasto draft. Non un near-miss: azione live su store reale sull'item sbagliato.
