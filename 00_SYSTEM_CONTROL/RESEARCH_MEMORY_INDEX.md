@@ -87,4 +87,20 @@ description: "Memoria interrogabile di tutti i run di ricerca. Ogni run di niche
 
 ---
 
-<!-- Nessun blocco nicchia formale ancora. Il primo blocco nicchia reale va sopra questa riga. -->
+### Catalog multi-niche market census (15 nicchie del catalogo)
+
+#### CANONE CORRENTE (run 2026-06-20, niche-validation v1 — QUERY MODE risponde SOLO da questa sezione)
+- last_run: 2026-06-20 · type: niche-validation v1 (market census, read-only) · file: `10_OUTPUTS/MARKET_RESEARCH_REPORTS/2026-06-20_multi-niche-catalog_NICHE_VALIDATION_v1.md`
+- market: **14/15 PROVEN**, 1 UNPROVEN (clip-on book lights) · space: **TUTTE TIGHT o NO** (nessun gap "facile") · confidence: MED (domanda alta/citata; margini NON valutati; conteggi = lower bound da muri eBay/AliExpress)
+- ranking opportunità (score 0-10 verificatore): coffee pod holders **5.5** (TIGHT, solo tier station/decor) · poi a 4.5: shower squeegees · no-spill dog water bowls · stove gap covers · dog booster car seats · microwave splatter covers · mini flat irons · gecko RC toys (trend late-stage) · slow feeder dog bowls · a 3.5: collapsible water bottles · baby bath thermometers · portable neck fans (space=NO, **stagionale** picco giu-ago) · orthopedic dog beds · a 3.0: cable clips · **2.5 UNPROVEN: clip-on book lights**
+- key canon: **tutte le nostre nicchie = domanda PROVEN ma commodity SATURE**; si vince SOLO con un **ANGOLO** (tier premium/decor · bundle · formato XL · compatibilità precisa nel titolo · foto+copy originali), MAI come me-too sul floor. **Lezione: domanda-prodotto ≠ opportunità-mercato** (il book light, top a livello prodotto, è UNPROVEN a livello mercato).
+- key numbers: coffee pod holders **5.376 listing attivi eBay** (cat 46283), un listing 1.594 sold; shower squeegee AliExpress 10.000+ ordini; book light AliExpress 5.000+ ordini ma sold eBay per-listing 1-4 (domanda spalmata); neck fan stagionale picco giu-ago [OBSERVED 2026-06-20]
+- open items: **margini non valutati** (fare costo AutoDS + fee prima del lancio); eBay sch/itm 403/429 + AliExpress CAPTCHA → conteggi lower bound, confermare col filtro Sold; Google Trends non aperto (direzione [INFERRED])
+- integrity flags: anchoring prezzo "was/now" diffuso nel mercato = anti-pattern (documentato, mai replicare); VeRO resta il rischio (generico-only)
+
+#### STORICO (superato da ...)
+<!-- nessuno (v1) -->
+
+---
+
+<!-- Nessun altro blocco nicchia formale ancora. Il prossimo blocco nicchia reale va sopra questa riga. -->
