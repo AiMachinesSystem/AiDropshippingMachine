@@ -31,6 +31,13 @@ description: "Registro errori della macchina (protocollo AUTONOMIA CONTROLLATA v
 
 ---
 
+## E-004 — Falso "PASS" del login AutoDS (account Google-SSO, rilevamento debole)
+- **Data:** 2026-06-20 (re-login per sbloccare import; GO owner) · **Fix:** `login_and_save_session.py` hardened (successo = URL `platform.autods.com` autenticato, non `signin`/`/login`) + login manuale Google completato → sessione valida (`status`=9). **CHIUSO** (regression sotto PASSATO).
+- **ERRORE:** `login_and_save_session.py` ha stampato "PASS — session saved", ma il browser era fermo su una pagina **Google OAuth signin** (`accounts.google.com/v3/signin`), NON loggato in AutoDS. La `storage_state.json` salvata era **fasulla** → `manage_draft status` = `None` (sessione invalida). Step sprecato + sovrascritta la vecchia sessione (già logged-out) con una bislacca.
+- **CAUSA:** [OBSERVED] il rilevamento di successo è `wait_for_url(u: "/login" not in u)`. L'account AutoDS usa **"Sign in with Google"**: l'auto-fill del form AutoDS reindirizza a `accounts.google.com/...signin` (URL senza "/login") → il check debole passa per sbaglio. L'auto-fill credenziali **non può** completare l'OAuth Google (serve login Google interattivo/2FA).
+- **REGOLA:** il successo del login si verifica **atterrando su un URL AutoDS autenticato** (host `platform.autods.com` E non `accounts.google.com`/`auth.autods.com`/`*signin*`), mai col solo "no /login". Per account Google-SSO l'auto-credential-fill NON completa il login → usare `--manual` e far finire all'owner il flusso Google fino alla dashboard AutoDS prima di salvare. **Conferma sessione SEMPRE con un `status` che ritorni un conteggio numerico prima di dichiararla valida.**
+- **TEST DI REGRESSIONE:** dopo ogni login, `manage_draft status` deve dare un numero (non `None`/0-da-logout) → solo allora la sessione è valida. [DA ESEGUIRE dopo il prossimo login manuale].
+
 ## E-003 — Publish accidentale di un draft durante un probe "diagnostico"
 - **Data:** 2026-06-19 (missione SOURCE_3_TO_DRAFT; owner GO `GO_IMPORT_5_DRAFTS` + GO publish) · **Fix:** regola sotto (probe rimossi; nessun commit di codice)
 - **ERRORE:** in `_pubdiag.py`, inteso come "apri il modal di publish dello stove SENZA confermare", il click sul bottone **"Import"** della card ha **pubblicato immediatamente** lo stove su eBay live (drafts 29→28). Nessun modal di conferma è apparso. Danno reale: 1 publish live avvenuto in fase diagnostica e **prima di impostare il prezzo**. Mitigazione [OBSERVED]: la dynamic pricing policy AutoDS lo ha prezzato a **$19.97** (buy $9.49, profit $7.13), non $0.

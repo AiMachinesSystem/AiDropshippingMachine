@@ -138,3 +138,11 @@ PYTHONIOENCODING=utf-8 ./.venv/Scripts/python.exe manage_draft.py full --url "ht
 - **Verdict:** 6 prodotti draft-ready con dati corroborati; 4 mancano al "10" perché i dati non erano tracciabili (non li gonfio).
 - **Recommended move:** procedere con i **5 forti** (book light, water bottle, squeegee, dog bowl, baby thermometer); resistance bands solo dopo aver trovato un costo più basso. Import = GO; e i costi reali vanno verificati in AutoDS al momento dell'import (monitoraggio degradato).
 - **Per arrivare a 10:** o un 2° giro di ricerca (colpirà lo stesso muro CAPTCHA → resa simile), o l'owner fornisce URL AliExpress specifici di prodotti che vuole (così salto il muro).
+
+## STATO IMPORT (2026-06-20, GO owner)
+- ⚠️ Sessione AutoDS era scaduta (Google-SSO) → **ripristinata con login manuale owner** (E-004 fix nel login script). `manage_draft status` = numero ✓.
+- ✅ **5 IMPORTATI come DRAFT** (AliExpress) con titolo ≤80 + descrizione VeRO-safe applicati e **verificati** (×5):
+  - Book Light `6a36f3e934ccb3112fdcf3a2` · Water Bottle `6a36f440bdd8f0f8c4fd3f2a` · Squeegee `6a36f4671ea3c3e963fd35fa` · Dog Bowl `6a36f48ebdd8f0f8c4fd3f30` · Thermometer `6a36f4b66b71e506fe2aabd4`.
+  - Nota: titoli/descrizioni applicati con set-title/set-desc separati (scrape-lag) + **guard per-draft** (dopo che un primo giro senza guard aveva rischiato di scrivere su draft sbagliati — verificato: nessuna contaminazione persistita).
+- ⏸️ **Resistance Bands NON importato** (margine sottile a $17.19 — in attesa di fonte più economica).
+- ⛔ **Publish = GO separato** + il publish AutoDS resta instabile (vedi cockpit); prima del publish riconfermare costo reale AutoDS di ogni SKU.

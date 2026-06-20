@@ -135,11 +135,15 @@ def main():
 
             print("  [..] waiting up to %ds for login to complete" % (args.login_timeout // 1000))
             print("       (if 2FA / captcha appears, complete it in the window)")
+            # SUCCESS = landed on the AUTHENTICATED AutoDS app, NOT merely "no /login"
+            # (Google-SSO accounts pass through accounts.google.com which also lacks "/login"). [E-004]
+            def _authed(u):
+                return ("platform.autods.com" in u) and ("/login" not in u) and ("signin" not in u)
             try:
-                page.wait_for_url(lambda u: "/login" not in u, timeout=args.login_timeout)
+                page.wait_for_url(lambda u: _authed(u), timeout=args.login_timeout)
                 logged_in = True
             except PWTimeout:
-                logged_in = "/login" not in page.url
+                logged_in = _authed(page.url)
 
             if logged_in:
                 # small settle so post-login tokens/cookies are set before snapshotting
