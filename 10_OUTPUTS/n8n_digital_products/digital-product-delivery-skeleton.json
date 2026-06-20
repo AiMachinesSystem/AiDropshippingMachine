@@ -1,0 +1,110 @@
+{
+  "name": "Digital Product Sale -> Auto-Deliver (Skeleton)",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "digital-sale",
+        "options": {}
+      },
+      "id": "node-webhook",
+      "name": "Sale Webhook (Stripe/Gumroad)",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [240, 300],
+      "webhookId": "digital-sale-webhook"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            { "id": "a1", "name": "buyer_email", "value": "={{ $json.body.email || $json.body.purchaser_email || $json.body.customer_email || '' }}", "type": "string" },
+            { "id": "a2", "name": "buyer_name", "value": "={{ $json.body.full_name || $json.body.name || 'there' }}", "type": "string" },
+            { "id": "a3", "name": "product_name", "value": "={{ $json.body.product_name || $json.body.product || $json.body.product_permalink || 'Your product' }}", "type": "string" },
+            { "id": "a4", "name": "order_id", "value": "={{ $json.body.sale_id || $json.body.order_id || $json.body.id || '' }}", "type": "string" }
+          ]
+        },
+        "options": {}
+      },
+      "id": "node-map",
+      "name": "Map Buyer & Product",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [480, 300]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            { "id": "b1", "name": "download_url", "value": "={{ ({ 'Ebook': 'https://your-store.com/files/ebook.pdf', 'Course': 'https://your-store.com/course-access', 'Template Pack': 'https://your-store.com/files/templates.zip' })[$json.product_name] || 'https://your-store.com/account' }}", "type": "string" },
+            { "id": "b2", "name": "license_key", "value": "={{ 'LIC-' + $now.toMillis() }}", "type": "string" }
+          ]
+        },
+        "options": {}
+      },
+      "id": "node-lookup",
+      "name": "Lookup Download Link / License",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [720, 300]
+    },
+    {
+      "parameters": {
+        "fromEmail": "you@your-store.com",
+        "toEmail": "={{ $json.buyer_email }}",
+        "subject": "={{ 'Your download: ' + $json.product_name }}",
+        "emailFormat": "html",
+        "html": "<p>Hi {{ $json.buyer_name }},</p><p>Thanks for buying <strong>{{ $json.product_name }}</strong>! Here is your instant access:</p><p>&#128073; <a href=\"{{ $json.download_url }}\">Download / Access your product</a></p><p>License key: <code>{{ $json.license_key }}</code><br/>Order: {{ $json.order_id }}</p><p>Any problem? Just reply to this email.</p>",
+        "options": {}
+      },
+      "id": "node-email",
+      "name": "Deliver Product Email",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 2.1,
+      "position": [960, 300]
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": { "__rl": true, "value": "YOUR_GOOGLE_SHEET_ID", "mode": "id" },
+        "sheetName": { "__rl": true, "value": "Sales", "mode": "name" },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "order_id": "={{ $json.order_id }}",
+            "email": "={{ $json.buyer_email }}",
+            "product": "={{ $json.product_name }}",
+            "date": "={{ $now.toISO() }}"
+          }
+        },
+        "options": {}
+      },
+      "id": "node-log",
+      "name": "Log Sale (optional)",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [1200, 300],
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "content": "## Digital Product Sale -> Auto-Deliver\n\n1. Copy this node's Webhook **Production URL** into your payment provider:\n   - **Gumroad**: Settings -> Advanced -> Ping (POST).\n   - **Stripe**: Developers -> Webhooks -> add endpoint (event checkout.session.completed). For Stripe's nested payload, prefer the **Stripe Trigger** node or the free template 3391 (included).\n   - **Lemon Squeezy / Paddle**: add a webhook to this URL.\n2. **Map Buyer & Product**: keep the field name that matches your provider's payload.\n3. **Lookup Download Link**: add your products -> download URLs (edit the object).\n4. **Deliver Product Email**: set SMTP credentials + your From address.\n5. (Optional) enable **Log Sale** with a Google Sheet ID.\n\nTest: open Webhook -> 'Listen for test event', then trigger a real/sandbox sale.",
+        "height": 320,
+        "width": 460
+      },
+      "id": "node-note",
+      "name": "Setup Notes",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [200, 540]
+    }
+  ],
+  "connections": {
+    "Sale Webhook (Stripe/Gumroad)": { "main": [[{ "node": "Map Buyer & Product", "type": "main", "index": 0 }]] },
+    "Map Buyer & Product": { "main": [[{ "node": "Lookup Download Link / License", "type": "main", "index": 0 }]] },
+    "Lookup Download Link / License": { "main": [[{ "node": "Deliver Product Email", "type": "main", "index": 0 }]] },
+    "Deliver Product Email": { "main": [[{ "node": "Log Sale (optional)", "type": "main", "index": 0 }]] }
+  },
+  "settings": { "executionOrder": "v1" },
+  "pinData": {}
+}
