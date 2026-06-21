@@ -122,6 +122,8 @@ description: "Memoria interrogabile di tutti i run di ricerca. Ogni run di niche
 - **maybe**: Aerial dog trolley 60ft (B01M6A1ATC, $8.49→~$27, **~51% margine**, satur. media — il migliore) · Dog car seat cover 600D (B095GYDX22, $14.99→$27.99, 32%, satur. alta)
 - integrity: MSRP Marketplace gonfiato (escluso dal margine); eBay Sold 403 → venduti lower bound, data_quality_ok false 12/14
 - tesi confermata (3ª volta): domanda provata = commodity satura; leva = **costo basso + saturazione media**, non domanda grezza
+- **round 2 (2026-06-21, wf_da6eb1a3-f6d, 10 candidati):** ancora **0 "good"**, 3 "maybe" thin (Trampoline pull tool, Door ball catch, Pencil case — importati per regola), resto avoid → **24 prodotti Amazon testati in 2 round, 0 good**. Conferma: pool Amazon <$20 = commodity satura. Prossimo: **AliExpress** (costo più basso = margini migliori)
+- DRAFT IMPORTATI da questa nicchia (regola "3 ogni ricerca"): R1 = Aerial dog trolley · Dog car seat cover 600D · LED tea lights; R2 = Trampoline pull tool · Door ball catch · Pencil case
 
 #### STORICO (superato da ...)
 <!-- nessuno (v1) -->
