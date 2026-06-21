@@ -113,6 +113,19 @@ description: "Memoria interrogabile di tutti i run di ricerca. Ogni run di niche
 #### STORICO (superato da ...)
 <!-- nessuno (v1) -->
 
+### Amazon→eBay dropship products (ricerca accurata margine reale)
+
+#### CANONE CORRENTE (run 2026-06-21, accurate v1 — QUERY MODE risponde SOLO da questa sezione)
+- last_run: 2026-06-21 · file: `10_OUTPUTS/MARKET_RESEARCH_REPORTS/2026-06-21_amazon-to-ebay-dropship_ACCURATE_v1.md` · workflow wf_80ed0dff-bdc (28 agenti)
+- metodo: AutoDS Marketplace (accesso autorizzato) → 36 generici economici → verifica **prezzo/margine eBay REALE** (non MSRP) + domanda + VeRO, giudizio avversariale
+- verdetto: **nessun "good"; 2 "maybe", 12 "avoid"** su 14. Causa: costo Amazon spesso ≥ prezzo-pavimento eBay → margine sottile/negativo dopo fee
+- **maybe**: Aerial dog trolley 60ft (B01M6A1ATC, $8.49→~$27, **~51% margine**, satur. media — il migliore) · Dog car seat cover 600D (B095GYDX22, $14.99→$27.99, 32%, satur. alta)
+- integrity: MSRP Marketplace gonfiato (escluso dal margine); eBay Sold 403 → venduti lower bound, data_quality_ok false 12/14
+- tesi confermata (3ª volta): domanda provata = commodity satura; leva = **costo basso + saturazione media**, non domanda grezza
+
+#### STORICO (superato da ...)
+<!-- nessuno (v1) -->
+
 ---
 
 <!-- Nessun altro blocco nicchia formale ancora. Il prossimo blocco nicchia reale va sopra questa riga. -->
