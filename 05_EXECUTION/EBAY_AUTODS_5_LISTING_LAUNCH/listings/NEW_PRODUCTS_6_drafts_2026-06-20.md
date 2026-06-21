@@ -53,6 +53,7 @@ Titoli (tutti ≤80) e descrizioni VeRO-safe applicati e **verificati persistiti
 
 ## STATO
 - ✅ **6 importati come DRAFT** (drafts 13→19), titolo+descrizione applicati/verificati.
-- ✅ **2026-06-20: 3 PUBBLICATI (GO owner)** — Backpack Stool, Hinge LED Light, Sink Caddy — titolo ≤80 + desc verificati, **nessun errore eBay** (il blocco account sembra risolto/transitorio), confermati in /products. ⚠️ prezzi live non letti via probe (lag) → controllare in UI, spec. Backpack Stool (costo era CAPTCHA-ignoto).
-- ⏳ **Restano DRAFT (3):** Faucet Splash Mat, Roll-Up Dish Rack, Stretch Lids — pronti, pubblicabili (costo Amazon da confermare prima).
+- ✅ **2026-06-20: TUTTI E 6 PUBBLICATI (GO owner), nessun errore eBay** (blocco account risolto/transitorio), confermati in /products:
+  - Batch 1: Backpack Stool, Hinge LED Light, Sink Caddy (prezzi live da verificare in UI — non letti via probe).
+  - Batch 2 (con cost-gate verificato sano): **Faucet Mat** $9.88→$20.97 (profit $7.59), **Roll-Up Rack** $19.99→$32.97 ($7.68), **Stretch Lids** $9.99→$20.97 ($7.48) — costi reali OK, ~$7.5 profit/u.
 - Comandi/asset: `listings/copy_2026-06-20_new/*.html`. Fonte workflow: wf_ddc8dc83-231.
