@@ -16,6 +16,8 @@ node_modules/
 /90_CACHE/screenshots/**
 /90_CACHE/tools/**
 /90_CACHE/selftests/**
+/90_CACHE/*.py
+/90_CACHE/sims/**
 
 # riammetti i segnaposto di struttura
 !**/.gitkeep

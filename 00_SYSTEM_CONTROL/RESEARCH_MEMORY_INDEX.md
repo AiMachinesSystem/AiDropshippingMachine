@@ -51,6 +51,18 @@ description: "Memoria interrogabile di tutti i run di ricerca. Ogni run di niche
 - open items: confirm eBay market (USER INPUT NEEDED); eBay.it/EU schedule + walled US-help numerics (PUBLIC RESEARCH REQUIRED)
 - integrity flags: AutoDS lists many retailer suppliers (Amazon/Walmart) — recording only; arbitrage prohibition noted, never to be advised
 
+### AutoDS account per-SKU audit (run 2026-06-22, Playwright read-only) — SUPERSEDES catalog-health numbers
+- last_run: 2026-06-22 · type: account-intel per-SKU (read-only, Playwright `audit_listings.py`) · report: `10_OUTPUTS/ANALYSIS_REPORTS/2026-06-22_per-sku-audit_kill-restock-scale_v1.md`
+- **POST-KILL STATE (verified 2026-06-22 audit_044324): catalog 207→99 live** (~108 dead+errored removed, GO owner), **13/13 winners survived**, errors 129→21, total sold unchanged (35). 12 dead+errored not tool-removable (4 un-tickable + 8 no eBay id) → owner manual.
+- pre-kill snapshot: 207/214 pulled · **194 (94%) ZERO lifetime sales** · only **13 SKUs ever sold** (35 units total) · **top-5 = 66%, top-10 = 91%** of sales · **129 (62%) carry error_list flags** · 14 status=1 (OOS/inactive)
+- **13 winners (sold):** Deck Jet pool fountain (6) · Dog Water Ramp (5) · Ham Maker (5) · Pet Grooming Loops (4) · Lian Li PC display (3) · Hedgehog Dryer Balls (3) · Ham Maker v2 (3) · then 1 each: Crochet Kit, Chlorine Feeder, Dog Life Jacket, 2× Pool Cover, Roller Pulley
+- **REAL EDGE = pool/pond/outdoor-water cluster** (~7/13 winners) + kitchen meat-press + pet — NOT the 15 saturated commodity niches; pool gear seasonal (summer peak)
+- pricing canon: live 27% markup ≈ 3× underpriced vs profit-max (sim: optimal ≈ market price / ~2.1× cost)
+- evidence: `90_CACHE/fetches/autods/audit_2026-06-22_041033/_products_list.json` · session valid (saved 2026-06-20)
+- integrity flags: per-SKU sold = lifetime (recency not split); status/error codes inferred; kill actions GO-gated behind keep-list guard
+- **NICHE TRACTION×MARGIN (RUN-03, 2026-06-22, `10_OUTPUTS/SECTOR_PRACTICE/2026-06-22_niche-traction-vs-margin_RUN-03.md`):** catalog = scattergun (70 eBay categories/99). Sales concentrate: **Pool/Water (25 list, 15 units) + Kitchen (12 list, 8 units) = 37% of listings, 66% of sales.** **Demand/margin INVERSION:** selling niches have lowest margin (Pool 26%, Kitchen 27%, Cleaning 28%); high-margin niches don't sell (Beauty 37%, Home/Storage 36%, Bath 34%). → AliExpress re-source leverage highest on Pool+Kitchen; STOP listing Pet/Candle/Garden/Home/Beauty/Outdoor (33 list → 2 units). **DATA FLAG:** this JSON has NO watcher field → RUN-02 watcher counts UNVERIFIED.
+- **CUSTOMER VOICE winner product-types (2026-06-22, `10_OUTPUTS/ANALYSIS_REPORTS/2026-06-22_winner-customer-voice_v1.md`):** pains/desired/over-promise per i 5 tipi Pool/Water+Kitchen → angoli copy per riscrivere le descrizioni. Top pains: pool cover=**vento** (failure mode #1), ham maker=istruzioni scarse+capacità piccola, chlorine feeder/deck jet=**leak/durabilità**, dog ramp=peso/ingombro. **LIMITE [SOURCED non OBSERVED]:** solo sintesi WebSearch — verbatim quote-bank BLOCCATO da muri (Amazon `product-reviews` 503; TroubleFreePool Cloudflare 403 anche via r.jina.ai). Upgrade a verbatim = browser assistito / chrome-devtools MCP (GO).
+
 ### AutoDS account read-only status (run 2026-06-16, Playwright read-session)
 - last_run: 2026-06-16 · type: account-intel (read-only, Playwright) · report: `10_OUTPUTS/autods_status_report.md`
 - store: `Divinit-92-Us` (id 3713044, eBay US, USD) · catalog: **214 active listings + 11 drafts (+4 untracked)** · suppliers: Amazon US + AliExpress/CJ

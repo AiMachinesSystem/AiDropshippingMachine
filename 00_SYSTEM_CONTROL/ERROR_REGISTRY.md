@@ -31,6 +31,27 @@ description: "Registro errori della macchina (protocollo AUTONOMIA CONTROLLATA v
 
 ---
 
+## E-007 — Reprice via AutoDS Bulk Edit = MURO (search non filtra → targeting sbagliato)
+- **Data:** 2026-06-22 (tentativo reprice 2 Ham Maker, GO owner) · **Fix:** nessuno; muro documentato, attempt abortito senza write.
+- **ERRORE:** per riprezzare un listing specifico via Bulk Edit serve selezionarlo; ma la "Search anything" di AutoDS **non filtra la griglia /products**. La verifica ha letto prezzi di **altri prodotti** ($9.99/$20.97/$7.48/$9.88) invece del Ham Maker ($41.83) → la checkbox spuntata era del prodotto sbagliato. **Se avessi premuto Update avrei riprezzato il listing sbagliato su un negozio live.** Inoltre il modale Bulk Edit non espone il campo prezzo nel dump (UI non mappata).
+- **CAUSA:** [OBSERVED] la search-box è globale (header), non un filtro-griglia; il filtro per item_id richiede il flow "Add Filter" (non mappato). Selezione per-riga senza filtro affidabile = non deterministica.
+- **REGOLA:** **non eseguire price-write per-listing finché il targeting non è deterministico** (filtro item_id verificato → 1 sola riga → match id confermato PRIMA di toccare il prezzo). La disciplina "osserva prima di scrivere" ha evitato un mis-pricing live: confermata. 2 tentativi → MURO, stop.
+- **TEST DI REGRESSIONE:** `reprice_one.py` aborta senza write se non trova affordance fixed-price univoca; verifica before/after del prezzo del **giusto** item_id obbligatoria. [Re-tentare solo dopo aver risolto il filtro griglia.]
+
+## E-006 — skill-creator `run_loop` non gira su Windows (claude.ps1) → metriche trigger fasulle
+- **Data:** 2026-06-22 (ottimizzazione description di `dropship-profit-run`) · **Fix:** nessuno applicato; muro documentato + regola di non-fiducia.
+- **ERRORE:** `python -m scripts.run_loop` (skill-creator) → exit 1. **Ogni** query di trigger ha dato `WinError 2`, producendo un **recall=0% FASULLO** (sembrava che la skill non si attivasse mai). Il crash finale è in `improve_description.py`.
+- **CAUSA:** [OBSERVED] su Windows `claude` è `claude.ps1`, non un `.exe`; lo script fa `subprocess.run(["claude", ...])` senza shell → `CreateProcess` non trova un eseguibile `claude` nudo. Tutte le invocazioni `claude -p` falliscono.
+- **REGOLA:** l'ottimizzazione automatica delle description via `run_loop` è un **MURO NOTO** su questa macchina Windows. Le sue metriche di trigger qui sono **artefatti, mai citabili**. Per verificare una skill usare il **subagent sanity-test reale** (osservato funzionante); per ottimizzare la description, girare dove `claude` è un eseguibile diretto o wrappare `claude.ps1`. 2 tentativi → [BLOCKED], avanti.
+- **TEST DI REGRESSIONE:** ri-eseguire riprodurrebbe `WinError 2` finché l'harness non invoca claude via shell. Baseline documentata; recall del log scartato.
+
+## E-005 — Contatore delete inaffidabile + righe non-spuntabili (bulk-delete AutoDS)
+- **Data:** 2026-06-22 (KILL 120 morti+errati, GO owner "all of them") · **Fix:** nessuna modifica al tool necessaria; regola di verifica obbligatoria (sotto). Verifica a freddo PASSATA.
+- **ERRORE:** il loop `remove_oos_listings.py --confirm` ha stampato `deletions performed: 158 / 113` (impossibile, >target), con id duplicati ripetuti nel log (es. `407007332384` "deleted" 6×, un batch di 11 contato 5×). 4 righe (`406103165492`, `406103155439`, `406096432417`, `406092459629`) non si spuntano mai (TimeoutError sul check) → non cancellabili dal tool.
+- **CAUSA:** [OBSERVED] il loop reload-rescan ri-trova gli stessi id PRIMA che la griglia AntD si riflussi dopo il delete (o dopo un batch fallito a metà via TimeoutError) → il contatore `total` doppio-conta; **il numero stampato NON è un conteggio reale di cancellazioni**. Le 4 righe ostinate hanno checkbox detached/overlay non interagibili headless.
+- **REGOLA:** mai fidarsi del contatore del tool di delete. **Ogni azione distruttiva si VERIFICA con un read indipendente a freddo** (conteggio live + sopravvivenza della keep-list) prima di dichiararla fatta. Righe non-spuntabili dopo 2 passate → lasciare all'owner (manuale), non loopare (regola STOP 2-fallimenti).
+- **TEST DI REGRESSIONE:** audit fresco `90_CACHE/.../audit_2026-06-22_044324` → **99 listing vivi (da 207, ~108 rimossi), 13/13 winner presenti, errori 129→21, vendite totali invariate (35)**. PASS (verificato indipendentemente dal log del tool).
+
 ## E-004 — Falso "PASS" del login AutoDS (account Google-SSO, rilevamento debole)
 - **Data:** 2026-06-20 (re-login per sbloccare import; GO owner) · **Fix:** `login_and_save_session.py` hardened (successo = URL `platform.autods.com` autenticato, non `signin`/`/login`) + login manuale Google completato → sessione valida (`status`=9). **CHIUSO** (regression sotto PASSATO).
 - **ERRORE:** `login_and_save_session.py` ha stampato "PASS — session saved", ma il browser era fermo su una pagina **Google OAuth signin** (`accounts.google.com/v3/signin`), NON loggato in AutoDS. La `storage_state.json` salvata era **fasulla** → `manage_draft status` = `None` (sessione invalida). Step sprecato + sovrascritta la vecchia sessione (già logged-out) con una bislacca.
