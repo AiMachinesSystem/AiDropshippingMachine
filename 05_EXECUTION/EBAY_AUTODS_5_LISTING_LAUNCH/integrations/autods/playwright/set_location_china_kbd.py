@@ -16,7 +16,8 @@ from playwright.sync_api import sync_playwright
 loc_val={"v":None}
 def main():
     with sync_playwright() as p:
-        b=p.chromium.launch(headless=True); ctx=b.new_context(storage_state=STATE,viewport={"width":1500,"height":1100}); pg=ctx.new_page()
+        HEADLESS = os.environ.get("HEADED","")!="1"
+        b=p.chromium.launch(headless=HEADLESS); ctx=b.new_context(storage_state=STATE,viewport={"width":1500,"height":1100}); pg=ctx.new_page()
         def cap(r):
             try:
                 if "v2-api.autods.com/products/" in r.url and "/list/" in r.url and "json" in (r.headers or {}).get("content-type",""):
@@ -42,9 +43,17 @@ def main():
           return 'no-selector';
         }""")
         print("open country dd:",opened); pg.wait_for_timeout(1200)
-        # type to filter, then keyboard-select the highlighted match (no need to click a virtualized option)
-        pg.keyboard.type("China", delay=60); pg.wait_for_timeout(1300)
-        pg.keyboard.press("Enter"); pg.wait_for_timeout(900)
+        # type to filter, then CLICK the rendered option (fires AntD onChange so it persists; headed
+        # renders the virtualized list reliably). Keyboard Enter is only a last-resort fallback.
+        pg.keyboard.type("China", delay=60); pg.wait_for_timeout(1500)
+        picked=False
+        try:
+            pg.locator(".ant-select-item-option, [role=option]").filter(has_text=re.compile(r"^\s*China\s*$", re.I)).first.click(timeout=5000); picked=True
+        except Exception:
+            try: pg.get_by_role("option", name=re.compile(r"^\s*China\s*$", re.I)).first.click(timeout=3000); picked=True
+            except Exception: pass
+        if not picked: pg.keyboard.press("Enter")
+        print("clicked China option:", picked); pg.wait_for_timeout(900)
         seltext=pg.evaluate(r"""()=>{const items=[...document.querySelectorAll('.ant-select-selection-item')]; const it=items.find(e=>/china|united states/i.test(e.innerText||'')); return it?it.innerText.trim():null;}""")
         print("country selector now:",seltext)
         # Save
