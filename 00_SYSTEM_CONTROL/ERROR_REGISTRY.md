@@ -31,6 +31,20 @@ description: "Registro errori della macchina (protocollo AUTONOMIA CONTROLLATA v
 
 ---
 
+## E-013 — AutoDS desc-persist (CKEditor setData) fallisce su certi draft ("PERSISTED: False")
+- **Data:** 2026-06-24 (publish "altri 5", GO owner 100%) · **Fix:** nessuno; muro per-draft, regola sotto.
+- **ERRORE:** `set-desc` su slow feeder bowl (`6a3bc3bde...`) e snuffle mat (`6a3bc614...`) → `setData: set / save: ok` ma **`PERSISTED: False` ×2 ciascuno**. La descrizione riscritta non si verifica al re-read del CKEditor → non pubblico (owner richiede desc riscritta + rischio VeRO con desc scrapata). 2 prodotti bloccati. Pattern: i draft delle ULTIME import-batch (dopo ~30 op Playwright in sessione) falliscono, mentre i primi 12 (acrylic … measuring, shower hooks) persistevano → possibile **degrado/fatica della sessione headless**.
+- **CAUSA:** [OBSERVED] CKEditor `setData` non committa lo state (o il verify non lo ritrova) su alcuni draft; correlato a sessioni lunghe/pesanti (storage_state riusato per molte op). NON product-specific (snuffle/slow bowl sono single-config sani, region 1, profit ~$7.5).
+- **REGOLA:** verificare SEMPRE `PERSISTED: True` della desc PRIMA di pubblicare; 2 fallimenti su un draft → NON pubblicare (mai con desc scrapata). Mitigazione: limitare le op CKEditor per sessione; se desc-persist inizia a fallire, chiudere e riprendere con **sessione fresca** (`login_and_save_session`) prima di continuare.
+- **TEST DI REGRESSIONE:** `set-desc` su draft fresco in sessione nuova → atteso `PERSISTED True`; in sessione affaticata può dare False. [Da ri-verificare a freddo con sessione fresca].
+
+## E-012 — AutoDS scrape-sentinel `buy=$133.13 / stock=0` = import fallito (prodotti con varianti)
+- **Data:** 2026-06-24 (publish "altri 5", GO owner 100%) · **Fix:** nessuno; signature documentata, regola sotto.
+- **ERRORE:** import di drawer dividers (`B07GL78Z1D`, `B07PVYW8HX`) e herb scissors (`B0CR3DLZZR`, `B0DY447RCJ`) → economics `buy=133.13 sell=198.97 profit=35.64 stock=0` — tripletta SENTINEL identica (anche il pencil case `B093BVNR32` la mostra). Non sono prezzi reali: è il fallback di AutoDS quando lo scrape Amazon fallisce. Pubblicarli = listare a $198.97 stock 0 (rotto). 4 import sprecati questa sessione.
+- **CAUSA:** [OBSERVED] AutoDS non riesce a scrappare prodotti Amazon con **molte varianti** (size 17-22", colori) → riempie con `133.13/198.97/0`. I single-config (spice rack, acrylic, splatter, measuring, shower hooks, snuffle, headrest, stretch lids, slow bowl) scrappano puliti con prezzi reali.
+- **REGOLA:** dopo ogni import leggere economics; **se `buy≈133.13 AND stock==0` → scrape FALLITO, scartare il draft, NON pubblicare**. Preferire ASIN **single-configuration** (no varianti size/color) per l'import Amazon→AutoDS. La signature `133.13/0` = "import failed", mai un prezzo.
+- **TEST DI REGRESSIONE:** import ASIN multi-variante → `133.13/0` (fail atteso); import single-config → buy reale + stock>0. Confermato 5× questa sessione (pencil, 2× drawer divider, 2× herb scissors).
+
 ## E-011 — Bulk `percentage_profit` IMPOSTA il margine (non "aggiunge 2%") → crollo prezzo; cold-test l'ha intercettato
 - **Data:** 2026-06-24 (reprice +2% "fallo tu", GO owner) · **Fix:** nessun danno persistente — listing ripristinato + regola; tool `reprice_apply.py`.
 - **ERRORE:** per fare "+2% sul prezzo" ho impostato via AutoDS Bulk Edit `Additional profit % = 2` su 1 solo annuncio (cold-test). Risultato [OBSERVED]: Splatter Screen **$20.97 → $12.97** (−38%, margine netto $7.48 → $0.68). Il campo **SETta** il margine di profitto al 2%, non "aggiunge 2% al prezzo". **Se applicato ai 96, avrebbe azzerato il margine di tutto il negozio live.** Il cold-test su 1 lo ha intercettato; listing **ripristinato a $20.97** (calibrato `percentage_profit`=74, verificato con pull fresco indipendente).
