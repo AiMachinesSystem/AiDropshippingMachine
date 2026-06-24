@@ -66,3 +66,8 @@ in machine learning/rules · update report with FACT/ESTIMATE/UNKNOWN · final g
 - 2026-06-24 02:26 — REPRICE DRY-RUN DONE (reprice_all_dryrun.py): 96 active, total $6211.97 -> +2% $6336.25 (Δ$124.28).
   **Blocker found: price-monitoring ON for all 96** → a fixed +2% would be auto-overwritten; durable +2% = markup-rule change.
   No verified price-WRITE mechanism yet; "rinnuova" ambiguous. STOPPED at GO gate. Nothing changed. Committing reprice tool.
+- 2026-06-24 02:48 — Owner GO "usa playwright e fallo tu". Cracked WRITE API: PUT /products/<store>/bulk
+  {bulk_changes:{percentage_profit:{mode:1,value:N}}}. COLD-TEST on 1 listing (Splatter Screen) revealed
+  percentage_profit=2 SETS margin -> price CRASHED 20.97->12.97 (would have zeroed all 96 margins). E-011 logged.
+  RESTORED Splatter Screen to 20.97 (calibrated p=74, verified fresh pull). Flat +2% NOT achievable via this lever;
+  needs per-item calc. STOPPED rollout. Reporting to owner with options. Committing reprice_apply.py + E-011.
