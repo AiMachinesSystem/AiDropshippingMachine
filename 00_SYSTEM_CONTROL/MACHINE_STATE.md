@@ -39,6 +39,14 @@ Commands: /niche-run · /competitor-scan · /ads-scan · /launch-prep · /daily-
 > di terze parti installate in `~\.claude\skills` (es. set Obsidian) si installano per macchina
 > e si annotano qui — non vengono ereditate dal template.
 
+## SUBAGENT DELLA MACCHINA (in `.claude\agents\` del repo, versionati — firewall per-progetto)
+| Agente | Ruolo | Tools | Gate |
+|---|---|---|---|
+| `us-product-scout` | ricerca prodotti US-sourced (Amazon US → eBay), data-first, verdetto onesto | Read/Write/Grep/Glob/WebFetch/WebSearch/Bash | read-only research; mai publish/spesa |
+| `draft-publisher` | ottimizza draft (titolo ≤80, descr. VeRO-safe), prepara al publish | Read/Write/Grep/Glob/Bash | STOP al GO gate del publish |
+| `vault-auditor` | manutenzione conservativa vault + AUTO-REFRESH cockpit; compone `vault-librarian` | Read/Edit/Write/Glob/Grep | nessun write esterno; mai push |
+Audit: ogni agente scrive su Airtable `Agent activity log` (vedi INTEGRAZIONI), fallback `.remember/now.md`. Istituito 2026-06-23 (missione `MISSION_AGENT_WORKFLOW_SETUP_2026-06-23.md`).
+
 ## STRUMENTI LOCALI
 - `<es. Playwright + Chromium headless>` — screenshot evidenza in `90_CACHE\screenshots\`; vedi playbook.
 - `<es. n8n>` — stato install (playbook + workflow JSON in PLAYBOOKS).
@@ -48,6 +56,7 @@ Commands: /niche-run · /competitor-scan · /ads-scan · /launch-prep · /daily-
 ## INTEGRAZIONI
 - Connettori/MCP dati: nessuno collegato. Nessun accesso a eBay, AutoDS o fornitori. Solo lettura di pagine pubbliche (via proxy) finché non c'è GO per write-action.
 - Metodo web validato: pagine bloccate leggibili via prefisso `https://r.jina.ai/` (lower bound, retry ≤2).
+- **Airtable Agent activity log** (audit interno degli agenti, NON un connettore dati eBay/AutoDS): base `appPgvhRkzqSdVciL` / tabella `Agent activity log` `tblRhHSf0kzb62RHi` — protocollo e field-id in `00_SYSTEM_CONTROL\AGENT_ACTIVITY_LOG.md`. Collegato 2026-06-23 via owner GO.
 
 ## PROGETTI E FASE
 | Progetto | Fase | Note |
