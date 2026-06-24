@@ -5,7 +5,7 @@ tags:
 type: reference
 status: active   # Airtable base/table created 2026-06-23; ids below
 description: "Pointer + write protocol for the machine's Agent activity log (Airtable). The 3 subagents and the orchestrator append decision/blocker/completion rows here. File-based fallback (.remember/now.md) when the base id is absent or the MCP is unreachable."
-created_real: "<first git commit>"
+created_real: "0d4aed3 (2026-06-23)"
 ---
 
 # AGENT ACTIVITY LOG — pointer & protocol

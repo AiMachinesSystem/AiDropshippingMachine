@@ -3,7 +3,7 @@ tags:
   - mission
 type: mission
 status: complete
-created_real: "<first git commit>"
+created_real: "0d4aed3 (2026-06-23)"
 risk_class: MIXED  # internal agent files (no gate) + 1 GO-CLASS step (Airtable base/table = external write)
 owner_command: "TUTTO! (build subagents + Airtable agent activity log)"
 ---
