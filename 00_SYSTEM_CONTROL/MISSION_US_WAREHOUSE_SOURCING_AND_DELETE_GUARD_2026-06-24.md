@@ -63,3 +63,6 @@ in machine learning/rules · update report with FACT/ESTIMATE/UNKNOWN · final g
 - 2026-06-24 02:21 — P2 DONE. delete_drafts_guarded.py dry-run: 5 would-delete, keep-list safe, 3 retained, 0 deleted.
 - 2026-06-24 02:22 — P3 DONE (L-004 US-warehouse-first in sop_improvements.md). P4 (FACT/EST/UNK in report). Cockpit refreshed.
   NEW owner intent queued: "rinnuova tutti gli annunci +2%" = live GO-CLASS → next: reprice dry-run + STOP at gate. Committing P1-P4.
+- 2026-06-24 02:26 — REPRICE DRY-RUN DONE (reprice_all_dryrun.py): 96 active, total $6211.97 -> +2% $6336.25 (Δ$124.28).
+  **Blocker found: price-monitoring ON for all 96** → a fixed +2% would be auto-overwritten; durable +2% = markup-rule change.
+  No verified price-WRITE mechanism yet; "rinnuova" ambiguous. STOPPED at GO gate. Nothing changed. Committing reprice tool.
