@@ -62,3 +62,20 @@ date: 2026-06-15
 | Repeatability condition | N/A (hygiene rule) |
 | SOP update needed | Optional: fold the rule into `VAULT_CONVENTIONS` on owner request (not done now — convention proposed, not yet ratified into governance). |
 | Scaling relevance | Not applicable. |
+
+## L-004 — US-warehouse-first sourcing (no China warehouse when item-location US creates a policy/shipping mismatch)
+
+| Field | Value |
+|---|---|
+| Date | 2026-06-24 |
+| Source action | US-warehouse sourcing mission (MISSION_US_WAREHOUSE_SOURCING_AND_DELETE_GUARD_2026-06-24), owner GO Luca 2026-06-24 |
+| Source KPI/report | `10_OUTPUTS/SOURCING_REPORTS/2026-06-24_us-warehouse-sourcing-shortlist_v1.md` + draft triage `10_OUTPUTS/ANALYSIS_REPORTS/2026-06-24_draft-portfolio-triage_vs_winning-niches_v1.md`. Evidence cache `90_CACHE/fetches/autods/mkt_source_2026-06-24_021122`. |
+| What happened | The 5 AliExpress drafts could not be published: they are **CN-warehouse**, so eBay resolves a China-origin shipping service against a **US item-location** → "This shipping service is not available for this item location" (errors E-008, E-010). The item-location field would not persist via automation (E-010), so the wall could not be cleared at publish time. Cross-referencing the AutoDS Marketplace `product_details.min_price_warehouse` field showed the fix is at the SOURCE, not the listing: **US-warehouse products validate natively against a US item-location** (like the ~91 working live listings) and ship in 1–5 days vs ~22. |
+| Evidence label | [OBSERVED — products API `error_list` + `item_country_location`, 2026-06-23/24] · [FACT — `min_price_warehouse` US/CN field, marketplace pull 2026-06-24] |
+| Affected module | Data Source Discovery / Execution (sourcing) |
+| KPI impact | Removes a hard publish-blocker (0/5 → avoidable at source); faster shipping improves conversion & defect risk. |
+| Root cause | Sourcing did not constrain on warehouse; CN-warehouse + US item-location is an invalid shipping/location pair that no listing-side edit reliably fixes via automation. |
+| Prevention rule | **PERMANENT SOURCING RULE — US-WAREHOUSE-FIRST.** When the eBay item-location is US, source ONLY products whose AutoDS `min_price_warehouse == "US"`. Do **not** source CN-warehouse items into a US-located store: it reproduces the China-origin-service / US-location mismatch (E-008/E-010) that automation cannot clear. Verify warehouse from the products/marketplace API (`min_price_warehouse`), never from a UI label. Prefer ship-time ≤ 5 days. Trade-off to weigh explicitly: in the AutoDS marketplace, fast US-warehouse generic commodities are predominantly `site_name == "amazon"` (retail-arbitrage account-health risk — label it `eBay-policy = MED`), whereas `aliexpress` US-warehouse items carry lower policy risk but ship 10–14 days. Choose per the owner's risk/speed preference; never hide the retail-arb risk. |
+| Repeatability condition | Applies to every sourcing run while the store's item-location is US. |
+| SOP update needed | Yes — folded into the sourcing toolchain: `marketplace_source.py` + `rank_us_source.py` filter on `min_price_warehouse == "US"` by default. Linked from `VISION`/sourcing playbook on next pass. |
+| Scaling relevance | Validated mechanism (directly observed); safe to scale to all future sourcing. |

@@ -56,3 +56,10 @@ in machine learning/rules · update report with FACT/ESTIMATE/UNKNOWN · final g
 ## Recovery log (update every step)
 - 2026-06-24 02:02 — Mission written. Read manage_draft.py / remove_oos_listings.py / read_draft_economics.py /
   read_draft_errors.py / inspect_delete_dialog.py / read_marketplace.py / LEARNING_SYSTEM.md. Next: P1a build probe.
+- 2026-06-24 02:06 — P1a/P1b DONE. marketplace_filter_probe.py + probe2 → **filter API cracked**:
+  POST gw.autods.com/marketplace/api/products/, filters search_query/category/rating/rating_count/price; auth=Bearer.
+- 2026-06-24 02:11 — P1c/P1d DONE. marketplace_source.py pulled 1669 (1077 US-WH); rank_us_source.py → 51 TEST.
+  Report 10_OUTPUTS/SOURCING_REPORTS/2026-06-24_us-warehouse-sourcing-shortlist_v1.md.
+- 2026-06-24 02:21 — P2 DONE. delete_drafts_guarded.py dry-run: 5 would-delete, keep-list safe, 3 retained, 0 deleted.
+- 2026-06-24 02:22 — P3 DONE (L-004 US-warehouse-first in sop_improvements.md). P4 (FACT/EST/UNK in report). Cockpit refreshed.
+  NEW owner intent queued: "rinnuova tutti gli annunci +2%" = live GO-CLASS → next: reprice dry-run + STOP at gate. Committing P1-P4.
