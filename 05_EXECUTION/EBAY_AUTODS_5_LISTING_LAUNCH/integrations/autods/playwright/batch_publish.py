@@ -117,7 +117,13 @@ def main():
             log("  -> SKIP import/title (match=%r). tail: %s" % (match, out.strip()[-160:])); results.append((asin, "SKIP-import")); continue
         did = m_id.group(1)
         if not ok_desc:
-            log("  -> SKIP desc not PERSISTED (E-013)"); results.append((asin, "SKIP-desc")); continue
+            # E-013 mitigation: retry set-desc once on a fresh subprocess (fresh session) before giving up
+            log("  -> desc not PERSISTED, retrying set-desc once (E-013 mitigation)")
+            rt = run([PY, os.path.join(HERE, "manage_draft.py"), "set-desc", "--id", did, "--desc-file", descfile], 150)
+            if "PERSISTED: True" in rt:
+                ok_desc = True; log("     retry OK (desc persisted)")
+            else:
+                log("  -> SKIP desc not PERSISTED after retry (E-013)"); results.append((asin, "SKIP-desc")); continue
 
         econ = run([PY, os.path.join(HERE, "read_draft_economics.py")], 150)
         row = [l for l in econ.splitlines() if did in l]
