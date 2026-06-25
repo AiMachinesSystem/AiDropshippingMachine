@@ -9,6 +9,9 @@ autods_credentials.env
 *.credentials.env
 storage_state.json
 storage_state*.json
+*storage_state*.json
+ebay_storage_state.json
+ebay_credentials.env
 # the .example template IS tracked (no secrets in it)
 !autods_credentials.env.example
 
