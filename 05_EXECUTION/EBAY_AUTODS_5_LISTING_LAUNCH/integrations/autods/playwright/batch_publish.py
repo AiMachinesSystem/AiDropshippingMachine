@@ -20,7 +20,10 @@ LOGDIR = None
 BRAND = re.compile(r"\b(akro-?mils|usa pan|honey-?can-?do|voten|iron american|holdn|u\.s\.|vtopmart|"
                    r"vremi|zulay|joseph|oxo|pyrex|lodge|camp chef|yiifeeo|nutrichef|sensarte|cuisinel|"
                    r"bruntmor|circulon|esplite|eslite|komuee|frieling|uptronic|blitzlabs|razab|italic|"
-                   r"shineuri|fin fun|pardise|e-cloth|bankers|granitestone|hexclad)\b", re.I)
+                   r"shineuri|fin fun|pardise|e-cloth|bankers|granitestone|hexclad|household essentials|"
+                   r"smart design|lock ?& ?lock|zenacasa|shumaru|\bbull\b|convenience concepts|armocity|"
+                   r"yaheetech|ella ?& ?emma|elifine|diveblast|neteast|hitop|fritz|bedwina|kooper|otdair|"
+                   r"lightdot|banord|porch shield|vailge|arcedo|tempera|easy-going|startwo|tomcare)\b", re.I)
 
 
 def gen_title(mtitle):
