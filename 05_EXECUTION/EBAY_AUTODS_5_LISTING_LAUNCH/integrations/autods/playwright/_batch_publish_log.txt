@@ -1,0 +1,62 @@
+=== BATCH PUBLISH start | target=20 | candidates=9 ===
+
+[1/9 attempt, 0 live] B08H5197YC | niche=kitchen | title='California Large Edge Grain Butcher Block Cutting B'
+  -> SKIP import/title (match='shumaru california'). tail:  title matches /shumaru california/
+== FIND ID ==
+  id: None
+--------------------------------------------------
+RESULT: title=False id=None desc=None image=None
+
+[2/9 attempt, 0 live] B07KMG4KRW | niche=kitchen | title='Under Shelf Basket iSPECLE 6 Pack Under Cabinet Organizer E'
+  -> PUBLISHED (1 live)
+
+[3/9 attempt, 1 live] B07HDYF5MZ | niche=kitchen | title='Starpack Like a Boss XL Silicone Cooking Utensils Set (6 Pie'
+  -> PUBLISHED (2 live)
+
+[4/9 attempt, 2 live] B08VHXN57P | niche=kitchen | title='Refrigerator Organizer Bins Stackable Freezer Lettuce Keepe'
+  -> PUBLISHED (3 live)
+
+[5/9 attempt, 3 live] B08XQNQM63 | niche=kitchen | title='Glass Canisters With Airtight Bamboo Lids 3 Pack 80oz Cere'
+  -> PUBLISHED (4 live)
+
+[6/9 attempt, 4 live] B085Y1B88X | niche=kitchen | title='Pool Cover Pump Above Ground Submersible Sump Pump Swimmi'
+  -> SKIP import/title (match='pool cover'). tail: immi
+  save: saved
+  PERSISTED: True
+== FIND ID ==
+  id: None
+--------------------------------------------------
+RESULT: title=True id=None desc=None image=None
+
+[7/9 attempt, 4 live] B0CDZTJ1PW | niche=kitchen | title='Delamu 2 Sets of 3 Tier Bathroom Under Sink Organizers and S'
+  -> SKIP import/title (match='delamu 2'). tail: ] no draft title matches /delamu 2/
+== FIND ID ==
+  id: None
+--------------------------------------------------
+RESULT: title=False id=None desc=None image=None
+
+[8/9 attempt, 4 live] B08L5X8JM3 | niche=kitchen | title='2 Tier Dish Rack and Drainboard Set Romision 304 Stainless'
+  -> SKIP import/title (match='2 tier'). tail: SS] no draft title matches /2 tier/
+== FIND ID ==
+  id: None
+--------------------------------------------------
+RESULT: title=False id=None desc=None image=None
+
+[9/9 attempt, 4 live] B08SQX66C9 | niche=kitchen | title='Rubtlamp 22.5 25 Lbs Pink Rice Dispenser Rice Storage Conta'
+  -> SKIP import/title (match='rubtlamp 22'). tail: o draft title matches /rubtlamp 22/
+== FIND ID ==
+  id: None
+--------------------------------------------------
+RESULT: title=False id=None desc=None image=None
+
+=== SUMMARY: published=4 / target=20 | attempts=9 ===
+  B08H5197YC : SKIP-import
+  B07KMG4KRW : PUBLISHED
+  B07HDYF5MZ : PUBLISHED
+  B08VHXN57P : PUBLISHED
+  B08XQNQM63 : PUBLISHED
+  B085Y1B88X : SKIP-import
+  B0CDZTJ1PW : SKIP-import
+  B08L5X8JM3 : SKIP-import
+  B08SQX66C9 : SKIP-import
+BATCH_RESULT published=4
