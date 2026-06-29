@@ -1,0 +1,16 @@
+auth captured: True
+
+=== hot tub cover spa | ceiling $50.64 | eBay sold 495 | US results:0/0 ===
+  VERDICT: NO US SKU under ceiling -> retail can't meet, needs wholesale
+
+=== in line chlorine feeder pool | ceiling $39.31 | eBay sold 73 | US results:0/0 ===
+  VERDICT: NO US SKU under ceiling -> retail can't meet, needs wholesale
+
+=== patio furniture sectional cover waterproof | ceiling $21.23 | eBay sold 50 | US results:0/0 ===
+  VERDICT: NO US SKU under ceiling -> retail can't meet, needs wholesale
+
+=== deck jet pool fountain | ceiling $21.91 | eBay sold 31 | US results:0/0 ===
+  VERDICT: NO US SKU under ceiling -> retail can't meet, needs wholesale
+
+=== pool skimmer net | ceiling $3.30 | eBay sold 46 | US results:0/0 ===
+  VERDICT: NO US SKU under ceiling -> retail can't meet, needs wholesale
