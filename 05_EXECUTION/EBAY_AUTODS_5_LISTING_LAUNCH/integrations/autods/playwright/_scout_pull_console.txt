@@ -1,0 +1,107 @@
+MKT sourcing run: 2026-06-29_113230
+demand gate: rating>4.3  rating_count>300  | clusters:36  pages:4  limit:50
+--------------------------------------------------------------------------------
+  [Pool/Water — Pools, hot tubs & supplies] collected ~82
+  [Pool/Water — search 'pool cover'] collected ~200
+  [Pool/Water — search 'pool skimmer'] collected ~200
+  [Kitchen — Utensils & Gadgets] collected ~200
+  [Kitchen — Cookware] collected ~200
+  [Meat/Food prep — Grills & Outdoor cook] collected ~67
+  [Meat/Food prep — search 'meat'] collected ~200
+  [Meat/Food prep — search 'garlic press'] collected ~200
+  [Meat/Food prep — search 'vegetable chopper'] collected ~200
+  [Commodity — Home cleaning] collected ~200
+  [Commodity — Storage & Organization] collected ~200
+  [Pet — search 'dog'] collected ~200
+  [Pet — search 'cat'] collected ~200
+  [Bath — search 'bathroom organizer'] collected ~200
+  [Garage — search 'garage storage'] collected ~200
+  [Garden — search 'garden'] collected ~200
+  [Office — search 'desk organizer'] collected ~200
+  [Car — search 'car organizer'] collected ~200
+  [Laundry — search 'laundry'] collected ~200
+  [Closet — search 'closet organizer'] collected ~200
+  [Outdoor — search 'patio'] collected ~200
+  [35+ Feet — search 'plantar fasciitis insoles'] collected ~200
+  [35+ Feet — search 'arch support shoe inserts'] collected ~200
+  [35+ Back — search 'lumbar support pillow'] collected ~200
+  [35+ Back — search 'seat cushion'] collected ~200
+  [35+ Desk — search 'cable management box'] collected ~200
+  [35+ Legs — search 'compression socks'] collected ~200
+  [35+ Wrist — search 'gel wrist rest'] collected ~200
+  [35+ Hands — search 'jar opener'] collected ~200
+  [35+ Storage — search 'vacuum storage bags'] collected ~200
+  [35+ Desk — search 'laptop stand'] collected ~200
+  [35+ Desk — search 'monitor riser'] collected ~200
+  [35+ Pet — search 'dog slow feeder bowl'] collected ~200
+  [35+ Baby — search 'baby proofing kit'] collected ~200
+  [35+ Eyes — search 'lighted magnifier'] collected ~199
+  [35+ Clean — search 'electric spin scrubber'] collected ~200
+--------------------------------------------------------------------------------
+total unique products pulled: 6138 | US-warehouse: 3471 | cleared strict rating_count>=1000: 0
+CACHE: C:\AI Machine ebay-autoDS\AiDropshippingMachine\90_CACHE\fetches\autods\mkt_source_2026-06-29_113230
+==============================================================================================================
+REC  WH  shipd buy    sell   margin mgn%  rcount  vero  pol   | title
+--------------------------------------------------------------------------------------------------------------
+TEST US  5    749.99 1012.49 262.5  25.9  None    LOW   LOW   | EUHOMY 90 Can Beverage Refrigerator cooler, Mini Fridge Glass Door for
+TEST US  5    723.18 954.6  231.42 24.2  None    LOW   LOW   | Chamberlain Smart Garage Door Opener - Wall Mounted - myQ Smartphone C
+TEST US  3    749.95 959.94 209.99 21.9  None    LOW   LOW   | Sven & Son Harmony Adjustable Bed Base, Head and Foot Lift, Massage, U
+TEST US  7    649.95 857.93 207.98 24.2  None    LOW   LOW   | Sven & Son Classic Adjustable Bed Base, Head and Foot Lift, Massage, U
+TEST US  7    649.95 857.93 207.98 24.2  None    LOW   LOW   | Sven & Son Classic Adjustable Bed Base, Head and Foot Lift, Massage, U
+TEST US  7    649.95 844.94 194.99 23.1  None    LOW   LOW   | Sven & Son Classic Adjustable Bed Base, Head and Foot Lift, Massage, U
+TEST US  7    649.95 844.94 194.99 23.1  None    LOW   LOW   | Sven & Son Classic Adjustable Bed Base, Head and Foot Lift, Massage, U
+TEST US  7    649.95 838.44 188.49 22.5  None    LOW   LOW   | Sven & Son Classic Adjustable Bed Base, Head and Foot Lift, Massage, U
+TEST US  7    649.95 831.94 181.99 21.9  None    LOW   LOW   | Sven & Son Classic Adjustable Bed Base, Head and Foot Lift, Massage, U
+TEST US  7    649.95 812.44 162.49 20.0  None    LOW   LOW   | Sven & Son Classic Adjustable Bed Base, Head and Foot Lift, Massage, U
+TEST US  5    369.0  501.84 132.84 26.5  None    LOW   LOW   | Ergotron – HX HD Premium Heavy Duty Gaming Monitor Arm, Single Monitor
+TEST US  3    249.99 372.49 122.5  32.9  None    LOW   LOW   | John Timberland Sitting Buddha Statue Sculpture Zen Asian Japanese Gar
+TEST US  1    262.69 380.9  118.21 31.0  None    LOW   LOW   | Nouhaus +Posture Ergonomic PU Leather Office Chair. Click5 Lumbar Supp
+TEST US  4    265.0  371.0  106.0  28.6  None    LOW   LOW   | Genie SilentMax 1000 Garage Door Opener - Ultra-Quiet Belt Drive - Inc
+TEST US  5    201.57 302.36 100.79 33.3  None    LOW   LOW   | SereneLife Portable Infrared Home Spa- One Person Sauna, Heating Foot 
+TEST US  5    210.54 307.39 96.85  31.5  None    LOW   LOW   | Century UST1102 1-Horsepower Up-Rated Round Flange Replacement Motor (
+TEST US  5    203.99 287.63 83.64  29.1  None    LOW   MED   | TRUE CABLE Cat6 Riser (CMR), 1000ft, Blue, 23AWG 4 Pair Solid Bare Cop
+TEST US  5    211.71 294.28 82.57  28.1  None    LOW   MED   | DlandHome L-Shaped Computer Desk 59 inches x 59 inches, Composite Wood
+TEST US  5    245.99 324.71 78.72  24.2  None    LOW   MED   | Medium Makeup Train Case with Code Lock, Lighted Mirror, Speaker Trave
+TEST US  5    179.99 257.39 77.4   30.1  None    LOW   LOW   | Snailax shiatsu Neck & Back Massager with Heat, Full Back Kneading Shi
+TEST US  5    159.99 231.99 72.0   31.0  None    LOW   LOW   | Sterilite Heavy Duty 40 Gallon Wheeled Industrial Storage Tote, 4-Pack
+TEST US  2    139.0  205.72 66.72  32.4  None    LOW   LOW   | Mason Jar Bathroom Accessories Set 4 Pcs - Black - Mason Jar Soap Disp
+TEST US  4    199.99 263.99 64.0   24.2  None    LOW   LOW   | Mini Educator E-Collar ET-300 / ET-302 Dog Training Collar System with
+TEST US  4    192.99 256.68 63.69  24.8  None    LOW   MED   | Ergotron – LX Monitor Arm, Single Monitor Desk Mount – fits Flat Curve
+TEST US  7    169.99 232.89 62.9   27.0  None    LOW   MED   | Tubstr 3-Tier Rolling Utility Cart with Wheels | Supports 300 lbs. Tot
+TEST US  5    129.99 192.39 62.4   32.4  None    LOW   LOW   | Vlsrka 47x16 Full Length Mirror with RGB Lights, LED Over The Door Lig
+TEST US  5    129.99 192.39 62.4   32.4  None    LOW   LOW   | Vlsrka 47x16 Full Length Mirror with RGB Lights, LED Over The Door Lig
+TEST US  1    132.0  192.72 60.72  31.5  None    LOW   LOW   | Flair Signature Espresso Maker - An all manual espresso press to handc
+TEST US  7    129.99 189.79 59.8   31.5  None    LOW   LOW   | VINGLI Rolling Ice Chest, Portable Patio Party Bar Drink Cooler Cart, 
+TEST US  2    138.77 198.44 59.67  30.1  None    LOW   LOW   | Granite Stone Green Cookware Set Nonstick Pots and Pans Set– 10pc Cook
+TEST US  5    149.98 208.47 58.49  28.1  None    LOW   LOW   | RENPHO Full Foot Massager Machine, 2026 Upgraded Shiatsu Foot Massager
+TEST US  5    136.36 193.63 57.27  29.6  None    LOW   MED   | Traxion 2-230 Monster Rolling Padded Mechanic Stool Seat Garage Shop R
+TEST US  4    129.99 185.89 55.9   30.1  None    LOW   MED   | Vornado 293 Large Heavy Duty Shop Fan, 3 Speed Electric Fan, High Impa
+TEST US  5    110.49 165.73 55.24  33.3  None    LOW   LOW   | Liberty GARDEN 704 Decorative Cast Aluminum Wall Mount Garden Hose Ree
+TEST US  7    139.96 191.75 51.79  27.0  None    LOW   LOW   | Kidzone 6V Electric Ride On Bumper Car for Kids & Toddlers 1.5-5 Years
+TEST US  5    119.99 171.59 51.6   30.1  None    LOW   LOW   | PORTAL Oversized Mesh Back Zero Gravity Reclining Patio Chairs, XL Pad
+TEST US  5    163.95 214.77 50.82  23.7  None    LOW   LOW   | Kraus KHU100-32 Standart PRO 16 Gauge Undermount Single Bowl Stainless
+TEST US  4    107.95 158.69 50.74  32.0  None    LOW   LOW   | NutriChef 18-Piece Nonstick Ceramic Cookware Set with Detachable Handl
+TEST US  5    129.99 180.69 50.7   28.1  None    LOW   LOW   | VisionOwl Portable Monitor Dual 15.6 Inch 1080P FHD 107% sRGB Foldable
+TEST US  5    192.99 243.17 50.18  20.6  None    LOW   MED   | Ergotron – LX Monitor Arm, Single Monitor Desk Mount – fits Flat Curve
+TEST US  6    104.87 154.16 49.29  32.0  None    LOW   MED   | SHW 55-Inch Commercial-Grade Office Computer Desk, Cherry
+TEST US  3    103.97 152.84 48.87  32.0  None    LOW   LOW   | MSmask 67" Large Cat Tree, Multi-Level Cat Tower with 3 Top Perches, 2
+TEST US  5    109.99 157.29 47.3   30.1  None    LOW   LOW   | Blue Diamond 14 Piece Cookware Set, Diamond Infused PFAS & PFOA-Free C
+TEST US  7    159.99 206.39 46.4   22.5  None    LOW   MED   | BenQ EL2870U 28 inch 4K Monitor for Gaming 1ms Response Time, FreeSync
+TEST US  5    94.49  140.79 46.3   32.9  None    LOW   LOW   | Polar H10 Heart Rate Monitor Chest Strap - ANT + Bluetooth, Waterproof
+TEST US  4    117.27 163.01 45.74  28.1  None    LOW   LOW   | WEN 4208T 2.3-Amp 8-Inch 5-Speed Cast Iron Benchtop Drill Press,Black/
+TEST US  5    109.95 153.93 43.98  28.6  None    LOW   LOW   | Restrial Life Yoga Headstand Bench- Stand Yoga Chair for Family, Gym -
+TEST US  6    121.97 164.66 42.69  25.9  None    LOW   LOW   | Indoor Grill Electric Grill CUSIMAX Smokeless Grill Portable Korean BB
+TEST US  5    87.97  130.2  42.23  32.4  None    LOW   MED   | Sceptre 24-inch Prime Monitor Thin 1080p LED Monitor 99% sRGB 2x HDMI 
+TEST US  6    97.03  138.75 41.72  30.1  None    LOW   LOW   | Calloway Mills 900222436 Gatsby Rubber Doormat 2' x 3'
+TEST US  7    108.0  149.04 41.04  27.5  None    LOW   MED   | Stand Up Desk Store Add-On Office Sliding Under-Desk Drawer Storage Or
+TEST US  6    129.99 170.29 40.3   23.7  None    LOW   LOW   | Granitestone Cookware Set, Large, Red
+TEST US  5    105.05 144.97 39.92  27.5  None    LOW   LOW   | NutriChef 11 Piece Nonstick Ceramic Cookware Set - Pots and Pans Set w
+TEST US  5    129.99 168.99 39.0   23.1  None    LOW   LOW   | Yard Garden Wind Spinner - Large Outdoor Wind Sculptures Spinners, Tul
+TEST US  5    139.99 177.79 37.8   21.3  None    LOW   LOW   | VIPEK V5 Heavy Duty Clothes Rack, Portable Closet Wardrobe with 4 Hang
+TEST US  7    144.95 182.64 37.69  20.6  None    LOW   LOW   | Granitestone 13 Pc Pots and Pans Set Non Stick Cookware Set, Kitchen C
+TEST US  7    94.99  132.04 37.05  28.1  None    LOW   MED   | FITUEYES Floor TV Stand for 32 39 40 43 49 50 55 60 65 75 Inch TVs, Mo
+TEST US  4    79.99  116.79 36.8   31.5  None    LOW   LOW   | (8 Pack) LED Shop Light 4ft, 40W 5200LM 6000K (Super Bright White), Up
+TEST US  5    119.99 155.99 36.0   23.1  None    LOW   LOW   | JISSBON Cat Tree 66.9Inch Multi-Level Large,Activity Centre Cat Tower 
+TEST US  5    79.99  115.99 36.0   31.0  None    LOW   LOW   | MaxWorks Heavy Duty 2‑Shelf Service Cart 500 lb Capacity Polypropylene
+--------------------------------------------------------------------------------------------------------------
+US-warehouse recommendations: TEST=1256  HOLD=1122  KILL=1093
