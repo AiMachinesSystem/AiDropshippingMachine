@@ -63,6 +63,29 @@ description: "Memoria interrogabile di tutti i run di ricerca. Ogni run di niche
 - **NICHE TRACTION×MARGIN (RUN-03, 2026-06-22, `10_OUTPUTS/SECTOR_PRACTICE/2026-06-22_niche-traction-vs-margin_RUN-03.md`):** catalog = scattergun (70 eBay categories/99). Sales concentrate: **Pool/Water (25 list, 15 units) + Kitchen (12 list, 8 units) = 37% of listings, 66% of sales.** **Demand/margin INVERSION:** selling niches have lowest margin (Pool 26%, Kitchen 27%, Cleaning 28%); high-margin niches don't sell (Beauty 37%, Home/Storage 36%, Bath 34%). → AliExpress re-source leverage highest on Pool+Kitchen; STOP listing Pet/Candle/Garden/Home/Beauty/Outdoor (33 list → 2 units). **DATA FLAG:** this JSON has NO watcher field → RUN-02 watcher counts UNVERIFIED.
 - **CUSTOMER VOICE winner product-types (2026-06-22, `10_OUTPUTS/ANALYSIS_REPORTS/2026-06-22_winner-customer-voice_v1.md`):** pains/desired/over-promise per i 5 tipi Pool/Water+Kitchen → angoli copy per riscrivere le descrizioni. Top pains: pool cover=**vento** (failure mode #1), ham maker=istruzioni scarse+capacità piccola, chlorine feeder/deck jet=**leak/durabilità**, dog ramp=peso/ingombro. **LIMITE [SOURCED non OBSERVED]:** solo sintesi WebSearch — verbatim quote-bank BLOCCATO da muri (Amazon `product-reviews` 503; TroubleFreePool Cloudflare 403 anche via r.jina.ai). Upgrade a verbatim = browser assistito / chrome-devtools MCP (GO).
 
+### Problem-first product ideation (run 2026-06-28, owner mindset shift) — 10 pains→products, eBay-validated
+- last_run: 2026-06-28 · type: product-ideation (problem-first, workflow wf_9b92e0c6-73b + eBay sold-comp validation) · report: `10_OUTPUTS/MARKET_RESEARCH_REPORTS/2026-06-28_problem-first-product-ideation_v1.md`
+- method: mined 39 human pains (5 lenses) → top 10 problem→product→angle → top 8 run through `read_ebay_demand.py` (REAL eBay sold). Ideation = [SOURCED directional, unverified]; eBay numbers = [OBSERVED, cache `90_CACHE/fetches/ebay/demand_2026-06-28_050346`].
+- **STANDOUT [OBSERVED]: Pool robot cable swivel** — median **$89.99**, 47-48 recent sales, ST 20.5%, source ceiling **$67.94**, light-ship, in-season, pool edge, compatibility angle (no VeRO). Best candidate of the session; high-AOV breaks thin-margin wall without AliExpress.
+- secondary: dog anxiety vest (demand 127 sold/ST 21.6% BUT thin $4.45 ceiling + July-4th deadline + sizing-variant risk → bundle-only); stainless slow feeder ($17.99, ceiling $5.66 thin); cling-wrap dispenser ($22.97, high comp).
+- reject (thin/no margin on Amazon): cat litter mat ($13.68/ceiling $1.93), cutting board mat ($14/$2.21), dog paw washer ($14.60/$2.73, low ST), pop-up food tent (14 sold, summer-only).
+- KEY LESSON: problem-first surfaced a high-margin winner generic product-hunting missed; BUT margin reality persists (low-AOV pain-solvers stay thin) → pick the HIGHER-AOV pains.
+- integrity: ideation citations (Cornell/The Kitchn/ThePoolNerd/"37% tear rate") NOT independently verified → directional; eBay sold = observed; active_listings=None on 3 (rapid-burst) → ST partial.
+
+### eBay REAL demand validation — sold-comp reader (run 2026-06-28, GO-1) — FIRST eBay-real demand, supersedes Amazon-proxy
+- last_run: 2026-06-28 · type: eBay demand (read-only, authenticated session, `read_ebay_demand.py`) · report: `10_OUTPUTS/ANALYSIS_REPORTS/2026-06-28_ebay-demand-validation_GO1_v1.md`
+- **UNLOCK:** owner eBay login saved (`storage_state_ebay.json`, GO-1). **Terapeak `/sh/research` = account-gated (302, E-018)** → pivot to authenticated SOLD-search (bypasses 403). Now the machine validates on REAL eBay sold-comps, not Amazon/AliExpress proxy.
+- **DATA (median sold price · recent-30d sold · active comp · sell-through~ · max Amazon cost for net≥$4):** [OBSERVED 2026-06-28, cache `90_CACHE/fetches/ebay/demand_batch_2026-06-28_043735/`]
+  - **Dog pool ramp** ⭐ med **$70.00** · 41/30d · active **107** · ST **25.2%** · maxCost **$50.65** — best demand×margin (up-ticket, low comp)
+  - **Stock tank pool cover** med **$54.99** · 34/30d · active 665 · ST 8.1% · maxCost **$37.67** — high AOV, margin room
+  - Deck jet pool fountain med $29.99 · 42/30d · active 206 · ST 13.1% · maxCost $16.04 (proven, tighter margin)
+  - Pool fountain nozzle med $28.29 · 31/30d · maxCost $14.57
+  - Ham maker meat press med $32.79 · 26/30d · active 366 · ST 6.9% · maxCost **$18.46** (demand proven, margin TIGHT on Amazon)
+  - Pool cleaner parts med $19.22 · 59/30d · maxCost $6.73 (high demand, thin) · Pool chlorine floater med $15.98 · maxCost $3.92 (thin + E-014 category) · Dog life jacket med $16.99 · 835 sold · maxCost $4.80 (thin)
+- **KEY FINDING:** demand/margin inversion CONFIRMED at eBay-real level. The margin escape WITHOUT AliExpress = go **up-ticket** (≥$50 sold price → $37-50 Amazon-source ceiling clears net). Top depth targets: **dog ramp/steps + stock-tank pool kit** (Amazon-US sourcing viable); deck jet + ham maker = proven demand but tight margin on Amazon.
+- open items: active_listings=None for 4 low-priority queries (rapid-burst thin ACTIVE page) → sell-through proxy partial; net validation per SKU needs AutoDS import economics (GO-4). sold_results (exact) vs sold_parsed (incl. "fewer words") — cite sold_results.
+- integrity flags: median from completed/sold comps (OBSERVED); sell-through = proxy (sold/(sold+active)); no fabricated numbers; Terapeak gated (not used).
+
 ### AutoDS account read-only status (run 2026-06-16, Playwright read-session)
 - last_run: 2026-06-16 · type: account-intel (read-only, Playwright) · report: `10_OUTPUTS/autods_status_report.md`
 - store: `Divinit-92-Us` (id 3713044, eBay US, USD) · catalog: **214 active listings + 11 drafts (+4 untracked)** · suppliers: Amazon US + AliExpress/CJ

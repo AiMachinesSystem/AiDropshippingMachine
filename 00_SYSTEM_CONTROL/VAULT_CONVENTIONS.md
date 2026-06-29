@@ -53,7 +53,10 @@ ogni bump).
 
 | Muro | Ultima verifica | Esito |
 |---|---|---|
-| `<es. dominio/endpoint>` | `<YYYY-MM-DD (metodo)>` | `<es. 403 anche via proxy>` |
+| `amazon.com` product pages `/dp/<ASIN>` | 2026-06-28 (r.jina.ai proxy, 10+ tentativi) | CAPTCHA sistematico su tutte le pagine prodotto — prezzi non accessibili; search pages a volte 503. 3 fetch parziali (dati non-prezzo). Non riprovare prima di 2026-07-05. |
+| `ebay.com/itm/<itemID>` | 2026-06-28 (r.jina.ai proxy) | 403 Forbidden su tutti i /itm/ singoli. Pagine /p/ (product catalog) funzionano parzialmente. Non riprovare prima di 2026-07-05. |
+| `camelcamelcamel.com` | 2026-06-28 (r.jina.ai proxy) | Security verification block (Cloudflare). Dati prezzi non accessibili. |
+| `walmart.com/search` | 2026-06-28 (r.jina.ai proxy) | CAPTCHA / robot check. Nessun dato prodotto. |
 
 ## VERSIONI SKILL
 

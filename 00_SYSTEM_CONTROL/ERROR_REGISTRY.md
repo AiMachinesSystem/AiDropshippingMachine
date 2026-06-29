@@ -13,6 +13,59 @@ description: "Registro errori della macchina (protocollo AUTONOMIA CONTROLLATA v
 > Una voce si chiude solo con test di regressione PASSATO (a freddo dove applicabile, regola patch §5).
 > Le regole nate da questo registro vincolano come la costituzione (patch AUTONOMIA CONTROLLATA §4).
 
+## E-022 — Title cleaner azzera il punto decimale → spec fuorviante ("1.5 Cup" → "15 Cup")
+- **Data:** 2026-06-29 (run "pubblica 36 selezionati", GO owner) · **Fix:** correzione manuale dei titoli prima del publish (questo run, `_publish4_cands.json`); la regola sotto vincola ogni generazione titoli futura.
+- **ERRORE:** [OBSERVED] nei `seo_title` di `_screened_candidates.json`, lo screener (`potential_screen`/`refine_candidates`, effimero in scratchpad) ha prodotto **"Neater Pet Brands 15 Cup…"** per una ciotola da **1.5 Cup (12 oz)** e **"22 Cup"** per **2.2 Cup (18 oz)** — il punto decimale rimosso ha ~decuplicato la capacità dichiarata nel titolo. Near-miss: intercettato a freddo nella classificazione gate **PRIMA** del publish (danno reale = 0; titoli corretti a "1.5 Cup 12 oz" / "2.2 Cup 18 oz" e poi pubblicati).
+- **CAUSA:** [INFERRED] la pulizia titolo (brand-strip + rimozione punteggiatura per VeRO/eBay) tratta il "." come punteggiatura da eliminare senza eccezione per i decimali numerici → "1.5"→"15".
+- **REGOLA:** il title cleaner deve **preservare i decimali e le unità** (`cifra.cifra`, oz/cup/ft/in/pack/lb). Nessun titolo va a publish senza un **accuracy-gate**: i numeri+unità del titolo finale vanno confrontati col titolo sorgente; discordanza di capacità/quantità = BLOCK. Mai pubblicare una spec che il prodotto non ha (§0.8 integrità → return/INAD).
+- **TEST DI REGRESSIONE:** per ogni `seo_title`, ogni `\d\.\d` presente nel titolo sorgente deve sopravvivere nel titolo pulito (mai collassato in `\d\d`). [PASS manuale 2026-06-29 sui 2 Neater bowls pubblicati].
+
+## E-021 — `marketplace_source.py` "fallisce" (exit 1) a fine pull su `UnicodeEncodeError` — ma la cache è già scritta
+- **Data:** 2026-06-28 (pull cluster 35+) · **Fix:** RISOLTO — auto-reconfigure di `sys.stdout/stderr` a utf-8 (errors=replace) in testa allo script, indipendente dall'env del caller.
+- **ERRORE:** [OBSERVED] il pull ha scaricato 6146 prodotti (3482 US-WH) e **scritto `_shortlist_us.json`**, poi è crashato con `UnicodeEncodeError: 'charmap' codec can't encode character '‑'` nella `print` finale della tabella (titolo "EUHOMY…" con trattino non-breaking). La task risultava "failed exit 1" benché i dati fossero già su disco → falso allarme che maschera un pull riuscito.
+- **CAUSA:** [OBSERVED] console Windows = cp1252; i titoli prodotto contengono unicode (‑ U+2011, — em-dash, ecc.). Il lancio in background NON aveva `PYTHONIOENCODING=utf-8` (richiesto dal docstring ma dipendente dal caller) → la print di riepilogo esplode dopo la scrittura cache.
+- **REGOLA:** gli script che stampano dati esterni (titoli marketplace) devono **auto-proteggere lo stdout** (`sys.stdout.reconfigure(encoding="utf-8", errors="replace")`) e non dipendere dall'env del caller. In più: un exit≠0 va sempre diagnosticato prima di concludere "ricerca persa" — verificare se l'output load-bearing (la cache) è già stato scritto.
+- **TEST DI REGRESSIONE:** [PASS 2026-06-28] `python -c "import sys; sys.stdout.reconfigure(encoding='utf-8',errors='replace'); print('‑ EUHOMY‑ ok')"` → stampa senza crash; `ast.parse(marketplace_source.py)` → SYNTAX OK. Prossimo pull deve chiudere exit 0 anche con titoli unicode.
+
+## E-020 — `batch_publish` rende ~10% a workspace intasato: publish-find rotto a >~20 draft + nessun tool di cleanup
+- **Data:** 2026-06-28 (run "pubblica 36", GO owner) · **Fix:** RISOLTO con flusso **by-ID/via-API** (no cleanup necessario): `set_title_by_id.py` (set titolo sulla pagina del draft `/upload/<id>`) + `publish_run_byid.py` (find draft per ASIN via products-list API → set-title-by-id → set-desc --id → publish_one_draft per-id → verifica censimento API). Bloat-immune.
+- **ERRORE:** [OBSERVED] con **79 draft** in workspace, `batch_publish` ha importato i candidati (titoli puliti + econ OK, verificati nel censimento POST) ma il **publish è fallito**: 11 tentativi → **1 solo "PUBLISHED" (pure non verificabile, E-015)**, il resto SKIP/UNCONFIRMED. Causa: lo step che trova il draft appena importato cerca tra i ~20 draft lazy-loaded della pagina `/upload`; col workspace intasato il nuovo draft non è sulla pagina-1 → "no draft title matches" → SKIP, oppure publish non confermabile (E-015).
+- **CAUSA:** [OBSERVED] (1) `manage_draft`/`publish_one_draft` localizzano il draft via DOM page-1 (~20 righe), non via API completa → si rompe oltre ~20-40 draft. (2) **Nessun meccanismo di delete draft cablato**: `delete_drafts_guarded.py` è dry-run by design (`--confirm` hard-bloccato), e l'automazione UI di delete/location AutoDS è già murata (E-005, E-010). Quindi il bloat non è ripulibile via tooling.
+- **REGOLA:** il publish in volume richiede **workspace draft pulito** (≤~20). Finché non esiste publish/delete via API: prima di un batch, i draft vanno azzerati (azione UI owner: Select all → Remove) OPPURE va costruito un publish-by-id via API AutoDS (come il crack marketplace). NON lanciare batch_publish su un workspace intasato (rende ~10%, spreca import e gonfia il bloat).
+- **TEST DI REGRESSIONE:** [PASS 2026-06-28] cold-test `set_title_by_id`+`publish_one_draft`+verifica API su 1 draft (titolo 174→74, publish, draft 79→78, id sparito) → PUBLISHED verificato; orchestratore `publish_run_byid` cold-test 2/2 verified; run pieno **17 publish API-verified su 47 tentativi (~36% vs ~10% del vecchio batch_publish), a workspace intasato (>70 draft) = bloat-immunità confermata**. Resta attrito da OOS/non-US (skip-econ, scopribile solo a import) e err eBay (VeRO/categoria), non dal find/publish. `batch_publish.py` (DOM-match) = DEPRECATO a favore di `publish_run_byid.py`.
+
+## E-019 — Selettori `.s-item` di eBay search OBSOLETI → 0 righe parse (usare text-parse "Sold <data>")
+- **Data:** 2026-06-28 (GO-1 eBay demand) · **Fix:** `read_ebay_demand.py` (text-parser, sostituisce i selettori in `read_ebay_sold.py`).
+- **ERRORE:** [OBSERVED] `read_ebay_sold.py` ha stampato "no parsed rows" pur avendo caricato la pagina autenticata corretta ("Hi Luca!", "27 results for ham maker meat press", prezzi $28-40 visibili nel `page.txt`). I selettori `li.s-item / .s-item__title / .s-item__price` non matchano più nulla → demand reader sembra rotto quando i dati ci sono.
+- **CAUSA:** [OBSERVED] eBay ha cambiato il markup dei risultati di ricerca: le classi `s-item*` non esistono più nel DOM renderizzato. Il venduto ora compare come blocco testuale `Sold <Mon DD, YYYY>` → titolo → `$prezzo`.
+- **REGOLA:** parsare il **testo renderizzato** per ancora `Sold <data>` (poi titolo + primo `$prezzo`), non i selettori DOM `.s-item` (fragili al re-skin eBay). `read_ebay_demand.py` è il reader canonico; `read_ebay_sold.py` = deprecato (selettori morti).
+- **TEST DI REGRESSIONE:** `read_ebay_demand.py "ham maker meat press"` → ritorna sold_results>0 + median price. PASS 2026-06-28 (8 query, 8/8 con venduto+prezzo; evidenza `90_CACHE/fetches/ebay/demand_batch_2026-06-28_043735/`).
+
+## E-018 — Terapeak `/sh/research` account-gated (302 → /sh) sia headless che headed = MURO account
+- **Data:** 2026-06-28 (GO-1 Terapeak, GO owner login eBay) · **Fix:** nessuno (gate account); fallback = sold-comp reader (E-019).
+- **ERRORE:** [OBSERVED] con sessione eBay autenticata valida (Seller Hub `/sh/landing` carica, user_profile JSON, niente signin), la richiesta a `https://www.ebay.com/sh/research` (Terapeak Product Research) restituisce **302 → /sh** e atterra su `/sh/landing`; la landing **non espone alcun link "Research"**. `read_terapeak.py` cattura 0 JSON su 8 query (sembra rotto, ma è gating). Verificato **identico in headless E in headed** → NON è anti-bot.
+- **CAUSA:** [OBSERVED/INFERRED] l'account non ha accesso a Terapeak Research in Seller Hub (verosimile: manca abbonamento Store o restrizione residua); il redirect è server-side, non SPA. La sessione è valida (sold-search funziona, vedi E-019).
+- **REGOLA:** non ri-tentare Terapeak via automazione su questo account (muro account, non tecnico). Per la domanda eBay reale usare **`read_ebay_demand.py`** (sold-comp via sessione autenticata, bypassa il 403). Sbloccare Terapeak = azione owner (abbonamento Store eBay / verifica restrizioni) — non risolvibile da qui.
+- **TEST DI REGRESSIONE:** sonda headless+headed su `/sh/research` → final url = `/sh/landing` (302), 0 anchor "research". Confermato 2 contesti 2026-06-28. Riprovare SOLO se l'owner attiva uno Store eBay.
+
+## E-015 — `publish_one_draft` verifica "left drafts" inaffidabile oltre pagina-1 (falso PUBLISHED)
+- **Data:** 2026-06-27 (run "pubblica 50") · **Fix:** misura via censimento POST (questo commit); fix script DA FARE
+- **ERRORE:** [OBSERVED] il check di successo di `publish_one_draft.py` (vai a `/upload`, cerca il guard tra gli `input[placeholder=Title]`) scansiona solo i ~20 draft lazy-loaded della prima pagina. Per draft oltre pagina-1 il guard risulta sempre assente → **RESULT: PUBLISHED falso positivo** anche quando il publish è fallito (cast iron, solar flame, flat iron marcati PUBLISHED ma ancora a draft con error_list popolato).
+- **CAUSA:** [OBSERVED] la lista `/upload` è virtualizzata/paginata a 20; il check non interroga l'API completa.
+- **REGOLA:** il conteggio dei live VERI si misura col **delta dei draft** via POST `v2-api.autods.com/products/<store>/list/` `{product_status:1, limit:300}` (status sessione iniziale − attuale), MAI dal check DOM di prima pagina. `publish_one_draft` va corretto per verificare l'esito sull'API (id assente da status=1 / presente in status=2) non sul DOM.
+- **TEST DI REGRESSIONE:** dopo un batch, `inventory_all.py` (POST limit 300) deve mostrare gli id pubblicati ASSENTI da status=1; conteggio live = drafts_iniziali − drafts_attuali. [DA ESEGUIRE al prossimo batch].
+
+## E-016 — Muro eBay "too many item specifics (>45)" + item-specific mancante
+- **Data:** 2026-06-27 · **ERRORE:** [OBSERVED] su publish, eBay rifiuta con "This listing has too many item specifics. Reduce to 45 or less" (solar pathway/flame lights) e "item-specific X is missing" (cast iron: Stove Type Compatibility). Il draft resta a status=1 con error_list.
+- **CAUSA:** [INFERRED] il mapping categoria AutoDS importa troppi/insufficienti item specifics rispetto alle regole della categoria eBay.
+- **REGOLA:** non è un quick-win via tooling attuale (richiede edit form item-specifics su eBay/AutoDS). In selezione, de-prioritizza categorie note per questo (decorative lights multi-spec, cookware con compatibilità stove). Marca questi draft come BLOCKED-ITEMSPEC, non ri-tentare a vuoto.
+- **TEST DI REGRESSIONE:** pre-check `error_list` via POST prima del publish; se contiene "item specifics"/"ItemSpecifics" → skip, non consumare un tentativo.
+
+## E-017 — `AnotherStoreImport`: prodotto già caricato in altro bulk (duplicato)
+- **Data:** 2026-06-27 · **ERRORE:** [OBSERVED] flat iron → "The product has already been uploaded in another bulk upload to your store". Publish bloccato come duplicato.
+- **REGOLA:** evitare di ri-importare ASIN già a store/in coda bulk; pre-check anti-dup sull'ASIN prima dell'import. Non ri-tentare il publish finché il bulk concorrente non chiude.
+- **TEST DI REGRESSIONE:** dedup ASIN contro la lista prodotti (status 2/3) prima di ogni import. [DA ESEGUIRE].
+
 > **NOTA TEMPLATE:** le regole nate dagli errori della macchina madre che ha generato questo
 > template sono già incorporate nei protocolli e nelle convenzioni (REGOLA OROLOGIO, numeri
 > canonici, cache evidenze, root-verification git, ecc.). Il registro di una NUOVA macchina

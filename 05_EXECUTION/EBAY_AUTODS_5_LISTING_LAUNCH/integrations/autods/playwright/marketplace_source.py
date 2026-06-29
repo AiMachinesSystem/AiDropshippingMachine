@@ -24,6 +24,14 @@ caller. Run with PYTHONIOENCODING=utf-8 on Windows.
 import os, re, sys, json
 from datetime import datetime
 
+# Windows console is cp1252; product titles carry unicode (e.g. ‑ non-breaking hyphen) that crashes
+# the summary print AFTER the cache is already written (E-021). Self-protect regardless of caller env.
+try:
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+except Exception:
+    pass
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 STATE = os.path.join(HERE, "storage_state.json")
 BASE = "https://platform.autods.com"
@@ -48,6 +56,32 @@ CLUSTERS = [
     ("Meat/Food prep — search 'vegetable chopper'", "search", "vegetable chopper"),
     ("Commodity — Home cleaning",               "cat", "6169735694f2b1708dccdcfd"),
     ("Commodity — Storage & Organization",      "cat", "6169735694f2b1708dccdd4f"),
+    ("Pet — search 'dog'",                       "search", "dog"),
+    ("Pet — search 'cat'",                       "search", "cat"),
+    ("Bath — search 'bathroom organizer'",       "search", "bathroom organizer"),
+    ("Garage — search 'garage storage'",         "search", "garage storage"),
+    ("Garden — search 'garden'",                 "search", "garden"),
+    ("Office — search 'desk organizer'",         "search", "desk organizer"),
+    ("Car — search 'car organizer'",             "search", "car organizer"),
+    ("Laundry — search 'laundry'",               "search", "laundry"),
+    ("Closet — search 'closet organizer'",       "search", "closet organizer"),
+    ("Outdoor — search 'patio'",                 "search", "patio"),
+    # --- 35+ problem-first clusters (2026-06-28 research wdsxizyug) — comfort/ergonomics/caregiving ---
+    ("35+ Feet — search 'plantar fasciitis insoles'", "search", "plantar fasciitis insoles"),
+    ("35+ Feet — search 'arch support shoe inserts'", "search", "arch support shoe inserts"),
+    ("35+ Back — search 'lumbar support pillow'",     "search", "lumbar support pillow"),
+    ("35+ Back — search 'seat cushion'",              "search", "seat cushion"),
+    ("35+ Desk — search 'cable management box'",      "search", "cable management box"),
+    ("35+ Legs — search 'compression socks'",         "search", "compression socks"),
+    ("35+ Wrist — search 'gel wrist rest'",           "search", "gel wrist rest"),
+    ("35+ Hands — search 'jar opener'",               "search", "jar opener"),
+    ("35+ Storage — search 'vacuum storage bags'",    "search", "vacuum storage bags"),
+    ("35+ Desk — search 'laptop stand'",              "search", "laptop stand"),
+    ("35+ Desk — search 'monitor riser'",             "search", "monitor riser"),
+    ("35+ Pet — search 'dog slow feeder bowl'",       "search", "dog slow feeder bowl"),
+    ("35+ Baby — search 'baby proofing kit'",         "search", "baby proofing kit"),
+    ("35+ Eyes — search 'lighted magnifier'",         "search", "lighted magnifier"),
+    ("35+ Clean — search 'electric spin scrubber'",   "search", "electric spin scrubber"),
 ]
 
 PROJECTION = {"title": {}, "images": {}, "supplier_name": {}, "site_name": {}, "id_on_site": {},

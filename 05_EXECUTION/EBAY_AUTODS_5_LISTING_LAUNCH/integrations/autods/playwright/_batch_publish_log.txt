@@ -1,62 +1,67 @@
-=== BATCH PUBLISH start | target=20 | candidates=9 ===
+=== BATCH PUBLISH start | target=36 | candidates=34 ===
 
-[1/9 attempt, 0 live] B08H5197YC | niche=kitchen | title='California Large Edge Grain Butcher Block Cutting B'
-  -> SKIP import/title (match='shumaru california'). tail:  title matches /shumaru california/
+[1/40 attempt, 0 live] B08JHF7LWC | niche=kitchen | title='Pouring Masters 2 Ounce 60Ml Graduated Plastic Measuring Cups C'
+  -> SKIP import/title (match='pouring masters'). tail: aft title matches /pouring masters/
 == FIND ID ==
   id: None
 --------------------------------------------------
 RESULT: title=False id=None desc=None image=None
 
-[2/9 attempt, 0 live] B07KMG4KRW | niche=kitchen | title='Under Shelf Basket iSPECLE 6 Pack Under Cabinet Organizer E'
+[2/40 attempt, 0 live] B07FX8RZJZ | niche=storage | title='Houser 6 Tier Shelf Hanging Closet Organizer'
+  -> SKIP import/title (match='max houser'). tail: no draft title matches /max houser/
+== FIND ID ==
+  id: None
+--------------------------------------------------
+RESULT: title=False id=None desc=None image=None
+
+[3/40 attempt, 0 live] B08Z2ZP33M | niche=kitchen | title='Candle Making Pouring Pot Dingpai Double Boiler Wax Melting'
   -> PUBLISHED (1 live)
 
-[3/9 attempt, 1 live] B07HDYF5MZ | niche=kitchen | title='Starpack Like a Boss XL Silicone Cooking Utensils Set (6 Pie'
-  -> PUBLISHED (2 live)
+[4/40 attempt, 1 live] B08R3B4D6B | niche=pool | title='Swimsuit Coverups Women Sarong Beach Bikini Wrap Sheer Short Skirt'
+  -> UNCONFIRMED:  Beach Bikini Wrap Sheer Short Skirt | len 66
+Save&Import clicked: True
+MESSAGES: []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
 
-[4/9 attempt, 2 live] B08VHXN57P | niche=kitchen | title='Refrigerator Organizer Bins Stackable Freezer Lettuce Keepe'
-  -> PUBLISHED (3 live)
-
-[5/9 attempt, 3 live] B08XQNQM63 | niche=kitchen | title='Glass Canisters With Airtight Bamboo Lids 3 Pack 80oz Cere'
-  -> PUBLISHED (4 live)
-
-[6/9 attempt, 4 live] B085Y1B88X | niche=kitchen | title='Pool Cover Pump Above Ground Submersible Sump Pump Swimmi'
-  -> SKIP import/title (match='pool cover'). tail: immi
-  save: saved
-  PERSISTED: True
-== FIND ID ==
-  id: None
---------------------------------------------------
-RESULT: title=True id=None desc=None image=None
-
-[7/9 attempt, 4 live] B0CDZTJ1PW | niche=kitchen | title='Delamu 2 Sets of 3 Tier Bathroom Under Sink Organizers and S'
-  -> SKIP import/title (match='delamu 2'). tail: ] no draft title matches /delamu 2/
+[5/40 attempt, 1 live] B0995LJWF6 | niche=kitchen | title='Mordimy 100 Cotton Waffle Weave Kitchen Towels Inches Super'
+  -> SKIP import/title (match='mordimy 100'). tail: o draft title matches /mordimy 100/
 == FIND ID ==
   id: None
 --------------------------------------------------
 RESULT: title=False id=None desc=None image=None
 
-[8/9 attempt, 4 live] B08L5X8JM3 | niche=kitchen | title='2 Tier Dish Rack and Drainboard Set Romision 304 Stainless'
-  -> SKIP import/title (match='2 tier'). tail: SS] no draft title matches /2 tier/
+[6/40 attempt, 1 live] B079VRXLXJ | niche=cleaning | title='General Cleaning Mop Commercial Replacement'
+  -> SKIP import/title (match='kleen handler'). tail: draft title matches /kleen handler/
 == FIND ID ==
   id: None
 --------------------------------------------------
 RESULT: title=False id=None desc=None image=None
 
-[9/9 attempt, 4 live] B08SQX66C9 | niche=kitchen | title='Rubtlamp 22.5 25 Lbs Pink Rice Dispenser Rice Storage Conta'
-  -> SKIP import/title (match='rubtlamp 22'). tail: o draft title matches /rubtlamp 22/
+[7/40 attempt, 1 live] B085FXF591 | niche=cleaning | title='Cleaning Wipes Multi-Purpose Towel Reusable Cloths-80C'
+  -> SKIP import/title (match='aidea cleaning'). tail: raft title matches /aidea cleaning/
 == FIND ID ==
   id: None
 --------------------------------------------------
 RESULT: title=False id=None desc=None image=None
 
-=== SUMMARY: published=4 / target=20 | attempts=9 ===
-  B08H5197YC : SKIP-import
-  B07KMG4KRW : PUBLISHED
-  B07HDYF5MZ : PUBLISHED
-  B08VHXN57P : PUBLISHED
-  B08XQNQM63 : PUBLISHED
-  B085Y1B88X : SKIP-import
-  B0CDZTJ1PW : SKIP-import
-  B08L5X8JM3 : SKIP-import
-  B08SQX66C9 : SKIP-import
-BATCH_RESULT published=4
+[8/40 attempt, 1 live] B0921QBNZB | niche=meat_food | title='Baking Cookie Sheet Oven Pan Inch Tray Stainless Steel Sh'
+  -> SKIP import/title (match='p p'). tail: [MISS] no draft title matches /p p/
+== FIND ID ==
+  id: None
+--------------------------------------------------
+RESULT: title=False id=None desc=None image=None
+
+[9/40 attempt, 1 live] B08GQRJ2PG | niche=kitchen | title='Sweejar Kitchen Canisters Ceramic Food Storage Jar Stackable Containe'
+  -> SKIP import/title (match='sweejar kitchen'). tail: aft title matches /sweejar kitchen/
+== FIND ID ==
+  id: None
+--------------------------------------------------
+RESULT: title=False id=None desc=None image=None
+
+[10/40 attempt, 1 live] B075LQKPSL | niche=storage | title='Cutlery Utensil Silverware Kitchen Drawer Orga'
+  -> UNCONFIRMED: ensil Silverware Kitchen Drawer Orga | len 46
+Save&Import clicked: True
+MESSAGES: []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+
+[11/40 attempt, 1 live] B09154ZY1D | niche=kitchen | title='Meat Thermometer Instant Read Cooking Fast Pr'

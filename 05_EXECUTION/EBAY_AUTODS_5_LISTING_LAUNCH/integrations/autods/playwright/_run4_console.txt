@@ -1,0 +1,15 @@
+=== PUBLISH RUN BY-ID | target=4 | candidates=4 ===
+initial drafts (by asin): 184
+importing 0 missing candidates...
+  [1 live] B0B8675Z35 | Large Desk Mat Protector Pad Home Office Smooth 
+  [unconf] B083TPC51K | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  [2 live] B072NC17DP | Neater Pet Brands 1.5 Cup 12 oz Stainless Steel 
+  [3 live] B071XJCJ3Q | Neater Pet Brands 2.2 Cup 18 oz Stainless Steel 
+
+=== SUMMARY: publish-reported=3 | API-verified-left-drafts=4 | attempts=4 ===
+  B0B8675Z35 : PUBLISHED
+  B083TPC51K : unconfirmed
+  B072NC17DP : PUBLISHED
+  B071XJCJ3Q : PUBLISHED
+RUN_RESULT verified=4

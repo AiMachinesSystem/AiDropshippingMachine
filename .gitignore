@@ -46,3 +46,6 @@ venv/
 __pycache__/
 *.pyc
 .pytest_cache/
+.playwright-mcp/
+storage_state_ebay.json
+**/storage_state_ebay.json

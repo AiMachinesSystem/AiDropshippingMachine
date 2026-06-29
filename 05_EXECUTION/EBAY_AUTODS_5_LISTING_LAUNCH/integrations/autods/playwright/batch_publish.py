@@ -100,7 +100,10 @@ def main():
             break
         attempts += 1
         asin = c["asin"]; niche = c.get("niche", "")
-        title = gen_title(c.get("title", ""))
+        # prefer a provided demand-matched SEO title (refiner); fall back to generated. Keep match from ORIGINAL title.
+        title = (c.get("seo_title") or "").strip() or gen_title(c.get("title", ""))
+        if len(title) > 80:
+            title = title[:80].rsplit(" ", 1)[0]
         if len(title) < 18:
             log("SKIP %s: generated title too short (%r)" % (asin, title)); results.append((asin, "SKIP-title")); continue
         words = re.findall(r"[A-Za-z0-9]+", title.lower())
