@@ -1,0 +1,8 @@
+  [deck jet pool fountain jet] sold=31 recent30=33 med=$36.78 active=203 ST~13.2% maxCost($4net)=21.91
+  [in line chlorine feeder pool] sold=73 recent30=34 med=$56.89 active=634 ST~10.3% maxCost($4net)=39.31
+  [pool vacuum hose 40ft] sold=19 recent30=36 med=$39.99 active=253 ST~7.0% maxCost($4net)=24.69
+  [patio sectional sofa cover waterproof] sold=50 recent30=44 med=$35.99 active=None ST~None% maxCost($4net)=21.23
+  [hot tub spa cover] sold=495 recent30=51 med=$69.99 active=None ST~None% maxCost($4net)=50.64
+  [pool skimmer net deep bag] sold=46 recent30=50 med=$15.26 active=940 ST~4.7% maxCost($4net)=3.3
+---------------------------------------------------------------------- 
+CACHE: C:\AI Machine ebay-autoDS\AiDropshippingMachine\90_CACHE\fetches\ebay\demand_2026-06-29_110034
