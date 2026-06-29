@@ -1,0 +1,94 @@
+=== PUBLISH RUN BY-ID | target=36 | candidates=36 ===
+initial drafts (by asin): 201
+importing 35 missing candidates...
+  import B09WV9Q5P7 : ok
+  import B08DR5PSW4 : ok
+  import B07WQZ38W4 : ok
+  import B07M7MJZ6Y : ok
+  import B098T1M5Y2 : ok
+  import B08PCL6DHB : ok
+  import B00AT6S1AQ : ok
+  import B001LJFNBK : ok
+  import B08FR719Q3 : ok
+  import B0CJ56M8D4 : ok
+  import B08JTZK14S : ok
+  import B00S5NXOFM : ok
+  import B087RDVPS4 : ok
+  import B08P5J9N4H : ok
+  import B07L7YZ168 : ok
+  import B08R2T4FRL : ok
+  import B08R2V7SDP : ok
+  import B07CMJWV7S : ok
+  import B08GS5LWGC : ok
+  import B097GSWWSN : ok
+  import B08F56BX9L : ok
+  import B07F6WQDMW : ok
+  import B079VX6DSG : ok
+  import B086GFWJZP : ok
+  import B06WLJKZM2 : ok
+  import B08M5NPSD2 : ok
+  import B08FT3BW15 : ok
+  import B08F9JPXZM : ok
+  import B08MBQJ6R7 : ok
+  import B0832FLTB8 : ok
+  import B08HM5GG7F : ok
+  import B08CXNX5D3 : ok
+  import B09G6PC3Z9 : ok
+  import B097QQLPM3 : ok
+  import B08J3XB5QJ : ok
+drafts after imports (by asin): 231
+  [1 live] B09WV9Q5P7 | EASYA Large Insulated Lunch Bag for Work Women's
+  [2 live] B07WQZ38W4 | MidWest Homes for Pets Dog Bed - Gray Faux Fur B
+  [3 live] B07M7MJZ6Y | Vanthylit White Birch Tree with LED Lights - Set
+  [4 live] B098T1M5Y2 | iCOVER Griddle Cover for Blackstone Rangetop Com
+  [5 live] B00AT6S1AQ | Kangaroo 50 Pcs Mini Rubber Ducks Bulk Jeep Duck
+  [unconf] B001LJFNBK | Decorative | len 70
+RESULT: ABORT guard-mismatch (expected 'spoontiques garden')
+  [unconf] B08P5J9N4H | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  [6 live] B07L7YZ168 | Smartor Plastic Pants Hangers - 30 Pack Black Pa
+  [7 live] B08GS5LWGC | TeamFar 10.5 x 8 x 1 Toaster Oven Pan with Rack 
+  [8 live] B08F56BX9L | Cat Stuffed Animals Soft Cat Plush Pillow Kawaii
+  [9 live] B086GFWJZP | SMARTAKE 7-Piece Drawer Organizer with Non-Slip 
+  [10 live] B08M5NPSD2 | Bed Risers 5 Inch Heavy Duty Square Furniture Fr
+  [11 live] B08FT3BW15 | Small Calming Dogs Bed for Small Dogs Anti-Anxie
+  [12 live] B0832FLTB8 | Cat Fountain Filter Replacement Cat Water Filter
+
+=== SUMMARY: publish-reported=12 | API-verified-left-drafts=13 | attempts=31 ===
+  B09WV9Q5P7 : PUBLISHED
+  B08DR5PSW4 : skip-econ
+  B07WQZ38W4 : PUBLISHED
+  B07M7MJZ6Y : PUBLISHED
+  B098T1M5Y2 : PUBLISHED
+  B08PCL6DHB : skip-econ
+  B00AT6S1AQ : PUBLISHED
+  B001LJFNBK : unconfirmed
+  B08FR719Q3 : skip-econ
+  B0CJ56M8D4 : no-draft
+  B08JTZK14S : skip-econ
+  B00S5NXOFM : skip-econ
+  B087RDVPS4 : no-draft
+  B08P5J9N4H : unconfirmed
+  B07L7YZ168 : PUBLISHED
+  B08R2T4FRL : skip-econ
+  B08R2V7SDP : skip-econ
+  B07CMJWV7S : skip-econ
+  B08GS5LWGC : PUBLISHED
+  B097GSWWSN : no-draft
+  B08F56BX9L : PUBLISHED
+  B07F6WQDMW : skip-err1
+  B079VX6DSG : no-draft
+  B086GFWJZP : PUBLISHED
+  B06WLJKZM2 : skip-econ
+  B08M5NPSD2 : PUBLISHED
+  B08FT3BW15 : PUBLISHED
+  B08PFJ23P2 : skip-econ
+  B08F9JPXZM : skip-econ
+  B08MBQJ6R7 : skip-err1
+  B0832FLTB8 : PUBLISHED
+  B08HM5GG7F : skip-econ
+  B08CXNX5D3 : skip-econ
+  B09G6PC3Z9 : skip-econ
+  B097QQLPM3 : no-draft
+  B08J3XB5QJ : skip-econ
+RUN_RESULT verified=13
