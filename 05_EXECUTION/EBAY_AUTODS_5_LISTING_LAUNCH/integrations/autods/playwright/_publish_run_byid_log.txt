@@ -1,15 +1,15 @@
-=== PUBLISH RUN BY-ID | target=1 | candidates=6 ===
-initial drafts (by asin): 236
-importing 6 missing candidates...
+=== PUBLISH RUN BY-ID | target=2 | candidates=6 ===
+initial drafts (by asin): 241
+importing 1 missing candidates...
   import B0882SWTH1 : ok
-  import B004QJGW6C : ok
-  import B08BC82GRJ : ok
-  import B076K6Y6LL : ok
-  import B08BLQJ686 : ok
-  import B07H57D1R2 : ok
-drafts after imports (by asin): 242
-  [1 live] B0882SWTH1 | KSL Gravity Electric Salt and Pepper Grinder Set
+drafts after imports (by asin): 241
+  [1 live] B076K6Y6LL | Hiturbo Microfiber Surf Poncho Wetsuit Changing 
+  [2 live] B08BLQJ686 | Solar Outdoor Lights Decorative 12 Pack Hanging 
 
-=== SUMMARY: publish-reported=1 | API-verified-left-drafts=1 | attempts=1 ===
-  B0882SWTH1 : PUBLISHED
-RUN_RESULT verified=1
+=== SUMMARY: publish-reported=2 | API-verified-left-drafts=2 | attempts=4 ===
+  B0882SWTH1 : no-draft
+  B004QJGW6C : skip-econ
+  B08BC82GRJ : skip-err1
+  B076K6Y6LL : PUBLISHED
+  B08BLQJ686 : PUBLISHED
+RUN_RESULT verified=2
