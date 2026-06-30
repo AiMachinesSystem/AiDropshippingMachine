@@ -1,93 +1,15 @@
-=== PUBLISH RUN BY-ID | target=36 | candidates=36 ===
-initial drafts (by asin): 218
-importing 35 missing candidates...
-  import B008H62KVQ : ok
-  import B07PFSLV42 : ok
-  import B07L7NVVRY : ok
-  import B08ZSBQ2FL : ok
-  import B081YDCXW3 : ok
-  import B0D1BZJSX4 : ok
-  import B01M9J0684 : ok
-  import B08C9NHBQ8 : ok
-  import B07K8126VY : ok
-  import B003WKSTJY : ok
-  import B08HCW7RHF : ok
-  import B07S4LBJ81 : ok
-  import B08L3KL5SM : ok
-  import B01CZUJACQ : ok
-  import B07FDYRKXY : ok
-  import B087F2P26D : ok
-  import B088FRMG64 : ok
-  import B07ZDFHWC3 : ok
-  import B07WVZF578 : ok
-  import B08FMV494F : ok
-  import B08QR7KFTN : ok
-  import B081GKMLXT : ok
-  import B00T0BUBGS : ok
-  import B08KGWHLR6 : ok
-  import B07N4PDHC4 : ok
-  import B07CY7VK3H : ok
-  import B08R8KY79N : ok
-  import B08R3ZKYRW : ok
-  import B09JFTBP3T : ok
-  import B007VP7A5A : ok
-  import B0D6YZ91J2 : ok
-  import B08QN2MMGG : ok
-  import B091L652XP : ok
-  import B07GKRXGLG : ok
-  import B07YQ8H1MS : ok
-drafts after imports (by asin): 249
-  [1 live] B081YDCXW3 | 697 Piece Blue Elephant Baby Shower Decorations 
-  [2 live] B0D1BZJSX4 | YASONIC Shower Caddy Adhesive Rustproof Shower O
-  [3 live] B07K8126VY | Parisian Pet Step in Dog Harness - 100 Mesh Fabr
-  [4 live] B01CZUJACQ | StorageWorks Storage Baskets for Shelves Fabric 
-  [5 live] B07FDYRKXY | RAPICCA 700 F Heat Resistant BBQ Grill Gloves Oi
-  [6 live] B087F2P26D | FEATOL Carpal Tunnel Wrist Brace Adjustable Hand
-  [7 live] B088FRMG64 | Wildone Stainless Steel 8-Piece Measuring Cups S
-  [8 live] B07ZDFHWC3 | Sunthus Frog Toad Sculptures Garden Statues Yard
-  [9 live] B07WVZF578 | AJART Bird Feeder Hangers Outdoor 16-Inch Swivel
-  [10 live] B08FMV494F | Slipstick CB672 Premium 3 Inch Bed Risers/Furnit
-  [11 live] B081GKMLXT | Jalousie 3 Pack Extra Large Heavy Duty Storage B
-  [12 live] B08KGWHLR6 | Fridge Organizer - 14 Piece Refrigerator Organiz
-  [13 live] B0D6YZ91J2 | Waterproof Under Sink Mat 28" x 19" Silicone Und
-  [unconf] B091L652XP | : []
-RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+=== PUBLISH RUN BY-ID | target=1 | candidates=6 ===
+initial drafts (by asin): 236
+importing 6 missing candidates...
+  import B0882SWTH1 : ok
+  import B004QJGW6C : ok
+  import B08BC82GRJ : ok
+  import B076K6Y6LL : ok
+  import B08BLQJ686 : ok
+  import B07H57D1R2 : ok
+drafts after imports (by asin): 242
+  [1 live] B0882SWTH1 | KSL Gravity Electric Salt and Pepper Grinder Set
 
-=== SUMMARY: publish-reported=13 | API-verified-left-drafts=13 | attempts=32 ===
-  B008H62KVQ : skip-econ
-  B07PFSLV42 : skip-econ
-  B07L7NVVRY : no-draft
-  B08ZSBQ2FL : no-draft
-  B081YDCXW3 : PUBLISHED
-  B0D1BZJSX4 : PUBLISHED
-  B01M9J0684 : skip-err1
-  B08C9NHBQ8 : skip-econ
-  B07K8126VY : PUBLISHED
-  B003WKSTJY : skip-err1
-  B08HCW7RHF : skip-err1
-  B0C2TVCXF7 : skip-err1
-  B07S4LBJ81 : skip-econ
-  B08L3KL5SM : skip-econ
-  B01CZUJACQ : PUBLISHED
-  B07FDYRKXY : PUBLISHED
-  B087F2P26D : PUBLISHED
-  B088FRMG64 : PUBLISHED
-  B07ZDFHWC3 : PUBLISHED
-  B07WVZF578 : PUBLISHED
-  B08FMV494F : PUBLISHED
-  B08QR7KFTN : skip-econ
-  B081GKMLXT : PUBLISHED
-  B00T0BUBGS : skip-err1
-  B08KGWHLR6 : PUBLISHED
-  B07N4PDHC4 : skip-econ
-  B07CY7VK3H : skip-econ
-  B08R8KY79N : skip-err1
-  B08R3ZKYRW : no-draft
-  B09JFTBP3T : no-draft
-  B007VP7A5A : skip-econ
-  B0D6YZ91J2 : PUBLISHED
-  B08QN2MMGG : skip-err1
-  B091L652XP : unconfirmed
-  B07GKRXGLG : skip-err1
-  B07YQ8H1MS : skip-econ
-RUN_RESULT verified=13
+=== SUMMARY: publish-reported=1 | API-verified-left-drafts=1 | attempts=1 ===
+  B0882SWTH1 : PUBLISHED
+RUN_RESULT verified=1

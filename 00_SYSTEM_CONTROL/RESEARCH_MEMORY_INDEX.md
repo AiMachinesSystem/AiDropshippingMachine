@@ -165,4 +165,25 @@ description: "Memoria interrogabile di tutti i run di ricerca. Ogni run di niche
 
 ---
 
+### `Pool / Outdoor-Water` (cluster vincente della macchina)
+
+#### CANONE CORRENTE (run 2026-06-30, competitor-analysis v1 — QUERY MODE risponde SOLO da questa sezione)
+- last_run: 2026-06-30 · type: competitor-analysis v1 (3 web agent read-only) · file: `10_OUTPUTS/COMPETITOR_ANALYSIS/2026-06-30_pool-outdoor-water_COMPETITOR_ANALYSIS_v1.md`
+- market: **PROVEN** · space: **YES** (2 lane non-presidiate: cover up-ticket bundled + sub-nicchie emergenti) · confidence: MED-HIGH landscape, MED sub-nicchie (eBay sold-comp NON ancora tirati)
+- census eBay: campo **brandless, single-item, size-generic**; nessun leader dominante; top seller competono su formula-titolo (denier 600D/420D + aggettivi + size in inch). eBay listing pages BLOCCATE (403 diretto+proxy) → conteggi 'sold' = lower bound da snippet
+- price bands [OBSERVED 2026-06-30]: patio/furniture cover $20-50 · grill cover $20-30 · hot-tub soft cover ~$50+ship · stock-tank cover (8ft) = categoria **UNOWNED** (listing ended) · dog ramp $40-90 retail · robotic swivel small-parts
+- GAP map: (1) stock-tank cover sized-to-fit · (2) bundle cover+kit+bag+clips ($40-90 AOV) · (3) size-precision matrix · (4) winterizing/snow-load · (5) above-ground dog ramp · (6) robotic-cleaner accessory bundle
+- sub-nicchie emergenti da validare (TOP-3): **smart ultrasonic water-level sensor** (WiFi/Tuya $20-70) · **cold-plunge/stock-tank accessories** ($30-120) · **dog/pet splash pad + paw fountain** ($20-45) — tutti light-ship, generic, no-VeRO
+- saturati/brand-captured (no entry generico): statement floats (Funboy/Intex) · smart chemistry monitor (ICO/iopool/AIPER) · solar rings (trademark)
+- VeRO brand da evitare nei titoli: BeyondNice/Rosefray/UCARE (spa) · Royal Gourmet/iCOVER (grill) · Porch Shield · StorMaster · Skamper Ramp · Dolphin/Maytronics/Pentair (robotic)
+- key numbers reali (sold-comp eBay, run 2026-06-28/29): Hot Tub Cover med $50.64/495 sold · Dog pool ramp $70/107 active/ST 25%/maxcost $50.65 · Stock-tank cover $54.99/ST 8%/maxcost $37.67 · Deck jet $29.99/maxcost $16 · accessori <$20 = thin
+- integrity flags (anti-pattern del mercato DTC, MAI replicare): superlativi "#1 in North America" · stat interne non verificabili ("<1% warranty claims") · risparmio inventato "$72.50/yr" · claim cover "walk-on/pet-safe"
+- open items: **#1 gap = dato eBay sold-velocity dietro muro 403** (serve Terapeak/API o sessione browser); validare TOP-3 sub-nicchie su sold-comp+costo AutoDS prima di ogni batch
+- pattern strutturale (3× confermato): **inversione domanda/margine** — accessori pool ad alta domanda <$20 = net ~$0; il margine sta nell'**up-ticket** ($50+, cover/ramp), sourcing Amazon-US clears net senza AliExpress
+
+#### STORICO (superato da ...)
+<!-- Dati pool pre-2026-06-30 sparsi nei blocchi: per-SKU audit 2026-06-22 (Pool/Water = 7/13 winner) · eBay demand GO-1 2026-06-28 · profit-run 2026-06-29 (2/3 VIABLE up-ticket). Restano validi come dettaglio; il canone competitivo corrente è sopra. -->
+
+---
+
 <!-- Nessun altro blocco nicchia formale ancora. Il prossimo blocco nicchia reale va sopra questa riga. -->
