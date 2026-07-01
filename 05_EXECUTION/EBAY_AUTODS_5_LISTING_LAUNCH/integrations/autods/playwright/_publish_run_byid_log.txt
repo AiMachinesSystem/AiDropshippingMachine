@@ -1,15 +1,19 @@
-=== PUBLISH RUN BY-ID | target=2 | candidates=6 ===
-initial drafts (by asin): 241
-importing 1 missing candidates...
-  import B0882SWTH1 : ok
-drafts after imports (by asin): 241
-  [1 live] B076K6Y6LL | Hiturbo Microfiber Surf Poncho Wetsuit Changing 
-  [2 live] B08BLQJ686 | Solar Outdoor Lights Decorative 12 Pack Hanging 
+=== PUBLISH RUN BY-ID | target=2 | candidates=8 ===
+initial drafts (by asin): 239
+importing 8 missing candidates...
+  import B08QMPHMD4 : ok
+  import B09WQQD6X6 : ok
+  import B07XDM9WG9 : ok
+  import B087MG35SC : ok
+  import B0CRRDDX59 : ok
+  import B083K4S22Z : ok
+  import B07TXL7CPQ : ok
+  import B08DSCKFVT : ok
+drafts after imports (by asin): 247
+  [1 live] B08QMPHMD4 | Vigdur Multicolor Flower String Lights Decorativ
+  [2 live] B09WQQD6X6 | JMEXSUSS 250 LED Warm White to Multicolor String
 
-=== SUMMARY: publish-reported=2 | API-verified-left-drafts=2 | attempts=4 ===
-  B0882SWTH1 : no-draft
-  B004QJGW6C : skip-econ
-  B08BC82GRJ : skip-err1
-  B076K6Y6LL : PUBLISHED
-  B08BLQJ686 : PUBLISHED
+=== SUMMARY: publish-reported=2 | API-verified-left-drafts=2 | attempts=2 ===
+  B08QMPHMD4 : PUBLISHED
+  B09WQQD6X6 : PUBLISHED
 RUN_RESULT verified=2
