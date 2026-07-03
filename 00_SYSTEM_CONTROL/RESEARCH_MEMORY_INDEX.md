@@ -44,6 +44,16 @@ description: "Memoria interrogabile di tutti i run di ricerca. Ogni run di niche
 > Non-niche reference-data runs (policy/fee/feature). QUERY MODE: "what do we know about eBay/AutoDS
 > policy/fees?" → read the cleaned tables; numbers are eBay.com (US)/EN-mirror unless market confirmed.
 
+### eBay US July demand census + Q3 price-floor/runway (runs 2026-07-02/03, 6 web agents) — CANONE for batch builds
+- last_run: 2026-07-03 · type: demand-census + competitor price-floor + trend-runway (read-only web) · reports: `10_OUTPUTS/MARKET_RESEARCH_REPORTS/EBAY_JULY_DEMAND_CENSUS_2026-07-02.md` + `EBAY_PRICEFLOOR_Q3_RUNWAY_2026-07-03.md`
+- **PRICE-FLOOR RULE (canon):** 1.5× buy cost must sit INSIDE the observed eBay sold-badge band — category medians NOT sufficient (solar lights/LED collars: healthy medians, zero demand at target price). 22 types tested.
+- VIABLE: diaper caddy · over-door shower caddy · vacuum bags multi-pack (≥10+pump) · wind spinner 3D · donut cushion · patio side table. DEAD at 1.5×: cable tray (street < buy cost) · pot-lid rack · plastic bins w/ lids $15↔$36 dead-zone · solar stake lights (all sold ≤$21.98) · LED collar · drink holder · shaker (BlenderBottle wall) · plain slow-feeder.
+- **Q3 RUNWAY:** BTS/dorm storage+desk peak = first 3 weeks Aug (prices 2-3×) · cleaning peaks Aug · pool MAINTENANCE holds to Sept · early-fall/Summerween rising. DYING after Jul-4: floats/beach/patriotic/misting-fans/patio furniture.
+- July peaking (sold-badge proof 2026-07-02): camping lanterns 4,357 · BBQ thermometer 2,796 · patio covers 1,509 · gel cushion 779 · jar opener 398.
+- method canon: eBay `/b/` + `/shop/` via r.jina.ai = WORKS · `/sch/` + LH_Sold=1 + watchcount/wuanto = WALLED (403/bot) · sold badges = cumulative lower bounds · caches `90_CACHE/fetches/ebay.com/2026-07-03_*`
+- applied: `_build_qbatchD.py` (KILL regex + BTS-1.6/desk-1.5/clean-1.4 boosts); AutoDS search clusters return noise (apparel/jewelry/fixtures) → manual title review mandatory (19 pruned across C+D).
+- open items: memory-foam cushion velocity LOW-SAMPLE; Terapeak still account-gated (E-018); per-SKU eBay sold check for batch D types not yet run via `read_ebay_demand.py`.
+
 ### eBay + AutoDS — public policy / fee / feature (run 2026-06-15, data-collection v1)
 - last_run: 2026-06-15 · type: data-collection (public, read-only) · report: `10_OUTPUTS/SYSTEM_REPORTS/2026-06-15_data-collection-public-research_report_v1.md`
 - cleaned data: `02_DATA/02_CLEANED_DATA/{fee_table,policy_risk_table,autods_features_table}.md` · raw: `02_DATA/01_RAW_DATA/` · evidence: `90_CACHE/fetches/` (21 files)

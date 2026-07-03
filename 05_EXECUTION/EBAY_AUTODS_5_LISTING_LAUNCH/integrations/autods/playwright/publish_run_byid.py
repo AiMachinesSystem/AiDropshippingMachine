@@ -39,7 +39,7 @@ def pull_drafts():
             b.close(); return out
         hdr = {k: v for k, v in cap["headers"].items()
                if k.lower() in ("authorization", "content-type", "accept", "origin", "referer")}
-        body = json.loads(cap["body"]); body["limit"] = 300; body["offset"] = 0
+        body = json.loads(cap["body"]); body["limit"] = 450; body["offset"] = 0
         resp = pg.request.post(cap["url"], data=json.dumps(body), headers=hdr)
         data = resp.json(); b.close()
     items = data.get("results") or data.get("data") or []
