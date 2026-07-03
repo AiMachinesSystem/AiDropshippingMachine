@@ -1,6 +1,4 @@
 === PUBLISH RUN BY-ID | target=36 | candidates=74 ===
-initial drafts (by asin): 324
-importing 73 missing candidates...
-  import B08L56XMXX : ok
-  import B07Z9SY8RQ : ok
-  import B08BQGG6V1 : ok
+initial drafts (by asin): 373
+importing 26 missing candidates...
+  import B08NDPLRST : fail/dup

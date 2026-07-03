@@ -13,6 +13,13 @@ description: "Registro errori della macchina (protocollo AUTONOMIA CONTROLLATA v
 > Una voce si chiude solo con test di regressione PASSATO (a freddo dove applicabile, regola patch §5).
 > Le regole nate da questo registro vincolano come la costituzione (patch AUTONOMIA CONTROLLATA §4).
 
+## E-023 — Censimento draft vuoto trattato come "nessun draft" → run publish D bruciato a 0 tentativi
+- **Data:** 2026-07-03 (run batch D, GO owner "poi pubblichi") · **Fix:** patch `publish_run_byid.py` (retry ≤3 su pull vuoto + ABORT esplicito), stesso run rilanciato.
+- **ERRORE:** [OBSERVED — `_run_D.log`] dopo 56 import ok, la seconda `pull_drafts()` ha restituito `{}` (finestra di cattura auth mancata sul load di `/upload`); lo script ha marcato TUTTI i 74 candidati `no-draft` e ha chiuso con `attempts=0, published=0` — run intero perso, import già consumati.
+- **CAUSA:** [OBSERVED] `pull_drafts()` ritorna `{}` sia per "0 draft reali" sia per "cattura richiesta fallita"; il chiamante non distingueva i due casi (lista vuota = stato impossibile con 324 draft appena censiti).
+- **REGOLA:** un censimento che torna VUOTO dopo che lo stesso run ne ha appena visto uno NON-vuoto è un ERRORE di lettura, mai uno stato di business: retry con backoff e, se persiste, ABORT esplicito senza consumare candidati. Vale per ogni lettura API il cui vuoto è implausibile rispetto allo stato osservato prima.
+- **TEST DI REGRESSIONE:** rilancio dello stesso `_qbatchD.json`: la fase 1 deve trovare ≥50 dei candidati già in drafts (import della corsa precedente) e `attempts>0`. [Esito atteso registrato al close del run D-bis.]
+
 ## E-022 — Title cleaner azzera il punto decimale → spec fuorviante ("1.5 Cup" → "15 Cup")
 - **Data:** 2026-06-29 (run "pubblica 36 selezionati", GO owner) · **Fix:** correzione manuale dei titoli prima del publish (questo run, `_publish4_cands.json`); la regola sotto vincola ogni generazione titoli futura.
 - **ERRORE:** [OBSERVED] nei `seo_title` di `_screened_candidates.json`, lo screener (`potential_screen`/`refine_candidates`, effimero in scratchpad) ha prodotto **"Neater Pet Brands 15 Cup…"** per una ciotola da **1.5 Cup (12 oz)** e **"22 Cup"** per **2.2 Cup (18 oz)** — il punto decimale rimosso ha ~decuplicato la capacità dichiarata nel titolo. Near-miss: intercettato a freddo nella classificazione gate **PRIMA** del publish (danno reale = 0; titoli corretti a "1.5 Cup 12 oz" / "2.2 Cup 18 oz" e poi pubblicati).

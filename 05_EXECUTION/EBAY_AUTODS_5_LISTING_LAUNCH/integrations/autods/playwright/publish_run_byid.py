@@ -20,8 +20,19 @@ from playwright.sync_api import sync_playwright
 BRANDLEAD = re.compile(r"^[A-Z0-9][A-Z0-9'’&.\-]+$")
 
 
-def pull_drafts():
-    """Return {asin: {id,title,err,stock,region,buy}} from the products list API (limit 300)."""
+def pull_drafts(retries=3):
+    """Return {asin: ...} from the products list API. Retries on empty result: a missed
+    auth-capture window returns {} which E-023 proved must be treated as an error, never
+    as 'no drafts'."""
+    for attempt in range(retries):
+        out = _pull_drafts_once()
+        if out:
+            return out
+        print("  pull_drafts empty (attempt %d/%d) - retrying" % (attempt + 1, retries), flush=True)
+    return out
+
+
+def _pull_drafts_once():
     cap = {}
     out = {}
     with sync_playwright() as p:
@@ -116,6 +127,9 @@ def main():
     if missing:
         drafts = pull_drafts()
         L("drafts after imports (by asin): %d" % len(drafts))
+        if not drafts:
+            L("ABORT: drafts census empty after imports (E-023) - refusing to mark candidates no-draft.")
+            return 2
     post_import = set(drafts.keys())
 
     # Phase 2: prepare + publish by id
