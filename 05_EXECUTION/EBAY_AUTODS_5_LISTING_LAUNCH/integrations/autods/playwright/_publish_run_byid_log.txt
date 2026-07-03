@@ -1,19 +1,49 @@
-=== PUBLISH RUN BY-ID | target=2 | candidates=8 ===
-initial drafts (by asin): 239
-importing 8 missing candidates...
-  import B08QMPHMD4 : ok
-  import B09WQQD6X6 : ok
-  import B07XDM9WG9 : ok
-  import B087MG35SC : ok
-  import B0CRRDDX59 : ok
-  import B083K4S22Z : ok
-  import B07TXL7CPQ : ok
-  import B08DSCKFVT : ok
-drafts after imports (by asin): 247
-  [1 live] B08QMPHMD4 | Vigdur Multicolor Flower String Lights Decorativ
-  [2 live] B09WQQD6X6 | JMEXSUSS 250 LED Warm White to Multicolor String
-
-=== SUMMARY: publish-reported=2 | API-verified-left-drafts=2 | attempts=2 ===
-  B08QMPHMD4 : PUBLISHED
-  B09WQQD6X6 : PUBLISHED
-RUN_RESULT verified=2
+=== PUBLISH RUN BY-ID | target=36 | candidates=36 ===
+initial drafts (by asin): 272
+importing 35 missing candidates...
+  import B0CSPKNQQH : ok
+  import B0C89STMFK : ok
+  import B085DVL7PP : ok
+  import B0B42GC9F5 : ok
+  import B08BLD41XL : ok
+  import B081SGLXMJ : ok
+  import B005M8Y3YE : ok
+  import B07TX8RZQK : ok
+  import B00BF9Q1G2 : ok
+  import B096LQZ99N : ok
+  import B08ZHV7BZ8 : ok
+  import B08BC88BHZ : ok
+  import B07H4QBWMT : ok
+  import B07L8ZRD97 : ok
+  import B09BCN1YT3 : ok
+  import B07M5N2ZPL : ok
+  import B08SGF8TM8 : ok
+  import B08R9P9CJL : ok
+  import B0DP4VN4VS : ok
+  import B07S93QMGL : ok
+  import B08XQB6WGY : ok
+  import B07CYJX542 : ok
+  import B082F84FFV : ok
+  import B08K2RF8WD : ok
+  import B08LZLKJVM : ok
+  import B08ZRVRR9M : ok
+  import B08LVTTM5G : ok
+  import B08NYFSS8X : ok
+  import B0874CXD33 : ok
+  import B0836B7GY3 : ok
+  import B08FXPMMK4 : ok
+  import B00MGSOR4E : ok
+  import B081KRHLTK : ok
+  import B09BVZ3WDB : ok
+  import B00DJAWRHW : ok
+drafts after imports (by asin): 300
+  [1 live] B0CSPKNQQH | Silver Buffalo Sanrio Hello Kitty Waving Double 
+  [2 live] B0C89STMFK | JARLINK Over The Door Organizer Storage 5 Shelf 
+  [3 live] B0B42GC9F5 | STORAGE MANIAC Expandable Shoe Rack 8 Pairs Stac
+  [4 live] B081SGLXMJ | Glotoch Mason Jars 8 OZ with Lids and Bands 12 P
+  [5 live] B005M8Y3YE | PrepSolutions Brown Sugar Keeper with Lid 1.5-Qu
+  [6 live] B07TX8RZQK | Slideep Pot Pan Lid Holder Drying Rack Bakeware 
+  [7 live] B096LQZ99N | Cambom Rotary Cheese Grater Hand Crank Cheese Sh
+  [unconf] B07H4QBWMT | TIMEOUT
+  [8 live] B08R9P9CJL | YIHONG 6 Pack Clear Pantry Organizer Bins Plasti
+  [unconf] B0DP4VN4VS | gating to "https://platform.autods.com/upload", waiting until "domcontentloaded"
