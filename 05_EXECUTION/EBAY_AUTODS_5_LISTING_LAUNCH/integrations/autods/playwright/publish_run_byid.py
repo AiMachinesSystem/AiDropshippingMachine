@@ -11,6 +11,7 @@ Stops the whole run on an eBay account restriction. GO: owner 2026-06-28 'pubbli
 Usage: publish_run_byid.py <candidates.json> [--target 36] [--max-attempts 60]
 """
 import os, re, sys, json, subprocess, argparse
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 HERE = os.path.dirname(os.path.abspath(__file__))
 PY = os.path.join(HERE, ".venv", "Scripts", "python.exe")
 STATE = os.path.join(HERE, "storage_state.json")
