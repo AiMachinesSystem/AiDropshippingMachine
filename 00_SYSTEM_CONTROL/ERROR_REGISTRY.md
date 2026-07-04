@@ -13,6 +13,13 @@ description: "Registro errori della macchina (protocollo AUTONOMIA CONTROLLATA v
 > Una voce si chiude solo con test di regressione PASSATO (a freddo dove applicabile, regola patch §5).
 > Le regole nate da questo registro vincolano come la costituzione (patch AUTONOMIA CONTROLLATA §4).
 
+## E-024 — Batch builder con rec=HOLD degrada yield: run F 5/72 (7%) vs E 24/60 (40%)
+- **Data:** 2026-07-04 (run batch F) · **Fix:** filtro `rec=TEST` only applicato da batch G in avanti.
+- **ERRORE:** [OBSERVED — `_publish_run_byid_log.txt` run F] batch F costruito con `rec in (TEST, HOLD)` ha prodotto 5 API-verified su 72 tentativi (7%); run E con stesso filtro ma candidati di testa: 24/60 (40%). Degradazione confermata: la parte HOLD del pool ha skip-econ molto alto + title-over-80 frequente.
+- **CAUSA:** [INFERRED] AutoDS marca `rec=HOLD` i prodotti con economics al limite (margine basso, stock incerto) — sono i candidati peggiori del pool. Mischiandoli ai TEST si abbassa la qualità media dell'intero batch.
+- **REGOLA:** il batch builder DEVE filtrare `rec=TEST ONLY`. I candidati HOLD sono VIETATI nei batch di produzione. Se il pool TEST si esaurisce, fare un fresh marketplace pull piuttosto che includere HOLD.
+- **TEST DI REGRESSIONE:** prima di ogni run publish, verificare che tutti gli ASIN nel `_qbatch*.json` abbiano `rec=TEST` nel shortlist sorgente (o in assenza di riferimento, che il pool builder abbia usato `rec != 'HOLD'`). Yield atteso su TEST-only: ≥25% (da E come benchmark).
+
 ## E-023 — Censimento draft vuoto trattato come "nessun draft" → run publish D bruciato a 0 tentativi
 - **Data:** 2026-07-03 (run batch D, GO owner "poi pubblichi") · **Fix:** patch `publish_run_byid.py` (retry ≤3 su pull vuoto + ABORT esplicito), stesso run rilanciato.
 - **ERRORE:** [OBSERVED — `_run_D.log`] dopo 56 import ok, la seconda `pull_drafts()` ha restituito `{}` (finestra di cattura auth mancata sul load di `/upload`); lo script ha marcato TUTTI i 74 candidati `no-draft` e ha chiuso con `attempts=0, published=0` — run intero perso, import già consumati.
