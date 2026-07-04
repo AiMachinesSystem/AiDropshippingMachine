@@ -1,185 +1,173 @@
 === PUBLISH RUN BY-ID | target=36 | candidates=72 ===
-initial drafts (by asin): 357
-importing 70 missing candidates...
-  import B08FSY8L6J : ok
-  import B07JZZQBZ9 : ok
-  import B07NLKJFMT : ok
-  import B088BLG82K : ok
-  import B081CF7TFB : ok
-  import B0CKPC5F81 : ok
-  import B07RTVS47M : ok
-  import B07YSK1TG5 : ok
-  import B07G3ZN75Y : ok
-  import B094M5GB3B : ok
-  import B07K17V86Z : ok
-  import B07RK2BTL4 : ok
-  import B073QYHCY6 : ok
-  import B097ZG7Q4F : ok
-  import B07CQJWWNS : ok
-  import B09DKFVQYM : ok
-  import B0BCV1RB8P : ok
-  import B07PFGHQSY : ok
-  import B07PYNPSBP : ok
-  import B08KY9DHR9 : ok
-  import B0B87N1714 : ok
-  import B0BVYZ4WYM : ok
-  import B08KS7YFD6 : ok
-  import B089NBL1Q2 : ok
-  import B0CH299VDK : ok
-  import B088TJ246P : ok
-  import B07NDGYQZN : ok
-  import B09TQW3ZRN : ok
-  import B07VD5F83T : ok
-  import B07S8D3NPY : ok
-  import B07KHX9S3B : ok
-  import B08M5YNCLH : ok
-  import B08FDQDY53 : ok
-  import B0CGJJJC4M : ok
-  import B07CL4GM7N : ok
-  import B07J5QHQV6 : ok
-  import B082DL9N5C : ok
-  import B07YD7RSQ4 : ok
-  import B07BSB87FL : ok
-  import B08SQX66C9 : ok
-  import B07D6Y24W3 : ok
-  import B0CKLL43Y4 : ok
-  import B01N23YRMO : ok
-  import B0BNVC81KK : ok
-  import B07KPV97CL : ok
-  import B08BWVV32C : ok
-  import B08XQNQM63 : ok
-  import B08VJGY5HK : ok
-  import B07Q1CPWSM : ok
-  import B00WR9DI3I : ok
-  import B08L6XJ3TX : ok
-  import B08FP4CMKD : ok
-  import B08L6ZR5SL : ok
-  import B088JGKW83 : ok
-  import B0915131R4 : ok
-  import B098QZ44ND : ok
-  import B093TCZDB9 : ok
-  import B07SPD1PPC : ok
-  import B0CDZTJ1PW : ok
-  import B09BXDTMQN : ok
-  import B00AYUMB4O : ok
-  import B08YJ9YYFR : ok
-  import B01EZ3P9RG : ok
-  import B09C2RTZYV : ok
-  import B08NSF31SG : ok
-  import B01M3RP2PD : ok
-  import B08JY8ZKNG : ok
-  import B005FW1WLO : ok
-  import B0CB3LZY4X : ok
-  import B00JJ57CR6 : ok
-drafts after imports (by asin): 418
-  [1 live] B07JZZQBZ9 | Kids Storage Basket Nautical Gift Basket Empty B
-  [2 live] B0CKPC5F81 | Rectangular Storage Bin Collapse Canvas Fabric C
-  [3 live] B07RTVS47M | Rustic Wall Mounted Jewelry Organizer with Woode
-  [4 live] B07YSK1TG5 | SereneLife Bath Caddy Breakfast Tray Combo - Nat
-  [5 live] B07RK2BTL4 | Over The Door Shoe Organizer 2 Pack,Mesh Pockets
-  [unconf] B09DKFVQYM | izer, Hanging Shoe Rack for Door L | len 143
-RESULT: ABORT title-over-80 len=143
-  [6 live] B07PYNPSBP | C12 IPX7 Waterproof Shower Bluetooth Speaker, Po
-  [7 live] B0BVYZ4WYM | 90L Large Laundry Basket, Collapsible Laundry Ba
-  [8 live] B08KS7YFD6 | Broom Holder Wall Mount, 4 Pack Mop Holder Stain
-  [9 live] B07NDGYQZN | STORi SimpleSort 6-Piece Stackable Clear Drawer 
-  [10 live] B07S8D3NPY | Athletico Sling Bag - Crossbody Backpack for Pic
-  [11 live] B07KHX9S3B | Remote Control Holder Organizer Table Desk Leath
-  [unconf] B08FDQDY53 | ilicone Pads, 4-Size | len 61
-RESULT: ABORT guard-mismatch (expected '22 piece')
-  [12 live] B0CGJJJC4M | 5 Pack Stackable Closet Storage Basket, Multifun
-  [13 live] B07J5QHQV6 | - AVA 50cm PSU Cable Extension Sleeved Custom Mo
-  [14 live] B082DL9N5C | Scouring Pads - Heavy Duty Household Cleaning Sc
-  [15 live] B07BSB87FL | M MCIRCO [5-Packs, 36 Oz Glass Meal Prep Contain
-  [16 live] B01N23YRMO | Sumnacon Toiletry Bags, Unisex PU Leather Waterp
-  [17 live] B0BNVC81KK | StorageWorks Large Water Hyacinth Tray for Bathr
-  [unconf] B07KPV97CL | k Frying Pan / | len 70
-RESULT: ABORT guard-mismatch (expected 'circulon 83906')
-  [unconf] B08BWVV32C |  Pots And Pans Set | len 69
-RESULT: ABORT guard-mismatch (expected 'moss stone')
-  [18 live] B08VJGY5HK | Buylorco Stainless Steel Folding Vegetable Steam
-  [19 live] B07Q1CPWSM | Pro Zester Grater, Lemon Parmesan Zester, Chocol
-  [20 live] B08L6XJ3TX | WITH COLOR Prep Bowls with Lids- Wide and Deep N
-  [21 live] B08L6ZR5SL | WITH COLOR Prep Bowls with Lids- Wide and Deep N
-  [22 live] B088JGKW83 | Sharpty Kids Plastic Hangers, Children's Hangers
-  [23 live] B0915131R4 | ByKen 2PcS Acrylic Scrunchie Holder Organizer,Ha
-  [24 live] B098QZ44ND | Kids Apron and Chef Hat Set, Adjustable Cotton C
-  [25 live] B07SPD1PPC | Air Fryer Accessories 11PCS, Fit all 3.7QT-4.0-5
-  [26 live] B00AYUMB4O | iDesign Clear Plastic Egg Holder for Fridge with
-  [unconf] B01M3RP2PD | pose Gym Rack fo | len 65
-RESULT: ABORT guard-mismatch (expected 'american gym')
+initial drafts (by asin): 396
+importing 68 missing candidates...
+  import B08XGYQNXM : ok
+  import B01NAI6YC5 : ok
+  import B09GXXXRRR : ok
+  import B08VHXN57P : ok
+  import B07JFK83KQ : ok
+  import B07JFT6HLN : ok
+  import B08JHP7P58 : ok
+  import B08FDLDDKY : ok
+  import B0B5THNRX5 : ok
+  import B079CY4TY3 : ok
+  import B07L6P8FK5 : ok
+  import B085BYWFDH : ok
+  import B091T75VKH : ok
+  import B09LS4BR62 : ok
+  import B084BXXCV8 : ok
+  import B08D9JV714 : ok
+  import B07VDHK78P : ok
+  import B07T2374MN : ok
+  import B0B6CK64V7 : ok
+  import B07JWB1X9Q : ok
+  import B08ZCB9N3T : ok
+  import B01A6JLR88 : ok
+  import B07CVD9LT7 : ok
+  import B06WRV7M4V : ok
+  import B08GXZZHCY : ok
+  import B07TC81G1Y : ok
+  import B099F8F1NR : ok
+  import B07QXH8LTP : ok
+  import B0967FT8JY : ok
+  import B07J2GRXT6 : ok
+  import B01D1E9JW6 : ok
+  import B01F39JVXO : ok
+  import B08J2H6RCT : ok
+  import B07S7S7V43 : ok
+  import B088LHWC27 : ok
+  import B0C16ZPTNB : ok
+  import B01CGX8BXG : ok
+  import B07RQVHP5F : ok
+  import B08JJDX2ZZ : ok
+  import B08FSDHTYT : ok
+  import B08Y71T872 : ok
+  import B082XRB79L : ok
+  import B095BWTNW3 : ok
+  import B08HM8LCBY : ok
+  import B0913GL9V1 : ok
+  import B0799SC5J3 : ok
+  import B004MY50DM : ok
+  import B0832DFJFB : ok
+  import B07JVGJD1M : ok
+  import B08DHTB8ZM : ok
+  import B01KVYF0B8 : ok
+  import B07GXB7BYB : ok
+  import B08GL43DD4 : ok
+  import B08RMNG3HD : ok
+  import B0CLCH13T7 : ok
+  import B09WJZB2C2 : ok
+  import B076BVSYC5 : ok
+  import B08LYS99TL : ok
+  import B093T14ZKC : ok
+  import B093H3ZBHM : ok
+  import B001J6FSDS : ok
+  import B0895BQR5Z : ok
+  import B07ZQVBLHM : ok
+  import B07KXKF942 : ok
+  import B07Y3V6H24 : ok
+  import B07HHT38DR : ok
+  import B07L18NVQP : ok
+  import B0BYDGNBCK : ok
+drafts after imports (by asin): 450
+  [1 live] B01NAI6YC5 | Humble Crew Toy Storage Organizer with 16 Remova
+  [unconf] B08JHP7P58 | t, Medicin | len 129
+RESULT: ABORT guard-mismatch (expected 'choochoo bathroom')
+  [unconf] B0B5THNRX5 | hods  | len 180
+RESULT: ABORT guard-mismatch (expected 'hapirm multifunctional')
+  [2 live] B07VDHK78P | Orimade Shower Caddy Basket Soap Dish Holder She
+  [3 live] B07CVD9LT7 | UnionBasic Desk Organizer - Multifunctional Leat
+  [4 live] B08Y71T872 | Small Moon Jewelry Dish Tray, Decorative Ceramic
+  [unconf] B082XRB79L | Cleaning Scrubbers Set for Washing | len 127
+RESULT: ABORT title-over-80 len=127
+  [5 live] B095BWTNW3 | Schneider Medical Nitrile Exam Gloves, 4 mil, Po
+  [unconf] B08HM8LCBY | el Li | len 183
+RESULT: ABORT guard-mismatch (expected 'hypermotion microfiber')
+  [unconf] B0832DFJFB | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  [unconf] B07JVGJD1M | ign Commercial Grade 4X6 Inch Food | len 183
+RESULT: ABORT title-over-80 len=183
+  [unconf] B08RMNG3HD | 2-Inch, Saute Pan with Lid, Stay-C | len 159
+RESULT: ABORT title-over-80 len=159
+  [6 live] B0CLCH13T7 | Homde Synthetic Leather Huge Jewelry Box Mirrore
+  [7 live] B076BVSYC5 | Kayak Storage Hooks - Set of 2 Wall Mount Garage
+  [8 live] B001J6FSDS | Wall Control 30-P-3232GV Galvanized Steel Pegboa
+  [unconf] B07KXKF942 | ice Suppl | len 140
+RESULT: ABORT guard-mismatch (expected 'marbrasse magnetic')
+  [unconf] B0BYDGNBCK |  Vacuum Seal Bags for Clothing | E | len 190
+RESULT: ABORT title-over-80 len=190
 
-=== SUMMARY: publish-reported=26 | API-verified-left-drafts=24 | attempts=60 ===
-  B08FSY8L6J : skip-econ
-  B07JZZQBZ9 : PUBLISHED
-  B07NLKJFMT : skip-econ
-  B088BLG82K : no-draft
-  B081CF7TFB : skip-econ
-  B0CKPC5F81 : PUBLISHED
-  B07KZYF4NC : skip-econ
-  B07RTVS47M : PUBLISHED
-  B07YSK1TG5 : PUBLISHED
-  B07G3ZN75Y : skip-econ
-  B094M5GB3B : skip-econ
-  B07K17V86Z : skip-econ
-  B07RK2BTL4 : PUBLISHED
-  B073QYHCY6 : skip-title-persist
-  B0BQTLMM3B : skip-econ
-  B097ZG7Q4F : skip-title-persist
-  B07CQJWWNS : skip-econ
-  B09DKFVQYM : unconfirmed
-  B0BCV1RB8P : skip-title-persist
-  B07PFGHQSY : no-draft
-  B07PYNPSBP : PUBLISHED
-  B08KY9DHR9 : skip-err1
-  B0B87N1714 : skip-err1
-  B0BVYZ4WYM : PUBLISHED
-  B08KS7YFD6 : PUBLISHED
-  B089NBL1Q2 : skip-econ
-  B0CH299VDK : skip-econ
-  B088TJ246P : no-draft
-  B07NDGYQZN : PUBLISHED
-  B09TQW3ZRN : skip-econ
-  B07VD5F83T : skip-err1
-  B07S8D3NPY : PUBLISHED
-  B07KHX9S3B : PUBLISHED
-  B08M5YNCLH : skip-econ
-  B08FDQDY53 : unconfirmed
-  B0CGJJJC4M : PUBLISHED
-  B07CL4GM7N : skip-econ
-  B07J5QHQV6 : PUBLISHED
-  B082DL9N5C : PUBLISHED
-  B07YD7RSQ4 : no-draft
-  B07BSB87FL : PUBLISHED
-  B08SQX66C9 : no-draft
-  B07D6Y24W3 : skip-econ
-  B0CKLL43Y4 : no-draft
-  B01N23YRMO : PUBLISHED
-  B0BNVC81KK : PUBLISHED
-  B07KPV97CL : unconfirmed
-  B08BWVV32C : unconfirmed
-  B08XQNQM63 : no-draft
-  B08VJGY5HK : PUBLISHED
-  B07Q1CPWSM : PUBLISHED
-  B00WR9DI3I : no-draft
-  B08L6XJ3TX : PUBLISHED
-  B08FP4CMKD : no-draft
-  B08L6ZR5SL : PUBLISHED
-  B088JGKW83 : PUBLISHED
-  B0915131R4 : PUBLISHED
-  B098QZ44ND : PUBLISHED
-  B093TCZDB9 : skip-econ
-  B07SPD1PPC : PUBLISHED
-  B0CDZTJ1PW : no-draft
-  B09BXDTMQN : skip-err1
-  B00AYUMB4O : PUBLISHED
-  B08YJ9YYFR : skip-err1
-  B01EZ3P9RG : skip-econ
-  B09C2RTZYV : skip-econ
-  B08NSF31SG : skip-econ
-  B01M3RP2PD : unconfirmed
-  B08JY8ZKNG : skip-econ
-  B005FW1WLO : no-draft
-  B0CB3LZY4X : no-draft
-  B00JJ57CR6 : skip-err1
-RUN_RESULT verified=24
+=== SUMMARY: publish-reported=8 | API-verified-left-drafts=5 | attempts=55 ===
+  B08XGYQNXM : skip-econ
+  B01NAI6YC5 : PUBLISHED
+  B09GXXXRRR : skip-econ
+  B08VHXN57P : no-draft
+  B07JFK83KQ : skip-econ
+  B07JFT6HLN : skip-econ
+  B08JHP7P58 : unconfirmed
+  B08FDLDDKY : skip-err1
+  B0B5THNRX5 : unconfirmed
+  B079CY4TY3 : skip-title-persist
+  B07L6P8FK5 : skip-econ
+  B085BYWFDH : skip-econ
+  B091T75VKH : skip-econ
+  B09LS4BR62 : skip-econ
+  B084BXXCV8 : no-draft
+  B08D9JV714 : no-draft
+  B07VDHK78P : PUBLISHED
+  B07VVB4WQJ : skip-econ
+  B07T2374MN : skip-title-persist
+  B0B6CK64V7 : skip-err1
+  B07JWB1X9Q : skip-title-persist
+  B08ZCB9N3T : skip-econ
+  B01A6JLR88 : skip-econ
+  B07CVD9LT7 : PUBLISHED
+  B06WRV7M4V : skip-econ
+  B08GXZZHCY : skip-econ
+  B07TC81G1Y : no-draft
+  B07FKFZWLN : skip-econ
+  B099F8F1NR : no-draft
+  B07QXH8LTP : skip-econ
+  B0967FT8JY : skip-title-persist
+  B07J2GRXT6 : no-draft
+  B01D1E9JW6 : no-draft
+  B01F39JVXO : skip-title-persist
+  B08J2H6RCT : skip-econ
+  B07S7S7V43 : no-draft
+  B088LHWC27 : no-draft
+  B0C16ZPTNB : skip-err1
+  B01CGX8BXG : no-draft
+  B07RQVHP5F : no-draft
+  B08JJDX2ZZ : no-draft
+  B08FSDHTYT : skip-econ
+  B08Y71T872 : PUBLISHED
+  B082XRB79L : unconfirmed
+  B095BWTNW3 : PUBLISHED
+  B08HM8LCBY : unconfirmed
+  B0913GL9V1 : no-draft
+  B0799SC5J3 : skip-err1
+  B004MY50DM : no-draft
+  B0832DFJFB : unconfirmed
+  B07JVGJD1M : unconfirmed
+  B08DHTB8ZM : skip-err1
+  B01KVYF0B8 : skip-err1
+  B07GXB7BYB : no-draft
+  B08GL43DD4 : skip-econ
+  B08RMNG3HD : unconfirmed
+  B0CLCH13T7 : PUBLISHED
+  B09WJZB2C2 : no-draft
+  B07MSJ757X : skip-econ
+  B076BVSYC5 : PUBLISHED
+  B0995LJWF6 : skip-econ
+  B08LYS99TL : no-draft
+  B093T14ZKC : skip-econ
+  B093H3ZBHM : skip-econ
+  B001J6FSDS : PUBLISHED
+  B0895BQR5Z : skip-title-persist
+  B07ZQVBLHM : skip-econ
+  B07KXKF942 : unconfirmed
+  B07Y3V6H24 : skip-econ
+  B07HHT38DR : skip-title-persist
+  B07L18NVQP : skip-econ
+  B0BYDGNBCK : unconfirmed
+RUN_RESULT verified=5
