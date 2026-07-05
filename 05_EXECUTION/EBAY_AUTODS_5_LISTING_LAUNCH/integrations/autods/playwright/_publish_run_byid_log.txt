@@ -1,3 +1,180 @@
 === PUBLISH RUN BY-ID | target=36 | candidates=72 ===
 initial drafts (by asin): 450
 importing 72 missing candidates...
+  import B0DZ67KDX3 : ok
+  import B07KWHFG36 : ok
+  import B09226TVQT : ok
+  import B07JVJQ9XK : ok
+  import B07YKCV45Z : ok
+  import B08XTS1X6Z : ok
+  import B086ZNS3RQ : ok
+  import B07VW5Y2ZD : ok
+  import B0DFC1FDMB : ok
+  import B08K8DQKBG : ok
+  import B08P4T74L1 : ok
+  import B09T2GL3TL : ok
+  import B01HXZXW7W : ok
+  import B07DM5R9B4 : ok
+  import B085VYPGMD : ok
+  import B07H2RHVK4 : ok
+  import B07S72TW9C : ok
+  import B003PWNGQU : ok
+  import B01L7ZUTT8 : ok
+  import B07FCV2LZ5 : ok
+  import B09JNK5CXF : ok
+  import B0851C6F2F : ok
+  import B01C83PBO6 : ok
+  import B07XB6NYX9 : ok
+  import B096RWQS8V : ok
+  import B0FSDQ2MH8 : ok
+  import B07PSFP38T : ok
+  import B0FMGMR4Q6 : ok
+  import B08G1DTHYS : ok
+  import B08YGYMFVZ : ok
+  import B08CCC2TWD : ok
+  import B07T97ZZNH : ok
+  import B081YJSCRF : ok
+  import B07QR2TTRR : ok
+  import B077HV3RW5 : ok
+  import B09KC6F578 : ok
+  import B094D6LPHB : ok
+  import B073VQ7K15 : ok
+  import B0991Q8M2T : ok
+  import B01JUYR7A2 : ok
+  import B07KPSBQ6V : ok
+  import B0DGKR5MMP : ok
+  import B07MKH9RDV : ok
+  import B003G8CZZG : ok
+  import B07H238PNM : ok
+  import B0DMZXLT5J : ok
+  import B0078K6X3S : ok
+  import B01BW2YZ4Q : ok
+  import B0868HS9TR : ok
+  import B01N2VG1QN : ok
+  import B00ID075FC : ok
+  import B015HUY4AY : ok
+  import B07MT7N35R : ok
+  import B09421711R : ok
+  import B06Y5CJG3Y : ok
+  import B08LYHMDLV : ok
+  import B0773XZJGZ : ok
+  import B08L7699LN : ok
+  import B09ST6ZJK6 : ok
+  import B09573P1PB : ok
+  import B07Q28GRKW : ok
+  import B0D7Q1K1RY : ok
+  import B09ZHNMHZ1 : ok
+  import B00BGWH1Y4 : ok
+  import B08Q7CCP5S : ok
+  import B0FG2M1GN5 : ok
+  import B00KAJQJ74 : ok
+  import B0063879QQ : ok
+  import B007CNKOTK : ok
+  import B07B61HMRT : ok
+  import B07FSFBSXY : ok
+  import B07HB538FY : ok
+drafts after imports (by asin): 450
+  [1 live] B0DZ67KDX3 | Wrap Around Curtain Rod Blackout Curtain Rod for
+  [2 live] B07KWHFG36 | Lush Decor Mid Century Geo Light Filtering Windo
+  [3 live] B09226TVQT | Red Curtains for Kids Bedroom 2 Panels,Sheer Gam
+  [4 live] B07JVJQ9XK | Black and Red Buffalo Plaid Fleece Throw Blanket
+  [5 live] B07VW5Y2ZD | Healing Blanket, Get Well Soon Gift, Soft Hug Co
+  [6 live] B0DFC1FDMB | Faux Rabbit Fur Throw Blanket for Couch, Fluffy 
+  [7 live] B08K8DQKBG | Dinosaur and Star Foil Print Blackout Curtains f
+  [8 live] B09T2GL3TL | Waterproof Mattress Protector Queen Size, 6''-21
+  [9 live] B07S72TW9C | Sherpa Fleece Blanket Gifts for Mom Dad Cozy Sof
+  [10 live] B003PWNGQU | Waterproof Full Size Mattress Protector - Fitted
+  [11 live] B0851C6F2F | Vailge Dog Car Seat Cover for Back Seat, 100% Wa
+  [12 live] B01C83PBO6 | Bulldogology Dog Car Seat Cover For Back Seat - 
+  [13 live] B096RWQS8V | Cat Tent Outdoor, Pet Enclosure Tent Suitable fo
+  [14 live] B0FSDQ2MH8 | Cumbor 36.6-64" Extra Wide Baby Gate for Stairs,
+  [unconf] B07PSFP38T | , Doorway, Stairs, Fr | len 62
+RESULT: ABORT guard-mismatch (expected '96 inch')
+  [15 live] B0FMGMR4Q6 | Decorative Garden Fence 12 Panels 26ft(L)×42in(H
+  [unconf] B08YGYMFVZ |  Buttermilk, 95% Natur | len 70
+RESULT: ABORT guard-mismatch (expected 'burt s')
+  [unconf] B077HV3RW5 | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  [16 live] B01JUYR7A2 | Purple Dragon Professional 7.0 inch 4PCS Pet Gro
+  [17 live] B0DGKR5MMP | Globlazer Heavy Duty Cat Tree, 70 inch Sturdy Ca
+  [18 live] B003G8CZZG | The Buddy System Hands Free Dog Leash, Adjustabl
+  [19 live] B07H238PNM | Dog Collar and Leash, Velvet Dog Collar and Leas
+  [20 live] B0DMZXLT5J | Portable Canopy Camping Chair 380 LBS Capacity H
+  [21 live] B0078K6X3S | Fusion Camping Chair with Side Table and Soft Co
+  [22 live] B0868HS9TR | 200 PCS/100Pairs 925 Sterling Silver and Gold Ea
+  [23 live] B01N2VG1QN | Fitru Waist Trimmer Sauna Ab Belt for Women & Me
+  [24 live] B00ID075FC | Microwave Heating Pad, Microwavable Heated Neck 
+  [25 live] B015HUY4AY | Roller Stiff Peanut Massage Ball - High Density 
+  [unconf] B07MT7N35R | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  [26 live] B09421711R | Novodon Merino Wool Pressing Mat 22" x 60" 100% 
+  [27 live] B0773XZJGZ | reperkid Car Seat Travel Bag – Easy To Carry Bab
+  [28 live] B09ZHNMHZ1 | Afirst Mosaic Solar Lanterns Outdoor - Glass Han
+  [29 live] B00BGWH1Y4 | Suspenz Folding Kayak Stand, Small Portable Rack
+
+=== SUMMARY: publish-reported=29 | API-verified-left-drafts=29 | attempts=60 ===
+  B0DZ67KDX3 : PUBLISHED
+  B07KWHFG36 : PUBLISHED
+  B09226TVQT : PUBLISHED
+  B07JVJQ9XK : PUBLISHED
+  B07YKCV45Z : no-draft
+  B08XTS1X6Z : skip-econ
+  B086ZNS3RQ : skip-econ
+  B07VW5Y2ZD : PUBLISHED
+  B0DFC1FDMB : PUBLISHED
+  B08K8DQKBG : PUBLISHED
+  B08P4T74L1 : skip-err1
+  B09T2GL3TL : PUBLISHED
+  B01HXZXW7W : skip-econ
+  B07DM5R9B4 : skip-econ
+  B085VYPGMD : skip-err1
+  B07H2RHVK4 : skip-err1
+  B07S72TW9C : PUBLISHED
+  B003PWNGQU : PUBLISHED
+  B01L7ZUTT8 : skip-econ
+  B07FCV2LZ5 : skip-econ
+  B09JNK5CXF : skip-econ
+  B0851C6F2F : PUBLISHED
+  B01C83PBO6 : PUBLISHED
+  B07XB6NYX9 : skip-econ
+  B096RWQS8V : PUBLISHED
+  B0FSDQ2MH8 : PUBLISHED
+  B07PSFP38T : unconfirmed
+  B0FMGMR4Q6 : PUBLISHED
+  B08G1DTHYS : skip-econ
+  B08YGYMFVZ : unconfirmed
+  B08CCC2TWD : skip-econ
+  B07T97ZZNH : skip-econ
+  B081YJSCRF : skip-err1
+  B07QR2TTRR : skip-err1
+  B077HV3RW5 : unconfirmed
+  B09KC6F578 : no-draft
+  B094D6LPHB : skip-title-persist
+  B073VQ7K15 : skip-econ
+  B0991Q8M2T : skip-econ
+  B01JUYR7A2 : PUBLISHED
+  B07KPSBQ6V : skip-econ
+  B0DGKR5MMP : PUBLISHED
+  B07MKH9RDV : skip-econ
+  B003G8CZZG : PUBLISHED
+  B07H238PNM : PUBLISHED
+  B0DMZXLT5J : PUBLISHED
+  B0078K6X3S : PUBLISHED
+  B01BW2YZ4Q : skip-econ
+  B0868HS9TR : PUBLISHED
+  B01N2VG1QN : PUBLISHED
+  B00ID075FC : PUBLISHED
+  B015HUY4AY : PUBLISHED
+  B07MT7N35R : unconfirmed
+  B09421711R : PUBLISHED
+  B06Y5CJG3Y : skip-econ
+  B08LYHMDLV : skip-econ
+  B0773XZJGZ : PUBLISHED
+  B08L7699LN : skip-err1
+  B09ST6ZJK6 : no-draft
+  B09573P1PB : no-draft
+  B07Q28GRKW : skip-econ
+  B0D7Q1K1RY : skip-econ
+  B09ZHNMHZ1 : PUBLISHED
+  B00BGWH1Y4 : PUBLISHED
+RUN_RESULT verified=29
