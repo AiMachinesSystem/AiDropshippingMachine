@@ -129,3 +129,88 @@ RESULT: ABORT title-over-80 len=168
   B0B6Z58Y96 : PUBLISHED
   B079YWBSPW : skip-econ
 RUN_RESULT verified=11
+  import B08HMMHX2J : ok
+  import B08C5CDGT2 : ok
+  import B07MV6TFFW : ok
+  import B07R7NJJBC : ok
+  import B0CR129N53 : ok
+  import B09T9HFSDC : ok
+drafts after imports (by asin): 437
+  [1 live] B07125HNSV | High Capacity Canvas Vintage Backpack - for Scho
+  [unconf] B07MH4SLDR | , College Backpac | len 63
+RESULT: ABORT guard-mismatch (expected 'backpack 17')
+  [2 live] B07PQJTSF1 | Lunch Backpack for Men, 17 Inch Insulated Cooler
+  [unconf] B0DHRNMY2J |  Soft Fluffy Thick F | len 70
+RESULT: ABORT guard-mismatch (expected 'l agraty')
+  [3 live] B07ZV8WCF8 | Soft Pet Carrier Bag for Cats and Puppy Under 20
+  [4 live] B08JD3VPZ6 | Hooded Blanket Poncho for Women, Sherpa Shawl Wr
+  [5 live] B0DY75RPPF | Chunky Knit Blanket Throw 48"x71", Chenille Thro
+  [6 live] B0CBPSCSH6 | Chunky Knit Blanket Throw 48"*71", Hand Knitted 
+  [unconf] B07VKD5SQT | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  [7 live] B07K8PFXBT | Catalonia Silky Soft Sherpa Throw Blanket, Flann
+  [unconf] B07MX4W5MX | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  [8 live] B08B6D7TB3 | Furhaven Orthopedic Dog Bed for Large Dogs w/ Re
+  [9 live] B0C3GY2PJ2 | Arc Floor Lamp for Living Room with 3 Color Temp
+  [unconf] B08Z36X6B4 | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  [10 live] B08Y5PN435 | 1 MIDDLE ONE Pregnancy Pillow, C Shaped Full Bod
+  [11 live] B0895T42V1 | 3 Way Dimmable Touch Bedside Table Lamp with 2 U
+  [12 live] B08C4PJ5FT | emissary Men's Toiletry Bag, Leather and Canvas 
+  [13 live] B08FFBB4R9 | Furhaven Orthopedic Dog Bed for Large Dogs w/ Re
+  [14 live] B078L2MWRN | Active Pets Dog Car Seat Cover for Back Seat, Wa
+  [15 live] B07PWNGPR1 | Motor Trend Premium FlexTough All-Protection Car
+  [16 live] B084H77VXW | & GOOPAWS Dog Booster Seats for Cars, Portable D
+  [17 live] B0CR129N53 | Myfeegoin Planter-Pots-for-Plants-Indoor-Outdoor
+  [18 live] B09T9HFSDC | Der Rose 3 Pack Mini Potted Fake Plants Artifici
+
+=== SUMMARY: publish-reported=18 | API-verified-left-drafts=20 | attempts=42 ===
+  B08N5VTP22 : skip-econ
+  B07TBZR9Q8 : skip-err1
+  B07125HNSV : PUBLISHED
+  B07MH4SLDR : unconfirmed
+  B08RYQXJQ2 : skip-err1
+  B07PQJTSF1 : PUBLISHED
+  B0DHRNMY2J : unconfirmed
+  B07W83W9F8 : skip-econ
+  B07ZV8WCF8 : PUBLISHED
+  B08JD3VPZ6 : PUBLISHED
+  B0DY75RPPF : PUBLISHED
+  B0CBPSCSH6 : PUBLISHED
+  B07VKD5SQT : unconfirmed
+  B07K8PFXBT : PUBLISHED
+  B092V2K3BV : skip-err1
+  B07MX4W5MX : unconfirmed
+  B016R4B0MY : skip-econ
+  B07DHH9BX3 : no-draft
+  B0888P2L3D : no-draft
+  B091T5HDXT : skip-err1
+  B07CRS4FWW : skip-econ
+  B08B6D7TB3 : PUBLISHED
+  B09H7QGWJK : skip-err1
+  B0C3GY2PJ2 : PUBLISHED
+  B08Z36X6B4 : unconfirmed
+  B08Y5PN435 : PUBLISHED
+  B0895T42V1 : PUBLISHED
+  B08C4PJ5FT : PUBLISHED
+  B07YTYFHF1 : skip-econ
+  B0BBQX7P5J : skip-err1
+  B07BY9GCLJ : skip-title-persist
+  B08FFBB4R9 : PUBLISHED
+  B00K0157UW : skip-econ
+  B08Y65QWH7 : skip-econ
+  B078L2MWRN : PUBLISHED
+  B07PWNGPR1 : PUBLISHED
+  B0DNN3SWFH : skip-err1
+  B09F721FSV : skip-err1
+  B084H77VXW : PUBLISHED
+  B01N4HYCXZ : skip-err1
+  B0DMZM6F8B : no-draft
+  B08HMMHX2J : skip-econ
+  B08C5CDGT2 : no-draft
+  B07MV6TFFW : no-draft
+  B07R7NJJBC : skip-econ
+  B0CR129N53 : PUBLISHED
+  B09T9HFSDC : PUBLISHED
+RUN_RESULT verified=20
