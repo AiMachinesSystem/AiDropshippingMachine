@@ -1,56 +1,111 @@
-=== PUBLISH RUN BY-ID | target=36 | candidates=20 ===
+=== PUBLISH RUN BY-ID | target=36 | candidates=69 ===
+  [9 live] B09N579FDT | Belwares Mixing Bowls with Lids Set of 5 - Stain
 initial drafts (by asin): 450
-importing 20 missing candidates...
-  import B07CJKX7HM : ok
-  import B09D7K7GXZ : ok
-  import B09G2BM55K : ok
-  import B0D3DRB285 : ok
-  import B089RGDQBB : ok
-  import B07SZB449D : ok
-  import B01CGA1GHM : ok
-  import B06XD5P321 : ok
-  import B000S9M2U4 : ok
-  import B08TCKN9DH : ok
-  import B08RDKY753 : ok
-  import B086P6PX1K : ok
-  import B0869PW8CT : ok
-  import B07V1PGLM1 : ok
-  import B083HM2RPN : ok
-  import B07Z8S24Z3 : ok
-  import B09CDBJJ8W : ok
-  import B07PB4W9PW : ok
-  import B000NBED7W : ok
-  import B01JSUSKK4 : ok
-drafts after imports (by asin): 450
-  [1 live] B07CJKX7HM | Gigreinc Dog Bed for Small Dogs - Cute Pink Leop
-  [2 live] B09D7K7GXZ | Washable Dog Bed Deluxe Plush Dog Crate Beds Com
-  [3 live] B0D3DRB285 | Dog Crate Pad, Dog Foam Crate Mat Kennel Pad, Wa
-  [unconf] B06XD5P321 | wel for Hot Yo | len 151
-RESULT: ABORT guard-mismatch (expected 'heathyoga non')
-  [unconf] B08RDKY753 | : []
-RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
-  [unconf] B000NBED7W | : []
-RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+importing 69 missing candidates...
+  import B09C4X4MZ9 : ok
+  [unconf] B0D4LZ8C7K | rganization Cereal Containers Stor | len 193
+RESULT: ABORT title-over-80 len=193
+  import B01GQ2LTDW : ok
+  import B075L7F8CP : ok
+  import B08MFJQTX1 : ok
+  [10 live] B00M0FEGZ8 | Deco Brothers 3-Tier Counter and Cabinet Corner 
+  import B08B3NHBJ4 : ok
+  import B0F2F6DT63 : ok
+  import B07JB3Y9VX : ok
+  [11 live] B08TMJBXGW | Docrin Ceramic Plant Pots Indoor, 6.6 + 5.5 Inch
+  import B091YJSCCW : ok
+  import B0B7WKZQG6 : ok
+  [12 live] B07NVRJG2G | Tuff Pupper Classic Heavy Duty Dog Collar | 10x 
+  import B07SZG537S : ok
+  import B0FL2YX139 : ok
+  import B0FL32H5HN : ok
+  [13 live] B0876LKLD6 | MUSE Large Hanging Planters for Outdoor Plants -
+  import B0CMH62WPQ : ok
+  import B01LYIHOD1 : ok
+  import B071X64XQX : ok
+  import B08M5JKV5C : ok
+  [14 live] B09BHLD336 | 5PCS Bird Toys - Foraging, Shredding & Hanging T
+  import B08HCMKN8P : ok
+  import B083J312NM : ok
+  import B07V2C9SP6 : ok
+  import B074W2DT3N : ok
+  [unconf] B0CWYP795H | eather Skiing an | len 96
+RESULT: ABORT guard-mismatch (expected 'quarut large')
+  import B08HCMQ1H6 : ok
+  import B07N7RBK28 : ok
 
-=== SUMMARY: publish-reported=3 | API-verified-left-drafts=4 | attempts=13 ===
-  B07CJKX7HM : PUBLISHED
-  B09D7K7GXZ : PUBLISHED
-  B09G2BM55K : skip-err2
-  B0D3DRB285 : PUBLISHED
-  B089RGDQBB : skip-err1
-  B07SZB449D : skip-err1
-  B01CGA1GHM : no-draft
-  B06XD5P321 : unconfirmed
-  B000S9M2U4 : skip-title-persist
-  B08TCKN9DH : skip-title-persist
-  B08RDKY753 : unconfirmed
-  B086P6PX1K : no-draft
-  B0869PW8CT : no-draft
-  B07V1PGLM1 : no-draft
-  B083HM2RPN : no-draft
-  B07Z8S24Z3 : no-draft
-  B09CDBJJ8W : skip-econ
-  B07PB4W9PW : skip-econ
-  B000NBED7W : unconfirmed
-  B01JSUSKK4 : no-draft
-RUN_RESULT verified=4
+=== SUMMARY: publish-reported=14 | API-verified-left-drafts=16 | attempts=58 ===
+  B08MT2PTK8 : skip-err1
+  B002ZNJHZE : no-draft
+  B07W59J93V : skip-econ
+  B09H2GYSNG : PUBLISHED
+  B082WTMDBS : no-draft
+  B07ZCWSX4D : skip-econ
+  B08CXGV7VM : unconfirmed
+  B07PTP17LK : PUBLISHED
+  B00439G59E : PUBLISHED
+  B099277BV1 : skip-title-persist
+  B0B56TPSFJ : skip-econ
+  B09MS7H2F3 : skip-err1
+  B08TVSWV2J : skip-title-persist
+  B07HXRVLXZ : no-draft
+  B08D3Y5PFZ : skip-econ
+  B08FG4B3TY : unconfirmed
+  B092CMXFVD : PUBLISHED
+  B08TWHTCBN : skip-econ
+  B08TBHR451 : unconfirmed
+  B093F6D2QQ : skip-title-persist
+  B07C5CGT9G : skip-econ
+  B00HDS6HQ8 : skip-econ
+  B083G7G5PK : skip-title-persist
+  B07VWHSCF6 : no-draft
+  B0C3677L3D : skip-econ
+  B07ZS2V9JQ : skip-econ
+  B096DXJMTW : skip-econ
+  B07T288TRL : skip-econ
+  B07X8W473V : no-draft
+  B076D2W939 : PUBLISHED
+  B08LZMMK1R : no-draft
+  B09V8GSL9R : no-draft
+  B01GK97V0Q : skip-econ
+  B08CPV2FP7 : skip-econ
+  B08XYWQJ6X : skip-err1
+  B07HCW59PM : PUBLISHED
+  B088NSJ7C6 : PUBLISHED
+  B08S7NS496 : no-draft
+  B08S7VZX72 : skip-econ
+  B0D4PN6XN9 : skip-title-persist
+  B07C9ZMGRF : skip-err1
+  B071LPMNFF : PUBLISHED
+  B08SJ7CHQR : unconfirmed
+  B0D4VHT5J8 : skip-title-persist
+  B08BZ6NKZB : unconfirmed
+  B09N579FDT : PUBLISHED
+  B0B5CK64V1 : no-draft
+  B07D6GSXLF : skip-err1
+  B08ZVKH6Q9 : no-draft
+  B092VJ2FNW : skip-err1
+  B0D4LZ8C7K : unconfirmed
+  B00M0FEGZ8 : PUBLISHED
+  B08TMJBXGW : PUBLISHED
+  B07NVRJG2G : PUBLISHED
+  B0876LKLD6 : PUBLISHED
+  B0BHMYW6Y6 : skip-title-persist
+  B08QXCQFQ6 : no-draft
+  B07662WVPD : skip-econ
+  B09BHLD336 : PUBLISHED
+  B08GP4539D : skip-econ
+  B01GWS69MG : skip-title-persist
+  B08QVD8LR1 : skip-title-persist
+  B09BQGRP59 : skip-err1
+  B01MYZMODY : skip-err1
+  B07Y4Q4J9H : no-draft
+  B08D9B2N6L : skip-title-persist
+  B08718YKJ1 : no-draft
+  B07GXR1J3K : skip-econ
+  B0CWYP795H : unconfirmed
+  B07Y9V7WY8 : skip-title-persist
+  B0BRV6KKKC : skip-title-persist
+  B08FC851JM : no-draft
+RUN_RESULT verified=16
+  import B089KNH2QD : ok
