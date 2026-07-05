@@ -13,6 +13,13 @@ description: "Registro errori della macchina (protocollo AUTONOMIA CONTROLLATA v
 > Una voce si chiude solo con test di regressione PASSATO (a freddo dove applicabile, regola patch §5).
 > Le regole nate da questo registro vincolano come la costituzione (patch AUTONOMIA CONTROLLATA §4).
 
+## E-025 — set_title_by_id.py su prodotti LIVE: ID space mismatch → prodotto sbagliato modificato
+- **Data:** 2026-07-05 · **Fix:** nuovo script `set_title_live_by_id.py` + `_seo_apply_live.py`.
+- **ERRORE:** [OBSERVED — `_seo_apply.py` run] tutti i 10 APPLY call falliti: "old title: Burrito Baby Blanket..." (prodotto completamente diverso). Il target ASIN B08HG9XCYX (dog blanket) cercava ID `6a49874335f8` ma trovava un prodotto random.
+- **CAUSA:** [VERIFIED] I prodotti LIVE in AutoDS hanno hex IDs (es. `6a49874335f8d2b8daa96cf5`) restituiti da `POST /products/<store>/list/`. `set_title_by_id.py` naviga a `/upload/<id>&1` — route dei DRAFT, con ID space numerico. Il hex ID non mappa al prodotto corretto nella route DRAFT.
+- **REGOLA:** usare script separati per DRAFT e LIVE: (1) `set_title_by_id.py` → DRAFT → `/upload/<numeric_id>&1`; (2) `set_title_live_by_id.py` → LIVE → `/products/<hex_id>&2`. MAI passare hex IDs a set_title_by_id.py.
+- **TEST DI REGRESSIONE:** `python set_title_live_by_id.py 6a49874335f8d2b8daa96cf5 "Waterproof Dog Blanket for Couch, Queen 90x90, Pee Proof Sherpa"` → deve restituire `RESULT: PERSISTED True` [VERIFIED 2026-07-05].
+
 ## E-024 — Batch builder con rec=HOLD degrada yield: run F 5/72 (7%) vs E 24/60 (40%)
 - **Data:** 2026-07-04 (run batch F) · **Fix:** filtro `rec=TEST` only applicato da batch G in avanti.
 - **ERRORE:** [OBSERVED — `_publish_run_byid_log.txt` run F] batch F costruito con `rec in (TEST, HOLD)` ha prodotto 5 API-verified su 72 tentativi (7%); run E con stesso filtro ma candidati di testa: 24/60 (40%). Degradazione confermata: la parte HOLD del pool ha skip-econ molto alto + title-over-80 frequente.
