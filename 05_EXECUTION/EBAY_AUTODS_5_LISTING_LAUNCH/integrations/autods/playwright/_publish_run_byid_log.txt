@@ -3,3 +3,129 @@
 RESULT: ABORT guard-mismatch (expected 'furhaven pillow')
 initial drafts (by asin): 435
 importing 47 missing candidates...
+  import B08N5VTP22 : ok
+  [unconf] B01IRYYYHA | Bag for Carry On/Quart Size Transp | len 183
+RESULT: ABORT title-over-80 len=183
+  import B07TBZR9Q8 : ok
+  import B07125HNSV : ok
+  [unconf] B0837GWPWD | and Small Dogs | len 174
+RESULT: ABORT guard-mismatch (expected 'lollimeow cat')
+  import B07MH4SLDR : ok
+  import B08RYQXJQ2 : ok
+  import B07PQJTSF1 : ok
+  [6 live] B095BKDT7C | Orthopedic Dog Bed for Medium Dogs, Bolster Side
+  import B0DHRNMY2J : ok
+  import B07W83W9F8 : ok
+  [7 live] B097TGRLWH | Dog Car Seat for Small Dogs, Elevated Dog Booste
+  import B07ZV8WCF8 : ok
+  import B08JD3VPZ6 : ok
+  [unconf] B0FYDS367Z | h Zipper Bulk Gi | len 172
+RESULT: ABORT guard-mismatch (expected 'reginary 20')
+  import B0DY75RPPF : ok
+  import B0CBPSCSH6 : ok
+  [unconf] B0C14D5CX6 |  Works with | len 174
+RESULT: ABORT guard-mismatch (expected 'marctronic floor')
+  import B07VKD5SQT : ok
+  import B07K8PFXBT : ok
+  import B092V2K3BV : ok
+  [unconf] B0F83GJ18B | 5/30Lbs Weights with Reflective St | len 168
+RESULT: ABORT title-over-80 len=168
+  import B07MX4W5MX : ok
+  import B016R4B0MY : ok
+  import B07DHH9BX3 : ok
+  [8 live] B084QHBRHZ | Fosmon Hanging Travel Toiletry Bag, Compact Trav
+  import B0888P2L3D : ok
+  import B091T5HDXT : ok
+  import B07CRS4FWW : ok
+  [9 live] B06X3QLR3V | Loowoko 50L Hiking Backpack, Waterproof Camping 
+  import B08B6D7TB3 : ok
+  import B09H7QGWJK : ok
+  import B0C3GY2PJ2 : ok
+  [10 live] B094N74HCR | ihuan New Weight Lifting Gym Workout Gloves Men 
+  import B08Z36X6B4 : ok
+  import B08Y5PN435 : ok
+  import B0895T42V1 : ok
+  [11 live] B0CB62S3XV | Bath Pillow RUVINCE Ergonomic Luxury Bathtub Pil
+  import B08C4PJ5FT : ok
+  import B07YTYFHF1 : ok
+  import B0BBQX7P5J : ok
+  import B07BY9GCLJ : ok
+  [12 live] B08HQBF6QY | Tripod Floor Lamp, Mid Century Wood Standing Lam
+  import B08FFBB4R9 : ok
+  import B00K0157UW : ok
+  import B08Y65QWH7 : ok
+  import B078L2MWRN : ok
+  [13 live] B0DM25B4ZF | Touch Lamps for Nightstand Set of 2 - Gold Table
+  import B07PWNGPR1 : ok
+  import B0DNN3SWFH : ok
+  import B09F721FSV : ok
+  [14 live] B07QCZNY6N | Kitchen Mat Cushioned Anti Fatigue Floor Mat,19.
+  import B084H77VXW : ok
+  import B01N4HYCXZ : ok
+  import B0DMZM6F8B : ok
+  [15 live] B0B6Z58Y96 | Onesies Brand Baby Boys' 4-pack Sleep 'N Play Fo
+
+=== SUMMARY: publish-reported=15 | API-verified-left-drafts=11 | attempts=60 ===
+  B071ZYHCM6 : skip-title-persist
+  B01HG02LE4 : skip-err1
+  B09JS8ZX2D : no-draft
+  B07M6KKQ19 : unconfirmed
+  B07J5DTPD1 : skip-econ
+  B08L4JJ17G : skip-econ
+  B0GWTW27D7 : skip-title-persist
+  B0CBPVC2DV : PUBLISHED
+  B07B4Q2W54 : skip-title-persist
+  B07SW814WJ : PUBLISHED
+  B07QTY9N8P : skip-econ
+  B08G17VS9Y : PUBLISHED
+  B089GWPYQH : skip-econ
+  B08QFM2H78 : unconfirmed
+  B07Z4YJWP1 : skip-econ
+  B095BM511Z : skip-econ
+  B07V1MXVD7 : PUBLISHED
+  B08HTWR715 : PUBLISHED
+  B0946ZNYXN : skip-title-persist
+  B079ZF11PC : unconfirmed
+  B01IRYYYHA : unconfirmed
+  B0837GWPWD : unconfirmed
+  B095BKDT7C : PUBLISHED
+  B0B49N6H21 : skip-err1
+  B097TGRLWH : PUBLISHED
+  B0CQ4C1JBG : no-draft
+  B0FYDS367Z : unconfirmed
+  B08LMZR8B1 : skip-err1
+  B01H7935D0 : skip-title-persist
+  B0BKSPFM7Y : skip-err1
+  B07GF7KQ3B : skip-econ
+  B0C14D5CX6 : unconfirmed
+  B09DPCLJCP : skip-title-persist
+  B016FXH602 : skip-econ
+  B0F83GJ18B : unconfirmed
+  B086GWMTT3 : skip-title-persist
+  B08FFB9C7P : skip-econ
+  B084QHBRHZ : PUBLISHED
+  B08HQ6RDB5 : skip-econ
+  B09L83ZZ3S : skip-econ
+  B06X3QLR3V : PUBLISHED
+  B08PMG7RDF : skip-econ
+  B094N74HCR : PUBLISHED
+  B08JRXGWM1 : skip-econ
+  B07P8K98FV : skip-econ
+  B08L3GXQ1X : skip-title-persist
+  B093LGTW5W : skip-econ
+  B0CB62S3XV : PUBLISHED
+  B088K7CBCF : skip-title-persist
+  B08F52QFB2 : skip-title-persist
+  B08F1ZWFB3 : skip-econ
+  B07FR9QM45 : skip-econ
+  B08HQBF6QY : PUBLISHED
+  B07GY27KPC : skip-econ
+  B097PN4YLX : skip-econ
+  B07F1XG6S3 : skip-err1
+  B01N5PB7CZ : skip-title-persist
+  B0DM25B4ZF : PUBLISHED
+  B07QCZNY6N : PUBLISHED
+  B08CVVDF1H : skip-econ
+  B0B6Z58Y96 : PUBLISHED
+  B079YWBSPW : skip-econ
+RUN_RESULT verified=11
