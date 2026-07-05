@@ -1,189 +1,56 @@
-=== PUBLISH RUN BY-ID | target=36 | candidates=72 ===
+=== PUBLISH RUN BY-ID | target=36 | candidates=20 ===
 initial drafts (by asin): 450
-importing 72 missing candidates...
-  import B0CWL2J9RK : ok
-  import B08398BV5S : ok
-  import B01JONT9AK : ok
-  import B07VXMZR3Y : ok
-  import B09TFHW2TR : ok
-  import B08B6DSZP1 : ok
-  import B08FF9726D : ok
-  import B0986HPHJ5 : ok
-  import B07YF74Z4T : ok
-  import B01HFAXUUE : ok
-  import B00KCNUO2O : ok
-  import B07FFG458D : ok
-  import B01LVTW8JB : ok
-  import B09BCXR2DH : ok
-  import B08HWBZCV5 : ok
-  import B07V6TD58J : ok
-  import B00ZAIW3K2 : ok
-  import B077M79C4W : ok
-  import B08GXDHZ8Y : ok
-  import B07QTQ77BZ : ok
-  import B07YM28YWB : ok
-  import B09SLT8SQZ : ok
-  import B0DH3CHKXK : ok
-  import B0894LDNJK : ok
-  import B09YJ53CMX : ok
-  import B0BY22CPZN : ok
-  import B08HK1J5WL : ok
-  import B0DSP4XC2T : ok
-  import B07SR914HR : ok
-  import B07PPMNTQN : ok
-  import B07MN7XLJG : ok
-  import B0C1MXJ5R8 : ok
-  import B07V398W2C : ok
-  import B0D1TM7BQP : ok
-  import B09YJBCQB9 : ok
-  import B071HSP326 : ok
-  import B0758QKLFY : ok
-  import B085RPTNKG : ok
-  import B08D3RHNM9 : ok
-  import B08D3PKS3W : ok
-  import B087288QQZ : ok
-  import B083FC9N9Z : ok
-  import B09WK5DDZK : ok
-  import B0C9PMR5NV : ok
-  import B0D8HQRGSZ : ok
-  import B091SR3JK9 : ok
-  import B092CDQQ9W : ok
-  import B0748DCRBF : ok
-  import B07R9TGCT6 : ok
-  import B003GVTOM0 : ok
-  import B0827XM7BN : ok
-  import B0DGF616XN : ok
-  import B09YPV1BH5 : ok
-  import B0CJM9FD8P : ok
-  import B0913BKVBD : ok
-  import B07DRBMDHR : ok
-  import B01CEAA6TS : ok
-  import B088FK1D4Y : ok
-  import B07VXR5RKM : ok
-  import B094JQ9KG9 : ok
-  import B0741FNCRH : ok
-  import B07GZ6GSG2 : ok
-  import B08GY2MSY3 : ok
-  import B07T6G8W3D : ok
-  import B07H4BRB2X : ok
-  import B07WC5Y3YF : ok
-  import B0BKTHPYFJ : ok
-  import B016APWDXA : ok
-  import B08LB7Y1G3 : ok
-  import B07WSGVS48 : ok
-  import B08LMT437Y : ok
-  import B088TRKKC3 : ok
+importing 20 missing candidates...
+  import B07CJKX7HM : ok
+  import B09D7K7GXZ : ok
+  import B09G2BM55K : ok
+  import B0D3DRB285 : ok
+  import B089RGDQBB : ok
+  import B07SZB449D : ok
+  import B01CGA1GHM : ok
+  import B06XD5P321 : ok
+  import B000S9M2U4 : ok
+  import B08TCKN9DH : ok
+  import B08RDKY753 : ok
+  import B086P6PX1K : ok
+  import B0869PW8CT : ok
+  import B07V1PGLM1 : ok
+  import B083HM2RPN : ok
+  import B07Z8S24Z3 : ok
+  import B09CDBJJ8W : ok
+  import B07PB4W9PW : ok
+  import B000NBED7W : ok
+  import B01JSUSKK4 : ok
 drafts after imports (by asin): 450
-  [1 live] B0CWL2J9RK | Lazzzy Blue Floral Curtains 90 Inch Length Linen
-  [2 live] B08398BV5S | Honest Dog Car Seat Covers, Dog seat Cover with 
-  [3 live] B01JONT9AK | Dog Car Seat Cover for Back Seat, Waterproof Car
-  [unconf] B0986HPHJ5 | etal Fence, Pack | len 69
-RESULT: ABORT guard-mismatch (expected 'self closing')
-  [unconf] B07YF74Z4T | e with Door Walk Thr | len 62
-RESULT: ABORT guard-mismatch (expected '144 inch')
-  [4 live] B01HFAXUUE | My Doggy Place Microfiber Dog Mat for Muddy Paws
-  [5 live] B00KCNUO2O | Pet Products Pet Bed Warmer, Turn Any Pet Bed In
-  [6 live] B08HWBZCV5 | Feandrea 27.2" Dog Crate Furniture, Indoor Dog C
-  [7 live] B07V6TD58J | 3XL Huge Mouse Pads Oversized (48''x24'') - Extr
-  [8 live] B077M79C4W | Large Exercise Mat 6'x4'/6'x5'/6'x6'(7mm), Thick
-  [9 live] B08GXDHZ8Y | Yoga Mat Non Slip, Pilates Fitness Mats, Eco Fri
-  [10 live] B09SLT8SQZ | Mouse Pad Wrist Support Keyboard Wrist Rest Pad 
-  [11 live] B09YJ53CMX | Furinno JUST Side Table Set of 2, 3-Tier Open Sh
-  [12 live] B0DSP4XC2T | Elbourn Folding Side Table End Couch Tables, C-S
-  [13 live] B0C1MXJ5R8 | Large Exercise Mat, 8' x 6'/8' x 4'/6' x 4' Extr
-  [14 live] B0D1TM7BQP | Business Laptop Backpack Fits 15.6 Inch Notebook
-  [15 live] B071HSP326 | Exercise Ball Yoga Ball for Fitness, Balance, St
-  [16 live] B08D3RHNM9 | Fida Retractable Dog Leash with Dispenser and Po
-  [17 live] B08D3PKS3W | Fida Retractable Dog Leash with Dispenser and Po
-  [18 live] B087288QQZ | Toilet Paper Holder Stand Bathroom Tissue Dispen
-  [19 live] B083FC9N9Z | Amazer Spring Tension Shower Curtain Rod, 26-42 
-  [20 live] B0748DCRBF | Banord Outdoor String Lights, 48FT Waterproof Pa
-  [21 live] B07R9TGCT6 | Low Beach Chair, High Back Folding Camping Chair
-  [22 live] B003GVTOM0 | Foldable Baby Doll High Chair, Baby Doll Accesso
-  [23 live] B0DGF616XN | 6 Pack Extra Heavy Duty Large Moving Bags with S
-  [unconf] B0CJM9FD8P | : []
+  [1 live] B07CJKX7HM | Gigreinc Dog Bed for Small Dogs - Cute Pink Leop
+  [2 live] B09D7K7GXZ | Washable Dog Bed Deluxe Plush Dog Crate Beds Com
+  [3 live] B0D3DRB285 | Dog Crate Pad, Dog Foam Crate Mat Kennel Pad, Wa
+  [unconf] B06XD5P321 | wel for Hot Yo | len 151
+RESULT: ABORT guard-mismatch (expected 'heathyoga non')
+  [unconf] B08RDKY753 | : []
 RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
-  [unconf] B0913BKVBD | : []
+  [unconf] B000NBED7W | : []
 RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
-  [24 live] B07DRBMDHR | Snailax shiatsu Neck & Back Massager with Heat, 
-  [25 live] B01CEAA6TS | Hitop Kids Sprinklers for Outside, Splash Pad fo
-  [26 live] B088FK1D4Y | Vigdur Multicolor Outdoor String Lights with 10 
-  [27 live] B07T6G8W3D | Ivyu Headbands Women Hair Head Bands - Accessori
-  [28 live] B07H4BRB2X | Snailax Shiatsu Full Back Massager with Heat, Ch
-  [29 live] B07WC5Y3YF | Dog Purse Carrier for Small Dogs Cats, TSA Airli
-  [unconf] B0BKTHPYFJ | : []
-RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
-  [30 live] B016APWDXA | Pyramid Prime Double Roller 2 Ball Bowling Bag w
-  [31 live] B08LB7Y1G3 | Kids Adjustable Roller Skates for Girls & Boys w
 
-=== SUMMARY: publish-reported=31 | API-verified-left-drafts=31 | attempts=60 ===
-  B0CWL2J9RK : PUBLISHED
-  B08398BV5S : PUBLISHED
-  B01JONT9AK : PUBLISHED
-  B07VXMZR3Y : skip-econ
-  B09TFHW2TR : no-draft
-  B08B6DSZP1 : no-draft
-  B08FF9726D : skip-econ
-  B0986HPHJ5 : unconfirmed
-  B07YF74Z4T : unconfirmed
-  B01HFAXUUE : PUBLISHED
-  B00KCNUO2O : PUBLISHED
-  B07FFG458D : skip-econ
-  B01LVTW8JB : skip-econ
-  B09BCXR2DH : skip-econ
-  B08HWBZCV5 : PUBLISHED
-  B07V6TD58J : PUBLISHED
-  B00ZAIW3K2 : skip-err1
-  B077M79C4W : PUBLISHED
-  B08GXDHZ8Y : PUBLISHED
-  B07QTQ77BZ : skip-err1
-  B07YM28YWB : no-draft
-  B09SLT8SQZ : PUBLISHED
-  B0DH3CHKXK : no-draft
-  B0894LDNJK : skip-econ
-  B09YJ53CMX : PUBLISHED
-  B0BY22CPZN : no-draft
-  B08HK1J5WL : skip-econ
-  B0DSP4XC2T : PUBLISHED
-  B07SR914HR : no-draft
-  B07PPMNTQN : skip-econ
-  B07MN7XLJG : skip-err1
-  B0C1MXJ5R8 : PUBLISHED
-  B07V398W2C : no-draft
-  B0D1TM7BQP : PUBLISHED
-  B09YJBCQB9 : skip-err1
-  B071HSP326 : PUBLISHED
-  B0758QKLFY : skip-econ
-  B085RPTNKG : skip-econ
-  B08D3RHNM9 : PUBLISHED
-  B08D3PKS3W : PUBLISHED
-  B087288QQZ : PUBLISHED
-  B083FC9N9Z : PUBLISHED
-  B09WK5DDZK : skip-econ
-  B0C9PMR5NV : no-draft
-  B0D8HQRGSZ : no-draft
-  B091SR3JK9 : skip-econ
-  B092CDQQ9W : skip-econ
-  B0748DCRBF : PUBLISHED
-  B07R9TGCT6 : PUBLISHED
-  B003GVTOM0 : PUBLISHED
-  B0827XM7BN : skip-econ
-  B0DGF616XN : PUBLISHED
-  B09YPV1BH5 : skip-err1
-  B0CJM9FD8P : unconfirmed
-  B0913BKVBD : unconfirmed
-  B07DRBMDHR : PUBLISHED
-  B01CEAA6TS : PUBLISHED
-  B088FK1D4Y : PUBLISHED
-  B07VXR5RKM : skip-econ
-  B094JQ9KG9 : skip-econ
-  B0741FNCRH : skip-econ
-  B07GZ6GSG2 : skip-err1
-  B08GY2MSY3 : skip-econ
-  B07T6G8W3D : PUBLISHED
-  B07H4BRB2X : PUBLISHED
-  B07WC5Y3YF : PUBLISHED
-  B0BKTHPYFJ : unconfirmed
-  B016APWDXA : PUBLISHED
-  B08LB7Y1G3 : PUBLISHED
-RUN_RESULT verified=31
+=== SUMMARY: publish-reported=3 | API-verified-left-drafts=4 | attempts=13 ===
+  B07CJKX7HM : PUBLISHED
+  B09D7K7GXZ : PUBLISHED
+  B09G2BM55K : skip-err2
+  B0D3DRB285 : PUBLISHED
+  B089RGDQBB : skip-err1
+  B07SZB449D : skip-err1
+  B01CGA1GHM : no-draft
+  B06XD5P321 : unconfirmed
+  B000S9M2U4 : skip-title-persist
+  B08TCKN9DH : skip-title-persist
+  B08RDKY753 : unconfirmed
+  B086P6PX1K : no-draft
+  B0869PW8CT : no-draft
+  B07V1PGLM1 : no-draft
+  B083HM2RPN : no-draft
+  B07Z8S24Z3 : no-draft
+  B09CDBJJ8W : skip-econ
+  B07PB4W9PW : skip-econ
+  B000NBED7W : unconfirmed
+  B01JSUSKK4 : no-draft
+RUN_RESULT verified=4
