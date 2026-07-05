@@ -1,216 +1,170 @@
-=== PUBLISH RUN BY-ID | target=36 | candidates=47 ===
-  [unconf] B079ZF11PC | shable Cover | len 137
-RESULT: ABORT guard-mismatch (expected 'furhaven pillow')
-initial drafts (by asin): 435
-importing 47 missing candidates...
-  import B08N5VTP22 : ok
-  [unconf] B01IRYYYHA | Bag for Carry On/Quart Size Transp | len 183
-RESULT: ABORT title-over-80 len=183
-  import B07TBZR9Q8 : ok
-  import B07125HNSV : ok
-  [unconf] B0837GWPWD | and Small Dogs | len 174
-RESULT: ABORT guard-mismatch (expected 'lollimeow cat')
-  import B07MH4SLDR : ok
-  import B08RYQXJQ2 : ok
-  import B07PQJTSF1 : ok
-  [6 live] B095BKDT7C | Orthopedic Dog Bed for Medium Dogs, Bolster Side
-  import B0DHRNMY2J : ok
-  import B07W83W9F8 : ok
-  [7 live] B097TGRLWH | Dog Car Seat for Small Dogs, Elevated Dog Booste
-  import B07ZV8WCF8 : ok
-  import B08JD3VPZ6 : ok
-  [unconf] B0FYDS367Z | h Zipper Bulk Gi | len 172
-RESULT: ABORT guard-mismatch (expected 'reginary 20')
-  import B0DY75RPPF : ok
-  import B0CBPSCSH6 : ok
-  [unconf] B0C14D5CX6 |  Works with | len 174
-RESULT: ABORT guard-mismatch (expected 'marctronic floor')
-  import B07VKD5SQT : ok
-  import B07K8PFXBT : ok
-  import B092V2K3BV : ok
-  [unconf] B0F83GJ18B | 5/30Lbs Weights with Reflective St | len 168
-RESULT: ABORT title-over-80 len=168
-  import B07MX4W5MX : ok
-  import B016R4B0MY : ok
-  import B07DHH9BX3 : ok
-  [8 live] B084QHBRHZ | Fosmon Hanging Travel Toiletry Bag, Compact Trav
-  import B0888P2L3D : ok
-  import B091T5HDXT : ok
-  import B07CRS4FWW : ok
-  [9 live] B06X3QLR3V | Loowoko 50L Hiking Backpack, Waterproof Camping 
-  import B08B6D7TB3 : ok
-  import B09H7QGWJK : ok
-  import B0C3GY2PJ2 : ok
-  [10 live] B094N74HCR | ihuan New Weight Lifting Gym Workout Gloves Men 
-  import B08Z36X6B4 : ok
-  import B08Y5PN435 : ok
-  import B0895T42V1 : ok
-  [11 live] B0CB62S3XV | Bath Pillow RUVINCE Ergonomic Luxury Bathtub Pil
-  import B08C4PJ5FT : ok
-  import B07YTYFHF1 : ok
-  import B0BBQX7P5J : ok
-  import B07BY9GCLJ : ok
-  [12 live] B08HQBF6QY | Tripod Floor Lamp, Mid Century Wood Standing Lam
-  import B08FFBB4R9 : ok
-  import B00K0157UW : ok
-  import B08Y65QWH7 : ok
-  import B078L2MWRN : ok
-  [13 live] B0DM25B4ZF | Touch Lamps for Nightstand Set of 2 - Gold Table
-  import B07PWNGPR1 : ok
-  import B0DNN3SWFH : ok
-  import B09F721FSV : ok
-  [14 live] B07QCZNY6N | Kitchen Mat Cushioned Anti Fatigue Floor Mat,19.
-  import B084H77VXW : ok
-  import B01N4HYCXZ : ok
-  import B0DMZM6F8B : ok
-  [15 live] B0B6Z58Y96 | Onesies Brand Baby Boys' 4-pack Sleep 'N Play Fo
-
-=== SUMMARY: publish-reported=15 | API-verified-left-drafts=11 | attempts=60 ===
-  B071ZYHCM6 : skip-title-persist
-  B01HG02LE4 : skip-err1
-  B09JS8ZX2D : no-draft
-  B07M6KKQ19 : unconfirmed
-  B07J5DTPD1 : skip-econ
-  B08L4JJ17G : skip-econ
-  B0GWTW27D7 : skip-title-persist
-  B0CBPVC2DV : PUBLISHED
-  B07B4Q2W54 : skip-title-persist
-  B07SW814WJ : PUBLISHED
-  B07QTY9N8P : skip-econ
-  B08G17VS9Y : PUBLISHED
-  B089GWPYQH : skip-econ
-  B08QFM2H78 : unconfirmed
-  B07Z4YJWP1 : skip-econ
-  B095BM511Z : skip-econ
-  B07V1MXVD7 : PUBLISHED
-  B08HTWR715 : PUBLISHED
-  B0946ZNYXN : skip-title-persist
-  B079ZF11PC : unconfirmed
-  B01IRYYYHA : unconfirmed
-  B0837GWPWD : unconfirmed
-  B095BKDT7C : PUBLISHED
-  B0B49N6H21 : skip-err1
-  B097TGRLWH : PUBLISHED
-  B0CQ4C1JBG : no-draft
-  B0FYDS367Z : unconfirmed
-  B08LMZR8B1 : skip-err1
-  B01H7935D0 : skip-title-persist
-  B0BKSPFM7Y : skip-err1
-  B07GF7KQ3B : skip-econ
-  B0C14D5CX6 : unconfirmed
-  B09DPCLJCP : skip-title-persist
-  B016FXH602 : skip-econ
-  B0F83GJ18B : unconfirmed
-  B086GWMTT3 : skip-title-persist
-  B08FFB9C7P : skip-econ
-  B084QHBRHZ : PUBLISHED
-  B08HQ6RDB5 : skip-econ
-  B09L83ZZ3S : skip-econ
-  B06X3QLR3V : PUBLISHED
-  B08PMG7RDF : skip-econ
-  B094N74HCR : PUBLISHED
-  B08JRXGWM1 : skip-econ
-  B07P8K98FV : skip-econ
-  B08L3GXQ1X : skip-title-persist
-  B093LGTW5W : skip-econ
-  B0CB62S3XV : PUBLISHED
-  B088K7CBCF : skip-title-persist
-  B08F52QFB2 : skip-title-persist
-  B08F1ZWFB3 : skip-econ
-  B07FR9QM45 : skip-econ
-  B08HQBF6QY : PUBLISHED
-  B07GY27KPC : skip-econ
-  B097PN4YLX : skip-econ
-  B07F1XG6S3 : skip-err1
-  B01N5PB7CZ : skip-title-persist
-  B0DM25B4ZF : PUBLISHED
-  B07QCZNY6N : PUBLISHED
-  B08CVVDF1H : skip-econ
-  B0B6Z58Y96 : PUBLISHED
-  B079YWBSPW : skip-econ
-RUN_RESULT verified=11
-  import B08HMMHX2J : ok
-  import B08C5CDGT2 : ok
-  import B07MV6TFFW : ok
-  import B07R7NJJBC : ok
-  import B0CR129N53 : ok
-  import B09T9HFSDC : ok
+=== PUBLISH RUN BY-ID | target=36 | candidates=64 ===
+initial drafts (by asin): 437
+importing 64 missing candidates...
+  import B0000644AF : ok
+  import B08G53L8B5 : ok
+  import B0BX5GD5ST : ok
+  import B00H91BQ7Y : ok
+  import B09BDG9254 : ok
+  import B07YCZLDGP : ok
+  import B07PXCF7YC : ok
+  import B00WJKOQ7M : ok
+  import B09HR41ZPB : ok
+  import B0FX2MZG1D : ok
+  import B07CTN932P : ok
+  import B0071GWKXQ : ok
+  import B087BXD9LB : ok
+  import B00VS9C43I : ok
+  import B013HQZJTU : ok
+  import B093RLDKQC : ok
+  import B08LPZFT3T : ok
+  import B07MV6W8VL : ok
+  import B09B4KP4ND : ok
+  import B0CN4GJ334 : ok
+  import B01HLB3YZ8 : ok
+  import B082PMDVQ1 : ok
+  import B0CJ526NRZ : ok
+  import B06XSTZNDF : ok
+  import B07791ZV5R : ok
+  import B08GPVNM79 : ok
+  import B08L7WQVL7 : ok
+  import B07PPHSCMG : ok
+  import B088QR534K : ok
+  import B001LQZOLW : ok
+  import B093B83ZSN : ok
+  import B0BPVTG25Y : ok
+  import B00PJQPV72 : ok
+  import B000I68NCS : ok
+  import B07YFPD68K : ok
+  import B07MD68468 : ok
+  import B08T6LGN29 : ok
+  import B09QHTH214 : ok
+  import B07HJJ7N14 : ok
+  import B07GVB2814 : ok
+  import B082274MRL : ok
+  import B08DG8838L : ok
+  import B09FLDXY2J : ok
+  import B08FBKD4ZD : ok
+  import B0GJD3KQ32 : ok
+  import B06XKXSRKC : ok
+  import B07JM8PKWW : ok
+  import B092HG5H19 : ok
+  import B01M7WQ4ZL : ok
+  import B08SQCN4G6 : ok
+  import B088GXWY4J : ok
+  import B08XX5ZJWL : ok
+  import B07G5KQY31 : ok
+  import B08T1T8VLS : ok
+  import B08BR34QJB : ok
+  import B07P5LN7BK : ok
+  import B0858Z5N1X : ok
+  import B08PF3BLNK : ok
+  import B08K2J4SJM : ok
+  import B08C2BC2LV : ok
+  import B08BKJR3P3 : ok
+  import B08NC1H8CV : ok
+  import B01MYM7MJE : ok
+  import B09VBM6DPP : ok
 drafts after imports (by asin): 437
-  [1 live] B07125HNSV | High Capacity Canvas Vintage Backpack - for Scho
-  [unconf] B07MH4SLDR | , College Backpac | len 63
-RESULT: ABORT guard-mismatch (expected 'backpack 17')
-  [2 live] B07PQJTSF1 | Lunch Backpack for Men, 17 Inch Insulated Cooler
-  [unconf] B0DHRNMY2J |  Soft Fluffy Thick F | len 70
-RESULT: ABORT guard-mismatch (expected 'l agraty')
-  [3 live] B07ZV8WCF8 | Soft Pet Carrier Bag for Cats and Puppy Under 20
-  [4 live] B08JD3VPZ6 | Hooded Blanket Poncho for Women, Sherpa Shawl Wr
-  [5 live] B0DY75RPPF | Chunky Knit Blanket Throw 48"x71", Chenille Thro
-  [6 live] B0CBPSCSH6 | Chunky Knit Blanket Throw 48"*71", Hand Knitted 
-  [unconf] B07VKD5SQT | : []
+  [1 live] B0000644AF | Thermos Stainless Steel Beverage Can Insulator f
+  [unconf] B00H91BQ7Y | MI Display Converter, 108 | len 57
+RESULT: ABORT guard-mismatch (expected '3 0')
+  [2 live] B09BDG9254 | Capri Blue Volcano Printed Travel Tin Jar Candle
+  [3 live] B07YCZLDGP | suyika Tomotime Ceramic Tea Cup with Infuser and
+  [4 live] B07PXCF7YC | Londo Top Grain Leather Extended Mouse Pad – Lar
+  [5 live] B00WJKOQ7M | 10L0L Golf Pen Holder Golf Club Pens Gift Set Ra
+  [6 live] B0FX2MZG1D | Candles for Men Gift Set, 4 Pack Masculine Scent
+  [unconf] B093RLDKQC | Long Lasting Scented Ca | len 70
+RESULT: ABORT guard-mismatch (expected 'pet s')
+  [7 live] B07MV6W8VL | Candle Gift Set for Women, 4 Pack Long Lasting L
+  [8 live] B0CN4GJ334 | Tactical Lunch Box for Men & Women – Expandable 
+  [9 live] B01HLB3YZ8 | Comfify Pink Ceramic Donut Ring Coffee Mug – 14 
+  [10 live] B082PMDVQ1 | 1st Choice Black Nitrile Gloves Disposable Latex
+  [11 live] B0CJ526NRZ | 4pcs Car Detailing Brush Set,Boars Hair Car Deta
+  [12 live] B06XSTZNDF | Sooyee Makeup Organizer,Acrylic Cosmetic Organiz
+  [13 live] B07791ZV5R | Britt Commercial Style Spot Free Stainless Steel
+  [14 live] B08L7WQVL7 | comiso Bluetooth Speaker, Portable Bluetooth Spe
+  [15 live] B093B83ZSN | Varhomax Glass Desk Whiteboard with Storage, Des
+  [16 live] B00PJQPV72 | Quick Shine Hardwood Floor Luster-Polish 64oz | 
+  [17 live] B000I68NCS | Finum Reusable Stainless Steel Coffee and Tea In
+  [18 live] B07YFPD68K | Digital Meat Thermometer Instant Read, Waterproo
+  [19 live] B09QHTH214 | Famassi Gold Desk Accessories，Office Supplies Se
+  [20 live] B07HJJ7N14 | opux Insulated Lunch Bag for Men Women, Double D
+  [21 live] B09FLDXY2J | Play Kitchen, Pink Kids Kitchen Set for Girls Ki
+  [22 live] B08FBKD4ZD | Trampoline Outdoor 8FT 10FT 12FT 14FT with Enclo
+  [23 live] B06XKXSRKC | Art 4 Panels Canvas Wall Art Spring Summer Autum
+  [unconf] B07JM8PKWW | : []
 RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
-  [7 live] B07K8PFXBT | Catalonia Silky Soft Sherpa Throw Blanket, Flann
-  [unconf] B07MX4W5MX | : []
-RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
-  [8 live] B08B6D7TB3 | Furhaven Orthopedic Dog Bed for Large Dogs w/ Re
-  [9 live] B0C3GY2PJ2 | Arc Floor Lamp for Living Room with 3 Color Temp
-  [unconf] B08Z36X6B4 | : []
-RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
-  [10 live] B08Y5PN435 | 1 MIDDLE ONE Pregnancy Pillow, C Shaped Full Bod
-  [11 live] B0895T42V1 | 3 Way Dimmable Touch Bedside Table Lamp with 2 U
-  [12 live] B08C4PJ5FT | emissary Men's Toiletry Bag, Leather and Canvas 
-  [13 live] B08FFBB4R9 | Furhaven Orthopedic Dog Bed for Large Dogs w/ Re
-  [14 live] B078L2MWRN | Active Pets Dog Car Seat Cover for Back Seat, Wa
-  [15 live] B07PWNGPR1 | Motor Trend Premium FlexTough All-Protection Car
-  [16 live] B084H77VXW | & GOOPAWS Dog Booster Seats for Cars, Portable D
-  [17 live] B0CR129N53 | Myfeegoin Planter-Pots-for-Plants-Indoor-Outdoor
-  [18 live] B09T9HFSDC | Der Rose 3 Pack Mini Potted Fake Plants Artifici
+  [24 live] B092HG5H19 | Inspirational Wall-Art - Quotes Office Wall Deco
+  [25 live] B08XX5ZJWL | Canvas Wall Art For Living Room Family Wall Deco
+  [26 live] B07G5KQY31 | Kangapak Nurse Fanny Pack Multi Compartment Wais
+  [27 live] B0858Z5N1X | Acrylic Sign Holder 14x11 Inches Horizontal, Cle
+  [28 live] B08C2BC2LV | upsimples 13x19 Picture Frame Set of 5, Display 
+  [29 live] B08BKJR3P3 | Yangest Orange Striped Velvet Throw Pillow Cover
 
-=== SUMMARY: publish-reported=18 | API-verified-left-drafts=20 | attempts=42 ===
-  B08N5VTP22 : skip-econ
-  B07TBZR9Q8 : skip-err1
-  B07125HNSV : PUBLISHED
-  B07MH4SLDR : unconfirmed
-  B08RYQXJQ2 : skip-err1
-  B07PQJTSF1 : PUBLISHED
-  B0DHRNMY2J : unconfirmed
-  B07W83W9F8 : skip-econ
-  B07ZV8WCF8 : PUBLISHED
-  B08JD3VPZ6 : PUBLISHED
-  B0DY75RPPF : PUBLISHED
-  B0CBPSCSH6 : PUBLISHED
-  B07VKD5SQT : unconfirmed
-  B07K8PFXBT : PUBLISHED
-  B092V2K3BV : skip-err1
-  B07MX4W5MX : unconfirmed
-  B016R4B0MY : skip-econ
-  B07DHH9BX3 : no-draft
-  B0888P2L3D : no-draft
-  B091T5HDXT : skip-err1
-  B07CRS4FWW : skip-econ
-  B08B6D7TB3 : PUBLISHED
-  B09H7QGWJK : skip-err1
-  B0C3GY2PJ2 : PUBLISHED
-  B08Z36X6B4 : unconfirmed
-  B08Y5PN435 : PUBLISHED
-  B0895T42V1 : PUBLISHED
-  B08C4PJ5FT : PUBLISHED
-  B07YTYFHF1 : skip-econ
-  B0BBQX7P5J : skip-err1
-  B07BY9GCLJ : skip-title-persist
-  B08FFBB4R9 : PUBLISHED
-  B00K0157UW : skip-econ
-  B08Y65QWH7 : skip-econ
-  B078L2MWRN : PUBLISHED
-  B07PWNGPR1 : PUBLISHED
-  B0DNN3SWFH : skip-err1
-  B09F721FSV : skip-err1
-  B084H77VXW : PUBLISHED
-  B01N4HYCXZ : skip-err1
-  B0DMZM6F8B : no-draft
-  B08HMMHX2J : skip-econ
-  B08C5CDGT2 : no-draft
-  B07MV6TFFW : no-draft
-  B07R7NJJBC : skip-econ
-  B0CR129N53 : PUBLISHED
-  B09T9HFSDC : PUBLISHED
-RUN_RESULT verified=20
+=== SUMMARY: publish-reported=29 | API-verified-left-drafts=29 | attempts=53 ===
+  B0000644AF : PUBLISHED
+  B08G53L8B5 : skip-econ
+  B0BX5GD5ST : no-draft
+  B00H91BQ7Y : unconfirmed
+  B09BDG9254 : PUBLISHED
+  B07YCZLDGP : PUBLISHED
+  B07PXCF7YC : PUBLISHED
+  B00WJKOQ7M : PUBLISHED
+  B09HR41ZPB : no-draft
+  B0FX2MZG1D : PUBLISHED
+  B07CTN932P : skip-econ
+  B0071GWKXQ : skip-err1
+  B087BXD9LB : no-draft
+  B00VS9C43I : no-draft
+  B013HQZJTU : no-draft
+  B093RLDKQC : unconfirmed
+  B08LPZFT3T : skip-econ
+  B07MV6W8VL : PUBLISHED
+  B09B4KP4ND : skip-econ
+  B0CN4GJ334 : PUBLISHED
+  B01HLB3YZ8 : PUBLISHED
+  B082PMDVQ1 : PUBLISHED
+  B0CJ526NRZ : PUBLISHED
+  B06XSTZNDF : PUBLISHED
+  B07791ZV5R : PUBLISHED
+  B08GPVNM79 : skip-econ
+  B08L7WQVL7 : PUBLISHED
+  B07PPHSCMG : skip-econ
+  B088QR534K : skip-econ
+  B001LQZOLW : skip-err1
+  B093B83ZSN : PUBLISHED
+  B0BPVTG25Y : skip-econ
+  B00PJQPV72 : PUBLISHED
+  B000I68NCS : PUBLISHED
+  B07YFPD68K : PUBLISHED
+  B07MD68468 : skip-err1
+  B08T6LGN29 : skip-econ
+  B09QHTH214 : PUBLISHED
+  B07HJJ7N14 : PUBLISHED
+  B07GVB2814 : no-draft
+  B082274MRL : skip-econ
+  B08DG8838L : no-draft
+  B09FLDXY2J : PUBLISHED
+  B08FBKD4ZD : PUBLISHED
+  B0GJD3KQ32 : no-draft
+  B06XKXSRKC : PUBLISHED
+  B07JM8PKWW : unconfirmed
+  B092HG5H19 : PUBLISHED
+  B01M7WQ4ZL : no-draft
+  B08SQCN4G6 : skip-err1
+  B088GXWY4J : skip-econ
+  B08XX5ZJWL : PUBLISHED
+  B07G5KQY31 : PUBLISHED
+  B08T1T8VLS : skip-econ
+  B08BR34QJB : no-draft
+  B07P5LN7BK : no-draft
+  B0858Z5N1X : PUBLISHED
+  B08PF3BLNK : skip-econ
+  B08K2J4SJM : skip-econ
+  B08C2BC2LV : PUBLISHED
+  B08BKJR3P3 : PUBLISHED
+  B08NC1H8CV : skip-econ
+  B01MYM7MJE : skip-econ
+  B09VBM6DPP : skip-econ
+RUN_RESULT verified=29
