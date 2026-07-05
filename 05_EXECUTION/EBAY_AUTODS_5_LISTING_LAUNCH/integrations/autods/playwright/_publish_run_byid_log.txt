@@ -1,196 +1,306 @@
 === PUBLISH RUN BY-ID | target=36 | candidates=72 ===
 initial drafts (by asin): 450
-importing 71 missing candidates...
-  import B07DD473J8 : ok
-  import B002VKCH7G : ok
-  import B09B2FCBNT : ok
-  import B07L35TW6H : ok
-  import B07HKRHRJK : ok
-  import B08L56RWQW : ok
-  import B07Q3YR6GV : ok
-  import B08P5HQNRY : ok
-  import B07ZHNDZBZ : ok
-  import B01KBAF00S : ok
-  import B09J268V4Z : ok
-  import B09TVQ2TVP : ok
-  import B08F1TVNPG : ok
-  import B08Q7MXLGN : ok
-  import B081S4LKCZ : ok
-  import B099B2NY4P : ok
-  import B07Y7G8M75 : ok
-  import B08QFJVQ94 : ok
-  import B08CZWHH4W : ok
-  import B07L8LNHNJ : ok
-  import B08HHXDDPC : ok
-  import B086GF82ZN : ok
-  import B08H8CXN9Y : ok
-  import B086VQ2TDG : ok
-  import B089434T88 : ok
-  import B07D5FNS84 : ok
-  import B01DZX44X2 : ok
-  import B0CKVRKN4B : ok
-  import B01B6RBKHC : ok
-  import B08NW289PW : ok
-  import B003XL7WZO : ok
-  import B002XOHZUO : ok
-  import B088CT79J6 : ok
-  import B08N6G48PW : ok
-  import B07ND5NQFH : ok
-  import B07L76PN9G : ok
-  import B085XQ5XZG : ok
-  import B092334VL5 : ok
-  import B085XK5CDG : ok
-  import B07BG59QT6 : ok
-  import B0BG1Y5YF8 : ok
-  import B09PN1FNVF : ok
-  import B0BFNWVXVP : ok
-  import B08RHVTWW3 : ok
-  import B0948QCG42 : ok
-  import B019U50QLI : ok
-  import B08KQ6YXC2 : ok
-  import B084L5JYFG : ok
-  import B00DEK3LZO : ok
-  import B083FDR9RZ : ok
-  import B08NFYR76K : ok
-  import B07Z7ZM8CJ : ok
-  import B0D4QBPLF4 : ok
-  import B072QKRG26 : ok
-  import B08F4W9HFS : ok
-  import B0824YGXGY : ok
-  import B07PYWZX75 : ok
-  import B08HCSQQYS : ok
-  import B079J995KD : ok
-  import B09DFY469V : ok
-  import B09QHRDFKJ : ok
-  import B01IWEY7S6 : ok
-  import B0054Y3LDU : ok
-  import B08FTF3MGK : ok
-  import B0CRSZ9F1Y : ok
-  import B0DRCQLHW7 : ok
-  import B0773ZY26F : ok
-  import B00EFY9F9E : ok
-  import B095BCFR3J : ok
-  import B07SX61T6Q : ok
-  import B09W23821T : ok
-drafts after imports (by asin): 450
-  [1 live] B09B2FCBNT | TidyCorner 2-Pack Under Bed Storage Containers, 
-  [unconf] B08L56RWQW | : []
+importing 72 missing candidates...
+  import B00Y6PRETK : ok
+  [19 live] B095S1S2C7 | Head Speed Junior Tennis Racquet
+  import B088LKGZT4 : ok
+  import B000684DUE : ok
+  [20 live] B08S3N328D | Fida 5 FT Heavy Duty Dog Leash with 2 Comfortabl
+  import B07CYNYYTB : ok
+  import B07H3LHHBW : ok
+  [unconf] B092VL9RB1 |  Indoor â€“ Solid Har | len 65
+RESULT: ABORT guard-mismatch (expected '2 panel')
+  import B07L69LDYB : ok
+  import B00JBVKMMK : ok
+  import B08W273RZC : ok
+  [unconf] B08CXGKZQP | : []
 RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
-  [2 live] B07Q3YR6GV | SHW Mission 48-Inch Home Office Computer Desk, E
-  [3 live] B07ZHNDZBZ | My Space Organizers Marble Desk Organizer For Of
-  [unconf] B09TVQ2TVP | : []
-RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
-  [unconf] B08F1TVNPG | ent Heads - Microfiber, Compatible | len 122
-RESULT: ABORT title-over-80 len=122
-  [4 live] B08Q7MXLGN | Bucket Washing Tool Organizer for a 5 Gallon Buc
-  [5 live] B081S4LKCZ | Isshah Corn Starch Natural Dental Floss Picks - 
-  [unconf] B08CZWHH4W |  Utensil Set for Kitchen, Teak Woo | len 121
-RESULT: ABORT title-over-80 len=121
-  [6 live] B08H8CXN9Y | Acrylic Pen Holder 3 Compartments, Clear Pencil 
-  [unconf] B086VQ2TDG | s for Desk Organi | len 129
-RESULT: ABORT guard-mismatch (expected 'blu monaco')
-  [unconf] B089434T88 | oe Organizer or Entryway Bench, Pe | len 175
-RESULT: ABORT title-over-80 len=175
-  [7 live] B0CKVRKN4B | 5 Pack Glass Meal Prep Containers 3 Compartment 
-  [unconf] B01B6RBKHC |  Cows (Chocolate, 60 Servings) - W | len 188
-RESULT: ABORT title-over-80 len=188
-  [8 live] B003XL7WZO | Aspects HummZinger HighView 12 Oz Hanging Hummin
-  [unconf] B07L76PN9G |  Roll-Up Panels,  | len 168
-RESULT: ABORT guard-mismatch (expected 'molly mutt')
-  [9 live] B07BG59QT6 | Pillow Perfect Outdoor/Indoor Gregoire Prima Lum
-  [unconf] B09PN1FNVF | Mouse Pad, Keyboard Wrist Rest, Er | len 144
-RESULT: ABORT title-over-80 len=144
-  [unconf] B0948QCG42 | e-Sided Magnificat | len 166
-RESULT: ABORT guard-mismatch (expected 'gospire 8')
-  [unconf] B08KQ6YXC2 |  Chest 26 Back18)) | len 62
-RESULT: ABORT guard-mismatch (expected 'neewa sled')
-  [10 live] B084L5JYFG | Cat Cave – Premium Felt Cat Bed Enclosure for In
-  [unconf] B072QKRG26 |  Throw Blanket G | len 92
-RESULT: ABORT guard-mismatch (expected 'arus acrylic')
-  [unconf] B07PYWZX75 | : []
-RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
-  [unconf] B079J995KD |  Spinning Desk TV Remote Caddy/Box | len 169
-RESULT: ABORT title-over-80 len=169
-  [unconf] B09DFY469V | , with Non-Slip PU Base,Gel Mouse  | len 138
-RESULT: ABORT title-over-80 len=138
-  [11 live] B0CRSZ9F1Y | Ufree Hair Clippers for Men, Clippers and Trimme
-  [unconf] B0773ZY26F | DMI VGA Build-In  | len 125
-RESULT: ABORT guard-mismatch (expected 'sceptre 24')
-  [12 live] B00EFY9F9E | Pro Carbon + Raptor Performance-Level Table Tenn
-  [unconf] B07SX61T6Q | : []
-RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  import B07T22TCFS : ok
+  import B07VTKKSNJ : ok
+  import B07K4D2NJ9 : ok
+  [21 live] B0000ATZ25 | SeaSense Super Polymer Bow Roller, 4-Inch,Yellow
+  import B07P1BC7D1 : ok
+  import B07VSKZVSJ : ok
+  import B083VR9FHQ : ok
+  [22 live] B08XNVRT7P | TreeLen Toilet Paper Holder Stand Tissue Paper R
+  import B08934BD1N : ok
+  import B005G6O5XQ : ok
+  [unconf] B07R8SM4L7 | geable Cordless Cat Shaver and Low | len 177
+RESULT: ABORT title-over-80 len=177
+  import B07X8N2G5C : ok
+  import B0FT7RPNPL : ok
+  [unconf] B08JJ14QYM | , Crossfit Workout, 8~11 | len 178
+RESULT: ABORT guard-mismatch (expected '1 2')
+  import B0CSX779ZY : ok
+  import B099P7SXMT : ok
+  import B08CT5RBYC : ok
+  [23 live] B08CSBQ9G2 | Recessed Toilet Paper Holder, Stainless Steel Du
+  import B0F8NY28ZW : ok
+  [unconf] B08Q86S6T1 | table Dog Leash | Cat Leash | 10 Ft  | len 99
+RESULT: ABORT title-over-80 len=99
+  import B08LQB6WNV : ok
+  import B08TB146KN : ok
+  [unconf] B07WGHX6M3 | rvine, P | len 154
+RESULT: ABORT guard-mismatch (expected 'meowijuana catnibas')
+  import B0F83H9SLB : ok
+  import B08F7VKLSS : ok
+  [unconf] B078W5F6T7 |  Washable Crate Ma | len 180
+RESULT: ABORT guard-mismatch (expected 'mora pets')
+  import B07D66KHJJ : ok
+  import B07DBHX5R8 : ok
+  [24 live] B08J8DZD5S | Resistance Bands, Exercise Bands for Working Out
+  import B08S3TY1HV : ok
+  import B07R1MV14F : ok
+  import B07J6G2DP5 : ok
+  [25 live] B01N6OAOEE | Skateboard Helmet Impact Resistance Ventilation 
+  import B07Y8V5T3B : ok
+  import B07GRPSQN1 : ok
+  import B086W75L1W : ok
+  [unconf] B074DQKH1J | Washable Mat for L | len 157
+RESULT: ABORT guard-mismatch (expected 'mora pets')
+  import B0C7BSQPQS : ok
+  import B09C241N3P : ok
+  import B00OJ2C2V0 : ok
+  [26 live] B077MC2525 | Large Yoga Mat 6'x4'/6'x6'/7'x5'(7mm/9mm), Extra
+  import B07SQH3FCT : ok
+  import B00WI0D94E : ok
+  import B079P28H2L : ok
+  import B08VNGZRK6 : ok
+  [27 live] B08N3Y18YV | Dusk to Dawn Outdoor Post Light Hardwired 120V, 
+  import B09BPSDHYB : ok
+  [unconf] B01LWOARZ8 | t Rappelling Ge | len 114
+RESULT: ABORT guard-mismatch (expected 'newdoar uiaa')
+  import B00X56RTYQ : ok
+  import B08P4636QZ : ok
+  import B08TC973R8 : ok
+  [unconf] B08D8Z7KJV | ittens, and Sm | len 167
+RESULT: ABORT guard-mismatch (expected 'winsterch cat')
+  import B08P1DSXXX : ok
+  [unconf] B071Y3DMTF |  Ft X 3/4 Inch, Turquoise with Beige | len 89
+RESULT: ABORT title-over-80 len=89
+  import B093Q91JLK : ok
 
-=== SUMMARY: publish-reported=12 | API-verified-left-drafts=14 | attempts=65 ===
-  B07DD473J8 : skip-title-persist
-  B002VKCH7G : skip-title-persist
-  B09B2FCBNT : PUBLISHED
-  B07L35TW6H : skip-title-persist
-  B07HKRHRJK : skip-econ
-  B08L56RWQW : unconfirmed
-  B07Q3YR6GV : PUBLISHED
-  B08P5HQNRY : skip-econ
-  B07ZHNDZBZ : PUBLISHED
-  B01KBAF00S : skip-econ
-  B09J268V4Z : skip-err1
-  B09TVQ2TVP : unconfirmed
-  B08F1TVNPG : unconfirmed
-  B08Q7MXLGN : PUBLISHED
-  B081S4LKCZ : PUBLISHED
-  B099B2NY4P : skip-econ
-  B07Y7G8M75 : skip-title-persist
-  B082QYLF3F : skip-econ
-  B08QFJVQ94 : skip-title-persist
-  B08CZWHH4W : unconfirmed
-  B07L8LNHNJ : skip-econ
-  B08HHXDDPC : skip-title-persist
-  B086GF82ZN : skip-econ
-  B08H8CXN9Y : PUBLISHED
-  B086VQ2TDG : unconfirmed
-  B089434T88 : unconfirmed
-  B07D5FNS84 : no-draft
-  B01DZX44X2 : skip-econ
-  B0CKVRKN4B : PUBLISHED
-  B01B6RBKHC : unconfirmed
-  B08NW289PW : skip-econ
-  B003XL7WZO : PUBLISHED
-  B002XOHZUO : no-draft
-  B088CT79J6 : skip-econ
-  B08N6G48PW : skip-title-persist
-  B07ND5NQFH : skip-econ
-  B07L76PN9G : unconfirmed
-  B085XQ5XZG : skip-econ
-  B092334VL5 : skip-title-persist
-  B085XK5CDG : skip-econ
-  B07BG59QT6 : PUBLISHED
-  B0BG1Y5YF8 : no-draft
-  B09PN1FNVF : unconfirmed
-  B0BFNWVXVP : skip-err1
-  B08RHVTWW3 : skip-econ
-  B0948QCG42 : unconfirmed
-  B019U50QLI : skip-econ
-  B08KQ6YXC2 : unconfirmed
-  B084L5JYFG : PUBLISHED
-  B00DEK3LZO : skip-err1
-  B083FDR9RZ : skip-err1
-  B08NFYR76K : no-draft
-  B07Z7ZM8CJ : skip-title-persist
-  B0D4QBPLF4 : skip-err1
-  B072QKRG26 : unconfirmed
-  B08F4W9HFS : skip-econ
-  B0824YGXGY : skip-econ
-  B07PYWZX75 : unconfirmed
-  B08HCSQQYS : no-draft
-  B079J995KD : unconfirmed
-  B09DFY469V : unconfirmed
-  B09QHRDFKJ : skip-econ
-  B01IWEY7S6 : skip-title-persist
-  B0054Y3LDU : skip-title-persist
-  B08FTF3MGK : skip-econ
-  B0CRSZ9F1Y : PUBLISHED
-  B0DRCQLHW7 : no-draft
-  B0773ZY26F : unconfirmed
-  B00EFY9F9E : PUBLISHED
-  B095BCFR3J : skip-econ
-  B07SX61T6Q : unconfirmed
-  B09W23821T : no-draft
+=== SUMMARY: publish-reported=27 | API-verified-left-drafts=25 | attempts=66 ===
+  B08Y5PNBN8 : skip-econ
+  B08M9FV8FC : skip-err1
+  B0874PVXHW : PUBLISHED
+  B07NVV9R88 : no-draft
+  B092VJNY9Y : PUBLISHED
+  B07QS42PFD : skip-econ
+  B082RNG89C : skip-err1
+  B07TJBCZ94 : PUBLISHED
+  B097PQY79P : PUBLISHED
+  B084KJ228H : PUBLISHED
+  B098Q2GZ41 : PUBLISHED
+  B07V2ZGR82 : skip-econ
+  B08QHT6YBF : skip-econ
+  B07VSL3WM6 : PUBLISHED
+  B093BF11KK : skip-err1
+  B08N4D9Z43 : skip-econ
+  B07VP5HFTN : no-draft
+  B09BDR4NXM : PUBLISHED
+  B00K7XCF26 : PUBLISHED
+  B0BVVTB19Z : skip-err1
+  B0CZN3PNXK : skip-err1
+  B07Z3RMTN7 : skip-econ
+  B08FF87RDT : no-draft
+  B07QBCRLQP : PUBLISHED
+  B07XQ7KKD8 : PUBLISHED
+  B079P75WCC : PUBLISHED
+  B06X9X6VYY : unconfirmed
+  B07XSLKS11 : PUBLISHED
+  B0F83HCZQG : PUBLISHED
+  B002S0NP7U : PUBLISHED
+  B0763MBYG1 : PUBLISHED
+  B08NFTK6BH : PUBLISHED
+  B083K9Z9JT : unconfirmed
+  B07VTK5MHP : PUBLISHED
+  B097PS8P17 : skip-econ
+  B01B5B3SLU : skip-econ
+  B095S1S2C7 : PUBLISHED
+  B08S3N328D : PUBLISHED
+  B092VL9RB1 : unconfirmed
+  B08CXGKZQP : unconfirmed
+  B07778BQRJ : skip-title-persist
+  B0000ATZ25 : PUBLISHED
+  B07CMZ11TX : no-draft
+  B00ZYYSFUO : skip-err1
+  B07NSNJX3X : skip-econ
+  B08XNVRT7P : PUBLISHED
+  B07R8SM4L7 : unconfirmed
+  B08V93NYRJ : skip-econ
+  B08JJ14QYM : unconfirmed
+  B00EE84FZU : skip-econ
+  B08CSBQ9G2 : PUBLISHED
+  B08Q86S6T1 : unconfirmed
+  B07WGHX6M3 : unconfirmed
+  B09MM46WWD : skip-econ
+  B078W5F6T7 : unconfirmed
+  B08G1G2XRP : skip-econ
+  B08G1FD55K : no-draft
+  B08J8DZD5S : PUBLISHED
+  B01N6OAOEE : PUBLISHED
+  B075GY4JTD : skip-title-persist
+  B01DID2TN6 : skip-title-persist
+  B074DQKH1J : unconfirmed
+  B0000AJ050 : skip-err1
+  B077MC2525 : PUBLISHED
+  B08ZSMTSVP : skip-title-persist
+  B088B6839B : skip-econ
+  B08N3Y18YV : PUBLISHED
+  B01LWOARZ8 : unconfirmed
+  B000HAYUW2 : skip-title-persist
+  B08D8Z7KJV : unconfirmed
+  B071Y3DMTF : unconfirmed
+  B08PSCSTSZ : no-draft
+RUN_RESULT verified=25
+  import B09XH5GPZ5 : ok
+  import B0CPDF72LX : ok
+  import B09SLT6CCN : ok
+  import B0BG1S6NNJ : ok
+  import B07YP7YZDR : ok
+  import B0F2H4MM85 : ok
+  import B07F2YJRN2 : ok
+  import B0CH7LSRPJ : ok
+  import B0F2MRFTS1 : ok
+  import B0GC6WH2PR : ok
+  import B07P4MD2C2 : ok
+  import B0B612ZWZK : ok
+  import B0991LM251 : ok
+  import B08N3SXJ8C : ok
+  import B098BFT3CF : ok
+  import B0FKB7N4BY : ok
+  import B07VHP65M9 : ok
+  import B00KKT1EZG : ok
+  import B01BZGVMWW : ok
+  import B08HG9XCYX : ok
+  import B07YF53FFD : ok
+  import B082TYNKY9 : ok
+  import B073G8VN4N : ok
+  import B08ZY1KDG8 : ok
+  import B07H6BCFPR : ok
+drafts after imports (by asin): 450
+  [1 live] B00Y6PRETK | Nordic Ware Halloween Bakeware, Haunted Skull Ca
+  [2 live] B000684DUE | Joyce Chen 22-9938, Pro Chef 14 Inch 10 Piece Ex
+  [3 live] B07L69LDYB | DreamsEden Cast Iron Anniversary Sculpted Couple
+  [4 live] B00JBVKMMK | Hongso 16 1/2 Inch Porcelain Heat Shield for Cha
+  [unconf] B07K4D2NJ9 | Pocket, Plush Thick Cozy Body Blan | len 143
+RESULT: ABORT title-over-80 len=143
+  [5 live] B07VSKZVSJ | Healing Blanket, Get Well Soon Gift, Soft Hug Co
+  [unconf] B083VR9FHQ | t, Soft Hug Compassion Throw Blank | len 188
+RESULT: ABORT title-over-80 len=188
+  [6 live] B005G6O5XQ | Pointehaven Heavy Weight Flannel Cotton Sheet Se
+  [unconf] B07X8N2G5C | elf-Adhesive & | len 122
+RESULT: ABORT guard-mismatch (expected 'etekcity tens')
+  [unconf] B0CSX779ZY | erving Bowls Set of | len 179
+RESULT: ABORT guard-mismatch (expected 'gbhome 8')
+  [7 live] B0F8NY28ZW | Ausemku Shower Curtain Rod - 32-68 Inch Rustproo
+  [8 live] B08LQB6WNV | Twin XL Mattress Topper, 3 Inch Cooling Mattress
+  [9 live] B08S3TY1HV | Fida 5 FT Heavy Duty Dog Leash with 2 Comfortabl
+  [unconf] B07J6G2DP5 | le Style,  | len 106
+RESULT: ABORT guard-mismatch (expected 'chris christensen')
+  [10 live] B07Y8V5T3B | Rugshop Sky Collection Transitional Abstract Are
+  [unconf] B00OJ2C2V0 |  Table  | len 177
+RESULT: ABORT guard-mismatch (expected 'convenience concepts')
+  [unconf] B079P28H2L | , Wooden Bunk beds w | len 70
+RESULT: ABORT guard-mismatch (expected 'max lily')
+  [unconf] B00X56RTYQ | Lead for Small | len 92
+RESULT: ABORT guard-mismatch (expected 'pawtitas black')
+  [unconf] B08TC973R8 |  High-Power 4-Speed | len 183
+RESULT: ABORT guard-mismatch (expected 'gimars 4')
+  [11 live] B08P1DSXXX | Dog Bed Large Crate Mat 42 in Non-Slip Washable 
+  [unconf] B0CPDF72LX | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  [unconf] B09SLT6CCN | st Pad Ergonomic Mousepad Non-Slip | len 174
+RESULT: ABORT title-over-80 len=174
+  [unconf] B0F2H4MM85 | e Car Bed with Electric Pump, 2 Fo | len 173
+RESULT: ABORT title-over-80 len=173
+  [unconf] B07F2YJRN2 | ps Backpack,Wa | len 168
+RESULT: ABORT guard-mismatch (expected 'volher laptop')
+  [unconf] B0CH7LSRPJ | r, Wear -Resistant Steering Wheel  | len 190
+RESULT: ABORT title-over-80 len=190
+  [unconf] B0B612ZWZK | Backrest Positioning Support Bed R | len 151
+RESULT: ABORT title-over-80 len=151
+  [unconf] B0991LM251 |  Dog Leash | 16 Ft Strong Nylon Tape | len 89
+RESULT: ABORT title-over-80 len=89
+  [unconf] B098BFT3CF | t Shaver Groo | len 121
+RESULT: ABORT guard-mismatch (expected 'oneisall quiet')
+  [12 live] B0FKB7N4BY | Retractable Baby Gate for Stairs and Doorways, 5
+  [13 live] B07VHP65M9 | Moontay Professional Dog Grooming Straight, Curv
+  [14 live] B08HG9XCYX | PetAmi Waterproof Dog Blanket for Couch, Queen 9
+  [unconf] B07YF53FFD | lk Through, Freesta | len 188
+RESULT: ABORT guard-mismatch (expected '144 inch')
+
+=== SUMMARY: publish-reported=14 | API-verified-left-drafts=14 | attempts=60 ===
+  B00Y6PRETK : PUBLISHED
+  B088LKGZT4 : skip-econ
+  B000684DUE : PUBLISHED
+  B07CYNYYTB : no-draft
+  B07H3LHHBW : skip-title-persist
+  B07L69LDYB : PUBLISHED
+  B00JBVKMMK : PUBLISHED
+  B08W273RZC : skip-err1
+  B07T22TCFS : skip-econ
+  B07VTKKSNJ : skip-title-persist
+  B07K4D2NJ9 : unconfirmed
+  B07P1BC7D1 : skip-econ
+  B07VSKZVSJ : PUBLISHED
+  B083VR9FHQ : unconfirmed
+  B08934BD1N : no-draft
+  B005G6O5XQ : PUBLISHED
+  B07X8N2G5C : unconfirmed
+  B0FT7RPNPL : skip-err1
+  B0CSX779ZY : unconfirmed
+  B099P7SXMT : no-draft
+  B08CT5RBYC : skip-title-persist
+  B0F8NY28ZW : PUBLISHED
+  B08LQB6WNV : PUBLISHED
+  B08TB146KN : skip-econ
+  B0F83H9SLB : skip-title-persist
+  B08F7VKLSS : skip-err1
+  B07D66KHJJ : skip-err1
+  B07DBHX5R8 : skip-econ
+  B08S3TY1HV : PUBLISHED
+  B07R1MV14F : no-draft
+  B07J6G2DP5 : unconfirmed
+  B07Y8V5T3B : PUBLISHED
+  B07GRPSQN1 : skip-econ
+  B086W75L1W : no-draft
+  B0C7BSQPQS : skip-econ
+  B09C241N3P : no-draft
+  B00OJ2C2V0 : unconfirmed
+  B07SQH3FCT : skip-econ
+  B00WI0D94E : skip-title-persist
+  B079P28H2L : unconfirmed
+  B08VNGZRK6 : skip-econ
+  B09BPSDHYB : no-draft
+  B00X56RTYQ : unconfirmed
+  B08P4636QZ : skip-econ
+  B08TC973R8 : unconfirmed
+  B08P1DSXXX : PUBLISHED
+  B093Q91JLK : skip-title-persist
+  B09XH5GPZ5 : skip-econ
+  B0CPDF72LX : unconfirmed
+  B09SLT6CCN : unconfirmed
+  B0BG1S6NNJ : skip-econ
+  B07YP7YZDR : skip-econ
+  B0F2H4MM85 : unconfirmed
+  B07F2YJRN2 : unconfirmed
+  B0CH7LSRPJ : unconfirmed
+  B0F2MRFTS1 : no-draft
+  B0GC6WH2PR : skip-title-persist
+  B07P4MD2C2 : skip-econ
+  B0B612ZWZK : unconfirmed
+  B0991LM251 : unconfirmed
+  B08N3SXJ8C : no-draft
+  B098BFT3CF : unconfirmed
+  B0FKB7N4BY : PUBLISHED
+  B07VHP65M9 : PUBLISHED
+  B00KKT1EZG : skip-err1
+  B01BZGVMWW : no-draft
+  B08HG9XCYX : PUBLISHED
+  B07YF53FFD : unconfirmed
+  B082TYNKY9 : skip-title-persist
+  B073G8VN4N : no-draft
+  B08ZY1KDG8 : skip-econ
 RUN_RESULT verified=14
