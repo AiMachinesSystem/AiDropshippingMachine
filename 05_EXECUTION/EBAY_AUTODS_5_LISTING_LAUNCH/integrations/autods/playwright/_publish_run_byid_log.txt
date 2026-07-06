@@ -1,27 +1,30 @@
 === PUBLISH RUN BY-ID | target=36 | candidates=68 ===
+  import B08NSJRYKP : ok
+  import B08K2KC6KD : ok
 initial drafts (by asin): 437
 importing 68 missing candidates...
-  import B07QS3HZR8 : ok
-  import B088SGCVGV : ok
-  import B07Z4PFKTQ : ok
-  [13 live] B077FFJ94W | Luxury Spa Skincare Sandalwood Gift Set for Men 
-  import B0141Q2N9O : ok
-  import B08XWFGVCM : ok
-  import B09R1K4LP1 : ok
-  import B006PJ5514 : ok
-  import B0CPXYFJP4 : ok
-  import B08PCVMLMM : ok
-  [14 live] B07V2P7PR7 | Red Rose Canvas Wall Art Decor,12x12inX4 Black W
-  import B08KW5G5XM : ok
-  import B08PCTL331 : ok
-  import B09873N25Y : ok
-  import B07LC64H8Z : ok
-  import B08XN83563 : ok
-  import B086PKJ1NM : ok
-  [15 live] B00215LFZQ | Liberty GARDEN 704 Decorative Cast Aluminum Wall
-  import B097QP9W4F : ok
-  import B08TZJQ1TZ : ok
-  import B07MSHL6S1 : ok
-  [unconf] B0915X5K6W | Tongue and Groove Pli | len 62
-RESULT: ABORT guard-mismatch (expected '12 inch')
-  import B08C5FKGJ2 : ok
+  import B09DFB5GH8 : ok
+  import B00BSG46VE : ok
+  import B0FGX1ZXXL : ok
+  import B08SGC6BFZ : ok
+  import B0006NDC7E : ok
+  import B08L35JKBY : ok
+  [16 live] B092RL5TB6 | Madrona Brands Red Flower Windsock | Durable Out
+  import B07SBZWSFP : ok
+  import B07CKMRYK5 : ok
+  import B009ISANFW : ok
+  import B07DQDZD4Y : ok
+  import B089Y8D3KY : ok
+  import B000YBFJQU : ok
+  import B0912JB1RS : ok
+  import B07Y9YB2VN : ok
+  import B0D2318TXL : ok
+  [17 live] B07MMM65B3 | Muzilife 45.3 Inch Large Floating Shelves - Set 
+  import B07Q98941Y : ok
+  import B085XZLCQW : ok
+  import B096K48MDF : ok
+  import B08NPSZ1GK : ok
+  [unconf] B06XSWVTC8 | e with Removabl | len 70
+RESULT: ABORT guard-mismatch (expected 'frametory 8x8')
+  import B08XW3X463 : ok
+  import B08HRRF67H : ok
