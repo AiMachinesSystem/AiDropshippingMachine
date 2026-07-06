@@ -1,30 +1,81 @@
-=== PUBLISH RUN BY-ID | target=36 | candidates=68 ===
-  import B08NSJRYKP : ok
-  import B08K2KC6KD : ok
+=== PUBLISH RUN BY-ID | target=36 | candidates=69 ===
+  import B08T7266VD : ok
 initial drafts (by asin): 437
-importing 68 missing candidates...
-  import B09DFB5GH8 : ok
-  import B00BSG46VE : ok
-  import B0FGX1ZXXL : ok
-  import B08SGC6BFZ : ok
-  import B0006NDC7E : ok
-  import B08L35JKBY : ok
-  [16 live] B092RL5TB6 | Madrona Brands Red Flower Windsock | Durable Out
-  import B07SBZWSFP : ok
-  import B07CKMRYK5 : ok
-  import B009ISANFW : ok
-  import B07DQDZD4Y : ok
-  import B089Y8D3KY : ok
-  import B000YBFJQU : ok
-  import B0912JB1RS : ok
-  import B07Y9YB2VN : ok
-  import B0D2318TXL : ok
-  [17 live] B07MMM65B3 | Muzilife 45.3 Inch Large Floating Shelves - Set 
-  import B07Q98941Y : ok
-  import B085XZLCQW : ok
-  import B096K48MDF : ok
-  import B08NPSZ1GK : ok
-  [unconf] B06XSWVTC8 | e with Removabl | len 70
-RESULT: ABORT guard-mismatch (expected 'frametory 8x8')
-  import B08XW3X463 : ok
-  import B08HRRF67H : ok
+importing 69 missing candidates...
+  import B0749WPC6V : ok
+  import B07S62FR8M : ok
+  import B086S4MZ1W : ok
+  import B07JBB2Z1H : ok
+  import B07LGGRLD4 : ok
+  import B07MGLMMD6 : ok
+  import B093LRLN45 : ok
+  [18 live] B07BQB74V1 | Laura Ashley 4x4 Black Ornate Textured Hand-Craf
+  import B08TNTD2ZL : ok
+  import B07NHY6XTZ : ok
+  import B01I0214J0 : ok
+  import B08H5LQPWC : ok
+  import B000KL2EDK : ok
+  import B09Y84KG5L : ok
+  import B09N25WCYS : ok
+  import B0833W8ND6 : ok
+  import B07S1PSPPK : ok
+  import B09JZBBT46 : ok
+  import B0DWNHX37J : ok
+  [19 live] B087K1CH8X | 8x10 Picture Frames Rustic Brown with Mat Photo 
+  import B08DKBYZH8 : ok
+  import B0DHK637GX : ok
+
+=== SUMMARY: publish-reported=19 | API-verified-left-drafts=18 | attempts=43 ===
+  B0FDBBS7ZQ : PUBLISHED
+  B0DCB8F4K5 : PUBLISHED
+  B07P46R8MD : unconfirmed
+  B08HPYCY9S : PUBLISHED
+  B01HG9EIVE : skip-econ
+  B08T6KDGN4 : PUBLISHED
+  B0D6QXN9ST : PUBLISHED
+  B000NJSZAU : no-draft
+  B08Y87F81G : PUBLISHED
+  B07R967BLQ : skip-econ
+  B095CF97XG : skip-econ
+  B07HTD1GH9 : skip-err1
+  B08R3JFZ62 : skip-econ
+  B08FX1BK3Z : skip-econ
+  B0CP27Z2PR : PUBLISHED
+  B0CS9SWZ45 : PUBLISHED
+  B08DK17VGB : PUBLISHED
+  B071YDNTC7 : PUBLISHED
+  B07S9XCV2R : PUBLISHED
+  B098V2G242 : no-draft
+  B098TYSN16 : no-draft
+  B08L6TLDQB : skip-econ
+  B08MJL4NTY : no-draft
+  B00863OHZW : skip-econ
+  B086P4ZYKG : skip-econ
+  B082S9Z1S9 : skip-err1
+  B0D16T4G91 : PUBLISHED
+  B09DPQCSMF : unconfirmed
+  B093WFJV88 : skip-econ
+  B07YNJ448N : skip-err1
+  B077FFJ94W : PUBLISHED
+  B07V2P7PR7 : PUBLISHED
+  B08ZLHW4M4 : skip-econ
+  B00215LFZQ : PUBLISHED
+  B08GKHH4YL : no-draft
+  B071FYYVSF : no-draft
+  B0915X5K6W : unconfirmed
+  B07HDYF5MZ : no-draft
+  B0822FFMTQ : skip-title-persist
+  B092RL5TB6 : PUBLISHED
+  B082J3DJFH : skip-econ
+  B08BZ9WDN2 : skip-econ
+  B07RHSP7SM : skip-econ
+  B07CJMFZXH : skip-econ
+  B07V1TGDX5 : skip-econ
+  B07MMM65B3 : PUBLISHED
+  B06XSWVTC8 : unconfirmed
+  B07RBR8J8H : skip-err1
+  B07BQB74V1 : PUBLISHED
+  B087K1CH8X : PUBLISHED
+RUN_RESULT verified=18
+  import B08KYC74FX : ok
+  import B00OD5K8LO : ok
