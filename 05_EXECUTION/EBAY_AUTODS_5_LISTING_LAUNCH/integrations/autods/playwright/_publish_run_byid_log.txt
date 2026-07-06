@@ -1,155 +1,58 @@
-=== PUBLISH RUN BY-ID | target=36 | candidates=57 ===
+=== PUBLISH RUN BY-ID | target=36 | candidates=50 ===
 initial drafts (by asin): 437
-importing 57 missing candidates...
-  import B07F8H6YF4 : ok
-  import B006RQ8TY0 : ok
-  import B071RPCTW2 : ok
-  import B07K1YZ27X : ok
-  import B09LHZHTNH : ok
-  import B0CJ6P695Q : ok
-  import B075DFNK4S : ok
-  import B08HGNHK9N : ok
-  import B0B6P2GSWH : ok
-  import B06XYSPMZ1 : ok
-  import B07Q6BLNT6 : ok
-  import B07XBKK1QD : ok
-  import B0CKQNP26P : ok
-  import B06XP2S2PF : ok
-  import B00IKCCWXS : ok
-  import B08X9V5B6Y : ok
-  import B07JK67GRD : ok
-  import B083VR3JL8 : ok
-  import B08F7M8J9M : ok
-  import B01DJMJED4 : ok
-  import B099JHBGP4 : ok
-  import B08K24KH3C : ok
-  import B07V3HRQC5 : ok
-  import B093FPBZSP : ok
-  import B08DCCD7SM : ok
-  import B087JLH8CC : ok
-  import B08BQY5HT1 : ok
-  import B08K3FT8ZN : ok
-  import B08FJ1HW68 : ok
-  import B01LZUKECX : ok
-  import B087MBT4RR : ok
-  import B01K4XJGF2 : ok
-  import B07LGFH2QG : ok
-  import B0C28TV9GM : ok
-  import B08735MYHT : ok
-  import B002IT6DGQ : ok
-  import B08B3PT12J : ok
-  import B083MLHPC9 : ok
-  import B097MRZLNJ : ok
-  import B07W7XY9R8 : ok
-  import B07P8NWK2Y : ok
-  import B07WFZ3JYM : ok
-  import B07XP8RZ9C : ok
-  import B0BF5V6S8B : ok
-  import B087PDFMQT : ok
-  import B09BZ6DM7K : ok
-  import B08B5NYHYP : ok
-  import B09NB8TRDM : ok
-  import B0871SZKH2 : ok
-  import B08QS37RHQ : ok
-  import B0BC2NQ2PQ : ok
-  import B07XZ7WX2T : ok
-  import B07VB8JC1P : ok
-  import B01KW6CF36 : ok
-  import B089M5K1ZS : ok
-  import B0776F55WL : ok
-  import B07DN7TSLC : ok
+importing 50 missing candidates...
+  import B0FDBBS7ZQ : ok
+  import B0DCB8F4K5 : ok
+  import B07P46R8MD : ok
+  import B08HPYCY9S : ok
+  import B01HG9EIVE : ok
+  import B08T6KDGN4 : ok
+  import B0D6QXN9ST : ok
+  import B000NJSZAU : ok
+  import B08Y87F81G : ok
+  import B07R967BLQ : ok
+  import B095CF97XG : ok
+  import B07HTD1GH9 : ok
+  import B08R3JFZ62 : ok
+  import B08FX1BK3Z : ok
+  import B0CP27Z2PR : ok
+  import B0CS9SWZ45 : ok
+  import B08DK17VGB : ok
+  import B071YDNTC7 : ok
+  import B07S9XCV2R : ok
+  import B098V2G242 : ok
+  import B098TYSN16 : ok
+  import B08L6TLDQB : ok
+  import B08MJL4NTY : ok
+  import B00863OHZW : ok
+  import B086P4ZYKG : ok
+  import B082S9Z1S9 : ok
+  import B0D16T4G91 : ok
+  import B09DPQCSMF : ok
+  import B093WFJV88 : ok
+  import B07YNJ448N : ok
+  import B077FFJ94W : ok
+  import B07V2P7PR7 : ok
+  import B08ZLHW4M4 : ok
+  import B00215LFZQ : ok
+  import B08GKHH4YL : ok
+  import B071FYYVSF : ok
+  import B0915X5K6W : ok
+  import B07HDYF5MZ : ok
+  import B0822FFMTQ : ok
+  import B092RL5TB6 : ok
+  import B082J3DJFH : ok
+  import B08BZ9WDN2 : ok
+  import B07RHSP7SM : ok
+  import B07CJMFZXH : ok
+  import B07V1TGDX5 : ok
+  import B07MMM65B3 : ok
+  import B06XSWVTC8 : ok
+  import B07RBR8J8H : ok
+  import B07BQB74V1 : ok
+  import B087K1CH8X : ok
 drafts after imports (by asin): 437
-  [1 live] B07F8H6YF4 | Creative QT Stuff ’n Sit Large 33’’ Bean Bag Sto
-  [2 live] B071RPCTW2 | Miuco Womens Bamboo Handbag Handmade Large Tote 
-  [3 live] B09LHZHTNH | Nurture by Nature Self Care Gifts for Women - Sp
-  [4 live] B0CJ6P695Q | Lavender Scented Candle with Rotating Hummingbir
-  [5 live] B075DFNK4S | Thymes Travel Tin Holiday Candles - Scented Cand
-  [6 live] B08HGNHK9N | Bamboo Bathtub Caddy Tray - Expandable to 41 Inc
-  [7 live] B0B6P2GSWH | Helmet Hanger Wall Mount 180° Swivel Helmet Hold
-  [8 live] B07Q6BLNT6 | Bath Bombs, 7 Natural Bath Bomb Gift Set, Bubble
-  [9 live] B07XBKK1QD | Hotop 12 Pieces Plate Hangers for Wall Stainless
-  [10 live] B0CKQNP26P | Utensil Holder for Kitchen Counter, 7.3"+5.4" Fl
-  [11 live] B06XP2S2PF | Microfiber Cleaning Cloths Red (12 Pack, 12x12) 
-  [12 live] B00IKCCWXS | Wieco Art 3 Panels The Cloud Tree Gallery Wrappe
-  [13 live] B07JK67GRD | Acrylic Sign Holder 8.5x11 Inches Horizontal,Cle
-  [14 live] B08K24KH3C | Juicy Couture - Decorative Accent Pillow, Velvet
-  [15 live] B08BQY5HT1 | Lillefolk Baby Play Mat for Floor – 4x6ft Gray |
-  [16 live] B087MBT4RR | Pink Faux Fur Pillow Covers 18x18 Inch,Set of 2 
-  [17 live] B07LGFH2QG | Aromasong Dead Sea Bath Salt - 100% Pure & Natur
-  [18 live] B0C28TV9GM | Boho Minimalist Small Ceramic Vase Set of 4 for 
-  [19 live] B002IT6DGQ | #8993 Stackable 24in. Wide Horizontal Organizer,
-  [20 live] B08B3PT12J | 12 Pcs Gold Votive Candle Holders- Gold centerpi
-  [21 live] B07W7XY9R8 | Egofine 11x11 Picture Frames 4 Pack Covered by P
-  [unconf] B07WFZ3JYM | : []
-RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
-  [22 live] B07XP8RZ9C | Modern Glass Vase Irised Crystal Clear Glass Vas
-  [23 live] B087PDFMQT | Boao 4 Pieces Wood Hooks for Towels Wall-Mounted
-  [24 live] B09BZ6DM7K | Bathroom Wall Art Daisy Canvas Pictures Modern F
-  [25 live] B08QS37RHQ | 5 Pieces Bathroom Hardware Accessories Set Black
-  [unconf] B0BC2NQ2PQ | p Mirror with 5X | len 63
-RESULT: ABORT guard-mismatch (expected 'wall mounted')
-  [unconf] B07VB8JC1P | hrow Pillow Inserts(Set | len 57
-RESULT: ABORT guard-mismatch (expected '28 28')
-  [26 live] B01KW6CF36 | Sky Organics - Epsom Salt Bath Soak, 5 lbs - Mag
-  [27 live] B089M5K1ZS | Large Circle Mirror, Round Wall Mirror, Premium 
-  [28 live] B0776F55WL | Oil Rubbed Bronze Bathroom Shower Grab Bar, Home
-
-=== SUMMARY: publish-reported=28 | API-verified-left-drafts=28 | attempts=51 ===
-  B07F8H6YF4 : PUBLISHED
-  B006RQ8TY0 : skip-err1
-  B071RPCTW2 : PUBLISHED
-  B07K1YZ27X : no-draft
-  B09LHZHTNH : PUBLISHED
-  B0CJ6P695Q : PUBLISHED
-  B075DFNK4S : PUBLISHED
-  B08HGNHK9N : PUBLISHED
-  B0B6P2GSWH : PUBLISHED
-  B06XYSPMZ1 : skip-econ
-  B07Q6BLNT6 : PUBLISHED
-  B07XBKK1QD : PUBLISHED
-  B0CKQNP26P : PUBLISHED
-  B06XP2S2PF : PUBLISHED
-  B00IKCCWXS : PUBLISHED
-  B08X9V5B6Y : no-draft
-  B07JK67GRD : PUBLISHED
-  B083VR3JL8 : skip-err1
-  B08F7M8J9M : skip-econ
-  B01DJMJED4 : skip-econ
-  B099JHBGP4 : skip-econ
-  B08K24KH3C : PUBLISHED
-  B07V3HRQC5 : skip-econ
-  B093FPBZSP : skip-econ
-  B08DCCD7SM : skip-econ
-  B087JLH8CC : skip-econ
-  B08BQY5HT1 : PUBLISHED
-  B08K3FT8ZN : no-draft
-  B08FJ1HW68 : skip-econ
-  B01LZUKECX : skip-econ
-  B087MBT4RR : PUBLISHED
-  B01K4XJGF2 : skip-econ
-  B07LGFH2QG : PUBLISHED
-  B0C28TV9GM : PUBLISHED
-  B08735MYHT : skip-econ
-  B002IT6DGQ : PUBLISHED
-  B08B3PT12J : PUBLISHED
-  B083MLHPC9 : no-draft
-  B097MRZLNJ : no-draft
-  B07W7XY9R8 : PUBLISHED
-  B07P8NWK2Y : skip-err1
-  B07WFZ3JYM : unconfirmed
-  B07XP8RZ9C : PUBLISHED
-  B0BF5V6S8B : no-draft
-  B087PDFMQT : PUBLISHED
-  B09BZ6DM7K : PUBLISHED
-  B08B5NYHYP : skip-err1
-  B09NB8TRDM : skip-econ
-  B0871SZKH2 : skip-err1
-  B08QS37RHQ : PUBLISHED
-  B0BC2NQ2PQ : unconfirmed
-  B07XZ7WX2T : skip-err1
-  B07VB8JC1P : unconfirmed
-  B01KW6CF36 : PUBLISHED
-  B089M5K1ZS : PUBLISHED
-  B0776F55WL : PUBLISHED
-  B07DN7TSLC : skip-err1
-RUN_RESULT verified=28
+  [1 live] B0FDBBS7ZQ | Candle Warmer Lamp with Timer & Dimmable Brightn
+  [2 live] B0DCB8F4K5 | Homsolver 18th Birthday Gifts for Girls, 18th Bi
+  [unconf] B07P46R8MD | , Eucalyptus, Sandalwo | len 70
+RESULT: ABORT guard-mismatch (expected '6 pack')
