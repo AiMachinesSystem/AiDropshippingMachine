@@ -1,170 +1,30 @@
-=== PUBLISH RUN BY-ID | target=36 | candidates=37 ===
-  [2 live] B072KH3BCD | Intelligent Design Raina Shower Curtain Printed 
+=== PUBLISH RUN BY-ID | target=8 | candidates=8 ===
 initial drafts (by asin): 436
-importing 37 missing candidates...
-  import B0DHNY98N8 : ok
-  [12 live] B08SW2L581 | 3D Puzzles for Adults Green LED Flying Dutchman,
-  [9 live] B0CW1ZYZ7S | Foot Rest, Six Heights Adjustable Foot Rest for 
-  import B085Y2H9S3 : ok
-  [6 live] B08HFSHMVP | Fluffy Waterproof Dog Blanket for Couch and Bed,
-  [3 live] B08G5D53CT | Matani Metal Dog Wall Decor | Dog & Living Room 
-  import B01M9CAWJC : ok
-  import B085WFYZWQ : ok
-  [13 live] B08JH8NTXY | Stonebriar White Unscented Smokeless Long Burnin
-  [10 live] B075WNMJSY | Porcelain Tea Sets British Royal Series, 8 OZ Cu
-  import B08G1G8QD5 : ok
-  [7 live] B07MW4QW26 | Mini Tudou Baby Blocks Soft Building Blocks Baby
-  [4 live] B0F299H93L | Pigort 3 Pieces Metal Flowers Wall Arts - Rustic
-  import B082V4PJQ6 : ok
-  [14 live] B01NBNKRBO | Full Motion Ultrawide Monitor Wall Mount, Fits U
-  import B08QMHSV8Y : ok
-  [11 live] B099PNCG51 | Interchangeable Welcome Sign for Front Door with
-  import B07VQYGB9M : ok
-  [8 live] B07XP5D2G3 | Modern Glass Vase Crystal Glass Vase for Home Of
-  [5 live] B07F58TVHZ | Volens Round Gold Votive Candle Holders, Mercury
-  import B08RD6LQDP : ok
-  [15 live] B095HCF4F2 | Interchangeable Welcome Sign for Front Door with
-  import B0753CRLJM : ok
-  [unconf] B088ZTT9J3 | tive Orbs, Cente | len 64
-RESULT: ABORT guard-mismatch (expected '4 decorative')
-  [12 live] B08GLBKRYZ | Speaker Isolation Feet – 8-Pack 1.5" Bigfoot Rub
-  import B01N2BBQLG : ok
-  [9 live] B07PJJMJ3Q | Corgi Dog Plush Pillow, Cute Shiba Inu Corgi But
-  import B0BY2GR245 : ok
-  [16 live] B084H76VWG | Insulated Meal Prep Lunch Box with 6 BPA-Free, R
-  [unconf] B07SY7N32H | Yoga and Medit | len 70
-RESULT: ABORT guard-mismatch (expected 'mindful modern')
-  import B002TSAZOC : ok
-  [6 live] B08HQCCZC8 | Angle Simple Hand Towel Holder Brushed Nickel, S
-  [13 live] B081SRHPNX | 4Monster Hiking Daypack,Water Resistant Lightwei
-  import B07VW5YGSC : ok
-  import B07DR3N3W3 : ok
-  [unconf] B07D7B4SSJ | Wall Clock with Large | len 70
-RESULT: ABORT guard-mismatch (expected '16 inch')
-  [17 live] B079MHRSRN | Humble Crew Kids Bookshelf, 4-Tier Front-Facing 
-  [7 live] B083K8Q53Z | Inspiration Office Quotes Theme Wall Decor for W
-  import B0042TUJT2 : ok
-  [14 live] B07CXNB571 | Mount UL Listed TV Mount Low Profile for Most 26
-  import B07HN2JT8K : ok
-  [10 live] B0F99BF24V | Faux Fur Plush Decorative Throw Pillow Covers 18
-  import B07RBPLRPV : ok
-  [18 live] B08L3BBDGS | Travel Electronics Organizer Portable Cable Orga
-  [8 live] B07MYQG63C | Gonex Canvas Duffle Bag for Travel 60L Duffel Ov
-  [15 live] B08BNFG7DR | Auger Drill bit for Planting 1.6x8.7& 4x12 Garde
-  import B007O1CAZQ : ok
-  import B078YPKLK8 : ok
-  [11 live] B09H2FH13D | Norrclp Home Decor Modern Abstract Art Ceramic S
-  import B08572Q8PK : ok
-  [19 live] B082W3P7DS | 4x6 Rustic Picture Frames with Natural Bark Edge
-  [9 live] B00134MXF2 | Pet Gear Signature Dog,Cat Car Seat & Carrier | 
-  [16 live] B07CTHNVM5 | Memory Foam Mouse & Keyboard Wrist Rest Support 
-  import B0BTD6FWXJ : ok
-  import B089274RH8 : ok
-  [unconf] B075X2CGY3 | and, Polished Smooth Fish | len 66
-RESULT: ABORT guard-mismatch (expected '2 2')
-  [12 live] B09JZ398R8 | GHome Smart Power Strip with 3 WiFi Outlets & 3 
-  [20 live] B01CYL4LIO | Bonka Bird Toys 1730 Foraging Valentine Heart Bi
-  import B08WR3KT8F : ok
-  [10 live] B08NFVHHZD | Wedding Centerpieces for Tables - Gold Flower Va
-  import B08B68KSMR : ok
-  import B08NT7M3XS : ok
-  [unconf] B07DSVQ4HJ | : []
+importing 8 missing candidates...
+  import B078YPB6BQ : ok
+  import B012ZPKNFE : ok
+  import B0F7XVQJL7 : ok
+  import B010G9YTG0 : ok
+  import B092SHKKTJ : ok
+  import B0872Z9CRW : ok
+  import B09H5NX6QW : ok
+  import B07Q4W55T1 : ok
+drafts after imports (by asin): 436
+  [unconf] B012ZPKNFE | : []
 RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
-  [13 live] B0DC62KT3W | Yamaziot Area Rug 5x7, Non-Slip Washable Boho Vi
-  [21 live] B0CGHV9GCG | Ceramic Vase - Set of 2 for Home Decor,White Flo
-  import B01FE45QC8 : ok
-  [11 live] B07QPS4RQ5 | Mofutinpo Wall Art Vintage Flowers Pattern Canva
-  import B083SN1J2T : ok
-  import B083NVH9RB : ok
-  [17 live] B09ZTZD331 | Lateefah Desk Mat, Extended Mouse Pad with Wrist
-  [14 live] B0BXXZ9Y8K | Picture Frames Collage Display Board with 30 Cli
-  [22 live] B072QBF2YQ | Koyal Wholesale Vintage Glass Candle Holder - Mi
-  import B00PXRPOZ6 : ok
-  [12 live] B09DNVJNL4 | Fenrici Luxury Satin Pillowcase Gift Set – Inclu
-  import B07SCTWB78 : ok
-  [18 live] B08FJ1VQKC | Boho Throw Pillow Covers 18 x 18 Set of 4 - Mode
-  import B083XPKMMD : ok
-  [15 live] B09Q7VPM6Q | Ottomanson 5' x 6'6" Rugs for Living Room Orient
-  [13 live] B09DNVLMMD | Satin Pillowcase Gift Set for Women – Grey Ivory
-  import B07TYCY81M : ok
-  import B08NY2YP4N : ok
-  [23 live] B0779MSQ5W | Kate and Laurel Hogan Wood Framed Mirror with Sc
-  [unconf] B07TF7PF5Y | r Hanging Glass | len 190
-RESULT: ABORT guard-mismatch (expected 'kingbuy wall')
-  [19 live] B071HFTRCH | Ampulla Ultra Thick Water Resistance Garage Wall
-  import B08PCWBBQ2 : ok
-  [14 live] B014BRSSPG | Neewa Sled Pro Harness (Large, Yellow), Dog Pull
-  import B018WBVD3Q : ok
-  [unconf] B07Q5DJLHR | , Photo Frames  | len 96
-RESULT: ABORT guard-mismatch (expected 'eosglac 11x14')
+  [1 live] B092SHKKTJ | Pool Cover Pump above Ground - Submersible Water
+  [unconf] B0872Z9CRW | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  [unconf] B07Q4W55T1 | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
 
-=== SUMMARY: publish-reported=23 | API-verified-left-drafts=23 | attempts=60 ===
-  B088SGCVGV : PUBLISHED
-  B0141Q2N9O : PUBLISHED
-  B09R1K4LP1 : PUBLISHED
-  B0CPXYFJP4 : unconfirmed
-  B08KW5G5XM : skip-econ
-  B09873N25Y : PUBLISHED
-  B08XN83563 : skip-econ
-  B097QP9W4F : skip-econ
-  B07MSHL6S1 : skip-err1
-  B08NSJRYKP : PUBLISHED
-  B09DFB5GH8 : skip-econ
-  B08SGC6BFZ : PUBLISHED
-  B07SBZWSFP : skip-econ
-  B07DQDZD4Y : skip-econ
-  B0912JB1RS : PUBLISHED
-  B07Q98941Y : PUBLISHED
-  B08NPSZ1GK : skip-econ
-  B08T7266VD : skip-econ
-  B086S4MZ1W : skip-econ
-  B093LRLN45 : no-draft
-  B08H5LQPWC : skip-err1
-  B0833W8ND6 : PUBLISHED
-  B08DKBYZH8 : skip-err1
-  B08L3TXWZP : unconfirmed
-  B06W56XFQ4 : no-draft
-  B08GPJYLD3 : PUBLISHED
-  B08XYYP4XV : skip-err1
-  B08V1BV8NG : skip-err1
-  B0983ZCGG1 : PUBLISHED
-  B07G7BC4JT : skip-econ
-  B001HX425S : skip-econ
-  B08SW2L581 : PUBLISHED
-  B07JYXQMHV : no-draft
-  B07B3GFYQZ : skip-econ
-  B07FCF8N6W : skip-econ
-  B077SRKNPK : skip-econ
-  B07TMVJ46R : skip-econ
-  B08JH8NTXY : PUBLISHED
-  B07MGRYM28 : skip-err1
-  B0776YRWCY : skip-err1
-  B01NBNKRBO : PUBLISHED
-  B095HCF4F2 : PUBLISHED
-  B084H76VWG : PUBLISHED
-  B083BH6WYG : skip-econ
-  B07TN5SQS2 : no-draft
-  B089B2WMJR : no-draft
-  B08HRH5X39 : skip-econ
-  B09B2WLRWX : no-draft
-  B0DRHW31FG : no-draft
-  B01M6TLCSC : no-draft
-  B079MHRSRN : PUBLISHED
-  B08L3BBDGS : PUBLISHED
-  B07Y7XB3P2 : skip-econ
-  B082W3P7DS : PUBLISHED
-  B01CYL4LIO : PUBLISHED
-  B079GWWZZZ : skip-econ
-  B0CGHV9GCG : PUBLISHED
-  B01N7SXJ2V : skip-err1
-  B072QBF2YQ : PUBLISHED
-  B08PK13TWV : skip-title-persist
-  B0D261LNWW : skip-title-persist
-  B07MBFMG5W : skip-title-persist
-  B0779MSQ5W : PUBLISHED
-  B01A0IU4VQ : skip-err1
-  B07Q5DJLHR : unconfirmed
-  B087JQJJ8W : skip-econ
-  B0GX91N7NK : skip-err1
-  B0FR965VQQ : skip-err1
-RUN_RESULT verified=23
+=== SUMMARY: publish-reported=1 | API-verified-left-drafts=2 | attempts=7 ===
+  B078YPB6BQ : skip-econ
+  B012ZPKNFE : unconfirmed
+  B0F7XVQJL7 : skip-econ
+  B010G9YTG0 : no-draft
+  B092SHKKTJ : PUBLISHED
+  B0872Z9CRW : unconfirmed
+  B09H5NX6QW : skip-econ
+  B07Q4W55T1 : unconfirmed
+RUN_RESULT verified=2
