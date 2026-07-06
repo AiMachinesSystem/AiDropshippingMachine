@@ -1,170 +1,155 @@
-=== PUBLISH RUN BY-ID | target=36 | candidates=64 ===
+=== PUBLISH RUN BY-ID | target=36 | candidates=57 ===
 initial drafts (by asin): 437
-importing 64 missing candidates...
-  import B0000644AF : ok
-  import B08G53L8B5 : ok
-  import B0BX5GD5ST : ok
-  import B00H91BQ7Y : ok
-  import B09BDG9254 : ok
-  import B07YCZLDGP : ok
-  import B07PXCF7YC : ok
-  import B00WJKOQ7M : ok
-  import B09HR41ZPB : ok
-  import B0FX2MZG1D : ok
-  import B07CTN932P : ok
-  import B0071GWKXQ : ok
-  import B087BXD9LB : ok
-  import B00VS9C43I : ok
-  import B013HQZJTU : ok
-  import B093RLDKQC : ok
-  import B08LPZFT3T : ok
-  import B07MV6W8VL : ok
-  import B09B4KP4ND : ok
-  import B0CN4GJ334 : ok
-  import B01HLB3YZ8 : ok
-  import B082PMDVQ1 : ok
-  import B0CJ526NRZ : ok
-  import B06XSTZNDF : ok
-  import B07791ZV5R : ok
-  import B08GPVNM79 : ok
-  import B08L7WQVL7 : ok
-  import B07PPHSCMG : ok
-  import B088QR534K : ok
-  import B001LQZOLW : ok
-  import B093B83ZSN : ok
-  import B0BPVTG25Y : ok
-  import B00PJQPV72 : ok
-  import B000I68NCS : ok
-  import B07YFPD68K : ok
-  import B07MD68468 : ok
-  import B08T6LGN29 : ok
-  import B09QHTH214 : ok
-  import B07HJJ7N14 : ok
-  import B07GVB2814 : ok
-  import B082274MRL : ok
-  import B08DG8838L : ok
-  import B09FLDXY2J : ok
-  import B08FBKD4ZD : ok
-  import B0GJD3KQ32 : ok
-  import B06XKXSRKC : ok
-  import B07JM8PKWW : ok
-  import B092HG5H19 : ok
-  import B01M7WQ4ZL : ok
-  import B08SQCN4G6 : ok
-  import B088GXWY4J : ok
-  import B08XX5ZJWL : ok
-  import B07G5KQY31 : ok
-  import B08T1T8VLS : ok
-  import B08BR34QJB : ok
-  import B07P5LN7BK : ok
-  import B0858Z5N1X : ok
-  import B08PF3BLNK : ok
-  import B08K2J4SJM : ok
-  import B08C2BC2LV : ok
-  import B08BKJR3P3 : ok
-  import B08NC1H8CV : ok
-  import B01MYM7MJE : ok
-  import B09VBM6DPP : ok
+importing 57 missing candidates...
+  import B07F8H6YF4 : ok
+  import B006RQ8TY0 : ok
+  import B071RPCTW2 : ok
+  import B07K1YZ27X : ok
+  import B09LHZHTNH : ok
+  import B0CJ6P695Q : ok
+  import B075DFNK4S : ok
+  import B08HGNHK9N : ok
+  import B0B6P2GSWH : ok
+  import B06XYSPMZ1 : ok
+  import B07Q6BLNT6 : ok
+  import B07XBKK1QD : ok
+  import B0CKQNP26P : ok
+  import B06XP2S2PF : ok
+  import B00IKCCWXS : ok
+  import B08X9V5B6Y : ok
+  import B07JK67GRD : ok
+  import B083VR3JL8 : ok
+  import B08F7M8J9M : ok
+  import B01DJMJED4 : ok
+  import B099JHBGP4 : ok
+  import B08K24KH3C : ok
+  import B07V3HRQC5 : ok
+  import B093FPBZSP : ok
+  import B08DCCD7SM : ok
+  import B087JLH8CC : ok
+  import B08BQY5HT1 : ok
+  import B08K3FT8ZN : ok
+  import B08FJ1HW68 : ok
+  import B01LZUKECX : ok
+  import B087MBT4RR : ok
+  import B01K4XJGF2 : ok
+  import B07LGFH2QG : ok
+  import B0C28TV9GM : ok
+  import B08735MYHT : ok
+  import B002IT6DGQ : ok
+  import B08B3PT12J : ok
+  import B083MLHPC9 : ok
+  import B097MRZLNJ : ok
+  import B07W7XY9R8 : ok
+  import B07P8NWK2Y : ok
+  import B07WFZ3JYM : ok
+  import B07XP8RZ9C : ok
+  import B0BF5V6S8B : ok
+  import B087PDFMQT : ok
+  import B09BZ6DM7K : ok
+  import B08B5NYHYP : ok
+  import B09NB8TRDM : ok
+  import B0871SZKH2 : ok
+  import B08QS37RHQ : ok
+  import B0BC2NQ2PQ : ok
+  import B07XZ7WX2T : ok
+  import B07VB8JC1P : ok
+  import B01KW6CF36 : ok
+  import B089M5K1ZS : ok
+  import B0776F55WL : ok
+  import B07DN7TSLC : ok
 drafts after imports (by asin): 437
-  [1 live] B0000644AF | Thermos Stainless Steel Beverage Can Insulator f
-  [unconf] B00H91BQ7Y | MI Display Converter, 108 | len 57
-RESULT: ABORT guard-mismatch (expected '3 0')
-  [2 live] B09BDG9254 | Capri Blue Volcano Printed Travel Tin Jar Candle
-  [3 live] B07YCZLDGP | suyika Tomotime Ceramic Tea Cup with Infuser and
-  [4 live] B07PXCF7YC | Londo Top Grain Leather Extended Mouse Pad – Lar
-  [5 live] B00WJKOQ7M | 10L0L Golf Pen Holder Golf Club Pens Gift Set Ra
-  [6 live] B0FX2MZG1D | Candles for Men Gift Set, 4 Pack Masculine Scent
-  [unconf] B093RLDKQC | Long Lasting Scented Ca | len 70
-RESULT: ABORT guard-mismatch (expected 'pet s')
-  [7 live] B07MV6W8VL | Candle Gift Set for Women, 4 Pack Long Lasting L
-  [8 live] B0CN4GJ334 | Tactical Lunch Box for Men & Women – Expandable 
-  [9 live] B01HLB3YZ8 | Comfify Pink Ceramic Donut Ring Coffee Mug – 14 
-  [10 live] B082PMDVQ1 | 1st Choice Black Nitrile Gloves Disposable Latex
-  [11 live] B0CJ526NRZ | 4pcs Car Detailing Brush Set,Boars Hair Car Deta
-  [12 live] B06XSTZNDF | Sooyee Makeup Organizer,Acrylic Cosmetic Organiz
-  [13 live] B07791ZV5R | Britt Commercial Style Spot Free Stainless Steel
-  [14 live] B08L7WQVL7 | comiso Bluetooth Speaker, Portable Bluetooth Spe
-  [15 live] B093B83ZSN | Varhomax Glass Desk Whiteboard with Storage, Des
-  [16 live] B00PJQPV72 | Quick Shine Hardwood Floor Luster-Polish 64oz | 
-  [17 live] B000I68NCS | Finum Reusable Stainless Steel Coffee and Tea In
-  [18 live] B07YFPD68K | Digital Meat Thermometer Instant Read, Waterproo
-  [19 live] B09QHTH214 | Famassi Gold Desk Accessories，Office Supplies Se
-  [20 live] B07HJJ7N14 | opux Insulated Lunch Bag for Men Women, Double D
-  [21 live] B09FLDXY2J | Play Kitchen, Pink Kids Kitchen Set for Girls Ki
-  [22 live] B08FBKD4ZD | Trampoline Outdoor 8FT 10FT 12FT 14FT with Enclo
-  [23 live] B06XKXSRKC | Art 4 Panels Canvas Wall Art Spring Summer Autum
-  [unconf] B07JM8PKWW | : []
+  [1 live] B07F8H6YF4 | Creative QT Stuff ’n Sit Large 33’’ Bean Bag Sto
+  [2 live] B071RPCTW2 | Miuco Womens Bamboo Handbag Handmade Large Tote 
+  [3 live] B09LHZHTNH | Nurture by Nature Self Care Gifts for Women - Sp
+  [4 live] B0CJ6P695Q | Lavender Scented Candle with Rotating Hummingbir
+  [5 live] B075DFNK4S | Thymes Travel Tin Holiday Candles - Scented Cand
+  [6 live] B08HGNHK9N | Bamboo Bathtub Caddy Tray - Expandable to 41 Inc
+  [7 live] B0B6P2GSWH | Helmet Hanger Wall Mount 180° Swivel Helmet Hold
+  [8 live] B07Q6BLNT6 | Bath Bombs, 7 Natural Bath Bomb Gift Set, Bubble
+  [9 live] B07XBKK1QD | Hotop 12 Pieces Plate Hangers for Wall Stainless
+  [10 live] B0CKQNP26P | Utensil Holder for Kitchen Counter, 7.3"+5.4" Fl
+  [11 live] B06XP2S2PF | Microfiber Cleaning Cloths Red (12 Pack, 12x12) 
+  [12 live] B00IKCCWXS | Wieco Art 3 Panels The Cloud Tree Gallery Wrappe
+  [13 live] B07JK67GRD | Acrylic Sign Holder 8.5x11 Inches Horizontal,Cle
+  [14 live] B08K24KH3C | Juicy Couture - Decorative Accent Pillow, Velvet
+  [15 live] B08BQY5HT1 | Lillefolk Baby Play Mat for Floor – 4x6ft Gray |
+  [16 live] B087MBT4RR | Pink Faux Fur Pillow Covers 18x18 Inch,Set of 2 
+  [17 live] B07LGFH2QG | Aromasong Dead Sea Bath Salt - 100% Pure & Natur
+  [18 live] B0C28TV9GM | Boho Minimalist Small Ceramic Vase Set of 4 for 
+  [19 live] B002IT6DGQ | #8993 Stackable 24in. Wide Horizontal Organizer,
+  [20 live] B08B3PT12J | 12 Pcs Gold Votive Candle Holders- Gold centerpi
+  [21 live] B07W7XY9R8 | Egofine 11x11 Picture Frames 4 Pack Covered by P
+  [unconf] B07WFZ3JYM | : []
 RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
-  [24 live] B092HG5H19 | Inspirational Wall-Art - Quotes Office Wall Deco
-  [25 live] B08XX5ZJWL | Canvas Wall Art For Living Room Family Wall Deco
-  [26 live] B07G5KQY31 | Kangapak Nurse Fanny Pack Multi Compartment Wais
-  [27 live] B0858Z5N1X | Acrylic Sign Holder 14x11 Inches Horizontal, Cle
-  [28 live] B08C2BC2LV | upsimples 13x19 Picture Frame Set of 5, Display 
-  [29 live] B08BKJR3P3 | Yangest Orange Striped Velvet Throw Pillow Cover
+  [22 live] B07XP8RZ9C | Modern Glass Vase Irised Crystal Clear Glass Vas
+  [23 live] B087PDFMQT | Boao 4 Pieces Wood Hooks for Towels Wall-Mounted
+  [24 live] B09BZ6DM7K | Bathroom Wall Art Daisy Canvas Pictures Modern F
+  [25 live] B08QS37RHQ | 5 Pieces Bathroom Hardware Accessories Set Black
+  [unconf] B0BC2NQ2PQ | p Mirror with 5X | len 63
+RESULT: ABORT guard-mismatch (expected 'wall mounted')
+  [unconf] B07VB8JC1P | hrow Pillow Inserts(Set | len 57
+RESULT: ABORT guard-mismatch (expected '28 28')
+  [26 live] B01KW6CF36 | Sky Organics - Epsom Salt Bath Soak, 5 lbs - Mag
+  [27 live] B089M5K1ZS | Large Circle Mirror, Round Wall Mirror, Premium 
+  [28 live] B0776F55WL | Oil Rubbed Bronze Bathroom Shower Grab Bar, Home
 
-=== SUMMARY: publish-reported=29 | API-verified-left-drafts=29 | attempts=53 ===
-  B0000644AF : PUBLISHED
-  B08G53L8B5 : skip-econ
-  B0BX5GD5ST : no-draft
-  B00H91BQ7Y : unconfirmed
-  B09BDG9254 : PUBLISHED
-  B07YCZLDGP : PUBLISHED
-  B07PXCF7YC : PUBLISHED
-  B00WJKOQ7M : PUBLISHED
-  B09HR41ZPB : no-draft
-  B0FX2MZG1D : PUBLISHED
-  B07CTN932P : skip-econ
-  B0071GWKXQ : skip-err1
-  B087BXD9LB : no-draft
-  B00VS9C43I : no-draft
-  B013HQZJTU : no-draft
-  B093RLDKQC : unconfirmed
-  B08LPZFT3T : skip-econ
-  B07MV6W8VL : PUBLISHED
-  B09B4KP4ND : skip-econ
-  B0CN4GJ334 : PUBLISHED
-  B01HLB3YZ8 : PUBLISHED
-  B082PMDVQ1 : PUBLISHED
-  B0CJ526NRZ : PUBLISHED
-  B06XSTZNDF : PUBLISHED
-  B07791ZV5R : PUBLISHED
-  B08GPVNM79 : skip-econ
-  B08L7WQVL7 : PUBLISHED
-  B07PPHSCMG : skip-econ
-  B088QR534K : skip-econ
-  B001LQZOLW : skip-err1
-  B093B83ZSN : PUBLISHED
-  B0BPVTG25Y : skip-econ
-  B00PJQPV72 : PUBLISHED
-  B000I68NCS : PUBLISHED
-  B07YFPD68K : PUBLISHED
-  B07MD68468 : skip-err1
-  B08T6LGN29 : skip-econ
-  B09QHTH214 : PUBLISHED
-  B07HJJ7N14 : PUBLISHED
-  B07GVB2814 : no-draft
-  B082274MRL : skip-econ
-  B08DG8838L : no-draft
-  B09FLDXY2J : PUBLISHED
-  B08FBKD4ZD : PUBLISHED
-  B0GJD3KQ32 : no-draft
-  B06XKXSRKC : PUBLISHED
-  B07JM8PKWW : unconfirmed
-  B092HG5H19 : PUBLISHED
-  B01M7WQ4ZL : no-draft
-  B08SQCN4G6 : skip-err1
-  B088GXWY4J : skip-econ
-  B08XX5ZJWL : PUBLISHED
-  B07G5KQY31 : PUBLISHED
-  B08T1T8VLS : skip-econ
-  B08BR34QJB : no-draft
-  B07P5LN7BK : no-draft
-  B0858Z5N1X : PUBLISHED
-  B08PF3BLNK : skip-econ
-  B08K2J4SJM : skip-econ
-  B08C2BC2LV : PUBLISHED
-  B08BKJR3P3 : PUBLISHED
-  B08NC1H8CV : skip-econ
-  B01MYM7MJE : skip-econ
-  B09VBM6DPP : skip-econ
-RUN_RESULT verified=29
+=== SUMMARY: publish-reported=28 | API-verified-left-drafts=28 | attempts=51 ===
+  B07F8H6YF4 : PUBLISHED
+  B006RQ8TY0 : skip-err1
+  B071RPCTW2 : PUBLISHED
+  B07K1YZ27X : no-draft
+  B09LHZHTNH : PUBLISHED
+  B0CJ6P695Q : PUBLISHED
+  B075DFNK4S : PUBLISHED
+  B08HGNHK9N : PUBLISHED
+  B0B6P2GSWH : PUBLISHED
+  B06XYSPMZ1 : skip-econ
+  B07Q6BLNT6 : PUBLISHED
+  B07XBKK1QD : PUBLISHED
+  B0CKQNP26P : PUBLISHED
+  B06XP2S2PF : PUBLISHED
+  B00IKCCWXS : PUBLISHED
+  B08X9V5B6Y : no-draft
+  B07JK67GRD : PUBLISHED
+  B083VR3JL8 : skip-err1
+  B08F7M8J9M : skip-econ
+  B01DJMJED4 : skip-econ
+  B099JHBGP4 : skip-econ
+  B08K24KH3C : PUBLISHED
+  B07V3HRQC5 : skip-econ
+  B093FPBZSP : skip-econ
+  B08DCCD7SM : skip-econ
+  B087JLH8CC : skip-econ
+  B08BQY5HT1 : PUBLISHED
+  B08K3FT8ZN : no-draft
+  B08FJ1HW68 : skip-econ
+  B01LZUKECX : skip-econ
+  B087MBT4RR : PUBLISHED
+  B01K4XJGF2 : skip-econ
+  B07LGFH2QG : PUBLISHED
+  B0C28TV9GM : PUBLISHED
+  B08735MYHT : skip-econ
+  B002IT6DGQ : PUBLISHED
+  B08B3PT12J : PUBLISHED
+  B083MLHPC9 : no-draft
+  B097MRZLNJ : no-draft
+  B07W7XY9R8 : PUBLISHED
+  B07P8NWK2Y : skip-err1
+  B07WFZ3JYM : unconfirmed
+  B07XP8RZ9C : PUBLISHED
+  B0BF5V6S8B : no-draft
+  B087PDFMQT : PUBLISHED
+  B09BZ6DM7K : PUBLISHED
+  B08B5NYHYP : skip-err1
+  B09NB8TRDM : skip-econ
+  B0871SZKH2 : skip-err1
+  B08QS37RHQ : PUBLISHED
+  B0BC2NQ2PQ : unconfirmed
+  B07XZ7WX2T : skip-err1
+  B07VB8JC1P : unconfirmed
+  B01KW6CF36 : PUBLISHED
+  B089M5K1ZS : PUBLISHED
+  B0776F55WL : PUBLISHED
+  B07DN7TSLC : skip-err1
+RUN_RESULT verified=28
