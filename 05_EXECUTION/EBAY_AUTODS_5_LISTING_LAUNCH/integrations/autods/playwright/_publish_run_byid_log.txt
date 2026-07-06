@@ -1,1 +1,28 @@
 === PUBLISH RUN BY-ID | target=8 | candidates=8 ===
+initial drafts (by asin): 449
+importing 8 missing candidates...
+  import B094HCQ2HH : ok
+  import B09C5HMDQM : ok
+  import B0DFYLS5JV : ok
+  import B08329VL3J : ok
+  import B08F9WCN6W : ok
+  import B09461S7X3 : ok
+  import B08L8S752B : ok
+  import B07VY98D81 : ok
+drafts after imports (by asin): 449
+  [1 live] B09C5HMDQM | 6Pcs Teal Pink Sparkle Mermaid Comforter Sets Qu
+  [2 live] B08329VL3J | Bare Home Microfiber Duvet Cover Set - Ultra Sof
+  [3 live] B08F9WCN6W | Homelike Moment California King Comforter - Whit
+  [unconf] B07VY98D81 | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+
+=== SUMMARY: publish-reported=3 | API-verified-left-drafts=4 | attempts=7 ===
+  B094HCQ2HH : skip-econ
+  B09C5HMDQM : PUBLISHED
+  B0DFYLS5JV : skip-econ
+  B08329VL3J : PUBLISHED
+  B08F9WCN6W : PUBLISHED
+  B09461S7X3 : skip-err1
+  B08L8S752B : no-draft
+  B07VY98D81 : unconfirmed
+RUN_RESULT verified=4
