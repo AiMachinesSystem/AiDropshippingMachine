@@ -1,44 +1,27 @@
-=== PUBLISH RUN BY-ID | target=36 | candidates=62 ===
+=== PUBLISH RUN BY-ID | target=36 | candidates=68 ===
 initial drafts (by asin): 437
-importing 62 missing candidates...
-  import B00DI2W24O : ok
-  [3 live] B08HPYCY9S | Gold Wedding Vases for Table Centerpieces - Set 
-  import B06WRMX85Z : ok
-  import B09KPPK27L : ok
-  import B0F32PPGSQ : ok
-  [4 live] B08T6KDGN4 | Dr Teal's Foaming Bath Variety Gift Set (2 Pack,
-  import B0DSJT15H6 : ok
-  import B0B8V1GBYP : ok
-  import B082DZWPZH : ok
-  [5 live] B0D6QXN9ST | Gaming Mouse Pad Desk Pad,Extended Big Mouse Pad
-  import B07S3HVSZK : ok
-  import B082RP1Y7W : ok
-  [6 live] B08Y87F81G | Eurmax USA 4 Pack Universal Ground Anchors High 
-  import B087X2NM8B : ok
-  import B07S82CW73 : ok
-  import B086YPD9WR : ok
-  [7 live] B0CP27Z2PR | Amada Bathroom Shelves Over Toilet with Storage 
-  import B01F5GIHXA : ok
-  import B075DW9RDF : ok
-  import B07DHTHQHY : ok
-  [8 live] B0CS9SWZ45 | Lahome Floral Living Room Rugs, Area Rugs 5x7 Ru
-  import B09CZ2M3GH : ok
-  import B07RJTTTBD : ok
-  import B0814NDPC8 : ok
-  [9 live] B08DK17VGB | Towels Kitchen Bar Mops Towels, Pack of 12 Towel
-  import B08DWQ4ZZF : ok
-  import B07S3B6DGB : ok
-  import B0DPX4B5ZL : ok
-  [10 live] B071YDNTC7 | Foamily Couch Pillows Inserts 16x16 (Set of 4) P
-  import B087RV9PLB : ok
-  import B01M9K6F8V : ok
-  import B0C6NCWFVC : ok
-  [11 live] B07S9XCV2R | Deer Head Pillow Case Decorative Cotton Linen Em
-  import B075JRPB49 : ok
-  import B07YBMBNX2 : ok
-  [12 live] B0D16T4G91 | Delma Arched Mirror Full Length,Standing Mirror 
-  import B08SJ6DT4V : ok
-  import B07CT9FMZ6 : ok
-  [unconf] B09DPQCSMF | ter Decorations Indoor | len 70
-RESULT: ABORT guard-mismatch (expected '2 pack')
-  import B0BGBQDHXG : ok
+importing 68 missing candidates...
+  import B07QS3HZR8 : ok
+  import B088SGCVGV : ok
+  import B07Z4PFKTQ : ok
+  [13 live] B077FFJ94W | Luxury Spa Skincare Sandalwood Gift Set for Men 
+  import B0141Q2N9O : ok
+  import B08XWFGVCM : ok
+  import B09R1K4LP1 : ok
+  import B006PJ5514 : ok
+  import B0CPXYFJP4 : ok
+  import B08PCVMLMM : ok
+  [14 live] B07V2P7PR7 | Red Rose Canvas Wall Art Decor,12x12inX4 Black W
+  import B08KW5G5XM : ok
+  import B08PCTL331 : ok
+  import B09873N25Y : ok
+  import B07LC64H8Z : ok
+  import B08XN83563 : ok
+  import B086PKJ1NM : ok
+  [15 live] B00215LFZQ | Liberty GARDEN 704 Decorative Cast Aluminum Wall
+  import B097QP9W4F : ok
+  import B08TZJQ1TZ : ok
+  import B07MSHL6S1 : ok
+  [unconf] B0915X5K6W | Tongue and Groove Pli | len 62
+RESULT: ABORT guard-mismatch (expected '12 inch')
+  import B08C5FKGJ2 : ok
