@@ -1,58 +1,44 @@
-=== PUBLISH RUN BY-ID | target=36 | candidates=50 ===
+=== PUBLISH RUN BY-ID | target=36 | candidates=62 ===
 initial drafts (by asin): 437
-importing 50 missing candidates...
-  import B0FDBBS7ZQ : ok
-  import B0DCB8F4K5 : ok
-  import B07P46R8MD : ok
-  import B08HPYCY9S : ok
-  import B01HG9EIVE : ok
-  import B08T6KDGN4 : ok
-  import B0D6QXN9ST : ok
-  import B000NJSZAU : ok
-  import B08Y87F81G : ok
-  import B07R967BLQ : ok
-  import B095CF97XG : ok
-  import B07HTD1GH9 : ok
-  import B08R3JFZ62 : ok
-  import B08FX1BK3Z : ok
-  import B0CP27Z2PR : ok
-  import B0CS9SWZ45 : ok
-  import B08DK17VGB : ok
-  import B071YDNTC7 : ok
-  import B07S9XCV2R : ok
-  import B098V2G242 : ok
-  import B098TYSN16 : ok
-  import B08L6TLDQB : ok
-  import B08MJL4NTY : ok
-  import B00863OHZW : ok
-  import B086P4ZYKG : ok
-  import B082S9Z1S9 : ok
-  import B0D16T4G91 : ok
-  import B09DPQCSMF : ok
-  import B093WFJV88 : ok
-  import B07YNJ448N : ok
-  import B077FFJ94W : ok
-  import B07V2P7PR7 : ok
-  import B08ZLHW4M4 : ok
-  import B00215LFZQ : ok
-  import B08GKHH4YL : ok
-  import B071FYYVSF : ok
-  import B0915X5K6W : ok
-  import B07HDYF5MZ : ok
-  import B0822FFMTQ : ok
-  import B092RL5TB6 : ok
-  import B082J3DJFH : ok
-  import B08BZ9WDN2 : ok
-  import B07RHSP7SM : ok
-  import B07CJMFZXH : ok
-  import B07V1TGDX5 : ok
-  import B07MMM65B3 : ok
-  import B06XSWVTC8 : ok
-  import B07RBR8J8H : ok
-  import B07BQB74V1 : ok
-  import B087K1CH8X : ok
-drafts after imports (by asin): 437
-  [1 live] B0FDBBS7ZQ | Candle Warmer Lamp with Timer & Dimmable Brightn
-  [2 live] B0DCB8F4K5 | Homsolver 18th Birthday Gifts for Girls, 18th Bi
-  [unconf] B07P46R8MD | , Eucalyptus, Sandalwo | len 70
-RESULT: ABORT guard-mismatch (expected '6 pack')
+importing 62 missing candidates...
+  import B00DI2W24O : ok
+  [3 live] B08HPYCY9S | Gold Wedding Vases for Table Centerpieces - Set 
+  import B06WRMX85Z : ok
+  import B09KPPK27L : ok
+  import B0F32PPGSQ : ok
+  [4 live] B08T6KDGN4 | Dr Teal's Foaming Bath Variety Gift Set (2 Pack,
+  import B0DSJT15H6 : ok
+  import B0B8V1GBYP : ok
+  import B082DZWPZH : ok
+  [5 live] B0D6QXN9ST | Gaming Mouse Pad Desk Pad,Extended Big Mouse Pad
+  import B07S3HVSZK : ok
+  import B082RP1Y7W : ok
+  [6 live] B08Y87F81G | Eurmax USA 4 Pack Universal Ground Anchors High 
+  import B087X2NM8B : ok
+  import B07S82CW73 : ok
+  import B086YPD9WR : ok
+  [7 live] B0CP27Z2PR | Amada Bathroom Shelves Over Toilet with Storage 
+  import B01F5GIHXA : ok
+  import B075DW9RDF : ok
+  import B07DHTHQHY : ok
+  [8 live] B0CS9SWZ45 | Lahome Floral Living Room Rugs, Area Rugs 5x7 Ru
+  import B09CZ2M3GH : ok
+  import B07RJTTTBD : ok
+  import B0814NDPC8 : ok
+  [9 live] B08DK17VGB | Towels Kitchen Bar Mops Towels, Pack of 12 Towel
+  import B08DWQ4ZZF : ok
+  import B07S3B6DGB : ok
+  import B0DPX4B5ZL : ok
+  [10 live] B071YDNTC7 | Foamily Couch Pillows Inserts 16x16 (Set of 4) P
+  import B087RV9PLB : ok
+  import B01M9K6F8V : ok
+  import B0C6NCWFVC : ok
+  [11 live] B07S9XCV2R | Deer Head Pillow Case Decorative Cotton Linen Em
+  import B075JRPB49 : ok
+  import B07YBMBNX2 : ok
+  [12 live] B0D16T4G91 | Delma Arched Mirror Full Length,Standing Mirror 
+  import B08SJ6DT4V : ok
+  import B07CT9FMZ6 : ok
+  [unconf] B09DPQCSMF | ter Decorations Indoor | len 70
+RESULT: ABORT guard-mismatch (expected '2 pack')
+  import B0BGBQDHXG : ok
