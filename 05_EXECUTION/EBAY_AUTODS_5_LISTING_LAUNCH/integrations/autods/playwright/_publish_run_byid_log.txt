@@ -1,30 +1,170 @@
-=== PUBLISH RUN BY-ID | target=8 | candidates=8 ===
+=== PUBLISH RUN BY-ID | target=36 | candidates=65 ===
 initial drafts (by asin): 436
-importing 8 missing candidates...
-  import B078YPB6BQ : ok
-  import B012ZPKNFE : ok
-  import B0F7XVQJL7 : ok
-  import B010G9YTG0 : ok
-  import B092SHKKTJ : ok
-  import B0872Z9CRW : ok
-  import B09H5NX6QW : ok
-  import B07Q4W55T1 : ok
-drafts after imports (by asin): 436
-  [unconf] B012ZPKNFE | : []
+importing 65 missing candidates...
+  import B088P5G41C : ok
+  import B0DRHYFB8T : ok
+  import B0DFYPD9HF : ok
+  import B07RLYTVMW : ok
+  import B0D86BFKWG : ok
+  import B08LP91PV6 : ok
+  import B07Q8SS29J : ok
+  import B08M3SJLPB : ok
+  import B08LPCVXK9 : ok
+  import B000KEYD9K : ok
+  import B08CDM8GJ2 : ok
+  import B08NBRNJ5G : ok
+  import B009YIQW8I : ok
+  import B08BZHB2T6 : ok
+  import B08DFTZK8H : ok
+  import B08K99LVJV : ok
+  import B083DDLYCR : ok
+  import B0DQV3T95Z : ok
+  import B06XDLTJPN : ok
+  import B07577R4S9 : ok
+  import B08VH48SJS : ok
+  import B0C3CZ79MC : ok
+  import B07SZTXWJS : ok
+  import B08XTQJXM2 : ok
+  import B0BV1GVFFB : ok
+  import B005MVB9Y8 : ok
+  import B002MW9UW8 : ok
+  import B08P6SDTLX : ok
+  import B09CCVV1TB : ok
+  import B009LNY3Z0 : ok
+  import B07V1Y4RWQ : ok
+  import B0F9FGG32N : ok
+  import B088WN5G89 : ok
+  import B073V6L8WP : ok
+  import B06Y3QXS9C : ok
+  import B07SGQ95BV : ok
+  import B0002AQDRW : ok
+  import B08139GQF7 : ok
+  import B01LBRDARU : ok
+  import B0B44XTV71 : ok
+  import B077MFZRVN : ok
+  import B0B1DQQN25 : ok
+  import B0F32Q924K : ok
+  import B0DLK1NW39 : ok
+  import B0BRXHZJ94 : ok
+  import B09C4C5MYS : ok
+  import B09C6H3BGQ : ok
+  import B0FL82R7WX : ok
+  import B08M6CHQLV : ok
+  import B083C3HKF6 : ok
+  import B01MU7O40P : ok
+  import B0GCM4GD7L : ok
+  import B07K6TQF23 : ok
+  import B0923B2624 : ok
+  import B0DJKSM919 : ok
+  import B086DKK9SC : ok
+  import B08GQ4N9HW : ok
+  import B0BHP1YVPW : ok
+  import B08H8LJM8V : ok
+  import B0DGPQMZVC : ok
+  import B0DT678T28 : ok
+  import B0D5H6DTV3 : ok
+  import B07Y84X6HN : ok
+  import B086DDL58Y : ok
+  import B07PPRXZPL : ok
+drafts after imports (by asin): 443
+  [1 live] B07Q8SS29J | Comfylife 120 x Parchment Paper Sheets - No Curl
+  [2 live] B08M3SJLPB | Katbite Heavy Duty Parchment Paper Roll for Baki
+  [3 live] B08LPCVXK9 | Homelike Moment Twin Comforter Duvet Insert - Pu
+  [4 live] B000KEYD9K | Ateco Stainless Steel Cookie Spatula, 11", Silve
+  [5 live] B08BZHB2T6 | Large Wall Clocks for Living Room Decor Modern G
+  [unconf] B08DFTZK8H | Light Vintage Farmhouse | len 63
+RESULT: ABORT guard-mismatch (expected '12 25')
+  [6 live] B08K99LVJV | Barn Light 50W, 5000K Daylight 6500LM Dusk to Da
+  [7 live] B0DQV3T95Z | Alupssuc 24 Bundles Artificial Flowers for Outdo
+  [8 live] B06XDLTJPN | Rustic Floral Table Runner Hand Crochet Table Do
+  [9 live] B07SZTXWJS | Misty Forest Tapestry Green Tree in Jungle Fores
+  [unconf] B0BV1GVFFB | igher Design, Car Pa | len 62
+RESULT: ABORT guard-mismatch (expected '16 heavy')
+  [10 live] B002MW9UW8 | Sunex 2645, 1/2 Inch Drive Impact Socket Set, 26
+  [11 live] B009LNY3Z0 | New Star 1 pc Heavy Duty Red 36x36 inch Interloc
+  [12 live] B07V1Y4RWQ | Meangood Floating Shelves Wall Mounted Set of 2,
+  [13 live] B088WN5G89 | 20 Pack 12 Inch Heavy Duty Black Iron Metal Floa
+  [14 live] B06Y3QXS9C | Holy Land Market Olive Wood Cross from Bethlehem
+  [unconf] B07SGQ95BV | : []
 RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
-  [1 live] B092SHKKTJ | Pool Cover Pump above Ground - Submersible Water
-  [unconf] B0872Z9CRW | : []
-RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
-  [unconf] B07Q4W55T1 | : []
-RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  [15 live] B08139GQF7 | Hexagon Velvet Ring Bearer Box - Premium Gorgeou
+  [16 live] B0B44XTV71 | Twin Pressure Rice Cooker 6-Cup Uncooked / 12-Cu
+  [17 live] B0F32Q924K | Solar Spot Lights Outdoor, 36 LEDs 1000LM Adjust
+  [18 live] B09C4C5MYS | Anti Anxiety Round Fluffy Plush Faux Fur Warm Wa
+  [19 live] B09C6H3BGQ | Forbena Black Floating Shelves Bathroom Set of 3
+  [20 live] B0FL82R7WX | Solar Lights for Outside, 16Pack Solar Flame Tor
+  [21 live] B08M6CHQLV | Dog Seat Cover for Back Seat, Mesh Visual Window
+  [22 live] B083C3HKF6 | Active Pets Dog Car Seat Cover, Waterproof Front
+  [23 live] B01MU7O40P | Kurgo Heather Half Hammock, Half Car Seat Cover 
+  [24 live] B0GCM4GD7L | Natelf Flamingo Metal Garden Statue Outdoor Pink
+  [25 live] B07K6TQF23 | Hosley Set of 144 Unscented White Votive Candles
+  [26 live] B0DT678T28 | Pooqla 16th Birthday Decoration for Girls Boys, 
+  [27 live] B07Y84X6HN | Set of 3 Metal Sea Turtle Beach Theme Decor Wall
 
-=== SUMMARY: publish-reported=1 | API-verified-left-drafts=2 | attempts=7 ===
-  B078YPB6BQ : skip-econ
-  B012ZPKNFE : unconfirmed
-  B0F7XVQJL7 : skip-econ
-  B010G9YTG0 : no-draft
-  B092SHKKTJ : PUBLISHED
-  B0872Z9CRW : unconfirmed
-  B09H5NX6QW : skip-econ
-  B07Q4W55T1 : unconfirmed
-RUN_RESULT verified=2
+=== SUMMARY: publish-reported=27 | API-verified-left-drafts=27 | attempts=51 ===
+  B088P5G41C : no-draft
+  B0DRHYFB8T : no-draft
+  B0DFYPD9HF : no-draft
+  B07RLYTVMW : skip-econ
+  B0D86BFKWG : no-draft
+  B08LP91PV6 : skip-econ
+  B07Q8SS29J : PUBLISHED
+  B08M3SJLPB : PUBLISHED
+  B08LPCVXK9 : PUBLISHED
+  B000KEYD9K : PUBLISHED
+  B08CDM8GJ2 : no-draft
+  B08NBRNJ5G : skip-econ
+  B009YIQW8I : skip-econ
+  B08BZHB2T6 : PUBLISHED
+  B08DFTZK8H : unconfirmed
+  B08K99LVJV : PUBLISHED
+  B083DDLYCR : skip-err1
+  B0DQV3T95Z : PUBLISHED
+  B06XDLTJPN : PUBLISHED
+  B07577R4S9 : skip-err1
+  B08VH48SJS : no-draft
+  B0C3CZ79MC : no-draft
+  B07SZTXWJS : PUBLISHED
+  B08XTQJXM2 : skip-econ
+  B0BV1GVFFB : unconfirmed
+  B005MVB9Y8 : skip-econ
+  B002MW9UW8 : PUBLISHED
+  B08P6SDTLX : skip-econ
+  B09CCVV1TB : skip-econ
+  B009LNY3Z0 : PUBLISHED
+  B07V1Y4RWQ : PUBLISHED
+  B0F9FGG32N : no-draft
+  B088WN5G89 : PUBLISHED
+  B073V6L8WP : skip-econ
+  B06Y3QXS9C : PUBLISHED
+  B07SGQ95BV : unconfirmed
+  B0002AQDRW : no-draft
+  B08139GQF7 : PUBLISHED
+  B01LBRDARU : no-draft
+  B0B44XTV71 : PUBLISHED
+  B077MFZRVN : skip-err1
+  B0B1DQQN25 : skip-econ
+  B0F32Q924K : PUBLISHED
+  B0DLK1NW39 : no-draft
+  B0BRXHZJ94 : skip-econ
+  B09C4C5MYS : PUBLISHED
+  B09C6H3BGQ : PUBLISHED
+  B0FL82R7WX : PUBLISHED
+  B08M6CHQLV : PUBLISHED
+  B083C3HKF6 : PUBLISHED
+  B01MU7O40P : PUBLISHED
+  B0GCM4GD7L : PUBLISHED
+  B07K6TQF23 : PUBLISHED
+  B0923B2624 : no-draft
+  B0DJKSM919 : no-draft
+  B086DKK9SC : skip-econ
+  B08GQ4N9HW : skip-err1
+  B0BHP1YVPW : no-draft
+  B08H8LJM8V : skip-econ
+  B0DGPQMZVC : skip-econ
+  B0DT678T28 : PUBLISHED
+  B0D5H6DTV3 : skip-econ
+  B07Y84X6HN : PUBLISHED
+  B086DDL58Y : skip-err1
+  B07PPRXZPL : skip-econ
+RUN_RESULT verified=27
