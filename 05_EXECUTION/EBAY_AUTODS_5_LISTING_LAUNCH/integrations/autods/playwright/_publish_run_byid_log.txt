@@ -1,81 +1,343 @@
 === PUBLISH RUN BY-ID | target=36 | candidates=69 ===
-  import B08T7266VD : ok
+  import B075WNMJSY : ok
+  import B08Z369WSC : ok
 initial drafts (by asin): 437
-importing 69 missing candidates...
-  import B0749WPC6V : ok
-  import B07S62FR8M : ok
-  import B086S4MZ1W : ok
-  import B07JBB2Z1H : ok
-  import B07LGGRLD4 : ok
-  import B07MGLMMD6 : ok
-  import B093LRLN45 : ok
-  [18 live] B07BQB74V1 | Laura Ashley 4x4 Black Ornate Textured Hand-Craf
-  import B08TNTD2ZL : ok
-  import B07NHY6XTZ : ok
-  import B01I0214J0 : ok
-  import B08H5LQPWC : ok
-  import B000KL2EDK : ok
-  import B09Y84KG5L : ok
-  import B09N25WCYS : ok
-  import B0833W8ND6 : ok
-  import B07S1PSPPK : ok
-  import B09JZBBT46 : ok
-  import B0DWNHX37J : ok
-  [19 live] B087K1CH8X | 8x10 Picture Frames Rustic Brown with Mat Photo 
-  import B08DKBYZH8 : ok
-  import B0DHK637GX : ok
+importing 68 missing candidates...
+drafts after imports (by asin): 437
+  import B07JYXQMHV : ok
+  import B07MW4QW26 : ok
+  import B099PNCG51 : ok
+  import B083TNKJVC : ok
+  import B07B3GFYQZ : ok
+  import B07XP5D2G3 : ok
+  import B094H6CSWS : ok
+  import B072KH3BCD : ok
+  import B07FCF8N6W : ok
+  import B09BVBP4BF : ok
+  import B0CX4VY9D1 : ok
+  [1 live] B06WRMX85Z | EShine Hand Wave Activated Under Cabinet LED Lig
+  import B07TZP4YDY : ok
+  import B077SRKNPK : ok
+  import B07YQWCMNY : ok
+  import B085HXX7JP : ok
+  import B08G5D53CT : ok
+  import B07TMVJ46R : ok
+  import B07PJJMJ3Q : ok
+  import B08GLBKRYZ : ok
+  import B0F299H93L : ok
+  import B08JH8NTXY : ok
+  import B075XLL6WW : ok
+  import B09VDLCLMQ : ok
+  [2 live] B0F32PPGSQ | Printer Stand, 2-Tier Industrial Under Desk Prin
+  import B0891J7X1G : ok
+  import B07MGRYM28 : ok
+  import B08NPGN6V7 : ok
+  import B01EBA8ZX8 : ok
+  import B07F58TVHZ : ok
+  import B0776YRWCY : ok
+  import B07SY7N32H : ok
+  import B07S2HW8F1 : ok
+  import B088ZTT9J3 : ok
+  import B01NBNKRBO : ok
+  [3 live] B0DSJT15H6 | Twin Upholstered LED Bed Frame with Storage Draw
+  import B07GPKV37B : ok
+  import B081SRHPNX : ok
+  import B08HQCCZC8 : ok
+  import B095HCF4F2 : ok
+  import B07GGVG2RK : ok
+  import B07CXNB571 : ok
+  import B083K8Q53Z : ok
+  [unconf] B07S82CW73 | , Hidden Zipper, | len 70
+RESULT: ABORT guard-mismatch (expected '100 mulberry')
+  import B084H76VWG : ok
+  import B07D7B4SSJ : ok
+  import B08BNFG7DR : ok
+  import B07MYQG63C : ok
+  import B083BH6WYG : ok
+  import B01LYRFGSU : ok
+  import B07CTHNVM5 : ok
+  import B07TT665XL : ok
+  import B07TN5SQS2 : ok
+  import B08F9HJLG1 : ok
+  import B09LTS24RT : ok
+  import B07WGLYV22 : ok
+  [4 live] B086YPD9WR | Black Candle Tins 4oz, 24 Piece Candle Container
+  import B089B2WMJR : ok
+  import B07W6VSVL9 : ok
+  import B08PCSBG7Y : ok
+  import B00VNECWSA : ok
+  import B08HRH5X39 : ok
+  import B0F99BF24V : ok
+  import B0994PS2K6 : ok
+  import B0888SRMHS : ok
+  import B09B2WLRWX : ok
+  import B09H2FH13D : ok
+  import B07KYPQPFG : ok
+  import B00134MXF2 : ok
+  [5 live] B01F5GIHXA | Archipelago Botanicals Kashmir Glass Jar Candle,
+  import B0DRHW31FG : ok
+  import B09JZ398R8 : ok
+  import B091C61K2W : ok
+  import B08B4SZWC2 : ok
+  import B01M6TLCSC : ok
+  import B0CST6122K : ok
+  import B08SHK2CXC : ok
+  import B07JY8L9QP : ok
+  import B079MHRSRN : ok
+  import B0DC62KT3W : ok
+  import B087YSNFQ3 : ok
+  [6 live] B075DW9RDF | Capri Blue Volcano Scented, Glass Jar Candles fo
+  import B0719M6L1B : ok
+  import B08L3BBDGS : ok
+  import B0BXXZ9Y8K : ok
+  import B075X2CGY3 : ok
+  import B076QLLPZ1 : ok
+  import B07Y7XB3P2 : ok
+  import B08TLMHQWH : ok
+  import B07DSVQ4HJ : ok
+  import B08NFVHHZD : ok
+  import B082W3P7DS : ok
+  import B084G2XF91 : ok
+  [7 live] B08DWQ4ZZF | Baby Delight Beside Me Dreamer Bassinet | Bedsid
+  import B07QRVFPQV : ok
+  import B07QPS4RQ5 : ok
+  import B01CYL4LIO : ok
+  import B07Y875FR4 : ok
+  import B09ZTZD331 : ok
+  import B09DNVJNL4 : ok
+  import B079GWWZZZ : ok
+  import B07Q5QZXHM : ok
+  import B0B1LFGT91 : ok
+  import B09DNVLMMD : ok
+  import B0CGHV9GCG : ok
+  import B0BLWGWNQB : ok
+  [8 live] B0DPX4B5ZL | Elegear Cooling Comforter Queen Size, Arc-Chill 
+  import B07VQ79TTG : ok
+  import B014BRSSPG : ok
+  import B01N7SXJ2V : ok
+  import B09JGV8VWX : ok
+  import B08111H1JF : ok
+  import B097NWW82N : ok
+  import B072QBF2YQ : ok
+  import B071LMBV1F : ok
+  import B08FJ1VQKC : ok
+  import B07W4JNJ7P : ok
+  import B08PK13TWV : ok
+  import B098SYBSVZ : ok
+  import B071HFTRCH : ok
+  import B095PQ1LBC : ok
+  import B0D261LNWW : ok
+  import B075YFB287 : ok
+  import B089G38X1F : ok
+  import B08GFP7PSK : ok
+  import B07MBFMG5W : ok
+  import B08G59FCVV : ok
+  [9 live] B07YBMBNX2 | Sand Dipper Metal Cat Litter Scoop – Long Handle
+  import B07GNS9422 : ok
+  import B0F32FS6LY : ok
+  import B0779MSQ5W : ok
+  import B09Q7VPM6Q : ok
+  import B08NWQ1NXJ : ok
+  import B073CYV9WR : ok
+  import B01A0IU4VQ : ok
+  import B07TF7PF5Y : ok
+  import B089S1XDNP : ok
+  import B07V6ZTRDF : ok
+  import B07Q5DJLHR : ok
+  import B08GS3CQ2Y : ok
+  [10 live] B08SJ6DT4V | Perytong Sleep Headphones Wireless, Bluetooth Sp
+  import B0CT5GP554 : ok
+  import B09WHRHN3G : ok
+  import B087JQJJ8W : ok
+  import B0B14WVKN7 : ok
+  import B089NT8PQP : ok
+  import B08FWZ32WS : ok
+  import B0GX91N7NK : ok
+  import B07VXC4QVH : ok
+  import B07WP4FPFC : ok
+  [unconf] B07Z4PFKTQ | ma Doc | len 123
+RESULT: ABORT guard-mismatch (expected 'upsimples certificate')
+  import B09DCM25V5 : ok
+  import B0FR965VQQ : ok
+  import B098X9MVXY : ok
+  import B09YQ55XL3 : ok
+drafts after imports (by asin): 436
+  import B0825YPC78 : ok
+  import B0DK1J8JP1 : ok
+  import B06XHMTY8N : ok
+  import B08CVKB8YM : fail/dup
+  [11 live] B08XWFGVCM | 12x12 Picture Frames White Made of Solid Wood Di
+  import B08G8QDXKR : ok
+  import B079DMG783 : ok
+  import B07BPTTXB9 : ok
+  [1 live] B088SGCVGV | Homesick Scented Candles for Home (North Carolin
+  import B08HCGQ4X7 : ok
+  import B001AZNAWY : ok
+  import B00OY28D0O : ok
+  import B08JV1DJ7X : ok
+  import B071S7JTY3 : ok
+  [12 live] B07LC64H8Z | Extra Long Shower Curtain with 84 inch Height, F
+  import B0C36H1NVY : ok
+  import B00Q9SH726 : ok
+  import B0BTDJHNTP : ok
+  import B0B3C7J14F : ok
+  import B08FYMX94H : ok
+  import B0CCDPGC1T : ok
+  [2 live] B0141Q2N9O | Tyler Candle Mixer Melts Set of 4 - Diva
+  import B0D3LM6Q73 : ok
+  import B01G3HQA48 : ok
+  import B0CCDNXWLZ : ok
+  import B08QHVCFH8 : ok
+  import B0964KDDRB : ok
+  [13 live] B08K2KC6KD | Graco Ready2Grow 2.0 Double Stroller, Twin Baby 
+  import B09W94T3LG : ok
+  import B075YTHM8K : ok
+  import B07SSLD42M : ok
+  import B0DK7LSGVW : ok
+  [3 live] B09R1K4LP1 | Lavender Scented Candles for Women - Aromatherap
+  import B075S6K83T : ok
+  import B01N75EVF1 : ok
+  import B07PDR8CGG : ok
+  import B08SBS29GB : ok
+  [14 live] B089Y8D3KY | Black Bathroom Rugs Sets 3 Piece with Toilet Lid
+  import B0DCX5X75Y : ok
+  import B0DW7Y855H : ok
+drafts after imports (by asin): 436
+  import B09BJDW9WM : ok
+  import B089P3GLHK : ok
+  [unconf] B0CPXYFJP4 | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  import B0B56GCYLG : ok
+  import B08FXM8RPQ : ok
+  import B07MK5ZX3C : ok
+  import B08FXLP1PC : ok
+  [1 live] B08L35JKBY | Owl Wax Melt Warmer for Home Décor, Wax Warmer f
+  [15 live] B07S62FR8M | Bathtub Caddy Tray for Luxury Bath - Bamboo Wate
+  import B08LDCSCWG : ok
+  import B0F1TKVBLG : ok
+  [4 live] B09873N25Y | Waffle Weave Shower Curtain with Snap-in Fabric 
+  import B0CQLS7FMZ : ok
+  import B0DWMZSR72 : ok
+  [unconf] B01I0214J0 | " Jaw Opening, 4-Pack | len 51
+RESULT: ABORT guard-mismatch (expected '6 heavy')
+  import B08149FMTG : ok
+  import B0D7CVJPX7 : ok
+  [2 live] B009ISANFW | Bluecorn Beeswax 100% Pure Beeswax Tea Lights (2
+  [5 live] B08NSJRYKP | Sage Green Throw Pillow Covers 18x18 inch Soft S
+  import B07KQ1RJLT : ok
+  import B09F6JBFNB : ok
+  import B074795C45 : ok
+  import B01MFAV2WK : ok
+  [16 live] B09N25WCYS | Farmhouse White Truck Decor, Vintage Metal Rusti
+drafts after imports (by asin): 436
+  import B07TBQC4BY : ok
+  [3 live] B000YBFJQU | Capri Blue Volcano Scented Candles - Luxury Glas
+  [6 live] B08SGC6BFZ | Aoderun Flower Vase Modern Home Decor Glass Vase
+  [unconf] B07JBB2Z1H | -Toxic & Hypoallerge | len 70
+RESULT: ABORT guard-mismatch (expected '100 pure')
+  import B092DMV6W1 : ok
+  [17 live] B0DWNHX37J | Cooling Comforter Queen Size, Double-Sided Cold 
+  import B085Y1B88X : ok
+  import B07YFKY7KV : ok
+  [4 live] B0D2318TXL | Younift Funny Grad Candle, 2026 Graduation Gifts
+  [7 live] B0912JB1RS | Soft Dry Wipe 6 Pack, 100% Cotton Face Tissues, 
+  [1 live] B08TNTD2ZL | Camay Classic Bar Soap, Rose Essence, 4.98 Oz Ea
+  import B08F6D91PG : ok
+  [18 live] B00OD5K8LO | Jetstream Heavy Duty Multi Pocket Durable Sports
+  import B08HQZRJ46 : ok
+  [5 live] B08HRRF67H | Wedding Arch Draping Fabric 3 Panels 27.5" x 18.
+  import B07NZ4ZHMZ : ok
+  [8 live] B07Q98941Y | Kitchen wall decor Restoring ancient ways Still 
+  [unconf] B0DHK637GX | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  import B07KY7LHTH : ok
+  [19 live] B001UGNJFQ | Sun Company Lev-o-gage Sr. Inclinometer and Tilt
+  import B079R764PP : ok
+  [unconf] B07LGGRLD4 | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  import B084TSNR79 : ok
+  [9 live] B0833W8ND6 | hyidecorart Wall Art Moon Sea blue Ocean Landsca
+  [2 live] B08H22XLBY | 4NM No Assembly Folding Bookshelf Storage Shelve
+  import B0723BXBZ7 : ok
+  [unconf] B08L3TXWZP | ering Can with Long Spou | len 70
+RESULT: ABORT guard-mismatch (expected '1 8l')
+  import B071XJQJ24 : ok
+  [unconf] B07D9CV1F2 | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  [6 live] B0CBPT87TP | Chunky Knit Blanket Throw 40"*60", Hand Knitted 
+  import B08C4VW4V9 : ok
+  [3 live] B08Q7RG7W5 | Kate 5x7ft Brown Portrait Backdrops Vintage Brow
+drafts after imports (by asin): 436
+  [10 live] B08GPJYLD3 | junovo Ultra Soft Washable Shaggy Rug - Non-Slip
+  [20 live] B0GT8W7LJW | Mayfair Cameron Bone Toilet Seat, Non Slip Heavy
+  [7 live] B08VDTCMSG | Silicone Cooking Utensil Set, Umite Chef 8-Piece
+  [4 live] B072NYBG7V | Guitar Strap Genuine Leather Ends - Sun Jacquard
+  [1 live] B083TNKJVC | Bedroom Wall Art For Living Room Bathroom Wall D
+  [11 live] B0983ZCGG1 | Reversible Hooded Dog Raincoat Slicker Poncho fo
+  [21 live] B08Z369WSC | Kitchen Wall Decor Canvas Art for Dining Room Vi
 
-=== SUMMARY: publish-reported=19 | API-verified-left-drafts=18 | attempts=43 ===
-  B0FDBBS7ZQ : PUBLISHED
-  B0DCB8F4K5 : PUBLISHED
-  B07P46R8MD : unconfirmed
-  B08HPYCY9S : PUBLISHED
-  B01HG9EIVE : skip-econ
-  B08T6KDGN4 : PUBLISHED
-  B0D6QXN9ST : PUBLISHED
-  B000NJSZAU : no-draft
-  B08Y87F81G : PUBLISHED
-  B07R967BLQ : skip-econ
-  B095CF97XG : skip-econ
-  B07HTD1GH9 : skip-err1
-  B08R3JFZ62 : skip-econ
-  B08FX1BK3Z : skip-econ
-  B0CP27Z2PR : PUBLISHED
-  B0CS9SWZ45 : PUBLISHED
-  B08DK17VGB : PUBLISHED
-  B071YDNTC7 : PUBLISHED
-  B07S9XCV2R : PUBLISHED
-  B098V2G242 : no-draft
-  B098TYSN16 : no-draft
-  B08L6TLDQB : skip-econ
-  B08MJL4NTY : no-draft
-  B00863OHZW : skip-econ
-  B086P4ZYKG : skip-econ
-  B082S9Z1S9 : skip-err1
-  B0D16T4G91 : PUBLISHED
-  B09DPQCSMF : unconfirmed
-  B093WFJV88 : skip-econ
-  B07YNJ448N : skip-err1
-  B077FFJ94W : PUBLISHED
-  B07V2P7PR7 : PUBLISHED
-  B08ZLHW4M4 : skip-econ
-  B00215LFZQ : PUBLISHED
-  B08GKHH4YL : no-draft
-  B071FYYVSF : no-draft
-  B0915X5K6W : unconfirmed
-  B07HDYF5MZ : no-draft
-  B0822FFMTQ : skip-title-persist
-  B092RL5TB6 : PUBLISHED
-  B082J3DJFH : skip-econ
-  B08BZ9WDN2 : skip-econ
-  B07RHSP7SM : skip-econ
-  B07CJMFZXH : skip-econ
-  B07V1TGDX5 : skip-econ
-  B07MMM65B3 : PUBLISHED
-  B06XSWVTC8 : unconfirmed
-  B07RBR8J8H : skip-err1
-  B07BQB74V1 : PUBLISHED
-  B087K1CH8X : PUBLISHED
-RUN_RESULT verified=18
-  import B08KYC74FX : ok
-  import B00OD5K8LO : ok
+=== SUMMARY: publish-reported=21 | API-verified-left-drafts=21 | attempts=54 ===
+  B00DI2W24O : skip-err1
+  B06WRMX85Z : PUBLISHED
+  B09KPPK27L : skip-err1
+  B0F32PPGSQ : PUBLISHED
+  B0DSJT15H6 : PUBLISHED
+  B0B8V1GBYP : no-draft
+  B082DZWPZH : skip-econ
+  B07S3HVSZK : skip-econ
+  B082RP1Y7W : skip-err1
+  B087X2NM8B : skip-econ
+  B07S82CW73 : unconfirmed
+  B086YPD9WR : PUBLISHED
+  B01F5GIHXA : PUBLISHED
+  B075DW9RDF : PUBLISHED
+  B07DHTHQHY : skip-econ
+  B09CZ2M3GH : no-draft
+  B07RJTTTBD : skip-err1
+  B0814NDPC8 : skip-econ
+  B08DWQ4ZZF : PUBLISHED
+  B07S3B6DGB : skip-err1
+  B0DPX4B5ZL : PUBLISHED
+  B087RV9PLB : skip-title-persist
+  B01M9K6F8V : skip-title-persist
+  B0C6NCWFVC : no-draft
+  B075JRPB49 : skip-title-persist
+  B07YBMBNX2 : PUBLISHED
+  B08SJ6DT4V : PUBLISHED
+  B07CT9FMZ6 : skip-econ
+  B0BGBQDHXG : no-draft
+  B07QS3HZR8 : skip-econ
+  B07Z4PFKTQ : unconfirmed
+  B08XWFGVCM : PUBLISHED
+  B006PJ5514 : skip-econ
+  B08PCVMLMM : no-draft
+  B08PCTL331 : no-draft
+  B07LC64H8Z : PUBLISHED
+  B086PKJ1NM : skip-econ
+  B08TZJQ1TZ : skip-err1
+  B08C5FKGJ2 : skip-title-persist
+  B08K2KC6KD : PUBLISHED
+  B00BSG46VE : skip-err1
+  B0006NDC7E : skip-err1
+  B07CKMRYK5 : skip-econ
+  B089Y8D3KY : PUBLISHED
+  B07Y9YB2VN : skip-title-persist
+  B085XZLCQW : skip-econ
+  B08XW3X463 : skip-err1
+  B07S62FR8M : PUBLISHED
+  B07MGLMMD6 : skip-err1
+  B01I0214J0 : unconfirmed
+  B09N25WCYS : PUBLISHED
+  B0DWNHX37J : PUBLISHED
+  B00OD5K8LO : PUBLISHED
+  B001UGNJFQ : PUBLISHED
+  B002NTP6B4 : skip-econ
+  B07C2WBPTR : no-draft
+  B0179Q4Y9U : skip-title-persist
+  B07MYR4QL5 : skip-econ
+  B07D9CV1F2 : unconfirmed
+  B0C9HTN1KT : no-draft
+  B0GT8W7LJW : PUBLISHED
+  B08Z369WSC : PUBLISHED
+RUN_RESULT verified=21
+  [8 live] B0B5G9BSY5 | Large Silicone Cooking Utensils Set - Heat Resis

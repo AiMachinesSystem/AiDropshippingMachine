@@ -1,0 +1,8 @@
+
+### E-024 — batch F low yield (5/72, 7%) from HOLD candidates
+- **ERRORE:** Run F published solo 5/72 (7%) vs E 24/60 (40%). Root cause: batch builder usava rec in (TEST, HOLD) — i candidati HOLD hanno economics piu deboli + alta frequenza skip-econ.
+- **CAUSA:** Build script non filtrava per rec=TEST; candidati HOLD = economics limite gia in AutoDS.
+- **REGOLA:** Batch builder DEVE usare rec=TEST ONLY. HOLD va in lista separata (mai in batch di produzione senza validazione manuale).
+- **TEST DI REGRESSIONE:** Dopo ogni batch, verificare che _qbatch*.json contenga solo asin con rec=TEST nel shortlist sorgente.
+- **FIX APPLICATO:** _build_qbatchE.py e tutti i successivi: filtro rec=TEST only. Batch G ricostruito.
+
