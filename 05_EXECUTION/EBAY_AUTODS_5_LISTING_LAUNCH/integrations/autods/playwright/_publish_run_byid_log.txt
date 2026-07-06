@@ -1,91 +1,160 @@
-=== PUBLISH RUN BY-ID | target=36 | candidates=42 ===
-initial drafts (by asin): 0
-importing 42 missing candidates...
-  import B07V7CYS8Q : fail/dup
-  import B07DVM8QFH : fail/dup
-  import B0834MSZ5G : fail/dup
-  import B07C34DVCJ : fail/dup
-  import B08NBDGSSY : fail/dup
-  import B01DLK5PLY : fail/dup
-  import B08QRD1ZGG : fail/dup
-  import B07H2XFTTH : fail/dup
-  import B0002JT0AK : fail/dup
-  import B088F1VZKF : fail/dup
-  import B087C5J91Y : fail/dup
-  import B08RWBSGNX : fail/dup
-  import B089NT21NK : fail/dup
-  import B07XGB1BFJ : fail/dup
-  import B09N1DZZLP : fail/dup
-  import B07RNFDBGX : fail/dup
-  import B088TLFV96 : fail/dup
-  import B08T1PB7KB : fail/dup
-  import B07CTKSVKK : fail/dup
-  import B082188D2L : fail/dup
-  import B07PGS9JBF : fail/dup
-  import B07RP74CZG : fail/dup
-  import B08Q33ZNJ7 : fail/dup
-  import B016CHAMX4 : fail/dup
-  import B082M8XF6C : fail/dup
-  import B01G2V65VS : fail/dup
-  import B08384ZBJY : fail/dup
-  import B01GLPO0RG : fail/dup
-  import B007JTLKCC : fail/dup
-  import B0761LFQJH : fail/dup
-  import B07TH96J77 : fail/dup
-  import B0DLGDFJW2 : fail/dup
-  import B076FW73WN : fail/dup
-  import B083G9MP9R : fail/dup
-  import B08Y6J5G6G : fail/dup
-  import B07RJYVWC4 : fail/dup
-  import B0D95YXZPC : fail/dup
-  import B07RYFTYPN : fail/dup
-  import B08B443V99 : fail/dup
-  import B07QHBGT2Y : fail/dup
-  import B078HV53YQ : fail/dup
-  import B07GL4S7QS : fail/dup
+=== PUBLISH RUN BY-ID | target=36 | candidates=59 ===
+initial drafts (by asin): 449
+importing 59 missing candidates...
+  import B0CY89N4PJ : ok
+  import B0CWQNCTJ6 : ok
+  import B08SBT88H9 : ok
+  import B0F9PH1GST : ok
+  import B00ZW9P6BW : ok
+  import B07RLQG68N : ok
+  import B082F77B4K : ok
+  import B07TXLQ2XM : ok
+  import B096P3T8JN : ok
+  import B0B17D18R8 : ok
+  import B088LYHMKC : ok
+  import B075MQMT9F : ok
+  import B077W81J1F : ok
+  import B08THKZQ1K : ok
+  import B07MN64SLK : ok
+  import B08ZJ8DMN3 : ok
+  import B07MNNG4YQ : ok
+  import B00LJCU2FG : ok
+  import B086WY4N2Y : ok
+  import B07JHJ37N6 : ok
+  import B00NJD6I8I : ok
+  import B07G23PB9P : ok
+  import B06XXNLHKW : ok
+  import B07GV78ZKK : ok
+  import B073SWNZC1 : ok
+  import B0FC63NWK5 : ok
+  import B08JZKMN7S : ok
+  import B07QWPFHLB : ok
+  import B0C794ZQN6 : ok
+  import B07RZQ2NJD : ok
+  import B01M64AUKQ : ok
+  import B08CLWPS4G : ok
+  import B07SR3WVRD : ok
+  import B0F9PKZ6GL : ok
+  import B0952WGKQQ : ok
+  import B07YXWLF8X : ok
+  import B098F68XS7 : ok
+  import B01GRO1P60 : ok
+  import B081YXQDNR : ok
+  import B08QMKVJYC : ok
+  import B0CLP38N2Z : ok
+  import B08K2VMRJ7 : ok
+  import B07Z5YX9WB : ok
+  import B08NZCR65X : ok
+  import B01AAXXHJC : ok
+  import B0FH5FV3NW : ok
+  import B096LX75S7 : ok
+  import B07B93W19S : ok
+  import B08P4D1PCC : ok
+  import B0D7CY2GYV : ok
+  import B07CDXJVP2 : ok
+  import 0735357242 : ok
+  import B094HWV5G1 : ok
+  import B09QXJV3H9 : ok
+  import B0D9222T8G : ok
+  import B08PP75XMM : ok
+  import B09K78KLMC : ok
+  import B0C27RQB4M : ok
+  import B08F2F2QXQ : ok
 drafts after imports (by asin): 449
+  [1 live] B08SBT88H9 | Cupcake Stand with Lights, 4 Tier Cupcake Holder
+  [2 live] B00ZW9P6BW | Mini Fridge Stand Mobile Roller, Adjustable Furn
+  [3 live] B082F77B4K | 5 FT Heavy Duty Double Handle Dog Leash with Com
+  [4 live] B07TXLQ2XM | Magnetic White Board Set, 2-Pack 8.5x11 Dry Eras
+  [5 live] B096P3T8JN | Pooper Scooper, Detachable Long Handle Dog Poope
+  [6 live] B077W81J1F | White Tea & Bamboo Premium Aroma Oil – Delicate 
+  [7 live] B07MN64SLK | Small Blue Keepsake Cremation Urn for Human Ashe
+  [8 live] B07MNNG4YQ | Jangostor Large Natural Sea Shells, Huge Ocean C
+  [9 live] B07JHJ37N6 | Tosnail 2 Pack 12 Cavity Mini Cheesecake Pan wit
+  [10 live] B07G23PB9P | Pet Hair Remover Roller - Lint Roller for pet Ha
+  [unconf] B07GV78ZKK | On/Off, ECO M | len 70
+RESULT: ABORT guard-mismatch (expected 'comfee em720cpl')
+  [11 live] B073SWNZC1 | Essential Oil Diffuser for Home, 500ML Aromather
+  [12 live] B08JZKMN7S | 2500 ML XL Essential Oil Diffuser for Large Room
+  [13 live] B07QWPFHLB | Modern Area Rug 5x7 Turquoise Swirls Carpet Bedr
+  [14 live] B0C794ZQN6 | The Magic Scent Heaven Hotel Scent Diffuser Oil 
+  [15 live] B07RZQ2NJD | Sweese 7.8 Inch Porcelain Dessert Plates Set of 
+  [unconf] B01M64AUKQ | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  [16 live] B08CLWPS4G | Forged Dice Co. Citadel Dice Tray and Dice Tower
+  [17 live] B07SR3WVRD | Wicker Baskets for Organizing, Pantry Organizers
+  [18 live] B0952WGKQQ | Aluminum Cupcake Liners with Dome Lids 50 Pack,F
+  [19 live] B098F68XS7 | Fabric Shaver, Electric Lint Remover, Rechargeab
+  [20 live] B01GRO1P60 | 6 Slots Watch Box Organizer for Men, Black Watch
+  [21 live] B081YXQDNR | Alsonerbay Bookends Geometric Decorative Metal B
+  [unconf] B0CLP38N2Z | y 2 Seater Outdoor | len 69
+RESULT: ABORT guard-mismatch (expected 'easy going')
+  [22 live] B08K2VMRJ7 | decorUhome Summer Decorative Boho Throw Pillow C
+  [23 live] B07Z5YX9WB | Hummingbird Flower Glass Perfume Bottle Jeweled 
+  [24 live] B08NZCR65X | Universal Ceiling Fan Remote Control Kit Replace
+  [25 live] B0FH5FV3NW | 2Pcs 6FT Norfolk Pine Garlands Realistic, Real T
+  [26 live] B07CDXJVP2 | Midwest Homes for Pets Deluxe Rabbit & Guinea Pi
+  [27 live] B094HWV5G1 | 20x20 Pillow Covers Set of 2 Farmhouse Decor Str
+  [28 live] B09K78KLMC | downluxe Twin Comforter Set - Pink and Black Twi
+  [29 live] B08F2F2QXQ | Glow in The Dark Unicorn Blanket for Girls – Sof
 
-=== SUMMARY: publish-reported=0 | API-verified-left-drafts=0 | attempts=0 ===
-  B07V7CYS8Q : no-draft
-  B07DVM8QFH : no-draft
-  B0834MSZ5G : no-draft
-  B07C34DVCJ : no-draft
-  B08NBDGSSY : no-draft
-  B01DLK5PLY : no-draft
-  B08QRD1ZGG : no-draft
-  B07H2XFTTH : no-draft
-  B0002JT0AK : no-draft
-  B088F1VZKF : no-draft
-  B087C5J91Y : no-draft
-  B08RWBSGNX : no-draft
-  B089NT21NK : no-draft
-  B07XGB1BFJ : no-draft
-  B09N1DZZLP : no-draft
-  B07RNFDBGX : no-draft
-  B088TLFV96 : no-draft
-  B08T1PB7KB : no-draft
-  B07CTKSVKK : no-draft
-  B082188D2L : no-draft
-  B07PGS9JBF : no-draft
-  B07RP74CZG : no-draft
-  B08Q33ZNJ7 : no-draft
-  B016CHAMX4 : no-draft
-  B082M8XF6C : no-draft
-  B01G2V65VS : no-draft
-  B08384ZBJY : no-draft
-  B01GLPO0RG : no-draft
-  B007JTLKCC : no-draft
-  B0761LFQJH : no-draft
-  B07TH96J77 : no-draft
-  B0DLGDFJW2 : no-draft
-  B076FW73WN : no-draft
-  B083G9MP9R : no-draft
-  B08Y6J5G6G : no-draft
-  B07RJYVWC4 : no-draft
-  B0D95YXZPC : no-draft
-  B07RYFTYPN : no-draft
-  B08B443V99 : no-draft
-  B07QHBGT2Y : no-draft
-  B078HV53YQ : no-draft
-  B07GL4S7QS : no-draft
-RUN_RESULT verified=0
+=== SUMMARY: publish-reported=29 | API-verified-left-drafts=30 | attempts=46 ===
+  B0CY89N4PJ : no-draft
+  B0CWQNCTJ6 : no-draft
+  B08SBT88H9 : PUBLISHED
+  B0F9PH1GST : no-draft
+  B00ZW9P6BW : PUBLISHED
+  B07RLQG68N : no-draft
+  B082F77B4K : PUBLISHED
+  B07TXLQ2XM : PUBLISHED
+  B096P3T8JN : PUBLISHED
+  B0B17D18R8 : no-draft
+  B088LYHMKC : skip-econ
+  B075MQMT9F : skip-econ
+  B077W81J1F : PUBLISHED
+  B08THKZQ1K : no-draft
+  B07MN64SLK : PUBLISHED
+  B08ZJ8DMN3 : skip-econ
+  B07MNNG4YQ : PUBLISHED
+  B00LJCU2FG : skip-econ
+  B086WY4N2Y : no-draft
+  B07JHJ37N6 : PUBLISHED
+  B00NJD6I8I : skip-econ
+  B07G23PB9P : PUBLISHED
+  B06XXNLHKW : skip-econ
+  B07GV78ZKK : unconfirmed
+  B073SWNZC1 : PUBLISHED
+  B0FC63NWK5 : skip-econ
+  B08JZKMN7S : PUBLISHED
+  B07QWPFHLB : PUBLISHED
+  B0C794ZQN6 : PUBLISHED
+  B07RZQ2NJD : PUBLISHED
+  B01M64AUKQ : unconfirmed
+  B08CLWPS4G : PUBLISHED
+  B07SR3WVRD : PUBLISHED
+  B0F9PKZ6GL : no-draft
+  B0952WGKQQ : PUBLISHED
+  B07YXWLF8X : no-draft
+  B098F68XS7 : PUBLISHED
+  B01GRO1P60 : PUBLISHED
+  B081YXQDNR : PUBLISHED
+  B08QMKVJYC : no-draft
+  B0CLP38N2Z : unconfirmed
+  B08K2VMRJ7 : PUBLISHED
+  B07Z5YX9WB : PUBLISHED
+  B08NZCR65X : PUBLISHED
+  B01AAXXHJC : skip-econ
+  B0FH5FV3NW : PUBLISHED
+  B096LX75S7 : skip-err1
+  B07B93W19S : skip-econ
+  B08P4D1PCC : skip-econ
+  B0D7CY2GYV : skip-econ
+  B07CDXJVP2 : PUBLISHED
+  0735357242 : skip-title-persist
+  B094HWV5G1 : PUBLISHED
+  B09QXJV3H9 : skip-err1
+  B0D9222T8G : no-draft
+  B08PP75XMM : no-draft
+  B09K78KLMC : PUBLISHED
+  B0C27RQB4M : no-draft
+  B08F2F2QXQ : PUBLISHED
+RUN_RESULT verified=30
