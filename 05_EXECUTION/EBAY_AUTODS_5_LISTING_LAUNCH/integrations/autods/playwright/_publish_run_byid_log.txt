@@ -1,28 +1,160 @@
-=== PUBLISH RUN BY-ID | target=8 | candidates=8 ===
+=== PUBLISH RUN BY-ID | target=36 | candidates=65 ===
 initial drafts (by asin): 449
-importing 8 missing candidates...
-  import B094HCQ2HH : ok
-  import B09C5HMDQM : ok
-  import B0DFYLS5JV : ok
-  import B08329VL3J : ok
-  import B08F9WCN6W : ok
-  import B09461S7X3 : ok
-  import B08L8S752B : ok
-  import B07VY98D81 : ok
+importing 65 missing candidates...
+  import B08WXFMPQQ : ok
+  import B0CCVQNC7F : ok
+  import B07VC8M6F1 : ok
+  import B08R7VX7WJ : ok
+  import B0D2HMNHC1 : ok
+  import B089NN5YZ5 : ok
+  import B000JOR0J6 : ok
+  import B08BJ1XKXS : ok
+  import B07XPG1X5T : ok
+  import B07CQ5P94W : ok
+  import B01MZH9P0J : ok
+  import B01LZXOA39 : ok
+  import B07D8VP91V : ok
+  import B07FSQXYP5 : ok
+  import B08J3KQ9LB : ok
+  import B07YQJKJ31 : ok
+  import B0973B98LP : ok
+  import B083HXX3BR : ok
+  import B08Q75PFJN : ok
+  import B086H4XX9S : ok
+  import B07BVPTVX5 : ok
+  import B08WRFW4DX : ok
+  import B00OCGQG3S : ok
+  import B07MW25YZX : ok
+  import B09FXCV23L : ok
+  import B07S3DQSM6 : ok
+  import B014EHW9A8 : ok
+  import B0B2W448D9 : ok
+  import B06XZV26H1 : ok
+  import B0894MQ5ZR : ok
+  import B07SN57CMJ : ok
+  import B079FSPQSP : ok
+  import B0B31B1N96 : ok
+  import B08SHRC77K : ok
+  import B001BPYPFE : ok
+  import B07XC7QTDH : ok
+  import B08G8PD5RL : ok
+  import B077GWJP7B : ok
+  import B07WHP2V77 : ok
+  import B07RR841MD : ok
+  import B07QLLYGRG : ok
+  import B07XHLGSXN : ok
+  import B0C14TT9TM : ok
+  import B08V8F8SLF : ok
+  import B08QFH45VW : ok
+  import B01E0TDH10 : ok
+  import B07HRPGBNH : ok
+  import B07ZPH8Q1D : ok
+  import B08KXS91XL : ok
+  import B089SQHQ97 : ok
+  import B07G149PT6 : ok
+  import B06X6GY3Z2 : ok
+  import B08LDWL2LN : ok
+  import B019RKA1MU : ok
+  import B08FBJPZFP : ok
+  import B06WVDH7P6 : ok
+  import B087JHYV8T : ok
+  import B01FONRO7E : ok
+  import B0F3XBKPGW : ok
+  import B001CZQQSM : ok
+  import B07QYKJQ1V : ok
+  import B0B5ZBKLS3 : ok
+  import B08FBN5D2Q : ok
+  import B07WHG97ZL : ok
+  import B09B3NWQBL : ok
 drafts after imports (by asin): 449
-  [1 live] B09C5HMDQM | 6Pcs Teal Pink Sparkle Mermaid Comforter Sets Qu
-  [2 live] B08329VL3J | Bare Home Microfiber Duvet Cover Set - Ultra Sof
-  [3 live] B08F9WCN6W | Homelike Moment California King Comforter - Whit
-  [unconf] B07VY98D81 | : []
-RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  [1 live] B07VC8M6F1 | Global Wooden Handle Longboard Sander 10.75" Lon
+  [2 live] B0D2HMNHC1 | Kitchen Rugs 24" x 70", Non-Slip Machine Washabl
+  [unconf] B07XPG1X5T | aped Standing Desk wi | len 66
+RESULT: ABORT guard-mismatch (expected '55 inch')
+  [unconf] B07CQ5P94W | Kit - Aluminum W | len 70
+RESULT: ABORT guard-mismatch (expected 'zephyr ultra')
+  [3 live] B01LZXOA39 | J JACKCUBE DESIGN Square Paper Facial Tissue Box
+  [4 live] B07D8VP91V | L LOHAS LED A21 Bright Light Bulb, 150W-200W Equ
+  [5 live] B07FSQXYP5 | Lebert Fitness Parallette Push Up Bars Dip Stati
+  [6 live] B08J3KQ9LB | Home Gym Fitness Rowing T-bar V-bar Pulley Cable
+  [unconf] B083HXX3BR |  One Size Fits All -Adap | len 61
+RESULT: ABORT guard-mismatch (expected '6 in')
+  [7 live] B08Q75PFJN | Ralbay Dimmable Bathroom Lights Modern 4 Lights 
+  [8 live] B086H4XX9S | Westside Discs Origio Burst 5-Disc Golf Starter 
+  [9 live] B07BVPTVX5 | Wake In Cloud - Striped Cotton Duvet Cover Set, 
+  [10 live] B08WRFW4DX | Lush Decor Leah Reversible Floral Quilt Set, 3 P
+  [unconf] B07MW25YZX | ates Cycling BMX B | len 62
+RESULT: ABORT guard-mismatch (expected 'kids youth')
+  [11 live] B09FXCV23L | Million Sold 10 Years Classic E7 Active Noise Ca
+  [12 live] B0B2W448D9 | Kids Bike Helmet,Multi-Sport Protective Gear Set
+  [13 live] B07SN57CMJ | Lightweight Down Feather Fibers Comforter Queen 
+  [14 live] B0B31B1N96 | Disposable Makeup Applicators Kit with Triangle 
+  [unconf] B08SHRC77K | RESULT: ABORT no-title-input
 
-=== SUMMARY: publish-reported=3 | API-verified-left-drafts=4 | attempts=7 ===
-  B094HCQ2HH : skip-econ
-  B09C5HMDQM : PUBLISHED
-  B0DFYLS5JV : skip-econ
-  B08329VL3J : PUBLISHED
-  B08F9WCN6W : PUBLISHED
-  B09461S7X3 : skip-err1
-  B08L8S752B : no-draft
-  B07VY98D81 : unconfirmed
-RUN_RESULT verified=4
+=== SUMMARY: publish-reported=14 | API-verified-left-drafts=57 | attempts=57 ===
+  B08WXFMPQQ : skip-econ
+  B0CCVQNC7F : no-draft
+  B07VC8M6F1 : PUBLISHED
+  B08R7VX7WJ : skip-econ
+  B0D2HMNHC1 : PUBLISHED
+  B089NN5YZ5 : no-draft
+  B000JOR0J6 : skip-title-persist
+  B08BJ1XKXS : skip-econ
+  B07XPG1X5T : unconfirmed
+  B07CQ5P94W : unconfirmed
+  B01MZH9P0J : skip-err1
+  B01LZXOA39 : PUBLISHED
+  B07D8VP91V : PUBLISHED
+  B07FSQXYP5 : PUBLISHED
+  B08J3KQ9LB : PUBLISHED
+  B07YQJKJ31 : skip-err1
+  B0973B98LP : no-draft
+  B083HXX3BR : unconfirmed
+  B08Q75PFJN : PUBLISHED
+  B086H4XX9S : PUBLISHED
+  B07BVPTVX5 : PUBLISHED
+  B08WRFW4DX : PUBLISHED
+  B00OCGQG3S : skip-econ
+  B07MW25YZX : unconfirmed
+  B09FXCV23L : PUBLISHED
+  B07S3DQSM6 : no-draft
+  B014EHW9A8 : skip-econ
+  B0B2W448D9 : PUBLISHED
+  B06XZV26H1 : skip-err1
+  B0894MQ5ZR : skip-econ
+  B07SN57CMJ : PUBLISHED
+  B079FSPQSP : skip-econ
+  B0B31B1N96 : PUBLISHED
+  B08SHRC77K : unconfirmed
+  B001BPYPFE : skip-title-persist
+  B07XC7QTDH : no-draft
+  B08G8PD5RL : skip-title-persist
+  B077GWJP7B : skip-title-persist
+  B07WHP2V77 : skip-title-persist
+  B07RR841MD : skip-econ
+  B07QLLYGRG : skip-econ
+  B07XHLGSXN : skip-title-persist
+  B0C14TT9TM : skip-title-persist
+  B08V8F8SLF : skip-err1
+  B08QFH45VW : skip-econ
+  B01E0TDH10 : skip-title-persist
+  B07HRPGBNH : skip-title-persist
+  B07ZPH8Q1D : skip-err1
+  B08KXS91XL : skip-title-persist
+  B089SQHQ97 : skip-title-persist
+  B07G149PT6 : no-draft
+  B06X6GY3Z2 : skip-econ
+  B08LDWL2LN : skip-econ
+  B019RKA1MU : skip-econ
+  B08FBJPZFP : skip-econ
+  B06WVDH7P6 : no-draft
+  B087JHYV8T : skip-econ
+  B01FONRO7E : skip-err1
+  B0F3XBKPGW : skip-econ
+  B001CZQQSM : skip-econ
+  B07QYKJQ1V : skip-title-persist
+  B0B5ZBKLS3 : skip-econ
+  B08FBN5D2Q : skip-econ
+  B07WHG97ZL : no-draft
+  B09B3NWQBL : skip-econ
+RUN_RESULT verified=57
