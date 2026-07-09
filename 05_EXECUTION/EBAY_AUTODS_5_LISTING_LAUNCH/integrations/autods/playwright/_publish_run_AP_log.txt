@@ -1,0 +1,167 @@
+=== PUBLISH RUN BY-ID | target=36 | candidates=80 ===
+initial drafts (by asin): 449
+importing 54 missing candidates...
+  import B08XX5QP4L : ok
+  import B0DRKTXK7D : ok
+  import 3256807619303865 : ok
+  import B00YQJD04O : ok
+  import B08216C1MB : ok
+  import 1005007314878891 : ok
+  import B08YDFXN52 : ok
+  import B08GWWH1RX : ok
+  import 1005006861079100 : ok
+  import B0D3LSTZHV : ok
+  import B073P53S1Q : ok
+  import 1005007639410675 : ok
+  import B094PY6RK8 : ok
+  import 3256805777093322 : ok
+  import B00OD7L4ZG : ok
+  import 1005006175635887 : ok
+  import B0BLJKXKZ2 : ok
+  import B0D26BTXS9 : ok
+  import B07T4FFB2N : ok
+  import B09VSPX8DB : ok
+  import B08FSPMSKB : ok
+  import B0B5B25HC9 : ok
+  import B0DDXG13W4 : ok
+  import B07STTDN83 : ok
+  import B08GJGZLBM : ok
+  import B06XKX9MG1 : ok
+  import B01GVK2PIW : ok
+  import B074WF598Z : ok
+  import B0FX9C56SP : ok
+  import B011B8M2GO : ok
+  import B0C1VJ34KJ : ok
+  import B08P4H57JH : ok
+  import B07ZB61GXF : ok
+  import B08GQ94L93 : ok
+  import B081V1C7V1 : ok
+  import B077HR8QXN : ok
+  import 1005007791127957 : ok
+  import B07Q3QDHSV : ok
+  import B086ZGQT5D : ok
+  import B07LF1JLZ6 : ok
+  import B0171P0074 : ok
+  import B07SGMVKZ7 : ok
+  import B09SD5RN8C : ok
+  import B07PX14CLY : ok
+  import B0BFX8QGJR : ok
+  import B07W44GFDV : ok
+  import B087PMWJLZ : ok
+  import B0F638ZMMS : ok
+  import B01F23O5FA : ok
+  import 1005006861041383 : ok
+  import B0995RMBWQ : ok
+  import B06X42DL8D : ok
+  import 3256804040994046 : ok
+  import B004ZJOK6C : ok
+drafts after imports (by asin): 449
+  [1 live] B07XC4PDQZ | Connectable 200 LED String Lights Indoor Outdoor
+  [2 live] B088FQW939 | 300 LED Halloween Lights, 98.5FT Halloween Strin
+  [3 live] B07RW8PQG1 | Mkono Moon Phase Wall Hanging Boho Aesthetic Roo
+  [4 live] B0018D69TE | Diamond Plus Dartboard - PDC Tournament Dart Boa
+  [5 live] B08YDFXN52 | Self Cleaning Slicker Brush for Dog and Cat Desh
+  [6 live] B08GWWH1RX | Casfuy Dog Nail Grinder with LED Light - Upgrade
+  [7 live] B0D3LSTZHV | Lifewit 6 Tier Over the Door Shoe Organizer with
+  [8 live] B07T4FFB2N | Litorange Grolsch Gaskets Silicone Seals - For S
+  [9 live] B07STTDN83 | Hipiwe Vintage Glass Jewelry Box - Golden Hexago
+  [10 live] B06XKX9MG1 | Velvet Glass Ring Jewelery Display Storage Box T
+  [unconf] B074WF598Z | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  [11 live] B0FX9C56SP | Mile High Life Leather Dog Leash, Heavy Duty Str
+  [12 live] B011B8M2GO | Spring Chef Professional Large Parmesan Cheese G
+  [13 live] B0C1VJ34KJ | Coward Sunglass Organizer, Beige Velvet Glasses 
+  [14 live] B07ZB61GXF | Breakfast Tea Gift Set - 9 Loose Leaf Black Teas
+  [15 live] B08GQ94L93 | 304 Stainless Steel Kitchen Sink Twist Lock Bask
+  [16 live] B081V1C7V1 | Roxy Women's Minnow Slip on Sneaker Shoe
+  [17 live] B077HR8QXN | Airmoon Mini Ceramics Handmade Couple Toothbrush
+  [18 live] B07Q3QDHSV | Tension Curtain Rod for Window, 83-123 Inches, H
+  [19 live] B07SGMVKZ7 | Lezero 13oz Tea Infuser Cups Kits, Glass Mugs wi
+  [unconf] B09SD5RN8C | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  [20 live] B0F638ZMMS | 8 Inch Ceramic Ramen Bowl Set of 2 Pho Bowls 40o
+  [21 live] B01F23O5FA | Tea Forte Single Steeps Loose Leaf Tea Sampler T
+  [22 live] B0995RMBWQ | Shower Steamers Aromatherapy - sanyi Birthday Gi
+
+=== SUMMARY: publish-reported=22 | API-verified-left-drafts=23 | attempts=57 ===
+  B07XC4PDQZ : PUBLISHED
+  B08XX5QP4L : no-draft
+  B088FQW939 : PUBLISHED
+  B075TXS2XC : skip-econ
+  B08C9K5VY2 : skip-err1
+  B0942VG7DL : skip-err1
+  B0DRKTXK7D : no-draft
+  B07RW8PQG1 : PUBLISHED
+  B0018D69TE : PUBLISHED
+  B07R71PZPT : skip-err1
+  B07VM49YL5 : skip-err1
+  B09219DX7Q : skip-err2
+  3256807619303865 : no-draft
+  B0C37Q5D2K : skip-err1
+  B08B4FQZH9 : skip-err1
+  B0DPHQSFSK : skip-err1
+  B00YQJD04O : skip-econ
+  B08216C1MB : no-draft
+  1005007314878891 : no-draft
+  B08YDFXN52 : PUBLISHED
+  B08GWWH1RX : PUBLISHED
+  1005006861079100 : no-draft
+  B0D3LSTZHV : PUBLISHED
+  B0C797Q648 : skip-err1
+  B073P53S1Q : skip-econ
+  1005007639410675 : no-draft
+  B094PY6RK8 : no-draft
+  3256805777093322 : no-draft
+  B071CZ5F34 : skip-err1
+  B0853F7KF9 : skip-err1
+  B00OD7L4ZG : no-draft
+  1005006175635887 : no-draft
+  B074NXFW86 : skip-err1
+  B0BLJKXKZ2 : no-draft
+  B0D26BTXS9 : no-draft
+  B07T4FFB2N : PUBLISHED
+  B06XFGBD1M : skip-err1
+  B07MH43SNF : skip-err1
+  B07F2K5H5B : skip-err1
+  B07HBWNWCQ : skip-err1
+  B09VSPX8DB : no-draft
+  B08FSPMSKB : no-draft
+  B0B5B25HC9 : no-draft
+  B0DDXG13W4 : no-draft
+  B07STTDN83 : PUBLISHED
+  B08GJGZLBM : skip-econ
+  B06XKX9MG1 : PUBLISHED
+  B01GVK2PIW : skip-econ
+  B074WF598Z : unconfirmed
+  B0FX9C56SP : PUBLISHED
+  B011B8M2GO : PUBLISHED
+  B07FM3NKMF : skip-err1
+  B0C1VJ34KJ : PUBLISHED
+  B08ZKQGGMQ : skip-err2
+  B08P4H57JH : skip-econ
+  B07ZB61GXF : PUBLISHED
+  B08GQ94L93 : PUBLISHED
+  B081V1C7V1 : PUBLISHED
+  B077HR8QXN : PUBLISHED
+  B0DFW53XF4 : skip-err1
+  B0936D8W2D : skip-err1
+  1005007791127957 : no-draft
+  B089LT8KB5 : skip-econ
+  B07Q3QDHSV : PUBLISHED
+  B086ZGQT5D : skip-econ
+  B07LF1JLZ6 : skip-econ
+  B0171P0074 : no-draft
+  B07SGMVKZ7 : PUBLISHED
+  B09SD5RN8C : unconfirmed
+  B07PX14CLY : skip-econ
+  B0BFX8QGJR : no-draft
+  B07W44GFDV : skip-err1
+  B087PMWJLZ : no-draft
+  B0F638ZMMS : PUBLISHED
+  B01F23O5FA : PUBLISHED
+  1005006861041383 : no-draft
+  B0995RMBWQ : PUBLISHED
+  B06X42DL8D : skip-econ
+  3256804040994046 : no-draft
+  B004ZJOK6C : skip-econ
+RUN_RESULT verified=23
