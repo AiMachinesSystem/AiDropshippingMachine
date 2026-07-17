@@ -9,6 +9,26 @@
 > autonome via `00_SYSTEM_CONTROL\SESSION_START_PROTOCOL_v0.1.md`. Nessun dato live, account, numero o
 > decisione di mercato è inventato in questo file.
 
+## ⭐ NORTH STAR + METODO DATA-FIRST (ADD 2026-07-17 · OWNER GO "fallo tu")
+
+> Disceso dalla macchina madre (flywheel metodo↓): stesso principio installato lo stesso
+> giorno sul team web MasteryForge. Additivo — non tocca GO gate, firewall né regole
+> permanenti (coerente con AUTONOMIA CONTROLLATA §10).
+
+1. **North Star = ricavi.** Ogni sessione avvicina il prossimo dollaro di margine reale.
+   Oggi la priorità #1 è sbloccare il sales path (restrizione eBay Seller-Hub + sync
+   AutoDS fermo = rischio oversell) — viene prima di qualunque lavoro di qualità. Un
+   task che non avvicina ricavi o non tappa una perdita si deprioritizza.
+2. **"Ciò che già funziona, funziona" (gate data-first).** Nessuna creazione o
+   ottimizzazione di listing, copy, offerta o pricing parte senza un dato
+   competitor/winner REGISTRATO: prima QUERY MODE su RESEARCH_MEMORY_INDEX; se il dato
+   manca → prima il run di ricerca (competitor-scan / ads-library-scan / dropship-profit-run),
+   poi il build. Si replica la STRUTTURA dei winner provati (pattern di titolo, foto,
+   offer stack, fascia prezzo) — MAI il contenuto letterale (regola 8 invariata;
+   listing-optimizer VeRO-safe resta il gate pre-publish).
+3. **Divergenza = BET dichiarata.** Scostarsi dal pattern del winner è legittimo solo se
+   dichiarato nel deliverable (cosa, perché, come si misura) — mai in silenzio.
+
 ## REGOLE PERMANENTI (ogni sessione, nessuna eccezione)
 
 1. **Master routine first:** leggi `02_DATA\_ROUTINES\MASTER_ROUTINE.md` e instrada ogni richiesta owner (intent map → routine files, seguiti come scritti).
