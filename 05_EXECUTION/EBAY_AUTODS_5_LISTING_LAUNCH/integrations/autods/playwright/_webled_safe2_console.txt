@@ -1,0 +1,70 @@
+=== PUBLISH RUN BY-ID | target=15 | candidates=20 ===
+initial drafts (by asin): 450
+importing 20 missing candidates...
+  import B0DB56H7YF : ok
+  import B0C88BNNW7 : ok
+  import B089FBYT3W : ok
+  import B0GT4H4VZL : ok
+  import B07KFDML8G : ok
+  import B09PFW8WRQ : ok
+  import B0BFMKYN12 : ok
+  import B0GXFSRQ59 : ok
+  import B09C4CXJTK : ok
+  import B0B2F55P76 : ok
+  import B075YV41GQ : ok
+  import B017NEYOQQ : ok
+  import B0DDXQC96K : ok
+  import B0CZ3XCBYC : ok
+  import B091MFVW9Y : ok
+  import B088CR8NMD : ok
+  import B0H2ST62WN : ok
+  import B0H2SV618M : ok
+  import B08BTYLCWC : ok
+  import B0BXPSLX52 : ok
+drafts after imports (by asin): 450
+  [unconf] B089FBYT3W | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  [unconf] B0BFMKYN12 | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  [1 live] B09C4CXJTK | Large Adhesive Hooks 10 Pack 37lb Heavy Duty Sti
+  [unconf] B0B2F55P76 | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  [unconf] B075YV41GQ | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  [unconf] B0DDXQC96K | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  [2 live] B0CZ3XCBYC | Mesh Laundry Bags Set 7 Pack for Delicates Linge
+  [unconf] B091MFVW9Y | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  [unconf] B088CR8NMD | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  [unconf] B0H2ST62WN | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  [unconf] B0H2SV618M | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  [unconf] B08BTYLCWC | ew"]
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  [3 live] B0BXPSLX52 | Silicone Ice Cube Tray 8 Pack 14 Cube Stackable 
+
+=== SUMMARY: publish-reported=3 | API-verified-left-drafts=12 | attempts=19 ===
+  B0DB56H7YF : skip-err1
+  B0C88BNNW7 : skip-err1
+  B089FBYT3W : unconfirmed
+  B0GT4H4VZL : skip-econ
+  B07KFDML8G : skip-err1
+  B09PFW8WRQ : skip-err1
+  B0BFMKYN12 : unconfirmed
+  B0GXFSRQ59 : skip-err1
+  B09C4CXJTK : PUBLISHED
+  B0B2F55P76 : unconfirmed
+  B075YV41GQ : unconfirmed
+  B017NEYOQQ : no-draft
+  B0DDXQC96K : unconfirmed
+  B0CZ3XCBYC : PUBLISHED
+  B091MFVW9Y : unconfirmed
+  B088CR8NMD : unconfirmed
+  B0H2ST62WN : unconfirmed
+  B0H2SV618M : unconfirmed
+  B08BTYLCWC : unconfirmed
+  B0BXPSLX52 : PUBLISHED
+RUN_RESULT verified=12

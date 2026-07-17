@@ -74,8 +74,10 @@ def main():
         page.goto(BASE + "/products", wait_until="domcontentloaded", timeout=60000)
         page.wait_for_timeout(6000)
 
-        # paginate via Ant Design "next" button until disabled (cap 18 clicks)
-        for i in range(18):
+        # paginate via Ant Design "next" button until disabled (cap 80 clicks).
+        # NOTE (fix 2026-07-12): old code broke at >=214 items (stale target) → under-reported
+        # the real catalog by ~5x once it grew past ~1000 listings. Now paginate to exhaustion.
+        for i in range(80):
             nxt = page.locator("li.ant-pagination-next:not(.ant-pagination-disabled)")
             if nxt.count() == 0:
                 break
@@ -85,8 +87,6 @@ def main():
             except Exception:
                 break
             page.wait_for_timeout(2400)
-            if len(list_items) >= 214:
-                break
         try:
             page.screenshot(path=os.path.join(shots, "products_last_page.png"), full_page=False)
         except Exception:

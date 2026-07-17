@@ -1,0 +1,73 @@
+=== PUBLISH RUN BY-ID | target=15 | candidates=20 ===
+initial drafts (by asin): 450
+importing 20 missing candidates...
+  import B01IRHUV6A : ok
+  import B07GYLFFVR : ok
+  import B01G3WS3PW : ok
+  import B0BMVKG99Y : ok
+  import B0D66GVSCW : ok
+  import B08L36CVRJ : ok
+  import B0B99VKV8P : ok
+  import B0B5GR7X6D : ok
+  import B01MTT4K9C : ok
+  import B0CP3WQTY5 : ok
+  import B08C4KV8KG : ok
+  import B08JLB2PQ2 : ok
+  import B00SK6T8WW : ok
+  import B086VX9PCH : ok
+  import B0DFPHVNHG : ok
+  import B081YQBPSS : ok
+  import B0BW4FVBKZ : ok
+  import B09VXDMZ7D : ok
+  import B099RP3JTB : ok
+  import B0BK763YKN : ok
+drafts after imports (by asin): 450
+  [unconf] B07GYLFFVR | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  [unconf] B0D66GVSCW | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  [unconf] B08L36CVRJ | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  [unconf] B0B99VKV8P | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  [unconf] B01MTT4K9C | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  [unconf] B0CP3WQTY5 | RESULT: ABORT no-title-input
+  [unconf] B08C4KV8KG | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  [unconf] B08JLB2PQ2 | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  [unconf] B0DFPHVNHG | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  [unconf] B081YQBPSS | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  [unconf] B0BW4FVBKZ | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  [unconf] B09VXDMZ7D | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  [unconf] B099RP3JTB | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  pull_drafts empty (attempt 1/3) - retrying
+
+=== SUMMARY: publish-reported=0 | API-verified-left-drafts=12 | attempts=20 ===
+  B01IRHUV6A : skip-err1
+  B07GYLFFVR : unconfirmed
+  B01G3WS3PW : skip-err1
+  B0BMVKG99Y : skip-econ
+  B0D66GVSCW : unconfirmed
+  B08L36CVRJ : unconfirmed
+  B0B99VKV8P : unconfirmed
+  B0B5GR7X6D : skip-err1
+  B01MTT4K9C : unconfirmed
+  B0CP3WQTY5 : unconfirmed
+  B08C4KV8KG : unconfirmed
+  B08JLB2PQ2 : unconfirmed
+  B00SK6T8WW : skip-econ
+  B086VX9PCH : skip-econ
+  B0DFPHVNHG : unconfirmed
+  B081YQBPSS : unconfirmed
+  B0BW4FVBKZ : unconfirmed
+  B09VXDMZ7D : unconfirmed
+  B099RP3JTB : unconfirmed
+  B0BK763YKN : skip-err1
+RUN_RESULT verified=12

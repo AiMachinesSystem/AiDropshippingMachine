@@ -39,6 +39,24 @@ description: "Memoria interrogabile di tutti i run di ricerca. Ogni run di niche
 
 ---
 
+### `COMMODITY 8-NICHES — PROVEN LISTING PATTERN` (velvet hangers · over-door hooks · silicone trivet · shower curtain hooks · adhesive wall hooks · mesh laundry bags · silicone utensil set · ice cube tray)
+
+#### CANONE CORRENTE (run 2026-07-17, competitor-analysis v1 — QUERY MODE risponde SOLO da questa sezione)
+- last_run: 2026-07-17 · type: competitor-analysis v1 (eBay SOLD-comp, authenticated `read_ebay_sold.py`, read-only) · file: `10_OUTPUTS/COMPETITOR_ANALYSIS/2026-07-17_commodity-8niches_PROVEN-LISTING-PATTERN_v1.md`
+- market: PROVEN · confidence: HIGH (pattern+endings) / MED (medians) · basis: 85–110 sold prices/niche
+- **PROVEN PATTERN:** title = `[Type] + [Pack-count front-loaded] + [material] + [feature] + [use-case]`, brand-free
+- **WINNING PRICE ENDING: `.99`** (dominant 6/8; `.00` co-leads only where decorative/vintage skews — shower hooks, over-door hooks)
+- sold medians: velvet hangers $23.37 · utensil set $15.99 · trivet $14.08 · shower hooks $12.25 · over-door hooks $11.04 · ice tray $9.45 · mesh laundry $9.26 · adhesive hooks $9.23
+- SEO autocomplete (front-load): pack-count numbers, "heavy duty", "with lid", "delicates/zipper", "rustproof/non-slip"
+- key numbers: price at/just-under sold-median = Best-Match competitive band; above-median = punished
+- integrity flags: competitor sold listings carry FULL specifics + multi-photo = OUR leak (A2/B1) — replicate STRUCTURE only, never content (§8)
+- cache: `90_CACHE/fetches/ebay/sold_2026-07-17_18*`
+
+#### STORICO (superato da ...)
+<!-- primo run del blocco -->
+
+---
+
 ## PLATFORM / POLICY REFERENCE RUNS (non-niche)
 
 > Non-niche reference-data runs (policy/fee/feature). QUERY MODE: "what do we know about eBay/AutoDS

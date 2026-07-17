@@ -1,0 +1,222 @@
+=== PUBLISH RUN BY-ID | target=30 | candidates=86 ===
+initial drafts (by asin): 449
+importing 86 missing candidates...
+  import B07F8VXGK5 : ok
+  import B09SZ9T4MV : ok
+  import B0DY14SNFD : ok
+  import B0BQPSRLH5 : ok
+  import B07FY8QFQ1 : ok
+  import B0GRD57G3J : ok
+  import B0D4V9TC3X : ok
+  import B08NWXKXB6 : ok
+  import B09N1YC398 : ok
+  import B0CS61179K : ok
+  import B0GZ4MZKM1 : ok
+  import B0GL1BJKG9 : ok
+  import B0GFLQ5KSK : ok
+  import B0B3XBRH91 : ok
+  import B0F6HNS5P7 : ok
+  import B0D545JNDR : ok
+  import B0D7ZSQQ6H : ok
+  import B0CT275K84 : ok
+  import B0D21ZNFZF : ok
+  import B0CDKFT7M6 : ok
+  import B081DH7T5L : ok
+  import B0BBS67Y1H : ok
+  import B0DK19SY38 : ok
+  import B0FHWDBVN5 : ok
+  import B0D9K6CHPP : ok
+  import B09MJKJYLQ : ok
+  import B07Q8RX83N : ok
+  import B0CHZ69ZFN : ok
+  import B0CX49B2SJ : ok
+  import B08DKVZCBC : ok
+  import B08NCGLQNK : ok
+  import B07W4147KG : ok
+  import B07QKL1WRL : ok
+  import B0CBPFF73Y : ok
+  import B073F1TBMR : ok
+  import B07VZ5FVB1 : ok
+  import B0CYGPY2MB : ok
+  import B0CXF6WDKM : ok
+  import B01IR9VAOA : ok
+  import B07WPSK4WJ : ok
+  import B01C7P9JUM : ok
+  import B07GVNNN5N : ok
+  import B005E2QRPG : ok
+  import B00XSHEJ90 : ok
+  import B07CK2TJKL : ok
+  import B002UXQ7QQ : ok
+  import B01DIMTWCS : ok
+  import B079KZRN36 : ok
+  import B09NLLGMB8 : ok
+  import B0CBP47K1T : ok
+  import B07PP6VSCX : ok
+  import B08S35399Y : ok
+  import B0B7BFMHNF : ok
+  import B07FD1R6PV : ok
+  import B07MY14JN2 : ok
+  import B0DK1C23B5 : ok
+  import B07W6S46D4 : ok
+  import B0FMPD53D8 : ok
+  import B07HVQLCSY : ok
+  import B0CCDHLPTY : ok
+  import B07BV8NP6C : ok
+  import B083DN8KNB : ok
+  import B0BHYNJVQX : ok
+  import B08BLXD25D : ok
+  import B0CKMPXSQ4 : ok
+  import B0CXHWT63T : ok
+  import B08FT9KZY7 : ok
+  import B082VQBLL6 : ok
+  import B0CJVFCJXW : ok
+  import B0CFLTBL3Y : ok
+  import B0CKSDBMSX : ok
+  import B0B8KS6SPC : ok
+  import B0816RRR95 : ok
+  import B07Q24SM5F : ok
+  import B0B8LDV4D2 : ok
+  import B0BLH827VZ : ok
+  import B071FXZBMV : ok
+  import B07Y6HZFB3 : ok
+  import B072V1BYBF : ok
+  import B07RQCXCR2 : ok
+  import B0C2CWX2CQ : ok
+  import B0C3QZ7SNF : ok
+  import B0CQJWVP8B : ok
+  import B09476S9N7 : ok
+  import B0B3CT9PQH : ok
+  import B085NMLHP7 : ok
+drafts after imports (by asin): 450
+  [1 live] B09SZ9T4MV | Mesh Shower Caddy Portable Dorm 9-Pocket Hanging
+  [2 live] B0DY14SNFD | Portable Mesh Shower Caddy Dorm College Bathroom
+  [3 live] B0BQPSRLH5 | Mesh Shower Caddy Bag Portable Dorm Gym Travel Q
+  [4 live] B07FY8QFQ1 | Mesh Shower Caddy Portable Dorm 8-Pocket Large Q
+  [5 live] B08NWXKXB6 | Tea Infuser Travel Mug Stainless Steel Insulated
+  [6 live] B073F1TBMR | Cooling Towels 4 Pack Microfiber Ice Neck Towel 
+  [7 live] B07VZ5FVB1 | Cooling Towels 2 Pack Microfiber Ice Neck Towel 
+  [8 live] B0CYGPY2MB | Cooling Towels 4 Pack Microfiber Neck Face Gym T
+  [9 live] B0CXF6WDKM | Fabric Storage Cubes 6 Pack Foldable Storage Bin
+  [10 live] B01IR9VAOA | Foldable Fabric Storage Bins 6 Pack Stackable Or
+  [11 live] B07WPSK4WJ | Foldable Fabric Storage Bins 4 Pack Collapsible 
+  [12 live] B01C7P9JUM | Foldable Cube Storage Bins 6 Pack Collapsible Fa
+  [13 live] B07GVNNN5N | Collapsible Fabric Cube Storage Bins 6 Pack Fold
+  [14 live] B005E2QRPG | Reusable Mesh Produce Bags 9 Pack Washable See-T
+  [15 live] B00XSHEJ90 | Reusable Produce Bags 9 Pack Washable Mesh Groce
+  [16 live] B07CK2TJKL | Reusable Cotton Mesh Produce Bags 6 Pack Washabl
+  [17 live] B0CBP47K1T | Car Trunk Organizer 65L Collapsible with Lid SUV
+  [18 live] B08S35399Y | Packing Cubes 8 Set Travel Luggage Organizer Sui
+  [unconf] B0B7BFMHNF | entials,Anti-Wrinkle Buckled Suitc | len 194
+RESULT: ABORT title-over-80 len=194
+  [19 live] B0DK1C23B5 | Packing Cubes 12 Set Travel Suitcase Organizer w
+  [unconf] B0CCDHLPTY | RESULT: ABORT no-title-input
+  [20 live] B083DN8KNB | Microfiber Cleaning Cloths 8 Pack Lint-Free Stre
+  [21 live] B0BHYNJVQX | Microfiber Cleaning Cloths 24 Pack Lint-Free Str
+  [unconf] B08BLXD25D | RESULT: ABORT no-title-input
+  [22 live] B0CXHWT63T | Microfiber Cleaning Cloths 20 Pack Reusable Lint
+Exception in thread Thread-361 (_readerthread):
+Traceback (most recent call last):
+  File "C:\Users\lucad\AppData\Local\Programs\Python\Python312\Lib\threading.py", line 1075, in _bootstrap_inner
+    self.run()
+  File "C:\Users\lucad\AppData\Local\Programs\Python\Python312\Lib\threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\lucad\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 1599, in _readerthread
+    buffer.append(fh.read())
+                  ^^^^^^^^^
+  File "C:\Users\lucad\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x9d in position 27: character maps to <undefined>
+  [23 live] B0B8KS6SPC | Adjustable Drawer Dividers 5 Pack Expandable Org
+  pull_drafts empty (attempt 1/3) - retrying
+  pull_drafts empty (attempt 2/3) - retrying
+  pull_drafts empty (attempt 3/3) - retrying
+
+=== SUMMARY: publish-reported=23 | API-verified-left-drafts=82 | attempts=82 ===
+  B07F8VXGK5 : skip-err1
+  B09SZ9T4MV : PUBLISHED
+  B0DY14SNFD : PUBLISHED
+  B0BQPSRLH5 : PUBLISHED
+  B07FY8QFQ1 : PUBLISHED
+  B0GRD57G3J : skip-err1
+  B0D4V9TC3X : skip-econ
+  B08NWXKXB6 : PUBLISHED
+  B09N1YC398 : skip-err1
+  B0CS61179K : skip-econ
+  B0GZ4MZKM1 : skip-title-persist
+  B0GL1BJKG9 : skip-title-persist
+  B0GFLQ5KSK : skip-err1
+  B0B3XBRH91 : no-draft
+  B0F6HNS5P7 : skip-title-persist
+  B0D545JNDR : skip-title-persist
+  B0D7ZSQQ6H : skip-title-persist
+  B0CT275K84 : skip-err1
+  B0D21ZNFZF : skip-title-persist
+  B0CDKFT7M6 : skip-err1
+  B081DH7T5L : skip-econ
+  B0BBS67Y1H : skip-econ
+  B0DK19SY38 : skip-err1
+  B0FHWDBVN5 : skip-title-persist
+  B0D9K6CHPP : no-draft
+  B09MJKJYLQ : skip-err1
+  B07Q8RX83N : no-draft
+  B0CHZ69ZFN : skip-title-persist
+  B0CX49B2SJ : skip-title-persist
+  B08DKVZCBC : skip-title-persist
+  B08NCGLQNK : skip-title-persist
+  B07W4147KG : skip-title-persist
+  B07QKL1WRL : skip-title-persist
+  B0CBPFF73Y : skip-title-persist
+  B073F1TBMR : PUBLISHED
+  B07VZ5FVB1 : PUBLISHED
+  B0CYGPY2MB : PUBLISHED
+  B0CXF6WDKM : PUBLISHED
+  B01IR9VAOA : PUBLISHED
+  B07WPSK4WJ : PUBLISHED
+  B01C7P9JUM : PUBLISHED
+  B07GVNNN5N : PUBLISHED
+  B005E2QRPG : PUBLISHED
+  B00XSHEJ90 : PUBLISHED
+  B07CK2TJKL : PUBLISHED
+  B002UXQ7QQ : skip-econ
+  B01DIMTWCS : skip-title-persist
+  B079KZRN36 : skip-err1
+  B09NLLGMB8 : skip-title-persist
+  B0CBP47K1T : PUBLISHED
+  B07PP6VSCX : skip-econ
+  B08S35399Y : PUBLISHED
+  B0B7BFMHNF : unconfirmed
+  B07FD1R6PV : skip-err1
+  B07MY14JN2 : skip-econ
+  B0DK1C23B5 : PUBLISHED
+  B07W6S46D4 : skip-econ
+  B0FMPD53D8 : skip-err1
+  B07HVQLCSY : skip-econ
+  B0CCDHLPTY : unconfirmed
+  B07BV8NP6C : skip-err1
+  B083DN8KNB : PUBLISHED
+  B0BHYNJVQX : PUBLISHED
+  B08BLXD25D : unconfirmed
+  B0CKMPXSQ4 : skip-title-persist
+  B0CXHWT63T : PUBLISHED
+  B08FT9KZY7 : skip-econ
+  B082VQBLL6 : skip-title-persist
+  B0CJVFCJXW : skip-title-persist
+  B0CFLTBL3Y : no-draft
+  B0CKSDBMSX : skip-title-persist
+  B0B8KS6SPC : PUBLISHED
+  B0816RRR95 : skip-title-persist
+  B07Q24SM5F : skip-err1
+  B0B8LDV4D2 : skip-econ
+  B0BLH827VZ : skip-title-persist
+  B071FXZBMV : skip-err1
+  B07Y6HZFB3 : skip-err1
+  B072V1BYBF : skip-econ
+  B07RQCXCR2 : skip-title-persist
+  B0C2CWX2CQ : skip-err1
+  B0C3QZ7SNF : skip-err1
+  B0CQJWVP8B : skip-title-persist
+  B09476S9N7 : skip-title-persist
+  B0B3CT9PQH : skip-err1
+  B085NMLHP7 : skip-err1
+RUN_RESULT verified=82

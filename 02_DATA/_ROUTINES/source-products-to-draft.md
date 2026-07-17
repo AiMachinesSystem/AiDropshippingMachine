@@ -26,12 +26,19 @@ Registrata in `02_DATA/_ROUTINES/MASTER_ROUTINE.md` (INTENT MAP).
 ## Profilo prodotto (selezione)
 Preferisci: gadget problem-solving · leggero/economico da spedire · bassi resi · **VeRO-safe (nessun brand/personaggio)**. **Evita** abbigliamento (taglie/resi), oggetti fragili e compatibilita' critica (es. window cleaner = piu' resi).
 
-## Procedura (5 step)
+## Procedura (STEP 0 + 5 step)
+
+0. **WEB DEMAND DISCOVERY (interno, autonomo — SEMPRE per primo).** [correzione owner 2026-07-12, [[product-research-web-first]]]
+   La ricerca PARTE dal **web aperto**, non da AutoDS Marketplace/nostro store (che è solo il layer di sourcing/fulfillment). Con `WebSearch`/`WebFetch`:
+   - **Scopri la domanda ORA** — gerarchia evidenza: **Tier 1** Google Trends + Google "Summergeist"/Year-in-Search (rising-search = dato di Google) → **Tier 2** eBay high-demand guide + Watchlist Trend Report → **Tier 3** TikTok/Reddit/blog dropship (SOLO idee; i loro "$X profit" = marketing non verificato, mai citarli come margine).
+   - **Filtra per i nostri gate PRIMA di sourcing:** generico/VeRO-safe (scarta branded/IP: Rhode, Nike, LV, merch licenziato, telefoni flagship) · light-to-ship · resi bassi (evita fashion-sizing) · **costo ≤ ~55% del sold-median eBay** (così il markup AutoDS ~1.5× atterra ≤ mercato).
+   - **Output:** lista candidati demand-first (idea + tier fonte + prezzo eBay range + perché passa i gate). Solo QUESTI proseguono agli step 1-5.
+   - Modello di riferimento: `10_OUTPUTS/MARKET_RESEARCH_REPORTS/2026-07-12_web-led-demand-first_shortlist_v1.md`.
 
 1. **Anti-duplicato.** Leggi i draft gia' esistenti (`05_EXECUTION/EBAY_AUTODS_5_LISTING_LAUNCH/listings/drafts/*.md`, i `LISTING_COPY_*` e `TEMU_MANUAL_SHORTLIST_*`) ed escludi i prodotti gia' lavorati. I nuovi N devono essere diversi.
 
 2. **Ricerca + validazione domanda (interno, autonomo).** Per ogni candidato:
-   - **Domanda:** proxy di domanda da recensioni/sold (Temu/Amazon review count come proxy, eBay sold/active range). [PUBLIC RESEARCH] / [OBSERVED — url+data]. Conteggi = lower bound. Fetch "Sold" singolo eBay = muro noto → usa range + nota "confermare col filtro Sold".
+   - **Domanda:** parte dai segnali web dello **STEP 0** (Google Trends/Summergeist + eBay trend); poi rafforza con proxy recensioni/sold (Amazon review count, eBay sold/active range) [PUBLIC RESEARCH] / [OBSERVED — url+data]. Conteggi = lower bound. Fetch "Sold" singolo eBay = muro noto → usa range + `read_ebay_demand.py` (GO-light) per confermare sell-through prima del batch.
    - **Fonte + costo:** URL prodotto Amazon/AliExpress + costo [OBSERVED — url+data]. Costo volatile → "riverifica live prima di importare".
    - **Margine** [ESTIMATE dichiarato]: `prezzo eBay − costo fonte − fee eBay (~13,25% + $0,40)`.
    - **VeRO check:** titolo e descrizione senza brand/trademark/personaggi.

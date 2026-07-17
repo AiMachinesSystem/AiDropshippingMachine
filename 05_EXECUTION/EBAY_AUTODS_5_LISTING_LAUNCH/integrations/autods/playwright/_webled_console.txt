@@ -1,0 +1,24 @@
+=== PUBLISH RUN BY-ID | target=10 | candidates=7 ===
+initial drafts (by asin): 449
+importing 7 missing candidates...
+  import B092QN561D : ok
+  import B09ZPTTT1D : ok
+  import B0F21KB9NH : ok
+  import B0CYZXN11R : ok
+  import B08DG2NP14 : ok
+  import B0BXZ6JGL7 : ok
+  import B08C7GSXDM : ok
+drafts after imports (by asin): 449
+  [unconf] B08DG2NP14 | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  [1 live] B08C7GSXDM | Ice Globes for Face 2 Pack Facial Cooling Roller
+
+=== SUMMARY: publish-reported=1 | API-verified-left-drafts=2 | attempts=7 ===
+  B092QN561D : skip-econ
+  B09ZPTTT1D : skip-err1
+  B0F21KB9NH : skip-econ
+  B0CYZXN11R : skip-err1
+  B08DG2NP14 : unconfirmed
+  B0BXZ6JGL7 : skip-econ
+  B08C7GSXDM : PUBLISHED
+RUN_RESULT verified=2
