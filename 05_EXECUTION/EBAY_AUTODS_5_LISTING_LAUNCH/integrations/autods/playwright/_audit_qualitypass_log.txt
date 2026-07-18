@@ -1,0 +1,15 @@
+AUDIT run: 2026-07-18_111303
+captured list pages: 58 | unique products tallied: 1118 (target 214)
+top-level item keys: ['amount_of_variations', 'autods_store_id', 'category', 'configuration', 'days_left', 'dynamic_policy_enabled', 'dynamic_policy_gsp_enabled', 'dynamic_policy_handling_time', 'id', 'is_ai_generated', 'is_ai_generated_draft', 'item_id_on_site', 'main_picture_url', 'note', 'preview_url', 'sell_site_url', 'site_id', 'status', 'title', 'total_sold_count', 'upload_date', 'variation_statistics']
+status distribution: {2: 1098, 1: 20}
+products WITH error_list: 116
+error_type distribution: {5: 89, 3: 2, 6: 30, 4: 2}
+possible stock fields: []
+active listings with brand-term in title: 2
+    ['amazon basics'] Amazon Basics Height Adjustable Monitor Stand Rise
+    ['apple'] Apple Corer Tool Stainless Steel Core Remover for 
+
+DRAFTS scan:
+  'vero' mentions: 11
+  'alcohol' mentions: 2
+CACHE: C:\AI Machine ebay-autoDS\AiDropshippingMachine\90_CACHE\fetches\autods\audit_2026-07-18_111303

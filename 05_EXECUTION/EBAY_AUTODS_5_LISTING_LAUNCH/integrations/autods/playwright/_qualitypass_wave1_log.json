@@ -1,0 +1,29 @@
+{
+  "date": "2026-07-18",
+  "wave": "quality-pass wave 1 — de-brand + SEO winners (live titles)",
+  "method": "set_title_live_by_id.py, per-hex-id scoped, old-title verified each, data-first competitor sold-comp keywords",
+  "edits": [
+    {"id": "6916bacdbfa35653d8726259", "niche": "pool-chlorine-feeder", "sold": 3,
+     "old": "Hydrotools 8750 In Line Automatic Chlorine Feeder 9 lb Capacity Pool C...",
+     "new": "In Line Automatic Pool Chlorine Feeder 9 lb Capacity Chlorinator Inground",
+     "removed_brand": "Hydrotools 8750"},
+    {"id": "6a4b09e6d22a6109c6bb1116", "niche": "desk-mat", "sold": 1,
+     "old": "Lateefah Desk Mat, Extended Mouse Pad with Wrist Rest, 4-in-1 Large Mo...",
+     "new": "Extended Mouse Pad Large Desk Mat with Wrist Rest 4 in 1 Waterproof Office",
+     "removed_brand": "Lateefah"},
+    {"id": "6a4b072d98bd0c6ebe46ff76", "niche": "speaker-isolation-feet", "sold": 1,
+     "old": "Speaker Isolation Feet - 8-Pack 1.5\" Bigfoot Rubber Pads by Hudson Hi-...",
+     "new": "Speaker Isolation Feet 8 Pack Rubber Pads Anti-Vibration for Subwoofer HiFi",
+     "removed_brand": "Bigfoot / Hudson Hi-Fi"},
+    {"id": "6944511d81093377fd673cf4", "niche": "crochet-kit", "sold": 1,
+     "old": "Beginner Crochet Kit Make Snail Dora Amigurumi Plush DIY Starter Set V...",
+     "new": "Beginner Crochet Kit Snail Amigurumi DIY Starter Set with Yarn Hooks Animal",
+     "removed_brand": "Dora (IP)"},
+    {"id": "691a9595f73575cdb90297ce", "niche": "pc-display", "sold": 3,
+     "old": "Lian Li 8.8\" PC Display Universal - ARGB USB Screen Temp Monitor US88...",
+     "new": "8.8 Inch PC Display Screen ARGB USB IPS Secondary Monitor Temp AIDA64 Panel",
+     "removed_brand": "Lian Li"}
+  ],
+  "result": "5/5 PERSISTED True, each product verified by old-title match",
+  "competitor_data": "90_CACHE/fetches/ebay/sold_2026-07-18_11* (deck jet, dog ramp, ham maker, grooming loop, chlorine feeder, desk mat, speaker feet, crochet, pc display)"
+}
