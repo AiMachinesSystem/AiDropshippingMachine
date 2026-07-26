@@ -45,7 +45,32 @@ Registered competitor bands exist only for the winner niches (runs 2026-06-28/30
 General basis for +19%: registered pricing canon "live 27% markup ≈ 3× underpriced vs profit-max (optimal ≈ market price)" [OBSERVED — sim cycle-3, RESEARCH_MEMORY_INDEX] — direction supported; per-item cliffs only checkable where bands are registered.
 
 ## Amazon×Temu cross-check (Fase 3)
-See section appended after Fase 3.
+
+**Temu per-item prices = [UNKNOWN — WALL].** Product pages return "Security Verification" image-CAPTCHA via r.jina.ai proxy AND empty page via direct fetch (2 methods × 2 pages, 2026-07-26; cache `90_CACHE/fetches/temu/2026-07-26_*.txt`). Wall registered in VAULT_CONVENTIONS MURI NOTI (no retry before 2026-08-02). Per mission rule (≥2 failures → [UNKNOWN] + move on), no per-item Temu price comparison is possible this run.
+
+**What WAS verified publicly [OBSERVED — WebSearch site:temu.com, 2026-07-26]:** equivalent products exist on Temu for all 4 tested top-seller categories (pool jet fittings, dog water ramps, ham makers incl. same-spec "with thermometer" model, pet grooming loops) — the owner's premise (same products are on Temu) is CONFIRMED at existence level; price level [UNKNOWN]. LOW-SAMPLE: 4/15 categories searched.
+
+**Fallback margin cross-check (registered data only) — top-15 by lifetime sales.** Net = new×(1−13.6% FVF)−See section appended after Fase 3..40−buy (fee table [OBSERVED — 02_DATA/02_CLEANED_DATA/fee_table.md]); buy = registered Amazon source cost (snapshot 2026-07-18). Verdicts vs Amazon source cost, NOT vs Temu:
+
+| eBay item | Sold | cur (net now) | new (net after) | Net % | Verdict |
+|---|---|---|---|---|---|
+| 406382172143 Deck Jet | 6 | $137.98 ($22.35) | $164.99 ($45.69) | 27.7% | OK (margin healthy) — but see Fase-2 band BET |
+| 406174683287 Dog Ramp | 5 | $201.98 ($39.11) | $240.99 ($72.82) | 30.2% | OK — band BET |
+| 406103214230 Ham Maker thermo | 5 | $36.06 ($7.53) | $42.99 ($13.51) | 31.4% | OK |
+| 406247019968 Grooming Loops | 4 | $285.98 ($113.56) | $340.99 ($161.09) | 47.2% | DATA ANOMALY (buy $133.13) — verify supplier before apply |
+| 406391915026 Lian Li display | 3 | $127.00 ($24.34) | $151.99 ($45.93) | 30.2% | OK |
+| 406169382444 Dryer Balls | 3 | $22.98 ($8.46) | $27.99 ($12.79) | 45.7% | OK |
+| 406103169166 Ham Maker | 3 | $46.98 ($10.20) | $55.99 ($17.99) | 32.1% | OK |
+| 406382169074 Chlorine Feeder | 3 | $62.98 ($11.52) | $74.99 ($21.90) | 29.2% | OK |
+| 406092460312 Idler Pulley | 1 | $28.98 ($8.05) | $34.99 ($13.24) | 37.8% | OK |
+| 406149693790 Stock Tank Cover | 1 | $94.69 ($21.42) | $112.99 ($37.23) | 32.9% | OK — band BET |
+| 406149695098 Solar Tank Cover | 1 | $69.95 ($16.05) | $83.99 ($28.18) | 33.6% | OK — band BET |
+| 407007332522 Crochet Kit | 1 | $40.40 ($14.54) | $48.99 ($21.96) | 44.8% | OK |
+| 407051299917 Speaker Feet | 1 | $47.97 ($9.10) | $57.99 ($17.75) | 30.6% | OK |
+| 406174659709 Dog Life Jacket | 1 | $32.98 ($8.10) | $39.99 ($14.16) | 35.4% | OK |
+| 407051341407 Desk Mat | 1 | $35.97 ($7.69) | $42.99 ($13.75) | 32.0% | OK |
+
+**Reading:** at current prices the top-sellers net only $7–24 each (most 15–20% net); at +19% all 15 land in the 27–47% net band — consistent with the registered arbitrage ceiling ≈30–42% [OBSERVED — RESEARCH_MEMORY_INDEX canon]. None goes negative; none is "STILL UNDERPRICED" vs the Amazon-source math. The `OVERPRICED vs market` risk sits only on the 6 Fase-2 band BETs. Temu-based verdicts remain [UNKNOWN] until the wall falls or the owner provides a Temu read.
 
 ## Full per-item list (eBay item | ASIN | cur | new | delta | sold)
 ```
@@ -1148,4 +1173,5 @@ See section appended after Fase 3.
 406092460312 | B082RQVY6V |    28.98 |    34.99 | +  6.01 | 1
 406092459629 | B0D8KVQZ3S |    20.98 |    24.99 | +  4.01 | 0
 ```
+
 

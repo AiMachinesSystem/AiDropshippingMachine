@@ -57,6 +57,7 @@ ogni bump).
 | `ebay.com/itm/<itemID>` | 2026-06-28 (r.jina.ai proxy) | 403 Forbidden su tutti i /itm/ singoli. Pagine /p/ (product catalog) funzionano parzialmente. Non riprovare prima di 2026-07-05. |
 | `camelcamelcamel.com` | 2026-06-28 (r.jina.ai proxy) | Security verification block (Cloudflare). Dati prezzi non accessibili. |
 | `walmart.com/search` | 2026-06-28 (r.jina.ai proxy) | CAPTCHA / robot check. Nessun dato prodotto. |
+| `temu.com` product pages `-g-<id>.html` | 2026-07-26 (r.jina.ai proxy + WebFetch diretto, 2 metodi × 2 pagine) | "Security Verification" CAPTCHA immagini su ogni pagina prodotto; WebFetch = pagina vuota. Prezzi NON accessibili. Le SERP (WebSearch site:temu.com) funzionano ma senza prezzi negli snippet. Cache: `90_CACHE/fetches/temu/2026-07-26_*.txt`. Non riprovare prima di 2026-08-02. |
 
 ## VERSIONI SKILL
 
