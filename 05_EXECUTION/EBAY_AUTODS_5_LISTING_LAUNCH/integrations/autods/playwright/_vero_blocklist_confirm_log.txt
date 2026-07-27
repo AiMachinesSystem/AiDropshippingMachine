@@ -1,0 +1,14 @@
+﻿landed: https://platform.autods.com/settings/keywords | keywords page reached: True
+BEFORE — list empty? True
+   BEFORE contains 'Best Pet Supplies': False
+   BEFORE contains 'Catify': False
+dialog opened: True
+dialog probe: {'modal': True, 'inputs': [{'tag': 'TEXTAREA', 'type': 'textarea', 'ph': 'Keyword1\nKeyword2\nKeyword3\n', 'cls': 'ant-input css-q4ucgx ant-input-outlined'}, {'tag': 'INPUT', 'type': 'search', 'ph': '', 'cls': 'ant-select-selection-search-input'}, {'tag': 'INPUT', 'type': 'search', 'ph': '', 'cls': 'ant-select-selection-search-input'}, {'tag': 'INPUT', 'type': 'search', 'ph': '', 'cls': 'ant-select-selection-search-input'}], 'buttons': ['Cancel', 'Save'], 'text': "Add Keywords Keyword list If keyword appears in the product's title Do nothing If keyword appears in the product's description Do nothing If keyword appears in the product's manufacturer Do nothing Cancel Save"}
+   keywords filled: ['Best Pet Supplies', 'Catify']
+   rule[0] set to: Don't upload the product
+   rule[1] set to: Don't upload the product
+   rule[2] set to: Don't upload the product
+save clicked: True
+   AFTER contains 'Best Pet Supplies': True
+   AFTER contains 'Catify': True
+POST-STATE VERIFIED: True

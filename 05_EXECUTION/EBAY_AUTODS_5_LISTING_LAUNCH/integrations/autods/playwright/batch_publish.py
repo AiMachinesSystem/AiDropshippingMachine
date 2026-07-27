@@ -71,6 +71,7 @@ def gen_desc(title, niche):
 def run(cmd, timeout):
     try:
         r = subprocess.run(cmd, capture_output=True, text=True, timeout=timeout,
+                           encoding="utf-8", errors="replace",
                            env={**os.environ, "PYTHONIOENCODING": "utf-8"})
         return (r.stdout or "") + (r.stderr or "")
     except subprocess.TimeoutExpired:

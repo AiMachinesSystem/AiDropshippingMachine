@@ -1,0 +1,7 @@
+﻿landed: https://platform.autods.com/settings/keywords
+BEFORE — list empty? True
+   BEFORE contains 'Best Pet Supplies': False
+   BEFORE contains 'Catify': False
+dialog opened: True
+dialog probe: {'modal': True, 'inputs': [{'tag': 'TEXTAREA', 'type': 'textarea', 'ph': 'Keyword1\nKeyword2\nKeyword3\n', 'cls': 'ant-input css-q4ucgx ant-input-outlined'}, {'tag': 'INPUT', 'type': 'search', 'ph': '', 'cls': 'ant-select-selection-search-input'}, {'tag': 'INPUT', 'type': 'search', 'ph': '', 'cls': 'ant-select-selection-search-input'}, {'tag': 'INPUT', 'type': 'search', 'ph': '', 'cls': 'ant-select-selection-search-input'}], 'buttons': ['Cancel', 'Save'], 'text': "Add Keywords Keyword list If keyword appears in the product's title Do nothing If keyword appears in the product's description Do nothing If keyword appears in the product's manufacturer Do nothing Cancel Save"}
+DRY-RUN — nothing saved.

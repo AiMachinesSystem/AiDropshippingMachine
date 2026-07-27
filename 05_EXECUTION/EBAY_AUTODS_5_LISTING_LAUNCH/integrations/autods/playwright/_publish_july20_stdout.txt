@@ -1,0 +1,51 @@
+=== PUBLISH BACKLOG | target=36 | pool=55 ===
+draft census before: 2103 ids
+  [1 live] B0CCDHLPTY | Reusable Silicone Food Storage Bags 10 Pack Leak
+  [2 live] B098WX915Q | Mesh Laundry Bags 5 Pack for Delicates Lingerie 
+  [3 live] B08VJ2ZB4J | Cat Pom Pom Balls 12 Pack Large Fuzzy Plush Cat 
+  [4 live] B08NCGLQNK | Reusable Silicone Stretch Lids 14 Pack Bowl Cove
+  [5 live] B0CKMPXSQ4 | Microfiber Cleaning Cloths 24 Pack Lint-Free Str
+  [6 live] B082XRB79L | Bamboo Dish Scrub Brush Set Wooden Kitchen Clean
+  [7 live] B0C5WY52B6 | Insulated Food Jar 10 oz Kids Soup Container Hot
+  [8 live] B0876ZL4NN | Picture Hanging Hooks 50 Pack Assorted Nail Hang
+  [9 live] B07JVGJD1M | Vacuum Sealer Bags 4x6 Inch Pre-Cut Heavy Duty C
+  [10 live] B0D7ZSQQ6H | Grip Strength Trainer 5 Pack Adjustable Forearm 
+  [11 live] B08L3TXWZP | Watering Can 1.8L Indoor Plants Small Long Spout
+  [unconf] B09DYJ7GNJ | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  [12 live] B07B3QRNVN | Produce Bags on a Roll 350 Count 12x16 Inch Clea
+  [13 live] B08S3CYPVS | Fabric Squares 30 Pack 8x10 Inch Cotton Craft Qu
+  [14 live] B0CDLDPXQ3 | Serving Trays with Lids 6 Pack 13 Inch Reusable 
+  [15 live] B07Y9B8Z7T | Waterproof Fabric Shower Curtain Liner Machine W
+  [16 live] B0BCV1RB8P | Over The Door Shoe Organizer 35 Large Pockets St
+  [unconf] B08HHXDDPC | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  [17 live] B0F32FS6LY | Electronics Organizer Travel Case Cable Accessor
+  [18 live] B0179Q4Y9U | Jigsaw Puzzle 1000 Pieces for Adults Large Forma
+  [19 live] B07G3ZQ3MH | 3 Way LED Light Bulbs 4 Pack 30 70 100W Replacem
+  [20 live] B08CT5RBYC | Privacy Sliding Door Lock with Pull Replace Old 
+  [21 live] B01DID2TN6 | Blackout Curtains 42 x 63 Inch Set of 2 Panels B
+  [22 live] B003XCVR86 | Silicone Tray Small Vanity Organizer Spoon Rest 
+  [23 live] B08QHVCFH8 | 150 Watt Light Bulb 2600LM Super Bright Warm Whi
+  [24 live] B07X8N2G5C | Moon Lamp Kids Night Light Galaxy Lamp 16 Colors
+  [25 live] B08H23L89Q | Parchment Paper Baking Sheets 220 Pack 9x13 Inch
+  [26 live] B0B2W8V66J | Grow Light for Indoor Plants Full Spectrum LED P
+  [27 live] B0CRGTBPFG | Wall Mount Broom and Mop Holder Heavy Duty Recta
+  [28 live] B07B4Q2W54 | Fleece Throw Blanket Navy Blue Soft Lightweight 
+  [unconf] B0922RSP2X | : []
+RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)
+  [29 live] B0895BQR5Z | Heavy Duty S Hooks Matte Black S Shaped Hanging 
+  [30 live] B07D9HJ4XW | Glass Test Tubes 25 Pack 50ml with Cork Stoppers
+  [31 live] B08LMT437Y | Clear Makeup Bags Set of 9 TSA Approved Toiletry
+  [32 live] B09ZH6SY3T | Brushed Gold Toilet Paper Holder 304 Stainless S
+  [33 live] B083VR9FHQ | Healing Fleece Blanket Get Well Soon Gift Soft H
+  [34 live] B0D45BZ9J6 | Lunch Bag for Women Reusable Drawstring Insulate
+  [35 live] B0FKN84BJ9 | Large Corduroy Tote Bag for Women Cute Shoulder 
+  [36 live] B0FYDS367Z | Makeup Bags 20 Pack Canvas Cosmetic Bags with Zi
+
+=== SUMMARY: publish-reported=36 | API-verified-left-drafts=30 | attempts=40 ===
+  PUBLISHED: 36
+  unconfirmed: 3
+  gone-already: 1
+  skip-title-persist: 1
+RUN_RESULT verified=30

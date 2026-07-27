@@ -35,7 +35,11 @@ def gen_desc(title, niche):
 
 def run(cmd, t=180):
     try:
+        # E-028: children print supplier titles that contain bytes outside cp1252; text=True would
+        # decode with the Windows locale codec, kill the pipe reader thread and stall the child
+        # until the timeout. Always decode as utf-8 with replacement.
         r = subprocess.run(cmd, capture_output=True, text=True, timeout=t,
+                           encoding="utf-8", errors="replace",
                            env={**os.environ, "PYTHONIOENCODING": "utf-8"})
         return (r.stdout or "") + (r.stderr or "")
     except subprocess.TimeoutExpired:
@@ -108,7 +112,7 @@ def main():
     before = draft_ids()
     L("draft census before: %d ids" % len(before))
 
-    published = 0; attempts = 0; results = []
+    published = 0; attempts = 0; results = []; quota_streak = 0
     for c in pool:
         if published >= args.target or attempts >= args.max_attempts:
             break
@@ -124,15 +128,30 @@ def main():
         df = os.path.join(HERE, "_bk_desc_%s.html" % did)
         open(df, "w", encoding="utf-8").write(gen_desc(seo, c.get("niche", "storage")))
         run([PY, os.path.join(HERE, "manage_draft.py"), "set-desc", "--id", did, "--desc-file", df], 150)
-        guard = " ".join(re.findall(r"[A-Za-z0-9]+", seo.lower())[:2])
+        # E-029: the guard must be a literal substring of the on-page title. Alphanumeric runs
+        # break on punctuation ("27.9" -> "27 9", "2026-2027" -> "2026 2027") and never match,
+        # aborting good drafts. Use the first two ALPHABETIC words (>=3 chars) instead.
+        words = [w for w in re.findall(r"[A-Za-z]{3,}", seo.lower())][:2]
+        guard = " ".join(words) if len(words) == 2 else seo.lower()[:12]
         pub = run([PY, os.path.join(HERE, "publish_one_draft.py"), did, guard], 200)
         if "BLOCKED-EBAY-RESTRICTION" in pub:
             L("  [%s] BLOCKED eBay restriction -> STOP." % asin); results.append((asin, "BLOCKED")); break
         if "RESULT: PUBLISHED" in pub:
-            published += 1; results.append((asin, "PUBLISHED"))
+            published += 1; quota_streak = 0; results.append((asin, "PUBLISHED"))
             L("  [%d live] %s | %s" % (published, asin, seo[:48]))
         else:
-            results.append((asin, "unconfirmed")); L("  [unconf] %s | %s" % (asin, pub.strip()[-80:]))
+            # E-027: the real eBay error now comes back in the RESULT line (read from error_list).
+            # "usage limit" = eBay API quota of the AutoDS app: transient but pointless to hammer.
+            low = pub.lower()
+            if "usage limit" in low or "temporarily unavailable" in low:
+                quota_streak += 1
+                results.append((asin, "ebay-api-quota"))
+                L("  [quota %d] %s | eBay API limit/unavailable" % (quota_streak, asin))
+                if quota_streak >= 5:
+                    L("  !! eBay API limit persists (5 in a row) -> STOP, resume later"); break
+            else:
+                quota_streak = 0
+                results.append((asin, "unconfirmed")); L("  [unconf] %s | %s" % (asin, pub.strip()[-90:]))
         try:
             os.remove(df)
         except OSError:

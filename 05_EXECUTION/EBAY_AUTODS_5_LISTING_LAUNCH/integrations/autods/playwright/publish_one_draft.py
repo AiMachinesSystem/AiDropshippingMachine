@@ -54,17 +54,38 @@ with sync_playwright() as p:
     print("MESSAGES:", json.dumps(msgs, ensure_ascii=False))
     pg.wait_for_timeout(16000)
 
-    # verify whether it left the drafts list
-    pg.goto(BASE+"/upload", wait_until="domcontentloaded", timeout=60000); pg.wait_for_timeout(8000)
-    try: pg.get_by_text(re.compile(r"^\s*Expand all\s*$",re.I)).first.click(timeout=3000); pg.wait_for_timeout(2000)
-    except Exception: pass
-    still=pg.evaluate(r"""(g) => !![...document.querySelectorAll("input[placeholder='Title']")].find(i=>i.value.toLowerCase().includes(g))""", GUARD)
-    err_text=" ".join(msgs).lower()
-    restricted = ("restriction" in err_text or "policy" in err_text or "cannot be listed" in err_text or "can not be listed" in err_text or "violation" in err_text)
-    if not still:
-        print("RESULT: PUBLISHED (left drafts)")
+    # VERIFY via the PAGINATED products/list API, never via the visible UI page (E-027):
+    # with 2000+ drafts an item absent from the first page is NOT proof of publish.
+    # If it is still a draft, its error_list carries the REAL eBay error (the toast is usually gone).
+    cap={}
+    pg.on("request", lambda r: cap.update({"url":r.url,"headers":dict(r.headers),"body":r.post_data})
+          if ("/products/" in r.url and "/list/" in r.url and r.method=="POST" and not cap) else None)
+    pg.goto(BASE+"/upload", wait_until="domcontentloaded", timeout=60000); pg.wait_for_timeout(9000)
+    item=None; scanned=False
+    if cap:
+        hdr={k:v for k,v in cap["headers"].items()
+             if k.lower() in ("authorization","content-type","accept","origin","referer")}
+        body=json.loads(cap["body"]); scanned=True
+        for off in range(0,3000,300):
+            body["limit"]=300; body["offset"]=off
+            try: data=pg.request.post(cap["url"], data=json.dumps(body), headers=hdr).json()
+            except Exception: scanned=False; break
+            items=data.get("results") or []
+            if isinstance(items,dict): items=items.get("results",[])
+            if not items: break
+            for it in items:
+                if str(it.get("id"))==DRAFT_ID: item=it; break
+            if item or len(items)<300: break
+    errs=(item or {}).get("error_list") or []
+    err_text=(" ".join(msgs)+" "+" ".join(e.get("message","") for e in errs)).lower()
+    restricted = ("restriction on your ebay account" in err_text or "selling policy" in err_text
+                  or "cannot be listed" in err_text or "can not be listed" in err_text)
+    if not scanned:
+        print("RESULT: UNVERIFIED (products/list API not captured — do NOT count as published)")
+    elif item is None:
+        print("RESULT: PUBLISHED (id no longer in drafts, API-verified)")
     elif restricted:
-        print("RESULT: BLOCKED-EBAY-RESTRICTION (still in drafts; policy/restriction message)")
+        print("RESULT: BLOCKED-EBAY-RESTRICTION | %s" % json.dumps(errs, ensure_ascii=False)[:300])
     else:
-        print("RESULT: UNCONFIRMED (still in drafts, no explicit restriction msg captured)")
+        print("RESULT: NOT-PUBLISHED (still a draft) | %s" % (json.dumps(errs, ensure_ascii=False)[:300] or "no error_list"))
     b.close()
