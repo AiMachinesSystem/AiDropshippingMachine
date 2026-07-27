@@ -53,6 +53,8 @@ ogni bump).
 
 | Muro | Ultima verifica | Esito |
 |---|---|---|
+| eBay **Seller Hub** (`/sh/performance/traffic`, `/sh/performance`, `/sh/lst/active`) | 2026-07-27 (sessione autenticata valida, 3 URL) | **CAPTCHA wall**: tutti e 3 gli URL reindirizzano a `ebay.com/splashui/captcha?ap=1&appName=orch` (body 821 char). La sessione NON è scaduta (la ricerca pubblica con la stessa sessione risponde "Hi Luca!"): è Seller Hub in sé a bloccare l'accesso automatico. **Conseguenza: impressions / click / CTR / sales-conversion dei NOSTRI listing non sono leggibili da script** — vanno letti a mano dall'owner. Cache: `90_CACHE/fetches/ebay/traffic_2026-07-27/`. Non riprovare prima di 2026-08-03. |
+| eBay ricerca pubblica SOLD (`/sch/i.html?...&LH_Sold=1`) con sessione | 2026-07-27 | **FUNZIONA** (≠ muro). I selettori CSS `li.s-item` sono però OBSOLETI (0 righe parsate): parsare dal **testo** della pagina sui blocchi `Sold <data>` → titolo → primo prezzo. Cache: `90_CACHE/fetches/ebay/pricecheck_2026-07-27/`. |
 | `amazon.com` product pages `/dp/<ASIN>` | 2026-06-28 (r.jina.ai proxy, 10+ tentativi) | CAPTCHA sistematico su tutte le pagine prodotto — prezzi non accessibili; search pages a volte 503. 3 fetch parziali (dati non-prezzo). Non riprovare prima di 2026-07-05. |
 | `ebay.com/itm/<itemID>` | 2026-06-28 (r.jina.ai proxy) | 403 Forbidden su tutti i /itm/ singoli. Pagine /p/ (product catalog) funzionano parzialmente. Non riprovare prima di 2026-07-05. |
 | `camelcamelcamel.com` | 2026-06-28 (r.jina.ai proxy) | Security verification block (Cloudflare). Dati prezzi non accessibili. |
