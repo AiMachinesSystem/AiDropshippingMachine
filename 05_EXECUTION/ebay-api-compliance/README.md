@@ -37,9 +37,28 @@ POST /   -> 204   (eBay accetta 200/201/202/204)
 GET  /   -> 200 "ok"  (health)
 ```
 
-Nota: la porta 8000 su questa macchina è occupata da Docker Desktop
-(`com.docker.backend`). Il primo test interrogava la UI di Docker, non l'endpoint.
-Usare `PORT` per i test locali.
+Nota: la porta 8000 su questa macchina è occupata dal container **SurrealDB di
+open-notebook** (`open-notebook-surrealdb-1`, pubblicato da Docker su
+`127.0.0.1:8000`; il listener risulta di `com.docker.backend`, che è il proxy di
+porta). Il primo test interrogava quella UI, non l'endpoint. Usare `PORT` per i
+test locali.
+
+## ⚠️ PRIMA DI DEPLOYARE — potrebbe non servire
+
+Verificato 2026-08-14 nella memoria di questa macchina: il path **AutoDS è già
+operativo e ha già eseguito write live su eBay** senza alcun keyset eBay Developer
+— reprice (`PUT v2-api.autods.com/products/3713044/bulk`), update prodotto completo
+(`PUT .../product/<hex>/`), delete (`DELETE .../bulk`), ricerca marketplace
+(`POST gw.autods.com/marketplace/api/products/`), auth Bearer da sessione Playwright
+salvata. 1098 listing live gestiti così.
+[OBSERVED — MASTER_DASHBOARD.md, ERROR_REGISTRY.md E-032, MISSION_DEADCLEAN_TOP50,
+MISSION_APPLY_REPRICE_AND_CLEANUP_RUN_LOG, RESEARCH_MEMORY_INDEX:121]
+
+Quindi "Claude crea e gestisce gli annunci" **non richiede** questo endpoint. Il
+keyset eBay Developer serve solo per ciò che AutoDS non copre (API eBay dirette,
+Terapeak, dati ordine da eBay, indipendenza dall'abbonamento AutoDS). Deployare
+questo endpoint significa accettare un obbligo di uptime e un obbligo legale di
+cancellazione dati: farlo solo se quella capacità extra serve davvero.
 
 ## Deploy
 
