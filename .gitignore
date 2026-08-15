@@ -6,6 +6,7 @@ Thumbs.db
 
 # --- dipendenze locali ---
 node_modules/
+.worktrees/
 
 # --- scratch effimero (script usa-e-getta, NON versionato; tieni solo il README) ---
 /_tmp/*
