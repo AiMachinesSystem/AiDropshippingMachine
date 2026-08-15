@@ -55,15 +55,27 @@ Deno.serve({ port: PORT }, async (req: Request) => {
       return new Response("ok", { status: 200 });
     }
 
-    if (!VERIFICATION_TOKEN || !ENDPOINT_URL) {
-      console.error("EBAY_VERIFICATION_TOKEN / EBAY_ENDPOINT_URL not set");
+    if (!VERIFICATION_TOKEN) {
+      console.error("EBAY_VERIFICATION_TOKEN not set");
       return new Response("endpoint not configured", { status: 500 });
     }
+
+    // The hash must use the endpoint URL exactly as registered with eBay.
+    // EBAY_ENDPOINT_URL wins when set; otherwise derive it from the request eBay
+    // actually made (origin + path, query string stripped). The fallback breaks
+    // the chicken-and-egg at first deploy — the public URL is not known until
+    // the service exists — and removes a whole class of copy-paste mismatches.
+    const effectiveEndpoint = ENDPOINT_URL || `${url.origin}${url.pathname}`;
 
     const challengeResponse = await sha256Hex(
       challengeCode,
       VERIFICATION_TOKEN,
-      ENDPOINT_URL,
+      effectiveEndpoint,
+    );
+
+    console.log(
+      `challenge ok · endpoint used for hash: ${effectiveEndpoint} ` +
+        `(${ENDPOINT_URL ? "from env" : "derived from request"})`,
     );
 
     // JSON.stringify, never hand-built string: a BOM makes the body invalid JSON
