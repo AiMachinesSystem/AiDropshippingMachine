@@ -1,0 +1,3 @@
+# Secrets and transient OAuth state — never commit.
+.env.local
+*.local
