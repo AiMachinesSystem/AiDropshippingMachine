@@ -74,10 +74,9 @@ export async function readBootstrap(
   const blockers: string[] = [];
 
   const privilegePage = await safeRead(client, "/sell/account/v1/privilege");
-  const privileges = (privilegePage?.["privileges"] ?? []) as Array<
-    Record<string, unknown>
-  >;
-  if (!Array.isArray(privileges) || privileges.length === 0) {
+  const sellerRegistrationCompleted =
+    privilegePage?.["sellerRegistrationCompleted"] === true;
+  if (!sellerRegistrationCompleted) {
     blockers.push("PRIVILEGE_MISSING");
   }
 
@@ -133,7 +132,7 @@ export async function readBootstrap(
     ready: blockers.length === 0,
     blockers,
     sellerUsername: undefined,
-    privileges,
+    sellerRegistrationCompleted,
     paymentPolicyIds,
     fulfillmentPolicyIds,
     returnPolicyIds,

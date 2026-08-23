@@ -44,3 +44,24 @@ Deno.test("loadConfig names missing required secrets without their values", () =
     "EBAY_CLIENT_SECRET",
   );
 });
+
+Deno.test("loadConfig tolerates an empty refresh token before oauth-exchange", () => {
+  const config = loadConfig(
+    { ...PRODUCTION_ENV, EBAY_REFRESH_TOKEN: "" },
+    { requireRefreshToken: false },
+  );
+  assertEquals(config.refreshToken, "");
+  assertEquals(config.clientId, "client");
+});
+
+Deno.test("loadConfig still rejects a missing client secret when refresh token is optional", () => {
+  assertThrows(
+    () =>
+      loadConfig(
+        { ...PRODUCTION_ENV, EBAY_CLIENT_SECRET: "", EBAY_REFRESH_TOKEN: "" },
+        { requireRefreshToken: false },
+      ),
+    Error,
+    "EBAY_CLIENT_SECRET",
+  );
+});

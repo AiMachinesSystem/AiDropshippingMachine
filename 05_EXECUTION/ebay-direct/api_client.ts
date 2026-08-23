@@ -110,6 +110,7 @@ export class EbayApiClient {
     const headers: Record<string, string> = {
       "Authorization": `Bearer ${token}`,
       "Content-Language": this.locale,
+      "Accept-Language": this.locale,
       "X-EBAY-C-MARKETPLACE-ID": this.marketplaceId,
     };
     if (req.body !== undefined) {

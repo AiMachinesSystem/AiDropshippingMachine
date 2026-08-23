@@ -152,7 +152,9 @@ export async function main(argv: string[]): Promise<void> {
 
   switch (command) {
     case "oauth-start": {
-      const config = loadConfig(await loadEnvLocal());
+      const config = loadConfig(await loadEnvLocal(), {
+        requireRefreshToken: false,
+      });
       const state = createOAuthState();
       const url = buildConsentUrl(config, state);
       await Deno.writeTextFile(
@@ -164,7 +166,9 @@ export async function main(argv: string[]): Promise<void> {
     }
 
     case "oauth-exchange": {
-      const config = loadConfig(await loadEnvLocal());
+      const config = loadConfig(await loadEnvLocal(), {
+        requireRefreshToken: false,
+      });
       const stateJson = JSON.parse(
         await Deno.readTextFile(".oauth-state.local"),
       );

@@ -38,7 +38,7 @@ export interface AccountBootstrap {
   ready: boolean;
   blockers: string[];
   sellerUsername?: string;
-  privileges: Array<Record<string, unknown>>;
+  sellerRegistrationCompleted: boolean;
   paymentPolicyIds: string[];
   fulfillmentPolicyIds: string[];
   returnPolicyIds: string[];

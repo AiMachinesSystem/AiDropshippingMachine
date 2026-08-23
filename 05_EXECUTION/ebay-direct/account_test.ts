@@ -21,7 +21,7 @@ function fakeClient(routes: Record<string, unknown>): EbayApiClient {
 
 const FULL_BOOTSTRAP: Record<string, unknown> = {
   "/sell/account/v1/privilege": {
-    privileges: [{ privilege: "sell" }],
+    sellerRegistrationCompleted: true,
   },
   "/sell/account/v1/payment_policy?marketplace_id=EBAY_US": {
     paymentPolicies: [{ paymentPolicyId: "PP1" }],

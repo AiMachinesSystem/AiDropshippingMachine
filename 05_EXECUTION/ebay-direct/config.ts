@@ -14,6 +14,7 @@ const SANDBOX_MARKERS = ["sandbox", "api.sandbox.ebay.com"];
  */
 export function loadConfig(
   env: Record<string, string | undefined>,
+  opts: { requireRefreshToken?: boolean } = {},
 ): EbayConfig {
   const clientId = env["EBAY_CLIENT_ID"] ?? "";
   const clientSecret = env["EBAY_CLIENT_SECRET"] ?? "";
@@ -42,7 +43,9 @@ export function loadConfig(
     ["EBAY_CLIENT_ID", clientId],
     ["EBAY_CLIENT_SECRET", clientSecret],
     ["EBAY_RUNAME", ruName],
-    ["EBAY_REFRESH_TOKEN", refreshToken],
+    ...(opts.requireRefreshToken === false
+      ? []
+      : [["EBAY_REFRESH_TOKEN", refreshToken] as const]),
   ].filter(([, value]) => value.length === 0).map(([key]) => key);
 
   if (missing.length > 0) {

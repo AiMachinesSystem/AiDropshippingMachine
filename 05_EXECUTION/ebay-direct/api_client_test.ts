@@ -147,3 +147,21 @@ Deno.test("EbayApiError exposes status, ids, domains and categories", async () =
   assertEquals(err.categories, ["APPLICATION"]);
   assertEquals(err.message, "SKU already exists");
 });
+
+Deno.test("request sends Accept-Language header (regression: eBay error 25709)", async () => {
+  let capturedHeaders: Record<string, string> | undefined;
+  const fetcher = ((
+    _url: string | URL | Request,
+    init?: RequestInit,
+  ) => {
+    capturedHeaders = init?.headers as Record<string, string>;
+    return Promise.resolve(ok({ ok: true }));
+  }) as unknown as typeof fetch;
+  const client = makeClient(fetcher, { locale: "en-US" });
+  await client.request<{ ok: boolean }>({
+    method: "GET",
+    path: "/sell/inventory/v1/inventory_item?limit=100",
+    write: false,
+  });
+  assertEquals(capturedHeaders?.["Accept-Language"], "en-US");
+});

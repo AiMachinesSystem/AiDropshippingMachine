@@ -12,7 +12,7 @@ function validBootstrap(
     ready: true,
     blockers: [],
     sellerUsername: undefined,
-    privileges: [{ privilege: "sell" }],
+    sellerRegistrationCompleted: true,
     paymentPolicyIds: ["PP1"],
     fulfillmentPolicyIds: ["FP1"],
     returnPolicyIds: ["RP1"],
