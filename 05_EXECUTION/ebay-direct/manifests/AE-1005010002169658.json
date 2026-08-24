@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "sku": "AE-1005010002169658",
+  "marketplaceId": "EBAY_US",
+  "product": {
+    "title": "Folding Charcoal Barbecue Grill Firewood Stove Portable",
+    "description": "Folding Charcoal Barbecue Grill Firewood Stove Portable.\n\nWHAT YOU GET\n• 1x charcoal grill, new, in supplier packaging\n\nShips from a US warehouse. Estimated delivery within 10 business days. 30-day returns.",
+    "aspects": {
+      "Brand": [
+        "Unbranded"
+      ],
+      "Type": [
+        "Charcoal Grill"
+      ]
+    },
+    "imageUrls": [
+      "https://ae01.alicdn.com/kf/Sebd1bc9f1d1f4a44bee0fcc8e286d39bS.jpg",
+      "https://ae01.alicdn.com/kf/S44567e39072b4860833de0a1d71f9877L.jpg",
+      "https://ae01.alicdn.com/kf/S4d912abe5146417b828583b139fad7b0M.jpg",
+      "https://ae01.alicdn.com/kf/S03aaba7ed3c146528bd69181b5306311x.jpg"
+    ]
+  },
+  "condition": "NEW",
+  "categoryId": "151621",
+  "quantity": 3,
+  "price": {
+    "value": "104.97",
+    "currency": "USD"
+  },
+  "merchantLocationKey": "US-WAREHOUSE",
+  "policies": {
+    "payment": "282011576018",
+    "fulfillment": "282011584018",
+    "return": "282011577018"
+  },
+  "evidence": {
+    "supplierUrl": "https://www.aliexpress.com/item/1005010002169658.html",
+    "sourceCheckedAt": "2026-08-24T08:10:00Z",
+    "stockObserved": 1,
+    "supplierCostUsd": "41.90",
+    "deliveryLatestDays": 10,
+    "imageRights": "SUPPLIER_AUTHORIZED",
+    "vero": "PASS",
+    "estimatedEbayFeesUsd": "14.58",
+    "estimatedFulfillmentUsd": "6.00",
+    "estimatedNetProfitUsd": "42.49"
+  }
+}

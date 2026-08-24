@@ -194,7 +194,8 @@ export async function publishOffer(
       client,
       `/sell/inventory/v1/offer/${offerId}`,
     );
-    const listingId = offer?.["listingId"];
+    const listing = (offer?.["listing"] ?? {}) as Obj;
+    const listingId = listing["listingId"] ?? offer?.["listingId"];
     if (typeof listingId === "string") {
       return { offerId, listingId, outcome: "already_published" };
     }
@@ -218,8 +219,13 @@ export async function verifyPublished(
   const offer = await readOrNull(client, `/sell/inventory/v1/offer/${offerId}`);
   const inventory = await readOrNull(client, pack.inventoryAction.path);
 
+  // eBay nests the listing reference under `listing`; older payloads used a
+  // top-level `listingId`, so accept both.
+  const listing = (offer?.["listing"] ?? {}) as Obj;
+  const remoteListingId = listing["listingId"] ?? offer?.["listingId"];
+
   const failures: string[] = [];
-  if (offer?.["listingId"] !== expected.listingId) {
+  if (remoteListingId !== expected.listingId) {
     failures.push("listing id mismatch");
   }
   if (offer?.["marketplaceId"] !== "EBAY_US") {

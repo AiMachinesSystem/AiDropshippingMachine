@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "sku": "AE-3256806985368273",
+  "marketplaceId": "EBAY_US",
+  "product": {
+    "title": "5L Double Bowl Smart Automatic Cat Feeder with Camera",
+    "description": "5L Double Bowl Smart Automatic Cat Feeder with Camera.\n\nWHAT YOU GET\n• 1x automatic pet feeder, new, in supplier packaging\n\nShips from a US warehouse. Estimated delivery within 10 business days. 30-day returns.",
+    "aspects": {
+      "Brand": [
+        "Unbranded"
+      ],
+      "Type": [
+        "Automatic Pet Feeder"
+      ]
+    },
+    "imageUrls": [
+      "https://ae01.alicdn.com/kf/S6eb76d87d8a24286af42b0cc6752b5966.jpg",
+      "https://ae01.alicdn.com/kf/S64bc1d0ccf8e449d951593bff9c4a1958.jpg",
+      "https://ae01.alicdn.com/kf/S6f47c15b5c194d73926b62df0bf45fc4y.jpg",
+      "https://ae01.alicdn.com/kf/S81d5b901f6754c5faff7819462d51fd4Z.jpg"
+    ]
+  },
+  "condition": "NEW",
+  "categoryId": "177789",
+  "quantity": 3,
+  "price": {
+    "value": "125.97",
+    "currency": "USD"
+  },
+  "merchantLocationKey": "US-WAREHOUSE",
+  "policies": {
+    "payment": "282011576018",
+    "fulfillment": "282011584018",
+    "return": "282011577018"
+  },
+  "evidence": {
+    "supplierUrl": "https://www.aliexpress.com/item/3256806985368273.html",
+    "sourceCheckedAt": "2026-08-24T08:10:00Z",
+    "stockObserved": 1,
+    "supplierCostUsd": "50.25",
+    "deliveryLatestDays": 10,
+    "imageRights": "SUPPLIER_AUTHORIZED",
+    "vero": "PASS",
+    "estimatedEbayFeesUsd": "17.43",
+    "estimatedFulfillmentUsd": "6.00",
+    "estimatedNetProfitUsd": "52.29"
+  }
+}

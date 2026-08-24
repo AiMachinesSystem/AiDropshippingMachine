@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "sku": "AE-3256807158753700",
+  "marketplaceId": "EBAY_US",
+  "product": {
+    "title": "Camping Cookware Set Travel Tableware Outdoor Picnic Kettle",
+    "description": "Camping Cookware Set Travel Tableware Outdoor Picnic Kettle.\n\nWHAT YOU GET\n• 1x camping cookware set, new, in supplier packaging\n\nShips from a US warehouse. Estimated delivery within 10 business days. 30-day returns.",
+    "aspects": {
+      "Brand": [
+        "Unbranded"
+      ],
+      "Type": [
+        "Camping Cookware Set"
+      ]
+    },
+    "imageUrls": [
+      "https://ae01.alicdn.com/kf/Se9b23a3ee73841c1a863c88928230190c.png",
+      "https://ae01.alicdn.com/kf/Sc07b3558204d470fa11b00405e445ec9W.jpg",
+      "https://ae01.alicdn.com/kf/S0be6dc5f3a1d4cbe95d290b916a02599E.jpg",
+      "https://ae01.alicdn.com/kf/Sfbee33710efb46b2b3267afdb4e8e305n.png"
+    ]
+  },
+  "condition": "NEW",
+  "categoryId": "87141",
+  "quantity": 3,
+  "price": {
+    "value": "66.97",
+    "currency": "USD"
+  },
+  "merchantLocationKey": "US-WAREHOUSE",
+  "policies": {
+    "payment": "282011576018",
+    "fulfillment": "282011584018",
+    "return": "282011577018"
+  },
+  "evidence": {
+    "supplierUrl": "https://www.aliexpress.com/item/3256807158753700.html",
+    "sourceCheckedAt": "2026-08-24T08:10:00Z",
+    "stockObserved": 1,
+    "supplierCostUsd": "26.89",
+    "deliveryLatestDays": 10,
+    "imageRights": "SUPPLIER_AUTHORIZED",
+    "vero": "PASS",
+    "estimatedEbayFeesUsd": "9.41",
+    "estimatedFulfillmentUsd": "6.00",
+    "estimatedNetProfitUsd": "24.67"
+  }
+}

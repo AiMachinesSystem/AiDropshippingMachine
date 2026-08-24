@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "sku": "PILOT-20260823-01",
+  "manifestSha256": "3a1982eaa0b14d1af41f20d7be71bb7ab2bfdca165c86a59c29a36290aae86ab",
+  "inventoryAction": {
+    "method": "PUT",
+    "path": "/sell/inventory/v1/inventory_item/PILOT-20260823-01",
+    "payloadSha256": "3902d9fa1f5d76da651c79d17a63bd80e928b212a1ed073e06bf5591aceb2ccf"
+  },
+  "offerAction": {
+    "method": "POST",
+    "path": "/sell/inventory/v1/offer",
+    "payloadSha256": "ac454b69fba3a99c7bbc2909dcba3cd5a33bfe38cbe331fecefcc6298043f7a8"
+  },
+  "publishAction": {
+    "method": "POST",
+    "pathTemplate": "/sell/inventory/v1/offer/{offerId}/publish"
+  },
+  "effect": "Publish inventory item PILOT-20260823-01 to EBAY_US at 59.99 USD",
+  "risk": "Creates a live eBay listing; reversible via withdrawOffer (offer unpublished, inventory retained).",
+  "rollback": "withdrawOffer for PILOT-20260823-01",
+  "validation": {
+    "pass": true,
+    "checkedAt": "2026-08-24T07:35:00Z"
+  },
+  "packSha256": "e1e46669d36dbbaa166929878ef086f8fa09839c2897481a16688c9e14f62a00"
+}

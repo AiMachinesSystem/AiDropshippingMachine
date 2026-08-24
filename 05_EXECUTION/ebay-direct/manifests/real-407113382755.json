@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "sku": "407113382755",
+  "marketplaceId": "EBAY_US",
+  "product": {
+    "title": "In Line Automatic Pool Chlorine Feeder 9 lb Capacity Chlorinator Inground",
+    "description": "In-line automatic pool chlorine feeder with 9 lb capacity for inground pools. Holds 3-inch chlorine tablets or bromine tablets and connects in-line to your existing pool plumbing.\n\nWHAT YOU GET\n• 1x In-line automatic chlorine/bromine feeder, 9 lb capacity\n• Fittings and accessories for in-line installation\n\nSet the dial to control the feed rate and keep your pool water balanced. Designed for standard 3-inch tablets. Please check your plumbing size before ordering.\n\nShips from a US warehouse. 30-day returns.",
+    "aspects": {
+      "Brand": ["Unbranded"],
+      "MPN": ["8750"],
+      "UPC": ["7445057241250"],
+      "Type": ["In-Line Feeder (9 Lbs) W/ Accs."]
+    },
+    "imageUrls": [
+      "https://i.ebayimg.com/images/g/oPIAAeSwLWxpFr4k/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/NKIAAeSwjzdpFr4l/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/34IAAeSwvZxpFr4l/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/9CMAAeSwqlBpFr4m/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/tuIAAeSwdiFpFr4n/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/ZMEAAeSwrW5pFr4o/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/7skAAeSwEQBpFr4o/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/3Y8AAeSw5q1pFr4p/s-l1600.jpg"
+    ]
+  },
+  "condition": "NEW",
+  "categoryId": "181070",
+  "quantity": 8,
+  "price": { "value": "82.97", "currency": "USD" },
+  "merchantLocationKey": "US-WAREHOUSE",
+  "policies": {
+    "payment": "282011576018",
+    "fulfillment": "282011584018",
+    "return": "282011577018"
+  },
+  "evidence": {
+    "supplierUrl": "https://www.ebay.com/itm/407113382755",
+    "sourceCheckedAt": "2026-08-23T05:59:42Z",
+    "stockObserved": 8,
+    "supplierCostUsd": "42.92",
+    "deliveryLatestDays": 5,
+    "imageRights": "OWNER_OWNED",
+    "vero": "PASS",
+    "estimatedEbayFeesUsd": "11.39",
+    "estimatedFulfillmentUsd": "6.00",
+    "estimatedNetProfitUsd": "22.66"
+  }
+}

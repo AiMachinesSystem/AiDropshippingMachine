@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "sku": "AE-1005007856972957",
+  "marketplaceId": "EBAY_US",
+  "product": {
+    "title": "600W LED Outdoor Solar Lights Motion Sensor Wall Lamp",
+    "description": "600W LED Outdoor Solar Lights Motion Sensor Wall Lamp.\n\nWHAT YOU GET\n• 1x solar wall light, new, in supplier packaging\n\nShips from a US warehouse. Estimated delivery within 10 business days. 30-day returns.",
+    "aspects": {
+      "Brand": [
+        "Unbranded"
+      ],
+      "Type": [
+        "Solar Wall Light"
+      ]
+    },
+    "imageUrls": [
+      "https://ae01.alicdn.com/kf/Sa41925de74ae42cf992e727981581542m.jpg",
+      "https://ae01.alicdn.com/kf/S0a035235e87547fc9a1160b4dc5e70edw.jpg",
+      "https://ae01.alicdn.com/kf/Sbd6c5c4e508d4fe3b22e05ec8ef264a0o.jpg",
+      "https://ae01.alicdn.com/kf/S13d986c221574c17978e58f53c760a72N.jpg"
+    ]
+  },
+  "condition": "NEW",
+  "categoryId": "94940",
+  "quantity": 3,
+  "price": {
+    "value": "93.97",
+    "currency": "USD"
+  },
+  "merchantLocationKey": "US-WAREHOUSE",
+  "policies": {
+    "payment": "282011576018",
+    "fulfillment": "282011584018",
+    "return": "282011577018"
+  },
+  "evidence": {
+    "supplierUrl": "https://www.aliexpress.com/item/1005007856972957.html",
+    "sourceCheckedAt": "2026-08-24T08:10:00Z",
+    "stockObserved": 1,
+    "supplierCostUsd": "37.75",
+    "deliveryLatestDays": 10,
+    "imageRights": "SUPPLIER_AUTHORIZED",
+    "vero": "PASS",
+    "estimatedEbayFeesUsd": "13.08",
+    "estimatedFulfillmentUsd": "6.00",
+    "estimatedNetProfitUsd": "37.14"
+  }
+}

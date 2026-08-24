@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "sku": "AE-1005005638658052",
+  "marketplaceId": "EBAY_US",
+  "product": {
+    "title": "Portable Folding Camping Chair with Headrest Lightweight",
+    "description": "Portable Folding Camping Chair with Headrest Lightweight.\n\nWHAT YOU GET\n• 1x camping chair, new, in supplier packaging\n\nShips from a US warehouse. Estimated delivery within 10 business days. 30-day returns.",
+    "aspects": {
+      "Brand": [
+        "Unbranded"
+      ],
+      "Type": [
+        "Camping Chair"
+      ]
+    },
+    "imageUrls": [
+      "https://ae01.alicdn.com/kf/S4829de8301be4cf28bcf34b5974a2715C.jpg",
+      "https://ae01.alicdn.com/kf/S9f1a3156ca2247f3a8ee15b619b3d946q.png",
+      "https://ae01.alicdn.com/kf/S3f0e121e181c4b5ca13fe53f09abe3681.png",
+      "https://ae01.alicdn.com/kf/Sc71b41123e5247acb8f99107ec70946b6.png"
+    ]
+  },
+  "condition": "NEW",
+  "categoryId": "16038",
+  "quantity": 3,
+  "price": {
+    "value": "93.97",
+    "currency": "USD"
+  },
+  "merchantLocationKey": "US-WAREHOUSE",
+  "policies": {
+    "payment": "282011576018",
+    "fulfillment": "282011584018",
+    "return": "282011577018"
+  },
+  "evidence": {
+    "supplierUrl": "https://www.aliexpress.com/item/1005005638658052.html",
+    "sourceCheckedAt": "2026-08-24T08:10:00Z",
+    "stockObserved": 1,
+    "supplierCostUsd": "37.60",
+    "deliveryLatestDays": 10,
+    "imageRights": "SUPPLIER_AUTHORIZED",
+    "vero": "PASS",
+    "estimatedEbayFeesUsd": "13.08",
+    "estimatedFulfillmentUsd": "6.00",
+    "estimatedNetProfitUsd": "37.29"
+  }
+}

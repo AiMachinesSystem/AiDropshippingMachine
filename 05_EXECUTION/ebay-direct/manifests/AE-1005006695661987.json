@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "sku": "AE-1005006695661987",
+  "marketplaceId": "EBAY_US",
+  "product": {
+    "title": "Fishing Tackle Shoulder Bag Water Resistant Gear Storage Bag",
+    "description": "Fishing Tackle Shoulder Bag Water Resistant Gear Storage Bag.\n\nWHAT YOU GET\n• 1x fishing tackle bag, new, in supplier packaging\n\nShips from a US warehouse. Estimated delivery within 10 business days. 30-day returns.",
+    "aspects": {
+      "Brand": [
+        "Unbranded"
+      ],
+      "Type": [
+        "Fishing Tackle Bag"
+      ]
+    },
+    "imageUrls": [
+      "https://ae01.alicdn.com/kf/S28e8bfc91e7a444ca178f239ff8b9b92A.jpg",
+      "https://ae01.alicdn.com/kf/S693e0b48beea493096dfe3bec446468ad.jpg",
+      "https://ae01.alicdn.com/kf/Saa81d98f077e444a8d3697c5abb7693bs.jpg",
+      "https://ae01.alicdn.com/kf/S8ca97a37c33f474197a1e45e26b7590bS.jpg"
+    ]
+  },
+  "condition": "NEW",
+  "categoryId": "22696",
+  "quantity": 3,
+  "price": {
+    "value": "148.97",
+    "currency": "USD"
+  },
+  "merchantLocationKey": "US-WAREHOUSE",
+  "policies": {
+    "payment": "282011576018",
+    "fulfillment": "282011584018",
+    "return": "282011577018"
+  },
+  "evidence": {
+    "supplierUrl": "https://www.aliexpress.com/item/1005006695661987.html",
+    "sourceCheckedAt": "2026-08-24T08:10:00Z",
+    "stockObserved": 1,
+    "supplierCostUsd": "59.44",
+    "deliveryLatestDays": 10,
+    "imageRights": "SUPPLIER_AUTHORIZED",
+    "vero": "PASS",
+    "estimatedEbayFeesUsd": "20.56",
+    "estimatedFulfillmentUsd": "6.00",
+    "estimatedNetProfitUsd": "62.97"
+  }
+}

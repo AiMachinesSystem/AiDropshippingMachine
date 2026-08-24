@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "sku": "AE-1005007635138561",
+  "marketplaceId": "EBAY_US",
+  "product": {
+    "title": "3.2L USB Cat Water Fountain Automatic Sensor Stainless Steel",
+    "description": "3.2L USB Cat Water Fountain Automatic Sensor Stainless Steel.\n\nWHAT YOU GET\n• 1x pet water fountain, new, in supplier packaging\n\nShips from a US warehouse. Estimated delivery within 10 business days. 30-day returns.",
+    "aspects": {
+      "Brand": [
+        "Unbranded"
+      ],
+      "Type": [
+        "Pet Water Fountain"
+      ]
+    },
+    "imageUrls": [
+      "https://ae01.alicdn.com/kf/S3dd1d4aae79b46e0952e6539034c059ao.jpg",
+      "https://ae01.alicdn.com/kf/S42f22e73331442fd94c541261ab6a90bN.jpg",
+      "https://ae01.alicdn.com/kf/Sc5ab0dcf993d457194d71bee6aab3ba0J.jpg",
+      "https://ae01.alicdn.com/kf/Sca2c7218efef4fc7ba60711dda180ab6i.jpg"
+    ]
+  },
+  "condition": "NEW",
+  "categoryId": "177789",
+  "quantity": 3,
+  "price": {
+    "value": "120.97",
+    "currency": "USD"
+  },
+  "merchantLocationKey": "US-WAREHOUSE",
+  "policies": {
+    "payment": "282011576018",
+    "fulfillment": "282011584018",
+    "return": "282011577018"
+  },
+  "evidence": {
+    "supplierUrl": "https://www.aliexpress.com/item/1005007635138561.html",
+    "sourceCheckedAt": "2026-08-24T08:10:00Z",
+    "stockObserved": 1,
+    "supplierCostUsd": "48.44",
+    "deliveryLatestDays": 10,
+    "imageRights": "SUPPLIER_AUTHORIZED",
+    "vero": "PASS",
+    "estimatedEbayFeesUsd": "16.75",
+    "estimatedFulfillmentUsd": "6.00",
+    "estimatedNetProfitUsd": "49.78"
+  }
+}

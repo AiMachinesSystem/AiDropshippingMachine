@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "sku": "AE-1005006875318074",
+  "marketplaceId": "EBAY_US",
+  "product": {
+    "title": "Portable Car Vacuum Cleaner Powerful Suction Rechargeable",
+    "description": "Portable Car Vacuum Cleaner Powerful Suction Rechargeable.\n\nWHAT YOU GET\n• 1x car vacuum cleaner, new, in supplier packaging\n\nShips from a US warehouse. Estimated delivery within 10 business days. 30-day returns.",
+    "aspects": {
+      "Brand": [
+        "Unbranded"
+      ],
+      "Type": [
+        "Car Vacuum Cleaner"
+      ]
+    },
+    "imageUrls": [
+      "https://ae01.alicdn.com/kf/S8ac67e0df6b54de6a9c38b0f992180efe.png",
+      "https://ae01.alicdn.com/kf/S0ff790f699744c49a89ae2fbfe3656505.jpg",
+      "https://ae01.alicdn.com/kf/S9178b3b227e3430cbae226de3c12b5baM.jpg",
+      "https://ae01.alicdn.com/kf/S2e2d689a387348e590c0bde604da186et.jpg"
+    ]
+  },
+  "condition": "NEW",
+  "categoryId": "20614",
+  "quantity": 3,
+  "price": {
+    "value": "60.97",
+    "currency": "USD"
+  },
+  "merchantLocationKey": "US-WAREHOUSE",
+  "policies": {
+    "payment": "282011576018",
+    "fulfillment": "282011584018",
+    "return": "282011577018"
+  },
+  "evidence": {
+    "supplierUrl": "https://www.aliexpress.com/item/1005006875318074.html",
+    "sourceCheckedAt": "2026-08-24T08:10:00Z",
+    "stockObserved": 1,
+    "supplierCostUsd": "24.38",
+    "deliveryLatestDays": 10,
+    "imageRights": "SUPPLIER_AUTHORIZED",
+    "vero": "PASS",
+    "estimatedEbayFeesUsd": "8.59",
+    "estimatedFulfillmentUsd": "6.00",
+    "estimatedNetProfitUsd": "22.00"
+  }
+}

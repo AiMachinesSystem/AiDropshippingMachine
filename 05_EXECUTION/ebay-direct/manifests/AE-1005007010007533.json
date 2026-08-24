@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "sku": "AE-1005007010007533",
+  "marketplaceId": "EBAY_US",
+  "product": {
+    "title": "Car Inflatable Travel Mattress Bed for Back Seat with Pump",
+    "description": "Car Inflatable Travel Mattress Bed for Back Seat with Pump.\n\nWHAT YOU GET\n• 1x car air mattress, new, in supplier packaging\n\nShips from a US warehouse. Estimated delivery within 10 business days. 30-day returns.",
+    "aspects": {
+      "Brand": [
+        "Unbranded"
+      ],
+      "Type": [
+        "Car Air Mattress"
+      ]
+    },
+    "imageUrls": [
+      "https://ae01.alicdn.com/kf/S177596b0367a4832a158d53a23ccb680i.jpg",
+      "https://ae01.alicdn.com/kf/S1c4298c2ddd446598380b3f64eb3dfcdJ.jpg",
+      "https://ae01.alicdn.com/kf/Hcf232360794f4f349af5cabb408de196H.jpg",
+      "https://ae01.alicdn.com/kf/S3b9e513601d24cd9b859b6153038f15e4.jpg"
+    ]
+  },
+  "condition": "NEW",
+  "categoryId": "131598",
+  "quantity": 3,
+  "price": {
+    "value": "76.97",
+    "currency": "USD"
+  },
+  "merchantLocationKey": "US-WAREHOUSE",
+  "policies": {
+    "payment": "282011576018",
+    "fulfillment": "282011584018",
+    "return": "282011577018"
+  },
+  "evidence": {
+    "supplierUrl": "https://www.aliexpress.com/item/1005007010007533.html",
+    "sourceCheckedAt": "2026-08-24T08:10:00Z",
+    "stockObserved": 1,
+    "supplierCostUsd": "30.65",
+    "deliveryLatestDays": 10,
+    "imageRights": "SUPPLIER_AUTHORIZED",
+    "vero": "PASS",
+    "estimatedEbayFeesUsd": "10.77",
+    "estimatedFulfillmentUsd": "6.00",
+    "estimatedNetProfitUsd": "29.55"
+  }
+}

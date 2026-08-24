@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "sku": "AE-3256806675414853",
+  "manifestSha256": "8534456871d64386b5f256c90feeb156ae4e231033439a7e836601830614084e",
+  "inventoryAction": {
+    "method": "PUT",
+    "path": "/sell/inventory/v1/inventory_item/AE-3256806675414853",
+    "payloadSha256": "7375616de98e8dcb5eb12c6a8bcde3854f2f6999e63d18ad64bfc4059a5304f3"
+  },
+  "offerAction": {
+    "method": "POST",
+    "path": "/sell/inventory/v1/offer",
+    "payloadSha256": "5bbd68439053322c3bd4cce49341825ac09e10c17707cc99caa0e5fe54e43740"
+  },
+  "publishAction": {
+    "method": "POST",
+    "pathTemplate": "/sell/inventory/v1/offer/{offerId}/publish"
+  },
+  "effect": "Publish inventory item AE-3256806675414853 to EBAY_US at 89.97 USD",
+  "risk": "Creates a live eBay listing; reversible via withdrawOffer (offer unpublished, inventory retained).",
+  "rollback": "withdrawOffer for AE-3256806675414853",
+  "validation": {
+    "pass": true,
+    "checkedAt": "2026-08-24T08:10:00Z"
+  },
+  "packSha256": "2464e0d8150a5ff2074c61fb466a1cf13bd39c660785ff70910adb8bd5cf9061"
+}

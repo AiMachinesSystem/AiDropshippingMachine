@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "sku": "AE-3256807032522577",
+  "marketplaceId": "EBAY_US",
+  "product": {
+    "title": "30M LED Fairy String Lights Outdoor G40 Patio Garden",
+    "description": "30M LED Fairy String Lights Outdoor G40 Patio Garden.\n\nWHAT YOU GET\n• 1x outdoor string lights, new, in supplier packaging\n\nShips from a US warehouse. Estimated delivery within 10 business days. 30-day returns.",
+    "aspects": {
+      "Brand": [
+        "Unbranded"
+      ],
+      "Type": [
+        "Outdoor String Lights"
+      ]
+    },
+    "imageUrls": [
+      "https://ae01.alicdn.com/kf/S409d761e1aa4416f9505e16d4a1b890eK.jpg",
+      "https://ae01.alicdn.com/kf/Sc9681322950d425bb20a7aa7ba5b6466r.jpg",
+      "https://ae01.alicdn.com/kf/S647a2b0674ce4ed0a51616c8f3ba9062v.jpg",
+      "https://ae01.alicdn.com/kf/S5b7367f62b52418abead2aa81eaecad6H.jpg"
+    ]
+  },
+  "condition": "NEW",
+  "categoryId": "183394",
+  "quantity": 3,
+  "price": {
+    "value": "70.97",
+    "currency": "USD"
+  },
+  "merchantLocationKey": "US-WAREHOUSE",
+  "policies": {
+    "payment": "282011576018",
+    "fulfillment": "282011584018",
+    "return": "282011577018"
+  },
+  "evidence": {
+    "supplierUrl": "https://www.aliexpress.com/item/3256807032522577.html",
+    "sourceCheckedAt": "2026-08-24T08:10:00Z",
+    "stockObserved": 1,
+    "supplierCostUsd": "28.56",
+    "deliveryLatestDays": 10,
+    "imageRights": "SUPPLIER_AUTHORIZED",
+    "vero": "PASS",
+    "estimatedEbayFeesUsd": "9.95",
+    "estimatedFulfillmentUsd": "6.00",
+    "estimatedNetProfitUsd": "26.46"
+  }
+}

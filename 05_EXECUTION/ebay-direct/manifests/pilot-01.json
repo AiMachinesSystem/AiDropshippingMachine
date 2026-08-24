@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "sku": "PILOT-20260823-01",
+  "marketplaceId": "EBAY_US",
+  "product": {
+    "title": "Salt Cell for Pool Chlorinator, Replacement",
+    "description": "Replacement salt cell for salt water pool chlorinator systems.",
+    "aspects": { "Brand": ["Generic"], "Type": ["Salt Cell"] },
+    "imageUrls": [
+      "https://i.ebayimg.com/images/g/oPIAAeSwLWxpFr4k/s-l1600.jpg"
+    ]
+  },
+  "condition": "NEW",
+  "categoryId": "181070",
+  "quantity": 1,
+  "price": { "value": "59.99", "currency": "USD" },
+  "merchantLocationKey": "US-WAREHOUSE",
+  "policies": {
+    "payment": "282011576018",
+    "fulfillment": "282011584018",
+    "return": "282011577018"
+  },
+  "evidence": {
+    "supplierUrl": "https://supplier.example.com/item",
+    "sourceCheckedAt": "2026-08-24T07:35:00Z",
+    "stockObserved": 12,
+    "supplierCostUsd": "20.00",
+    "deliveryLatestDays": 5,
+    "imageRights": "OWNER_OWNED",
+    "vero": "PASS",
+    "estimatedEbayFeesUsd": "9.00",
+    "estimatedFulfillmentUsd": "6.00",
+    "estimatedNetProfitUsd": "24.99"
+  }
+}

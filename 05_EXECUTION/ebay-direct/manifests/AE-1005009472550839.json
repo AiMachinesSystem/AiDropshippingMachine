@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "sku": "AE-1005009472550839",
+  "marketplaceId": "EBAY_US",
+  "product": {
+    "title": "Portable Air Pump Inflator with Camping Light Type C",
+    "description": "Portable Air Pump Inflator with Camping Light Type C.\n\nWHAT YOU GET\n• 1x portable air pump, new, in supplier packaging\n\nShips from a US warehouse. Estimated delivery within 10 business days. 30-day returns.",
+    "aspects": {
+      "Brand": [
+        "Unbranded"
+      ],
+      "Type": [
+        "Portable Air Pump"
+      ]
+    },
+    "imageUrls": [
+      "https://ae01.alicdn.com/kf/Sdbb2bde78653420cb290e791823b8c4cc.jpg",
+      "https://ae01.alicdn.com/kf/S2ef3e1ab23cd4fb5a9f30493f7b75285f.jpg",
+      "https://ae01.alicdn.com/kf/Sf45503219afb408b8cbf9db7e96073b2u.jpg",
+      "https://ae01.alicdn.com/kf/S11a31606e59d49e68d3499d961a6b41fH.jpg"
+    ]
+  },
+  "condition": "NEW",
+  "categoryId": "30506",
+  "quantity": 3,
+  "price": {
+    "value": "75.97",
+    "currency": "USD"
+  },
+  "merchantLocationKey": "US-WAREHOUSE",
+  "policies": {
+    "payment": "282011576018",
+    "fulfillment": "282011584018",
+    "return": "282011577018"
+  },
+  "evidence": {
+    "supplierUrl": "https://www.aliexpress.com/item/1005009472550839.html",
+    "sourceCheckedAt": "2026-08-24T08:10:00Z",
+    "stockObserved": 1,
+    "supplierCostUsd": "30.31",
+    "deliveryLatestDays": 10,
+    "imageRights": "SUPPLIER_AUTHORIZED",
+    "vero": "PASS",
+    "estimatedEbayFeesUsd": "10.63",
+    "estimatedFulfillmentUsd": "6.00",
+    "estimatedNetProfitUsd": "29.03"
+  }
+}

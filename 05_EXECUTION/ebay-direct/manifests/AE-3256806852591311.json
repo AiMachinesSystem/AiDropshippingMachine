@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "sku": "AE-3256806852591311",
+  "marketplaceId": "EBAY_US",
+  "product": {
+    "title": "Dog Carrier Backpack Soft Side Pet Travel Bag Breathable",
+    "description": "Dog Carrier Backpack Soft Side Pet Travel Bag Breathable.\n\nWHAT YOU GET\n• 1x pet carrier backpack, new, in supplier packaging\n\nShips from a US warehouse. Estimated delivery within 10 business days. 30-day returns.",
+    "aspects": {
+      "Brand": [
+        "Unbranded"
+      ],
+      "Type": [
+        "Pet Carrier Backpack"
+      ]
+    },
+    "imageUrls": [
+      "https://ae01.alicdn.com/kf/Sf944cba2f11041b28636ad084a37e847W.jpg",
+      "https://ae01.alicdn.com/kf/H8290cd5491b74d5499cacd4071c1e51a9.jpg",
+      "https://ae01.alicdn.com/kf/HTB1wC4IaOnrK1Rjy1Xcq6yeDVXak.jpg",
+      "https://ae01.alicdn.com/kf/Sf15d201629e94774a4c36ccf2acb9c89z.jpg"
+    ]
+  },
+  "condition": "NEW",
+  "categoryId": "177788",
+  "quantity": 3,
+  "price": {
+    "value": "78.97",
+    "currency": "USD"
+  },
+  "merchantLocationKey": "US-WAREHOUSE",
+  "policies": {
+    "payment": "282011576018",
+    "fulfillment": "282011584018",
+    "return": "282011577018"
+  },
+  "evidence": {
+    "supplierUrl": "https://www.aliexpress.com/item/3256806852591311.html",
+    "sourceCheckedAt": "2026-08-24T08:10:00Z",
+    "stockObserved": 1,
+    "supplierCostUsd": "31.48",
+    "deliveryLatestDays": 10,
+    "imageRights": "SUPPLIER_AUTHORIZED",
+    "vero": "PASS",
+    "estimatedEbayFeesUsd": "11.04",
+    "estimatedFulfillmentUsd": "6.00",
+    "estimatedNetProfitUsd": "30.45"
+  }
+}

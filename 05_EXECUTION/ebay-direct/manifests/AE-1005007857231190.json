@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "sku": "AE-1005007857231190",
+  "marketplaceId": "EBAY_US",
+  "product": {
+    "title": "Wooden Baby Musical Toys Educational Wind Chime Set",
+    "description": "Wooden Baby Musical Toys Educational Wind Chime Set.\n\nWHAT YOU GET\n• 1x wooden musical toy, new, in supplier packaging\n\nShips from a US warehouse. Estimated delivery within 10 business days. 30-day returns.",
+    "aspects": {
+      "Brand": [
+        "Unbranded"
+      ],
+      "Type": [
+        "Wooden Musical Toy"
+      ]
+    },
+    "imageUrls": [
+      "https://ae01.alicdn.com/kf/S22d1975a396743a598fe33c7b4fe6b13U.jpg",
+      "https://ae01.alicdn.com/kf/Se3c7f1b4c7ef474aa4a3e9991e7f3da61.jpg",
+      "https://ae01.alicdn.com/kf/S8dfa945824204177bcde3c0cff4ea973k.jpg",
+      "https://ae01.alicdn.com/kf/Se9fa5bf605614cd0b48f09ef36a1f4e1O.jpg"
+    ]
+  },
+  "condition": "NEW",
+  "categoryId": "88433",
+  "quantity": 3,
+  "price": {
+    "value": "79.97",
+    "currency": "USD"
+  },
+  "merchantLocationKey": "US-WAREHOUSE",
+  "policies": {
+    "payment": "282011576018",
+    "fulfillment": "282011584018",
+    "return": "282011577018"
+  },
+  "evidence": {
+    "supplierUrl": "https://www.aliexpress.com/item/1005007857231190.html",
+    "sourceCheckedAt": "2026-08-24T08:10:00Z",
+    "stockObserved": 1,
+    "supplierCostUsd": "32.09",
+    "deliveryLatestDays": 10,
+    "imageRights": "SUPPLIER_AUTHORIZED",
+    "vero": "PASS",
+    "estimatedEbayFeesUsd": "11.18",
+    "estimatedFulfillmentUsd": "6.00",
+    "estimatedNetProfitUsd": "30.70"
+  }
+}

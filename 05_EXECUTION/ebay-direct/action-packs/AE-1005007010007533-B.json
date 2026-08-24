@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "sku": "AE-1005007010007533-B",
+  "manifestSha256": "6d0686c3265a4a4e0b167bf507bc786a9e8cea9a4141c590d60f14ef28ba5057",
+  "inventoryAction": {
+    "method": "PUT",
+    "path": "/sell/inventory/v1/inventory_item/AE-1005007010007533-B",
+    "payloadSha256": "e343aea1c91487701e7b6c910a16cb57c58978754cc8ddd9f1da1918668bd544"
+  },
+  "offerAction": {
+    "method": "POST",
+    "path": "/sell/inventory/v1/offer",
+    "payloadSha256": "d31a99f6c6743df5fcf726001d68a53ec3bf9e48208ac102b5c87a5bc8caad6d"
+  },
+  "publishAction": {
+    "method": "POST",
+    "pathTemplate": "/sell/inventory/v1/offer/{offerId}/publish"
+  },
+  "effect": "Publish inventory item AE-1005007010007533-B to EBAY_US at 76.97 USD",
+  "risk": "Creates a live eBay listing; reversible via withdrawOffer (offer unpublished, inventory retained).",
+  "rollback": "withdrawOffer for AE-1005007010007533-B",
+  "validation": {
+    "pass": true,
+    "checkedAt": "2026-08-24T08:40:00Z"
+  },
+  "packSha256": "a1b0ccffa9160f9e6d4ac441d0bbc2e4b65ecb7e43436e020809b0bd2f440a02"
+}

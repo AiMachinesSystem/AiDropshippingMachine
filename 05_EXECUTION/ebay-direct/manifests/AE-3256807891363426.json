@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "sku": "AE-3256807891363426",
+  "marketplaceId": "EBAY_US",
+  "product": {
+    "title": "8 Inch Makeup Mirror with Light 10X Magnification 3 Colors",
+    "description": "8 Inch Makeup Mirror with Light 10X Magnification 3 Colors.\n\nWHAT YOU GET\n• 1x lighted makeup mirror, new, in supplier packaging\n\nShips from a US warehouse. Estimated delivery within 10 business days. 30-day returns.",
+    "aspects": {
+      "Brand": [
+        "Unbranded"
+      ],
+      "Type": [
+        "Lighted Makeup Mirror"
+      ]
+    },
+    "imageUrls": [
+      "https://ae01.alicdn.com/kf/S22ff85a751b04e869352a8046ddbf44cs.jpg",
+      "https://ae01.alicdn.com/kf/S30e3f7e7009d4aab9f3dfc0e962a8e61P.jpg",
+      "https://ae01.alicdn.com/kf/S833742b53caa4ed18198b30339e5274f5.jpg",
+      "https://ae01.alicdn.com/kf/Se0a3ee4e1d834086aa1dfde1c43eabf02.jpg"
+    ]
+  },
+  "condition": "NEW",
+  "categoryId": "106256",
+  "quantity": 3,
+  "price": {
+    "value": "121.97",
+    "currency": "USD"
+  },
+  "merchantLocationKey": "US-WAREHOUSE",
+  "policies": {
+    "payment": "282011576018",
+    "fulfillment": "282011584018",
+    "return": "282011577018"
+  },
+  "evidence": {
+    "supplierUrl": "https://www.aliexpress.com/item/3256807891363426.html",
+    "sourceCheckedAt": "2026-08-24T08:10:00Z",
+    "stockObserved": 1,
+    "supplierCostUsd": "48.84",
+    "deliveryLatestDays": 10,
+    "imageRights": "SUPPLIER_AUTHORIZED",
+    "vero": "PASS",
+    "estimatedEbayFeesUsd": "16.89",
+    "estimatedFulfillmentUsd": "6.00",
+    "estimatedNetProfitUsd": "50.24"
+  }
+}

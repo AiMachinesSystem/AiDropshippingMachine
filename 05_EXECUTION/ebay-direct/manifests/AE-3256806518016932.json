@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "sku": "AE-3256806518016932",
+  "marketplaceId": "EBAY_US",
+  "product": {
+    "title": "USB Aquarium Plant Grow Light Full Spectrum LED Clip On",
+    "description": "USB Aquarium Plant Grow Light Full Spectrum LED Clip On.\n\nWHAT YOU GET\n• 1x aquarium light, new, in supplier packaging\n\nShips from a US warehouse. Estimated delivery within 10 business days. 30-day returns.",
+    "aspects": {
+      "Brand": [
+        "Unbranded"
+      ],
+      "Type": [
+        "Aquarium Light"
+      ]
+    },
+    "imageUrls": [
+      "https://ae01.alicdn.com/kf/S44e469002bb643f985ff98b24da64cfbn.jpg",
+      "https://ae01.alicdn.com/kf/S80667e36b6b1402594f76d1bd72b36a45.jpg",
+      "https://ae01.alicdn.com/kf/S39d87fb248b94460a1976388064e95c4P.jpg",
+      "https://ae01.alicdn.com/kf/Seea34c21d4a84280b14ab57ffda2936bV.jpg"
+    ]
+  },
+  "condition": "NEW",
+  "categoryId": "46314",
+  "quantity": 3,
+  "price": {
+    "value": "95.97",
+    "currency": "USD"
+  },
+  "merchantLocationKey": "US-WAREHOUSE",
+  "policies": {
+    "payment": "282011576018",
+    "fulfillment": "282011584018",
+    "return": "282011577018"
+  },
+  "evidence": {
+    "supplierUrl": "https://www.aliexpress.com/item/3256806518016932.html",
+    "sourceCheckedAt": "2026-08-24T08:10:00Z",
+    "stockObserved": 1,
+    "supplierCostUsd": "38.45",
+    "deliveryLatestDays": 10,
+    "imageRights": "SUPPLIER_AUTHORIZED",
+    "vero": "PASS",
+    "estimatedEbayFeesUsd": "13.35",
+    "estimatedFulfillmentUsd": "6.00",
+    "estimatedNetProfitUsd": "38.17"
+  }
+}

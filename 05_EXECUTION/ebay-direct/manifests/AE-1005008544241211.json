@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "sku": "AE-1005008544241211",
+  "marketplaceId": "EBAY_US",
+  "product": {
+    "title": "Elevated Cat Bowls Tilted Raised Food Bowls with Stand",
+    "description": "Elevated Cat Bowls Tilted Raised Food Bowls with Stand.\n\nWHAT YOU GET\n• 1x raised cat bowls, new, in supplier packaging\n\nShips from a US warehouse. Estimated delivery within 10 business days. 30-day returns.",
+    "aspects": {
+      "Brand": [
+        "Unbranded"
+      ],
+      "Type": [
+        "Raised Cat Bowls"
+      ]
+    },
+    "imageUrls": [
+      "https://ae01.alicdn.com/kf/Sad4934414b364aaab7ba2bfe0a163301n.jpg",
+      "https://ae01.alicdn.com/kf/S8e9fcc8b4fd846f08fc60e197bc6a646c.jpg",
+      "https://ae01.alicdn.com/kf/S64adb78ee17045eeaaafac42e2c21c63h.jpg",
+      "https://ae01.alicdn.com/kf/Sef065bc4e4e34b3d899ba16e2e546934X.jpg"
+    ]
+  },
+  "condition": "NEW",
+  "categoryId": "177789",
+  "quantity": 3,
+  "price": {
+    "value": "53.97",
+    "currency": "USD"
+  },
+  "merchantLocationKey": "US-WAREHOUSE",
+  "policies": {
+    "payment": "282011576018",
+    "fulfillment": "282011584018",
+    "return": "282011577018"
+  },
+  "evidence": {
+    "supplierUrl": "https://www.aliexpress.com/item/1005008544241211.html",
+    "sourceCheckedAt": "2026-08-24T08:10:00Z",
+    "stockObserved": 1,
+    "supplierCostUsd": "21.42",
+    "deliveryLatestDays": 10,
+    "imageRights": "SUPPLIER_AUTHORIZED",
+    "vero": "PASS",
+    "estimatedEbayFeesUsd": "7.64",
+    "estimatedFulfillmentUsd": "6.00",
+    "estimatedNetProfitUsd": "18.91"
+  }
+}

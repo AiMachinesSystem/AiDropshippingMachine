@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "sku": "AE-1005009383964875",
+  "marketplaceId": "EBAY_US",
+  "product": {
+    "title": "Extra Large Plush Dog Bed Sofa Thick Soft Pet Mat",
+    "description": "Extra Large Plush Dog Bed Sofa Thick Soft Pet Mat.\n\nWHAT YOU GET\n• 1x dog bed, new, in supplier packaging\n\nShips from a US warehouse. Estimated delivery within 10 business days. 30-day returns.",
+    "aspects": {
+      "Brand": [
+        "Unbranded"
+      ],
+      "Type": [
+        "Dog Bed"
+      ]
+    },
+    "imageUrls": [
+      "https://ae01.alicdn.com/kf/Sfa163a77e1eb44c288e4ca86d1fee5b3t.jpg",
+      "https://ae01.alicdn.com/kf/S268e1ecf0274407dbb0f52e30a0054f9d.png",
+      "https://ae01.alicdn.com/kf/S7f10b91318b14c7e81285938d2dcf27a0.jpg",
+      "https://ae01.alicdn.com/kf/S23ed4fbc4aa64fa0a22bcdd74f739811x.jpg"
+    ]
+  },
+  "condition": "NEW",
+  "categoryId": "20744",
+  "quantity": 3,
+  "price": {
+    "value": "66.97",
+    "currency": "USD"
+  },
+  "merchantLocationKey": "US-WAREHOUSE",
+  "policies": {
+    "payment": "282011576018",
+    "fulfillment": "282011584018",
+    "return": "282011577018"
+  },
+  "evidence": {
+    "supplierUrl": "https://www.aliexpress.com/item/1005009383964875.html",
+    "sourceCheckedAt": "2026-08-24T08:10:00Z",
+    "stockObserved": 1,
+    "supplierCostUsd": "26.72",
+    "deliveryLatestDays": 10,
+    "imageRights": "SUPPLIER_AUTHORIZED",
+    "vero": "PASS",
+    "estimatedEbayFeesUsd": "9.41",
+    "estimatedFulfillmentUsd": "6.00",
+    "estimatedNetProfitUsd": "24.84"
+  }
+}

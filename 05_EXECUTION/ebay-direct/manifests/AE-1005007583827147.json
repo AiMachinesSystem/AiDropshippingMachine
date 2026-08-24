@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "sku": "AE-1005007583827147",
+  "marketplaceId": "EBAY_US",
+  "product": {
+    "title": "18000mAh 100W Rechargeable LED Camping Lantern Magnetic",
+    "description": "18000mAh 100W Rechargeable LED Camping Lantern Magnetic.\n\nWHAT YOU GET\n• 1x camping lantern, new, in supplier packaging\n\nShips from a US warehouse. Estimated delivery within 10 business days. 30-day returns.",
+    "aspects": {
+      "Brand": [
+        "Unbranded"
+      ],
+      "Type": [
+        "Camping Lantern"
+      ]
+    },
+    "imageUrls": [
+      "https://ae01.alicdn.com/kf/S5e08c82c52fc4a969522958bac75007aO.jpg",
+      "https://ae01.alicdn.com/kf/S28bf35c62bbb4009aab490732fae23dbn.jpg",
+      "https://ae01.alicdn.com/kf/Sdf7116ccdd0c41eeafc7d280646c034aw.jpg",
+      "https://ae01.alicdn.com/kf/S0e1c28910fda4b50bb913f03dbc4aa03l.jpg"
+    ]
+  },
+  "condition": "NEW",
+  "categoryId": "168867",
+  "quantity": 3,
+  "price": {
+    "value": "89.97",
+    "currency": "USD"
+  },
+  "merchantLocationKey": "US-WAREHOUSE",
+  "policies": {
+    "payment": "282011576018",
+    "fulfillment": "282011584018",
+    "return": "282011577018"
+  },
+  "evidence": {
+    "supplierUrl": "https://www.aliexpress.com/item/1005007583827147.html",
+    "sourceCheckedAt": "2026-08-24T08:10:00Z",
+    "stockObserved": 1,
+    "supplierCostUsd": "35.97",
+    "deliveryLatestDays": 10,
+    "imageRights": "SUPPLIER_AUTHORIZED",
+    "vero": "PASS",
+    "estimatedEbayFeesUsd": "12.54",
+    "estimatedFulfillmentUsd": "6.00",
+    "estimatedNetProfitUsd": "35.46"
+  }
+}

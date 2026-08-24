@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "sku": "AE-1005006381299125",
+  "marketplaceId": "EBAY_US",
+  "product": {
+    "title": "Baitcasting Fishing Reel 7.3:1 Gear Ceramic Bearing Carbon",
+    "description": "Baitcasting Fishing Reel 7.3:1 Gear Ceramic Bearing Carbon.\n\nWHAT YOU GET\n• 1x baitcasting reel, new, in supplier packaging\n\nShips from a US warehouse. Estimated delivery within 10 business days. 30-day returns.",
+    "aspects": {
+      "Brand": [
+        "Unbranded"
+      ],
+      "Type": [
+        "Baitcasting Reel"
+      ]
+    },
+    "imageUrls": [
+      "https://ae01.alicdn.com/kf/Saacb2b875833441787c727cf2b568d60P.png",
+      "https://ae01.alicdn.com/kf/S19627140f0734b61a4822446fdfe8c958.png",
+      "https://ae01.alicdn.com/kf/Sa53c6be5e3e143bd9c25a49799c44ec7c.png",
+      "https://ae01.alicdn.com/kf/S1f3ab66661474742ab8c0482bb2868c43.png"
+    ]
+  },
+  "condition": "NEW",
+  "categoryId": "261030",
+  "quantity": 3,
+  "price": {
+    "value": "87.97",
+    "currency": "USD"
+  },
+  "merchantLocationKey": "US-WAREHOUSE",
+  "policies": {
+    "payment": "282011576018",
+    "fulfillment": "282011584018",
+    "return": "282011577018"
+  },
+  "evidence": {
+    "supplierUrl": "https://www.aliexpress.com/item/1005006381299125.html",
+    "sourceCheckedAt": "2026-08-24T08:10:00Z",
+    "stockObserved": 1,
+    "supplierCostUsd": "35.10",
+    "deliveryLatestDays": 10,
+    "imageRights": "SUPPLIER_AUTHORIZED",
+    "vero": "PASS",
+    "estimatedEbayFeesUsd": "12.26",
+    "estimatedFulfillmentUsd": "6.00",
+    "estimatedNetProfitUsd": "34.61"
+  }
+}

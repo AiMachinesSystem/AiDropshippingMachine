@@ -1,0 +1,42 @@
+{
+  "unstable": ["kv"],
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1.0.19",
+    "@std/path": "jsr:@std/path@1.1.6",
+    "event-notification-validator": "npm:event-notification-nodejs-sdk@1.0.3/lib/validator.js"
+  },
+  "tasks": {
+    "check": "deno fmt --check *.ts && deno lint *.ts && deno test --allow-read --allow-write *_test.ts && deno check main.ts purge_cli.ts",
+    "start": "deno run --allow-env --allow-net --env-file=.env.local main.ts",
+    "purge": "deno run --allow-env --allow-net --allow-read --allow-write purge_cli.ts"
+  },
+  "deploy": {
+    "org": "aimachinessystem",
+    "app": "ebay-deletion-hook"
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
