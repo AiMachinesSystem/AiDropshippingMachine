@@ -13,6 +13,25 @@ LOCATION = "US-WAREHOUSE"
 BLOCKED = ["bpa-free", "bpa free", "waterproof", "safe", "streak-free", "streak free", "eye care"]
 TRADEMARK = re.compile(r"[®™]")
 
+# Brand tokens to SKIP (VeRO/trademark risk). Up-ticket items are frequently branded;
+# the machine's registered rule is generic-only titles. Matched case-insensitive.
+BRAND_BLOCK = [
+    "lumberjack", "max & lily", "breathesmart", "alen", "flying pig", "+posture",
+    "flexispot", "kraus", "finer form", "best choice products", "neatfi", "teraves",
+    "london", "aoc", "ust", "c24g1a", "suitical", "lodge", "blackstone", "carote",
+    "benq", "dolphin", "maytronics", "pentair", "funboy", "intex", "beyondnice",
+    "rosefray", "ucare", "royal gourmet", "icover", "porch shield", "stormaster",
+    "skamper", "nike", "disney", "apple", "airtag", "sony", "lg", "samsung", "dyson",
+    "lego", "barbie", "hot wheels", "funko", "yeti", "stanley", "crockpot",
+    "instant pot", "kitchenaid", "le creuset", "oxo", "cuisinart", "ninja", "breville",
+    "keurig", "nutribullet", "vornado", "hamilton beach", "mr coffee", "yaheetech",
+    "kingfun", "zephyr", "isobar",
+]
+
+def has_brand(title: str) -> bool:
+    tl = (title or "").lower()
+    return any(b in tl for b in BRAND_BLOCK)
+
 # High-confidence title keyword -> eBay item-specific value. Conservative: only exact-substring
 # matches on words that unambiguously name the material/color of the product itself.
 MATERIAL_MAP = [
@@ -88,7 +107,14 @@ def main():
         vs = x.get("variation_statistics", {})
         sell = vs.get("min_sell_price") or 0
         profit = vs.get("min_profit") or 0
-        if sell <= 0 or profit < 5 or (profit / sell) < 0.20:
+        # Net-profit gate (not %-margin): the machine's North Star is NET profit.
+        # A %-margin floor (profit/sell >= 0.20) selects cheap commodity (~24% margin,
+        # ~$8 net) and EXCLUDES up-ticket winners (~18% margin, $40-150 net) — the
+        # registered margin-escape profile. Absolute net >= $30, sell >= $50, and a
+        # floor of 10% only to reject obviously mispriced rows.
+        if sell < 50 or profit < 30 or (profit / sell) < 0.10:
+            continue
+        if has_brand(x.get("title", "")):
             continue
         asin = asin_of(x.get("sell_site_url", ""))
         if not asin or asin in seen or asin in used:

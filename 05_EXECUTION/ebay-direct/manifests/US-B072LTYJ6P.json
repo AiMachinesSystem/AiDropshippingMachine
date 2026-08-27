@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "sku": "US-B072LTYJ6P",
+  "marketplaceId": "EBAY_US",
+  "product": {
+    "title": "Portable Sauna Box for Home, Infrared Sauna Tent with Heated Foot Pad and",
+    "description": "Portable Sauna Box for Home, Infrared Sauna Tent with Heated Foot Pad and.\n\nWHAT YOU GET\n• 1x sauna, new, in supplier packaging\n\nShips from a US warehouse. Estimated delivery within 10 business days. 30-day returns.",
+    "aspects": {
+      "Brand": [
+        "Unbranded"
+      ],
+      "Type": [
+        "Saunas"
+      ],
+      "Color": [
+        "Silver"
+      ]
+    },
+    "imageUrls": [
+      "https://autods-scraper-images.s3-us-west-2.amazonaws.com/450a9876aaadabf265e7a119e72094e7.png"
+    ]
+  },
+  "condition": "NEW",
+  "categoryId": "181054",
+  "quantity": 2,
+  "price": {
+    "value": "294.97",
+    "currency": "USD"
+  },
+  "merchantLocationKey": "US-WAREHOUSE",
+  "policies": {
+    "payment": "282011576018",
+    "fulfillment": "282011584018",
+    "return": "282011577018"
+  },
+  "evidence": {
+    "supplierUrl": "https://www.amazon.com/dp/B072LTYJ6P/ref=sr_1_18?th=1&psc=1",
+    "sourceCheckedAt": "2026-08-27T22:07:59Z",
+    "stockObserved": 1,
+    "supplierCostUsd": "196.99",
+    "deliveryLatestDays": 10,
+    "imageRights": "SUPPLIER_AUTHORIZED",
+    "vero": "PASS",
+    "estimatedEbayFeesUsd": "39.38",
+    "estimatedFulfillmentUsd": "5.22",
+    "estimatedNetProfitUsd": "53.38"
+  }
+}
