@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "sku": "US-B08CM88MPR",
+  "manifestSha256": "1b84c30703dc8f1612724b538f63a009e0219832994ed5306b202a64dfe8cbae",
+  "inventoryAction": {
+    "method": "PUT",
+    "path": "/sell/inventory/v1/inventory_item/US-B08CM88MPR",
+    "payloadSha256": "395199f5c616b64c1f3b03caf3cfa800fccf51206115587ca75482ece54c8dc6"
+  },
+  "offerAction": {
+    "method": "POST",
+    "path": "/sell/inventory/v1/offer",
+    "payloadSha256": "1a197d915bc684e28d479dab240174c33dc59861632d12ecdd3aa0ee7a136ebf"
+  },
+  "publishAction": {
+    "method": "POST",
+    "pathTemplate": "/sell/inventory/v1/offer/{offerId}/publish"
+  },
+  "effect": "Publish inventory item US-B08CM88MPR to EBAY_US at 31.97 USD",
+  "risk": "Creates a live eBay listing; reversible via withdrawOffer (offer unpublished, inventory retained).",
+  "rollback": "withdrawOffer for US-B08CM88MPR",
+  "validation": {
+    "pass": true,
+    "checkedAt": "2026-08-27T21:36:18Z"
+  },
+  "packSha256": "03f6432f40bdf9c2ef3660633641255daef22f5ea3cf049e9d1af7f26e28ebd4"
+}

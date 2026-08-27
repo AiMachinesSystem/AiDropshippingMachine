@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "sku": "US-B09YCPJL5V",
+  "marketplaceId": "EBAY_US",
+  "product": {
+    "title": "24 Pieces White Fiber Optic Wands Bulk LED Wedding Sparklers Send off Light up",
+    "description": "24 Pieces White Fiber Optic Wands Bulk LED Wedding Sparklers Send off Light up.\n\nWHAT YOU GET\n• 1x chandeliers & ceiling fixture, new, in supplier packaging\n\nShips from a US warehouse. Estimated delivery within 10 business days. 30-day returns.",
+    "aspects": {
+      "Brand": [
+        "Unbranded"
+      ],
+      "Type": [
+        "Chandeliers & Ceiling Fixtures"
+      ]
+    },
+    "imageUrls": [
+      "https://autods-scraper-images.s3-us-west-2.amazonaws.com/09499f7de5d9703a9ec11ecf6e91e9ed.png"
+    ]
+  },
+  "condition": "NEW",
+  "categoryId": "117503",
+  "quantity": 2,
+  "price": {
+    "value": "31.97",
+    "currency": "USD"
+  },
+  "merchantLocationKey": "US-WAREHOUSE",
+  "policies": {
+    "payment": "282011576018",
+    "fulfillment": "282011584018",
+    "return": "282011577018"
+  },
+  "evidence": {
+    "supplierUrl": "https://www.amazon.com/dp/B09YCPJL5V/ref=sr_1_18?psc=1",
+    "sourceCheckedAt": "2026-08-27T21:36:18Z",
+    "stockObserved": 1,
+    "supplierCostUsd": "18.99",
+    "deliveryLatestDays": 10,
+    "imageRights": "SUPPLIER_AUTHORIZED",
+    "vero": "PASS",
+    "estimatedEbayFeesUsd": "4.54",
+    "estimatedFulfillmentUsd": "0.61",
+    "estimatedNetProfitUsd": "7.83"
+  }
+}

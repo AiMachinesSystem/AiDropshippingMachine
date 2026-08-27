@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "sku": "US-B0BG1S6NNJ",
+  "marketplaceId": "EBAY_US",
+  "product": {
+    "title": "4-In-1 Large Gaming Mouse Pad, Keyboard Wrist Rest Pad & Wrist Support Mousepad",
+    "description": "4-In-1 Large Gaming Mouse Pad, Keyboard Wrist Rest Pad & Wrist Support Mousepad.\n\nWHAT YOU GET\n• 1x mouse pads & wrist rest, new, in supplier packaging\n\nShips from a US warehouse. Estimated delivery within 10 business days. 30-day returns.",
+    "aspects": {
+      "Brand": [
+        "Unbranded"
+      ],
+      "Type": [
+        "Mouse Pads & Wrist Rests"
+      ]
+    },
+    "imageUrls": [
+      "https://autods-scraper-images.s3-us-west-2.amazonaws.com/fa5d1703a51ac77e9b035fdff517ab22.png"
+    ]
+  },
+  "condition": "NEW",
+  "categoryId": "23895",
+  "quantity": 2,
+  "price": {
+    "value": "31.97",
+    "currency": "USD"
+  },
+  "merchantLocationKey": "US-WAREHOUSE",
+  "policies": {
+    "payment": "282011576018",
+    "fulfillment": "282011584018",
+    "return": "282011577018"
+  },
+  "evidence": {
+    "supplierUrl": "https://www.amazon.com/dp/B0BG1S6NNJ/ref=sr_1_9?psc=1",
+    "sourceCheckedAt": "2026-08-27T21:52:28Z",
+    "stockObserved": 1,
+    "supplierCostUsd": "18.99",
+    "deliveryLatestDays": 10,
+    "imageRights": "SUPPLIER_AUTHORIZED",
+    "vero": "PASS",
+    "estimatedEbayFeesUsd": "4.54",
+    "estimatedFulfillmentUsd": "0.61",
+    "estimatedNetProfitUsd": "7.83"
+  }
+}

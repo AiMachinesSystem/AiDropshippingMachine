@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "sku": "US-B07F75FBNZ",
+  "manifestSha256": "a111ef8c77f99f053869a113d1fa59a121c41f34dbce8699c07ee3f160d250e9",
+  "inventoryAction": {
+    "method": "PUT",
+    "path": "/sell/inventory/v1/inventory_item/US-B07F75FBNZ",
+    "payloadSha256": "04aa7a6cc6f1d21f313baeda7da711e7b292868d89a9721b18302f8f291f47dd"
+  },
+  "offerAction": {
+    "method": "POST",
+    "path": "/sell/inventory/v1/offer",
+    "payloadSha256": "e5fdd8a0133e932131656bdc7d9e440c53fe479c85fb145a78fd3d7278b23255"
+  },
+  "publishAction": {
+    "method": "POST",
+    "pathTemplate": "/sell/inventory/v1/offer/{offerId}/publish"
+  },
+  "effect": "Publish inventory item US-B07F75FBNZ to EBAY_US at 31.97 USD",
+  "risk": "Creates a live eBay listing; reversible via withdrawOffer (offer unpublished, inventory retained).",
+  "rollback": "withdrawOffer for US-B07F75FBNZ",
+  "validation": {
+    "pass": true,
+    "checkedAt": "2026-08-27T21:36:18Z"
+  },
+  "packSha256": "cc9116ce5598c54ebd041eede37445bb30981e144a4c71b265d73e8bcd1852e7"
+}

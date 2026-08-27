@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "sku": "US-B098NTSJ6W",
+  "manifestSha256": "6cf2245dcc301900539e6af0bc2b7dbd6bc6f230008cc3d243509bf57b499448",
+  "inventoryAction": {
+    "method": "PUT",
+    "path": "/sell/inventory/v1/inventory_item/US-B098NTSJ6W",
+    "payloadSha256": "117aa4ff9e531bd94438b225ea16e0dc7b819d63a8160dee777cb24ef69b75e5"
+  },
+  "offerAction": {
+    "method": "POST",
+    "path": "/sell/inventory/v1/offer",
+    "payloadSha256": "331763170112dacb699afa508ca6ab06bc665f3318abda497148a9bf62ae652c"
+  },
+  "publishAction": {
+    "method": "POST",
+    "pathTemplate": "/sell/inventory/v1/offer/{offerId}/publish"
+  },
+  "effect": "Publish inventory item US-B098NTSJ6W to EBAY_US at 31.97 USD",
+  "risk": "Creates a live eBay listing; reversible via withdrawOffer (offer unpublished, inventory retained).",
+  "rollback": "withdrawOffer for US-B098NTSJ6W",
+  "validation": {
+    "pass": true,
+    "checkedAt": "2026-08-27T21:36:18Z"
+  },
+  "packSha256": "333aa2ddf43529866d39a75fcbe32c6e866591b70d4a91921aaa997a31425547"
+}

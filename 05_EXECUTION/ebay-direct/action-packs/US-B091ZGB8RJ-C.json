@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "sku": "US-B091ZGB8RJ-C",
+  "manifestSha256": "ddc0d2a42356e3cd5deeb5d0b50ad69c03913d1b3c981e26d1c2a8f6f46b9935",
+  "inventoryAction": {
+    "method": "PUT",
+    "path": "/sell/inventory/v1/inventory_item/US-B091ZGB8RJ-C",
+    "payloadSha256": "9c8053332432950a9d9fb996da00764dd38cd15d11ce89fa5ad59c1c244abf42"
+  },
+  "offerAction": {
+    "method": "POST",
+    "path": "/sell/inventory/v1/offer",
+    "payloadSha256": "e0f4397a073cecb7ef5f3896ee3050cd5532303688fc203b27d018d6cb97d580"
+  },
+  "publishAction": {
+    "method": "POST",
+    "pathTemplate": "/sell/inventory/v1/offer/{offerId}/publish"
+  },
+  "effect": "Publish inventory item US-B091ZGB8RJ-C to EBAY_US at 31.97 USD",
+  "risk": "Creates a live eBay listing; reversible via withdrawOffer (offer unpublished, inventory retained).",
+  "rollback": "withdrawOffer for US-B091ZGB8RJ-C",
+  "validation": {
+    "pass": true,
+    "checkedAt": "2026-08-27T21:36:18Z"
+  },
+  "packSha256": "89d5961ed7b2f7c11ad6883fd0ee81fb1a1584955871b1107aa6507235e10247"
+}
