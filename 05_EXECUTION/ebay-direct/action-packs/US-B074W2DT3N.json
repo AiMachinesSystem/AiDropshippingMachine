@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "sku": "US-B074W2DT3N",
+  "manifestSha256": "f25957249784f6e8747d1e68c7c8d6e239ab42c5e9a5e69bc3553e9c973f1a2d",
+  "inventoryAction": {
+    "method": "PUT",
+    "path": "/sell/inventory/v1/inventory_item/US-B074W2DT3N",
+    "payloadSha256": "10c06acc93476ecf183415cc43982cb8f406e55601d44837bd0b001a34ce1398"
+  },
+  "offerAction": {
+    "method": "POST",
+    "path": "/sell/inventory/v1/offer",
+    "payloadSha256": "d95ef2b6af2a6b114178bfcab7288882ff010c80037373a049641ab521a3eb01"
+  },
+  "publishAction": {
+    "method": "POST",
+    "pathTemplate": "/sell/inventory/v1/offer/{offerId}/publish"
+  },
+  "effect": "Publish inventory item US-B074W2DT3N to EBAY_US at 224.97 USD",
+  "risk": "Creates a live eBay listing; reversible via withdrawOffer (offer unpublished, inventory retained).",
+  "rollback": "withdrawOffer for US-B074W2DT3N",
+  "validation": {
+    "pass": true,
+    "checkedAt": "2026-08-28T06:53:32Z"
+  },
+  "packSha256": "1622905625fe609f386129797a136b3241c8c4e234d345a4af21ba55a9216b64"
+}

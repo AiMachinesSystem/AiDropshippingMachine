@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "sku": "US-B001ESO9KO",
+  "manifestSha256": "8637e8947e75d53cfbc98a99acef5e38fd85cc4f7fc8dad753f659608bf84432",
+  "inventoryAction": {
+    "method": "PUT",
+    "path": "/sell/inventory/v1/inventory_item/US-B001ESO9KO",
+    "payloadSha256": "296d4a82098315017f890679e2cf66e1027f7d33cbc411075dc8834d52744776"
+  },
+  "offerAction": {
+    "method": "POST",
+    "path": "/sell/inventory/v1/offer",
+    "payloadSha256": "b70a0c1cae0abd2405bde2022db2d3f00b08457f1c52e6b3d5178b00c625af6a"
+  },
+  "publishAction": {
+    "method": "POST",
+    "pathTemplate": "/sell/inventory/v1/offer/{offerId}/publish"
+  },
+  "effect": "Publish inventory item US-B001ESO9KO to EBAY_US at 203.97 USD",
+  "risk": "Creates a live eBay listing; reversible via withdrawOffer (offer unpublished, inventory retained).",
+  "rollback": "withdrawOffer for US-B001ESO9KO",
+  "validation": {
+    "pass": true,
+    "checkedAt": "2026-08-28T06:53:32Z"
+  },
+  "packSha256": "7ae222334014df361d2306cdb57a3a6b0114b4d73627efa40d197300d310b9cb"
+}

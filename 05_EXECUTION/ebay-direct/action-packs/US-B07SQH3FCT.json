@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "sku": "US-B07SQH3FCT",
+  "manifestSha256": "1d9ecd67e49030810b465159ec29ab665e3f0f0254294b2917e6ee1c951ada32",
+  "inventoryAction": {
+    "method": "PUT",
+    "path": "/sell/inventory/v1/inventory_item/US-B07SQH3FCT",
+    "payloadSha256": "6c2a55f84d4958557e45dfb61fd60d328e8079a485ac0594150af54cc90b5f1f"
+  },
+  "offerAction": {
+    "method": "POST",
+    "path": "/sell/inventory/v1/offer",
+    "payloadSha256": "fbe22be240c46266a2f06d45c23a2c1ae6c606061f9deb5d5357e683082a209e"
+  },
+  "publishAction": {
+    "method": "POST",
+    "pathTemplate": "/sell/inventory/v1/offer/{offerId}/publish"
+  },
+  "effect": "Publish inventory item US-B07SQH3FCT to EBAY_US at 247.97 USD",
+  "risk": "Creates a live eBay listing; reversible via withdrawOffer (offer unpublished, inventory retained).",
+  "rollback": "withdrawOffer for US-B07SQH3FCT",
+  "validation": {
+    "pass": true,
+    "checkedAt": "2026-08-28T06:53:32Z"
+  },
+  "packSha256": "f22cfd959570f21db6dc21a7a6f0e6522218f8264bad5071a0e6b352406bb034"
+}

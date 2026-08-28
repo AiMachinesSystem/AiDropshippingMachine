@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "sku": "US-B002WP1R1W",
+  "manifestSha256": "644eb519f46287c286da72c3ea63653fcff1e1666d768360b05a4142db600e70",
+  "inventoryAction": {
+    "method": "PUT",
+    "path": "/sell/inventory/v1/inventory_item/US-B002WP1R1W",
+    "payloadSha256": "199a559e907f3c9f8ed9e4f5067fe0e122e2fa04d64ea4d21e27a29ae7f1e4bc"
+  },
+  "offerAction": {
+    "method": "POST",
+    "path": "/sell/inventory/v1/offer",
+    "payloadSha256": "c84829e34c238f4f83155f45eb5991d9cf3bf672a0014f4211fc79ea75d7dbcc"
+  },
+  "publishAction": {
+    "method": "POST",
+    "pathTemplate": "/sell/inventory/v1/offer/{offerId}/publish"
+  },
+  "effect": "Publish inventory item US-B002WP1R1W to EBAY_US at 252.97 USD",
+  "risk": "Creates a live eBay listing; reversible via withdrawOffer (offer unpublished, inventory retained).",
+  "rollback": "withdrawOffer for US-B002WP1R1W",
+  "validation": {
+    "pass": true,
+    "checkedAt": "2026-08-28T06:53:32Z"
+  },
+  "packSha256": "1f6bfba7db3d5103135035883f4a6b2a352fe1cb80c541ae42ced757f609c0c3"
+}

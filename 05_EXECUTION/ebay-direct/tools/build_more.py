@@ -57,6 +57,22 @@ COLOR_MAP = [
     ("orange", "Orange"), ("silver", "Silver"), ("gold", "Gold"), ("clear", "Clear"),
 ]
 
+# Size/Firmness inferred ONLY when the title names them explicitly (up-ticket learnings:
+# mattress needed Size="King" + Firmness="Medium"; towels needed Size="Hand Towel").
+# Conservative — no dimension inference (Length/Width/Height): those categories require a
+# full SET that titles almost never carry, and a partial value is a compliance fabrication.
+SIZE_MAP = [
+    ("california king", "California King"), ("king", "King"), ("queen", "Queen"),
+    ("full", "Full"), ("twin xl", "Twin XL"), ("twin", "Twin"),
+    ("x-large", "X-Large"), ("x large", "X-Large"), ("xx-large", "XX-Large"),
+    ("large", "Large"), ("medium", "Medium"), ("small", "Small"),
+    ("hand towel", "Hand Towel"), ("bath towel", "Bath Towel"), ("washcloth", "Washcloth"),
+]
+FIRMNESS_MAP = [
+    ("extra firm", "Extra Firm"), ("medium firm", "Medium Firm"), ("medium", "Medium"),
+    ("firm", "Firm"), ("soft", "Soft"), ("plush", "Plush"),
+]
+
 def clean_title(t: str) -> str:
     t = TRADEMARK.sub("", t)
     t = re.sub(r"^[A-Z][A-Za-z0-9&'\.\- ]{1,40}\s*[-–|:]\s*", "", t, count=1)
@@ -77,6 +93,27 @@ def infer_material(title: str):
 def infer_color(title: str):
     tl = title.lower()
     for kw, val in COLOR_MAP:
+        if re.search(r"\b" + re.escape(kw) + r"\b", tl):
+            return val
+    return None
+
+def _bedding_context(tl: str) -> bool:
+    return any(k in tl for k in ("mattress", "towel", "sheet", "comforter", "duvet", "pillow", "topper", "rug"))
+
+def infer_size(title: str):
+    tl = title.lower()
+    if not _bedding_context(tl):
+        return None
+    for kw, val in SIZE_MAP:
+        if re.search(r"\b" + re.escape(kw) + r"\b", tl):
+            return val
+    return None
+
+def infer_firmness(title: str):
+    tl = title.lower()
+    if not _bedding_context(tl):
+        return None
+    for kw, val in FIRMNESS_MAP:
         if re.search(r"\b" + re.escape(kw) + r"\b", tl):
             return val
     return None
@@ -147,10 +184,16 @@ def main():
         aspects = {"Brand": ["Unbranded"], "Type": [cat_name]}
         mat = infer_material(x.get("title", ""))
         col = infer_color(x.get("title", ""))
+        size = infer_size(x.get("title", ""))
+        firm = infer_firmness(x.get("title", ""))
         if mat:
             aspects["Material"] = [mat]
         if col:
             aspects["Color"] = [col]
+        if size:
+            aspects["Size"] = [size]
+        if firm:
+            aspects["Firmness"] = [firm]
 
         type_lc = cat_name.lower().rstrip("s")
         desc = (

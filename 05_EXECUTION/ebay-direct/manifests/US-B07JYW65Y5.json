@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "sku": "US-B07JYW65Y5",
+  "marketplaceId": "EBAY_US",
+  "product": {
+    "title": "100 Pcs 3.15\"/ 8Cm Hanging Glass Tealight Holder Globe, Plant Terrariums Glass",
+    "description": "100 Pcs 3.15\"/ 8Cm Hanging Glass Tealight Holder Globe, Plant Terrariums Glass.\n\nWHAT YOU GET\n• 1x candle holders & accessorie, new, in supplier packaging\n\nShips from a US warehouse. Estimated delivery within 10 business days. 30-day returns.",
+    "aspects": {
+      "Brand": [
+        "Unbranded"
+      ],
+      "Type": [
+        "Candle Holders & Accessories"
+      ],
+      "Material": [
+        "Glass"
+      ]
+    },
+    "imageUrls": [
+      "https://autods-scraper-images.s3-us-west-2.amazonaws.com/1aa1a94318db6dea7e25e358e8115cf7.png"
+    ]
+  },
+  "condition": "NEW",
+  "categoryId": "16102",
+  "quantity": 2,
+  "price": {
+    "value": "238.97",
+    "currency": "USD"
+  },
+  "merchantLocationKey": "US-WAREHOUSE",
+  "policies": {
+    "payment": "282011576018",
+    "fulfillment": "282011584018",
+    "return": "282011577018"
+  },
+  "evidence": {
+    "supplierUrl": "https://www.amazon.com/dp/B07JYW65Y5/ref=sr_1_14?psc=1",
+    "sourceCheckedAt": "2026-08-28T06:53:32Z",
+    "stockObserved": 1,
+    "supplierCostUsd": "159.99",
+    "deliveryLatestDays": 10,
+    "imageRights": "SUPPLIER_AUTHORIZED",
+    "vero": "PASS",
+    "estimatedEbayFeesUsd": "31.96",
+    "estimatedFulfillmentUsd": "4.24",
+    "estimatedNetProfitUsd": "42.78"
+  }
+}

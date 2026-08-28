@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "sku": "US-B00K027D0S",
+  "marketplaceId": "EBAY_US",
+  "product": {
+    "title": "Premium Orthopedic Memory Foam Pet Bed for Extra Large Dogs, Washable Durable",
+    "description": "Premium Orthopedic Memory Foam Pet Bed for Extra Large Dogs, Washable Durable.\n\nWHAT YOU GET\n• 1x bed, new, in supplier packaging\n\nShips from a US warehouse. Estimated delivery within 10 business days. 30-day returns.",
+    "aspects": {
+      "Brand": [
+        "Unbranded"
+      ],
+      "Type": [
+        "Beds"
+      ],
+      "Color": [
+        "Brown"
+      ]
+    },
+    "imageUrls": [
+      "https://autods-scraper-images.s3-us-west-2.amazonaws.com/922d16cedbe29e3b5501bc4201937f71.png"
+    ]
+  },
+  "condition": "NEW",
+  "categoryId": "20744",
+  "quantity": 2,
+  "price": {
+    "value": "203.97",
+    "currency": "USD"
+  },
+  "merchantLocationKey": "US-WAREHOUSE",
+  "policies": {
+    "payment": "282011576018",
+    "fulfillment": "282011584018",
+    "return": "282011577018"
+  },
+  "evidence": {
+    "supplierUrl": "https://www.amazon.com/dp/B00K027D0S/ref=sr_1_20?th=1&psc=1",
+    "sourceCheckedAt": "2026-08-28T06:53:32Z",
+    "stockObserved": 1,
+    "supplierCostUsd": "135.95",
+    "deliveryLatestDays": 10,
+    "imageRights": "SUPPLIER_AUTHORIZED",
+    "vero": "PASS",
+    "estimatedEbayFeesUsd": "27.33",
+    "estimatedFulfillmentUsd": "3.62",
+    "estimatedNetProfitUsd": "37.07"
+  }
+}

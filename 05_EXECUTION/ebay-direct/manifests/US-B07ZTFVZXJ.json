@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "sku": "US-B07ZTFVZXJ",
+  "marketplaceId": "EBAY_US",
+  "product": {
+    "title": "40'' H Rolling Tool Chest with Wheels | Detachable Top Metal Tool Box | Garage",
+    "description": "40'' H Rolling Tool Chest with Wheels | Detachable Top Metal Tool Box | Garage.\n\nWHAT YOU GET\n• 1x tool boxe, new, in supplier packaging\n\nShips from a US warehouse. Estimated delivery within 10 business days. 30-day returns.",
+    "aspects": {
+      "Brand": [
+        "Unbranded"
+      ],
+      "Type": [
+        "Tool Boxes"
+      ],
+      "Color": [
+        "Black"
+      ]
+    },
+    "imageUrls": [
+      "https://autods-scraper-images.s3-us-west-2.amazonaws.com/56c6c3b6328c9caa1ba3f02b615ea73f.png"
+    ]
+  },
+  "condition": "NEW",
+  "categoryId": "33089",
+  "quantity": 2,
+  "price": {
+    "value": "209.97",
+    "currency": "USD"
+  },
+  "merchantLocationKey": "US-WAREHOUSE",
+  "policies": {
+    "payment": "282011576018",
+    "fulfillment": "282011584018",
+    "return": "282011577018"
+  },
+  "evidence": {
+    "supplierUrl": "https://www.amazon.com/dp/B07ZTFVZXJ?th=1&psc=1",
+    "sourceCheckedAt": "2026-08-28T06:53:32Z",
+    "stockObserved": 1,
+    "supplierCostUsd": "139.99",
+    "deliveryLatestDays": 10,
+    "imageRights": "SUPPLIER_AUTHORIZED",
+    "vero": "PASS",
+    "estimatedEbayFeesUsd": "28.12",
+    "estimatedFulfillmentUsd": "3.73",
+    "estimatedNetProfitUsd": "38.13"
+  }
+}
