@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "sku": "US-B0881X64L5",
+  "manifestSha256": "0111e5148e70328e2ccb427302829e77224b41fac5878ab417c99d12faeae5ef",
+  "inventoryAction": {
+    "method": "PUT",
+    "path": "/sell/inventory/v1/inventory_item/US-B0881X64L5",
+    "payloadSha256": "b6ec457696401e166a087843416cf9d42deeecb8c6e0643dda3629d4b8a39ae9"
+  },
+  "offerAction": {
+    "method": "POST",
+    "path": "/sell/inventory/v1/offer",
+    "payloadSha256": "f6096753d781f01926d63a035f14351a82d6699ad5f37f70aefe5c0a4ef54bfb"
+  },
+  "publishAction": {
+    "method": "POST",
+    "pathTemplate": "/sell/inventory/v1/offer/{offerId}/publish"
+  },
+  "effect": "Publish inventory item US-B0881X64L5 to EBAY_US at 358.97 USD",
+  "risk": "Creates a live eBay listing; reversible via withdrawOffer (offer unpublished, inventory retained).",
+  "rollback": "withdrawOffer for US-B0881X64L5",
+  "validation": {
+    "pass": true,
+    "checkedAt": "2026-08-27T22:07:59Z"
+  },
+  "packSha256": "4d1606ad777c5e0dd6eab2d0d015ea7107ed643ab36918f59902696976164d98"
+}

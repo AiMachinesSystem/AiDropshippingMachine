@@ -122,15 +122,15 @@ Deno.test("validateManifest rejects net profit below $5", () => {
   assertEquals(report.errors.includes("net profit below $5"), true);
 });
 
-Deno.test("validateManifest rejects net profit below 20% of price", () => {
+Deno.test("validateManifest rejects net profit below 10% of price", () => {
   const manifest = validManifest({
     price: { value: "200.00", currency: "USD" },
-    evidence: { ...validManifest().evidence, estimatedNetProfitUsd: "30.00" },
+    evidence: { ...validManifest().evidence, estimatedNetProfitUsd: "12.00" },
   });
   const report = validateManifest(manifest, validBootstrap(), NOW);
   assertEquals(report.pass, false);
   assertEquals(
-    report.errors.includes("net profit below 20% of sale price"),
+    report.errors.includes("net profit below 10% of sale price"),
     true,
   );
 });

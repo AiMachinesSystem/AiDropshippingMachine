@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "sku": "US-B002NTP6B4",
+  "manifestSha256": "0ce971291061f33d05d8ae956931ded611b9e7ee133c339dff27a5f361c487b3",
+  "inventoryAction": {
+    "method": "PUT",
+    "path": "/sell/inventory/v1/inventory_item/US-B002NTP6B4",
+    "payloadSha256": "b04cb2b9fa5503e199c6e63585ad98a0db6373240a98187148235d96cd99b84d"
+  },
+  "offerAction": {
+    "method": "POST",
+    "path": "/sell/inventory/v1/offer",
+    "payloadSha256": "c2180bb74c49ebd77a7995dab9ac811975f52275b3d9562f048cc36987a4811c"
+  },
+  "publishAction": {
+    "method": "POST",
+    "pathTemplate": "/sell/inventory/v1/offer/{offerId}/publish"
+  },
+  "effect": "Publish inventory item US-B002NTP6B4 to EBAY_US at 373.97 USD",
+  "risk": "Creates a live eBay listing; reversible via withdrawOffer (offer unpublished, inventory retained).",
+  "rollback": "withdrawOffer for US-B002NTP6B4",
+  "validation": {
+    "pass": true,
+    "checkedAt": "2026-08-27T22:07:59Z"
+  },
+  "packSha256": "ae6eadb08fe61b095bb4bd93e8c439011e98ce5d632c5ef3d0a32c3dee83c7c6"
+}

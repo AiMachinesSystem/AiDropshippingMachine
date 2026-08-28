@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "sku": "US-B07GY27KPC",
+  "manifestSha256": "dda148332df165c279d9a8152886af4da245947407ad27f19b16386115eabb3d",
+  "inventoryAction": {
+    "method": "PUT",
+    "path": "/sell/inventory/v1/inventory_item/US-B07GY27KPC",
+    "payloadSha256": "e5641c7c114d7aa692c756b3720a7542c32452238bcdfcb6c1bbb00cb92f2a38"
+  },
+  "offerAction": {
+    "method": "POST",
+    "path": "/sell/inventory/v1/offer",
+    "payloadSha256": "3b7f6cdb32ebf1cf50c538c36bc6fba1742c8b965bcba51fd3ae752521e8c495"
+  },
+  "publishAction": {
+    "method": "POST",
+    "pathTemplate": "/sell/inventory/v1/offer/{offerId}/publish"
+  },
+  "effect": "Publish inventory item US-B07GY27KPC to EBAY_US at 291.97 USD",
+  "risk": "Creates a live eBay listing; reversible via withdrawOffer (offer unpublished, inventory retained).",
+  "rollback": "withdrawOffer for US-B07GY27KPC",
+  "validation": {
+    "pass": true,
+    "checkedAt": "2026-08-27T22:07:59Z"
+  },
+  "packSha256": "5a9a68f870f8b921b2cb3db1d55237ff7898aa4a374b239720c7c4b3130acc18"
+}

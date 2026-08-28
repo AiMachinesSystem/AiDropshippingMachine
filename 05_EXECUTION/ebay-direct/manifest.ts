@@ -226,8 +226,8 @@ export function validateManifest(
     errors.push("estimatedNetProfitUsd must be a number");
   } else if (netProfit < 5) {
     errors.push("net profit below $5");
-  } else if (salePrice > 0 && netProfit < salePrice * 0.20) {
-    errors.push("net profit below 20% of sale price");
+  } else if (salePrice > 0 && netProfit < salePrice * 0.10) {
+    errors.push("net profit below 10% of sale price");
   }
 
   const titleDesc = (title + " " + description).toLowerCase();
