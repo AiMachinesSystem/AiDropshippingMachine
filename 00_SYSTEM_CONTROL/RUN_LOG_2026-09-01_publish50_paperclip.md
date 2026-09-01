@@ -19,7 +19,12 @@ porte $0 (opencode_local / omniroute), gate VeRO + NET-margin rispettati.
 - [x] 02:15 — Issue creato: `5415e55a-9153-4bb0-b9a7-87fb1df70e3d` (title "Publish 50 quality listings to eBay (batch via BAY fleet)"), status todo → assegnato a BAY-LEAD, project Operations, priority high.
 - [x] 02:16 — Kickoff comment postato sull'issue.
 - [x] 02:17 — BAY-LEAD running; issue → in_progress.
+- [x] 02:28 — BAY-LEAD decomposizione: DIGA-27 sourcing → DIGA-28 sold-comps → DIGA-29 net-margin gate → DIGA-30 optimize+publish payload. Governance corretta: flotta prepara tutto e si ferma a UNA riga di GO per il publish live (chat GO ≠ owner approval).
+- [x] 02:35 — Parent DIGA-26 → `blocked` da Paperclip recovery ("no live execution path" sul parent). FALSO BLOCCO del contenitore: i 4 figli DIGA-27..30 sono tutti `in_progress` e i 5 agent BAY sono running. Il parent è solo il contenitore delegato; l'esecuzione vive nei figli.
 - [ ] Fine corsa — verifica item IDs live + report owner.
+
+## Monitor attivi
+- bknafuryh: poll figli DIGA-27..30 (ogni 3 min), terminale quando tutti done/cancelled/blocked.
 
 ## Recovery
 Se questa sessione si compatta: issue Paperclip `5415e55a-9153-4bb0-b9a7-87fb1df70e3d`,
