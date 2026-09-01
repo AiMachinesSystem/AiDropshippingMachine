@@ -37,6 +37,13 @@ porte $0 (opencode_local / omniroute), gate VeRO + NET-margin rispettati.
 - Evento concomitante: BAY-LEAD context-window overflow → reset runtime + fresh-session retry (applicati da Paperclip, commento 07:26).
 - Azione: wakeup forzato BAY-SOURCING (queued). DIGA-28 NON si forza: si sblocca quando DIGA-27 pubblica l'artefatto.
 
+## 09:21-09:50 — Owner chiede "stai producendo vero?" → verità: 0 annunci, flotta in stallo
+- Risposta onesta all'owner: NO, zero listing pubblicati.
+- Root cause reale [VERIFIED — errorReason API]: BAY-PROFIT e BAY-LISTING in `error` da ore per **context overflow**: `agente-operativo` gira su `nvidia/moonshotai/kimi-k3` (128k ctx) ma prompt ~187k token.
+- Fix: switch modello via PATCH /api/agents/{id} → `omniroute/nvidia/deepseek-ai/deepseek-v4-flash` (1M ctx, tool_calling OK) su BAY-PROFIT e BAY-LISTING. Clear-error + resume + wakeup su entrambi (queued).
+- DIGA-27/28/29/30 tutti `blocked` al momento del check (catena a valle ferma per dipendenze + agent in error).
+- Until-loop bf9rn8p01 attende BAY-PROFIT running con nuovo modello.
+
 ## Recovery
 Se questa sessione si compatta: issue Paperclip `5415e55a-9153-4bb0-b9a7-87fb1df70e3d`,
 company `9cadc9a2-2151-4db4-ac83-abe23a228e20`. Poll: GET /api/issues/{id}.
