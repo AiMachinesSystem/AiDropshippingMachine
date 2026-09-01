@@ -31,6 +31,12 @@ porte $0 (opencode_local / omniroute), gate VeRO + NET-margin rispettati.
 - Fix eseguito: `clear-error` + `resume` su BAY-COMPETITOR → ora idle (pulito). `retry-now` su DIGA-28: no_scheduled_retry (normale, il wakeup riprende per assegnazione).
 - Until-loop background (bl0m2j1bq) attende DIGA-28 → in_progress.
 
+## 03:53 — Secondo blocked DIGA-28: DIPENDENZA REALE (non artefatto)
+- [VERIFIED — API] DIGA-28 legittimamente blocked: "DIGA-27 is still in_progress and has no comments or sourcing artifact in the shared workspace. No >=70-candidate current sourcing output."
+- Collo di bottiglia = DIGA-27/BAY-SOURCING: zero commenti, zero documenti da ~1h.
+- Evento concomitante: BAY-LEAD context-window overflow → reset runtime + fresh-session retry (applicati da Paperclip, commento 07:26).
+- Azione: wakeup forzato BAY-SOURCING (queued). DIGA-28 NON si forza: si sblocca quando DIGA-27 pubblica l'artefatto.
+
 ## Recovery
 Se questa sessione si compatta: issue Paperclip `5415e55a-9153-4bb0-b9a7-87fb1df70e3d`,
 company `9cadc9a2-2151-4db4-ac83-abe23a228e20`. Poll: GET /api/issues/{id}.
