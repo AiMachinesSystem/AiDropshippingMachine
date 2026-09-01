@@ -26,6 +26,11 @@ porte $0 (opencode_local / omniroute), gate VeRO + NET-margin rispettati.
 ## Monitor attivi
 - bknafuryh: poll figli DIGA-27..30 (ogni 3 min), terminale quando tutti done/cancelled/blocked.
 
+## Recovery 03:19 — DIGA-28 blocked
+- Causa REALE [VERIFIED — API]: BAY-COMPETITOR in stato `error` (nessun lastError esposto; DIAGA-28 blocked dal recovery automatico "no live execution path", zero blocker reali).
+- Fix eseguito: `clear-error` + `resume` su BAY-COMPETITOR → ora idle (pulito). `retry-now` su DIGA-28: no_scheduled_retry (normale, il wakeup riprende per assegnazione).
+- Until-loop background (bl0m2j1bq) attende DIGA-28 → in_progress.
+
 ## Recovery
 Se questa sessione si compatta: issue Paperclip `5415e55a-9153-4bb0-b9a7-87fb1df70e3d`,
 company `9cadc9a2-2151-4db4-ac83-abe23a228e20`. Poll: GET /api/issues/{id}.
