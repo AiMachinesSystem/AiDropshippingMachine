@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "sku": "US-B08S2PG1TK",
+  "manifestSha256": "da3e0a347dfd1e4305f78c196a400877d83508c18bf3dd29f34dc68921897fb2",
+  "inventoryAction": {
+    "method": "PUT",
+    "path": "/sell/inventory/v1/inventory_item/US-B08S2PG1TK",
+    "payloadSha256": "8cd1b3573071327380b7e324a40d68c813effa44e1c51dd0e493e64f808d4fc9"
+  },
+  "offerAction": {
+    "method": "POST",
+    "path": "/sell/inventory/v1/offer",
+    "payloadSha256": "54e044592095e9cadc90536361729690b458ac7a61c4a690183ac40e52f1aac5"
+  },
+  "publishAction": {
+    "method": "POST",
+    "pathTemplate": "/sell/inventory/v1/offer/{offerId}/publish"
+  },
+  "effect": "Publish inventory item US-B08S2PG1TK to EBAY_US at 128.97 USD",
+  "risk": "Creates a live eBay listing; reversible via withdrawOffer (offer unpublished, inventory retained).",
+  "rollback": "withdrawOffer for US-B08S2PG1TK",
+  "validation": {
+    "pass": true,
+    "checkedAt": "2026-09-05T01:01:25Z"
+  },
+  "packSha256": "537c31de969816a8836bd53e94f3ab0a72a6dffe78350988d8ca088fa82ec1e2"
+}

@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "sku": "US-B08G53L8B5",
+  "manifestSha256": "600dd0707e429d58e518ffffe62a86e410743d3d5dc953bd1d7ab4e58c726e29",
+  "inventoryAction": {
+    "method": "PUT",
+    "path": "/sell/inventory/v1/inventory_item/US-B08G53L8B5",
+    "payloadSha256": "56d7accac1e7657a37f950a964c28f3e5446922e2c22aa530554fdacd1b5e3d1"
+  },
+  "offerAction": {
+    "method": "POST",
+    "path": "/sell/inventory/v1/offer",
+    "payloadSha256": "699e51f263de4b8b019877ba3312c24e224fb9cf87d623f242f0470b5214b51d"
+  },
+  "publishAction": {
+    "method": "POST",
+    "pathTemplate": "/sell/inventory/v1/offer/{offerId}/publish"
+  },
+  "effect": "Publish inventory item US-B08G53L8B5 to EBAY_US at 194.97 USD",
+  "risk": "Creates a live eBay listing; reversible via withdrawOffer (offer unpublished, inventory retained).",
+  "rollback": "withdrawOffer for US-B08G53L8B5",
+  "validation": {
+    "pass": true,
+    "checkedAt": "2026-09-05T01:01:25Z"
+  },
+  "packSha256": "257f6ea7890aa0254c19373757695985eb3788e7a2b5dfb9a1840c3561b10a47"
+}

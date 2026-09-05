@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "sku": "US-B00VNECWSA",
+  "manifestSha256": "ff5995a3027a7cac6be39ee4d2bf518caf249b23833b43769277ce8709912e13",
+  "inventoryAction": {
+    "method": "PUT",
+    "path": "/sell/inventory/v1/inventory_item/US-B00VNECWSA",
+    "payloadSha256": "9c9d0c83a599f1f2131987ba7133a6dc6e49f2de9b73d742db2a99370a26a32c"
+  },
+  "offerAction": {
+    "method": "POST",
+    "path": "/sell/inventory/v1/offer",
+    "payloadSha256": "683c5d98766e97143a482d509a0029c339f90796f6642f99d0218e94f0aa2d79"
+  },
+  "publishAction": {
+    "method": "POST",
+    "pathTemplate": "/sell/inventory/v1/offer/{offerId}/publish"
+  },
+  "effect": "Publish inventory item US-B00VNECWSA to EBAY_US at 119.97 USD",
+  "risk": "Creates a live eBay listing; reversible via withdrawOffer (offer unpublished, inventory retained).",
+  "rollback": "withdrawOffer for US-B00VNECWSA",
+  "validation": {
+    "pass": true,
+    "checkedAt": "2026-09-05T01:25:02Z"
+  },
+  "packSha256": "d9375273491a8e3b030dcb927f6da22dcf43dcd92be7f562adcb9cb9252eb4fd"
+}

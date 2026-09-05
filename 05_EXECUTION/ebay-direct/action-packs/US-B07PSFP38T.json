@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "sku": "US-B07PSFP38T",
+  "manifestSha256": "a7e20099de39e6b3ee5cbc5540191a3108c11efdd4748b905f811b2e9ba8f4e9",
+  "inventoryAction": {
+    "method": "PUT",
+    "path": "/sell/inventory/v1/inventory_item/US-B07PSFP38T",
+    "payloadSha256": "655feb687f3b3a6d8af8fe3507e1d28f2fd770f28a6545b87747f0e6cb6b4109"
+  },
+  "offerAction": {
+    "method": "POST",
+    "path": "/sell/inventory/v1/offer",
+    "payloadSha256": "a6c61d64f9d8cbaca55895ae591fcf4b53ac345581cd3c0fb2e558cc9e50333d"
+  },
+  "publishAction": {
+    "method": "POST",
+    "pathTemplate": "/sell/inventory/v1/offer/{offerId}/publish"
+  },
+  "effect": "Publish inventory item US-B07PSFP38T to EBAY_US at 134.97 USD",
+  "risk": "Creates a live eBay listing; reversible via withdrawOffer (offer unpublished, inventory retained).",
+  "rollback": "withdrawOffer for US-B07PSFP38T",
+  "validation": {
+    "pass": true,
+    "checkedAt": "2026-09-05T01:01:25Z"
+  },
+  "packSha256": "4ec37f99f07d11a5b574ed6491aff922ee396d3307348b9e7a06c89d168dae65"
+}

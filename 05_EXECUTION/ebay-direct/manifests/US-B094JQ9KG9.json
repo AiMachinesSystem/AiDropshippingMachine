@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "sku": "US-B094JQ9KG9",
+  "marketplaceId": "EBAY_US",
+  "product": {
+    "title": "Butterfly Chair Oversized XL Camping Chairs for Adults Padded Folding Comfy",
+    "description": "Butterfly Chair Oversized XL Camping Chairs for Adults Padded Folding Comfy.\n\nWHAT YOU GET\n• 1x camping furniture, new, in supplier packaging\n\nShips from a US warehouse. Estimated delivery within 10 business days. 30-day returns.",
+    "aspects": {
+      "Brand": [
+        "Unbranded"
+      ],
+      "Type": [
+        "Camping Furniture"
+      ]
+    },
+    "imageUrls": [
+      "https://autods-scraper-images.s3-us-west-2.amazonaws.com/6c0e0778ecd6843e8d8f12b5728462d3.png"
+    ]
+  },
+  "condition": "NEW",
+  "categoryId": "16038",
+  "quantity": 2,
+  "price": {
+    "value": "254.97",
+    "currency": "USD"
+  },
+  "merchantLocationKey": "US-WAREHOUSE",
+  "policies": {
+    "payment": "282011576018",
+    "fulfillment": "282011584018",
+    "return": "282011577018"
+  },
+  "evidence": {
+    "supplierUrl": "https://www.amazon.com/dp/B094JQ9KG9/ref=sr_1_11?psc=1",
+    "sourceCheckedAt": "2026-09-05T01:22:56Z",
+    "stockObserved": 10,
+    "supplierCostUsd": "169.99",
+    "deliveryLatestDays": 10,
+    "imageRights": "SUPPLIER_AUTHORIZED",
+    "vero": "PASS",
+    "estimatedEbayFeesUsd": "34.08",
+    "estimatedFulfillmentUsd": "3.83",
+    "estimatedNetProfitUsd": "50.90"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "sku": "US-B0832PDJG9",
+  "manifestSha256": "e53a2c038bef9572a76d20d680a4f0d1c75b91482f0896d8a2662ef6eef5ef30",
+  "inventoryAction": {
+    "method": "PUT",
+    "path": "/sell/inventory/v1/inventory_item/US-B0832PDJG9",
+    "payloadSha256": "f6bdedaf600e4cdad02a40eb063d6faa49f80c8e7deb395167ea5234f3e354cc"
+  },
+  "offerAction": {
+    "method": "POST",
+    "path": "/sell/inventory/v1/offer",
+    "payloadSha256": "a5f9fcf34497d4e702cbaa5139c5e4a1e68a817b69b841bca0543332658d8eac"
+  },
+  "publishAction": {
+    "method": "POST",
+    "pathTemplate": "/sell/inventory/v1/offer/{offerId}/publish"
+  },
+  "effect": "Publish inventory item US-B0832PDJG9 to EBAY_US at 254.97 USD",
+  "risk": "Creates a live eBay listing; reversible via withdrawOffer (offer unpublished, inventory retained).",
+  "rollback": "withdrawOffer for US-B0832PDJG9",
+  "validation": {
+    "pass": true,
+    "checkedAt": "2026-09-05T01:01:25Z"
+  },
+  "packSha256": "64c4c7c3693d0f56cc1ae6c5f1d88ed7c9145e407f8c450068c421de48bdd60a"
+}

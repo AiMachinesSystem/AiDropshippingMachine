@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "sku": "US-B0753CRLJM",
+  "manifestSha256": "00a8e8ce278ad442e06f8651d3f69f672443792ffd1b52b11d94660c1297e12b",
+  "inventoryAction": {
+    "method": "PUT",
+    "path": "/sell/inventory/v1/inventory_item/US-B0753CRLJM",
+    "payloadSha256": "c8d42844704465a9f7beee54340134b1c761e775a5f9795f8eb4361dce3f4d91"
+  },
+  "offerAction": {
+    "method": "POST",
+    "path": "/sell/inventory/v1/offer",
+    "payloadSha256": "cdd457dc5e792d957e9007ee23058cdba318e558cfbfd48472d5fb493fcbde4d"
+  },
+  "publishAction": {
+    "method": "POST",
+    "pathTemplate": "/sell/inventory/v1/offer/{offerId}/publish"
+  },
+  "effect": "Publish inventory item US-B0753CRLJM to EBAY_US at 337.90 USD",
+  "risk": "Creates a live eBay listing; reversible via withdrawOffer (offer unpublished, inventory retained).",
+  "rollback": "withdrawOffer for US-B0753CRLJM",
+  "validation": {
+    "pass": true,
+    "checkedAt": "2026-09-05T01:00:49Z"
+  },
+  "packSha256": "da4bca886fd204cd832500626a6b94c8f32d50c38650d44d0b4041ddc3f00a9d"
+}

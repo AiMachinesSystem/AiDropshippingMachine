@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "sku": "US-B0FGPY7D6V",
+  "marketplaceId": "EBAY_US",
+  "product": {
+    "title": "96 LED Solar Lights Outdoor Upgraded 6 Pack, 43\" Tall & Super Larger Size,",
+    "description": "96 LED Solar Lights Outdoor Upgraded 6 Pack, 43\" Tall & Super Larger Size,.\n\nWHAT YOU GET\n• 1x landscape & walkway light, new, in supplier packaging\n\nShips from a US warehouse. Estimated delivery within 10 business days. 30-day returns.",
+    "aspects": {
+      "Brand": [
+        "Unbranded"
+      ],
+      "Type": [
+        "Landscape & Walkway Lights"
+      ]
+    },
+    "imageUrls": [
+      "https://autods-scraper-images.s3-us-west-2.amazonaws.com/9b54ed24a960243f195be6f8b2342c41.png"
+    ]
+  },
+  "condition": "NEW",
+  "categoryId": "94940",
+  "quantity": 2,
+  "price": {
+    "value": "164.97",
+    "currency": "USD"
+  },
+  "merchantLocationKey": "US-WAREHOUSE",
+  "policies": {
+    "payment": "282011576018",
+    "fulfillment": "282011584018",
+    "return": "282011577018"
+  },
+  "evidence": {
+    "supplierUrl": "https://www.amazon.com/dp/B0FGPY7D6V/ref=sr_1_7?th=1&psc=1",
+    "sourceCheckedAt": "2026-09-05T01:22:56Z",
+    "stockObserved": 10,
+    "supplierCostUsd": "109.99",
+    "deliveryLatestDays": 10,
+    "imageRights": "SUPPLIER_AUTHORIZED",
+    "vero": "PASS",
+    "estimatedEbayFeesUsd": "22.16",
+    "estimatedFulfillmentUsd": "3.83",
+    "estimatedNetProfitUsd": "32.82"
+  }
+}

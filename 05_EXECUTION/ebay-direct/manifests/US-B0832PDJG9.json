@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "sku": "US-B0832PDJG9",
+  "marketplaceId": "EBAY_US",
+  "product": {
+    "title": "Cat Tree 35 Inches Wooden Cat Tower with Double Condos, Spacious Perch, Fully",
+    "description": "Cat Tree 35 Inches Wooden Cat Tower with Double Condos, Spacious Perch, Fully.\n\nWHAT YOU GET\n• 1x furniture & scratcher, new, in supplier packaging\n\nShips from a US warehouse. Estimated delivery within 10 business days. 30-day returns.",
+    "aspects": {
+      "Brand": [
+        "Unbranded"
+      ],
+      "Type": [
+        "Furniture & Scratchers"
+      ]
+    },
+    "imageUrls": [
+      "https://autods-scraper-images.s3-us-west-2.amazonaws.com/28f28c22e8dfb6ea537c7ff5f809c532.png"
+    ]
+  },
+  "condition": "NEW",
+  "categoryId": "20740",
+  "quantity": 2,
+  "price": {
+    "value": "254.97",
+    "currency": "USD"
+  },
+  "merchantLocationKey": "US-WAREHOUSE",
+  "policies": {
+    "payment": "282011576018",
+    "fulfillment": "282011584018",
+    "return": "282011577018"
+  },
+  "evidence": {
+    "supplierUrl": "https://www.amazon.com/dp/B0832PDJG9/ref=sr_1_16?psc=1",
+    "sourceCheckedAt": "2026-09-05T01:01:25Z",
+    "stockObserved": 10,
+    "supplierCostUsd": "169.99",
+    "deliveryLatestDays": 10,
+    "imageRights": "SUPPLIER_AUTHORIZED",
+    "vero": "PASS",
+    "estimatedEbayFeesUsd": "34.08",
+    "estimatedFulfillmentUsd": "3.83",
+    "estimatedNetProfitUsd": "50.90"
+  }
+}

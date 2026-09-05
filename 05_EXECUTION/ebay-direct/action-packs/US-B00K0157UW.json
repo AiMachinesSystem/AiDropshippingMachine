@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "sku": "US-B00K0157UW",
+  "manifestSha256": "1f3cbce9ec1aae04a1db6366b7851a726adf5f60873f49cfab8e2e9b694286c3",
+  "inventoryAction": {
+    "method": "PUT",
+    "path": "/sell/inventory/v1/inventory_item/US-B00K0157UW",
+    "payloadSha256": "1eabc8c266896650431266e1dc7f95b2832c76a913f60c8743956b8a1feee93a"
+  },
+  "offerAction": {
+    "method": "POST",
+    "path": "/sell/inventory/v1/offer",
+    "payloadSha256": "e5ef21c2806dc854eb7c17da5ae8fb3b2c9e6fce8597e83d48d1579b589f1cf1"
+  },
+  "publishAction": {
+    "method": "POST",
+    "pathTemplate": "/sell/inventory/v1/offer/{offerId}/publish"
+  },
+  "effect": "Publish inventory item US-B00K0157UW to EBAY_US at 164.97 USD",
+  "risk": "Creates a live eBay listing; reversible via withdrawOffer (offer unpublished, inventory retained).",
+  "rollback": "withdrawOffer for US-B00K0157UW",
+  "validation": {
+    "pass": true,
+    "checkedAt": "2026-09-05T01:01:25Z"
+  },
+  "packSha256": "f4ce60a69b1a20c217bcf45865e3961af939319a108383f028954bcfec2a132f"
+}

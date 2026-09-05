@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "sku": "US-B07PSFP38T",
+  "marketplaceId": "EBAY_US",
+  "product": {
+    "title": "96-inch Extra Wide Dog gate for The House, Doorway, Stairs, Fr",
+    "description": "96-inch Extra Wide Dog gate for The House, Doorway, Stairs, Fr.\n\nWHAT YOU GET\n• 1x safety gate, new, in supplier packaging\n\nShips from a US warehouse. Estimated delivery within 10 business days. 30-day returns.",
+    "aspects": {
+      "Brand": [
+        "Unbranded"
+      ],
+      "Type": [
+        "Safety Gates"
+      ]
+    },
+    "imageUrls": [
+      "https://autods-scraper-images.s3-us-west-2.amazonaws.com/60bf9805ed3a32924e0f80499f8c07f8.png"
+    ]
+  },
+  "condition": "NEW",
+  "categoryId": "117029",
+  "quantity": 2,
+  "price": {
+    "value": "134.97",
+    "currency": "USD"
+  },
+  "merchantLocationKey": "US-WAREHOUSE",
+  "policies": {
+    "payment": "282011576018",
+    "fulfillment": "282011584018",
+    "return": "282011577018"
+  },
+  "evidence": {
+    "supplierUrl": "https://www.amazon.com/dp/B07PSFP38T?psc=1",
+    "sourceCheckedAt": "2026-09-05T01:01:25Z",
+    "stockObserved": 10,
+    "supplierCostUsd": "89.99",
+    "deliveryLatestDays": 10,
+    "imageRights": "SUPPLIER_AUTHORIZED",
+    "vero": "PASS",
+    "estimatedEbayFeesUsd": "18.18",
+    "estimatedFulfillmentUsd": "3.83",
+    "estimatedNetProfitUsd": "26.80"
+  }
+}

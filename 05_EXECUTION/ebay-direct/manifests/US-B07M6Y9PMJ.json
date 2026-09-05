@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "sku": "US-B07M6Y9PMJ",
+  "marketplaceId": "EBAY_US",
+  "product": {
+    "title": "55-Inch Commercial-Grade Office Computer Desk, Cherry",
+    "description": "55-Inch Commercial-Grade Office Computer Desk, Cherry.\n\nWHAT YOU GET\n• 1x home office desk, new, in supplier packaging\n\nShips from a US warehouse. Estimated delivery within 10 business days. 30-day returns.",
+    "aspects": {
+      "Brand": [
+        "Unbranded"
+      ],
+      "Type": [
+        "Home Office Desks"
+      ],
+      "Color": [
+        "Cherry"
+      ],
+      "Material": [
+        "Wood"
+      ]
+    },
+    "imageUrls": [
+      "https://autods-scraper-images.s3-us-west-2.amazonaws.com/5af2cdda937f642e3c3fec218d15301f.png"
+    ]
+  },
+  "condition": "NEW",
+  "categoryId": "88057",
+  "quantity": 2,
+  "price": {
+    "value": "194.97",
+    "currency": "USD"
+  },
+  "merchantLocationKey": "US-WAREHOUSE",
+  "policies": {
+    "payment": "282011576018",
+    "fulfillment": "282011584018",
+    "return": "282011577018"
+  },
+  "evidence": {
+    "supplierUrl": "https://www.amazon.com/dp/B07M6Y9PMJ/ref=sr_1_15?psc=1",
+    "sourceCheckedAt": "2026-09-05T01:01:25Z",
+    "stockObserved": 10,
+    "supplierCostUsd": "129.87",
+    "deliveryLatestDays": 10,
+    "imageRights": "SUPPLIER_AUTHORIZED",
+    "vero": "PASS",
+    "estimatedEbayFeesUsd": "26.13",
+    "estimatedFulfillmentUsd": "3.83",
+    "estimatedNetProfitUsd": "38.97"
+  }
+}

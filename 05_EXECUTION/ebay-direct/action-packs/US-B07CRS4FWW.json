@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "sku": "US-B07CRS4FWW",
+  "manifestSha256": "ae71d26495fb640f0edab6a203e89314df233c178f71272b3afb5fa30918afe3",
+  "inventoryAction": {
+    "method": "PUT",
+    "path": "/sell/inventory/v1/inventory_item/US-B07CRS4FWW",
+    "payloadSha256": "401172dbfd420ba95592f0e0aef041460c843cbc2dbb8ca22aa02394aef0ef02"
+  },
+  "offerAction": {
+    "method": "POST",
+    "path": "/sell/inventory/v1/offer",
+    "payloadSha256": "9b46de94368cff3e90e491e233f1b0f11303d77b4308c5a97fb4ecf2bec18c00"
+  },
+  "publishAction": {
+    "method": "POST",
+    "pathTemplate": "/sell/inventory/v1/offer/{offerId}/publish"
+  },
+  "effect": "Publish inventory item US-B07CRS4FWW to EBAY_US at 217.97 USD",
+  "risk": "Creates a live eBay listing; reversible via withdrawOffer (offer unpublished, inventory retained).",
+  "rollback": "withdrawOffer for US-B07CRS4FWW",
+  "validation": {
+    "pass": true,
+    "checkedAt": "2026-09-05T01:22:56Z"
+  },
+  "packSha256": "9e2575cab1b13601ec9329beafb248c4e552b98865b14e815cc0862211e3b3d7"
+}

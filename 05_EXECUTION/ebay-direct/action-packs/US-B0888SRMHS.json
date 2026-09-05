@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "sku": "US-B0888SRMHS",
+  "manifestSha256": "53db599c138689a6c3841cab27e30b2379d692b0c9ce6afef16479fd7d714406",
+  "inventoryAction": {
+    "method": "PUT",
+    "path": "/sell/inventory/v1/inventory_item/US-B0888SRMHS",
+    "payloadSha256": "d6755dc634054b3472db68ca97562f6252370ff9a3fb53f3ec610a9066eef6ec"
+  },
+  "offerAction": {
+    "method": "POST",
+    "path": "/sell/inventory/v1/offer",
+    "payloadSha256": "809518c145505179efb35ae1032fd2ded1a0da3ae22cbba96e9692719deab160"
+  },
+  "publishAction": {
+    "method": "POST",
+    "pathTemplate": "/sell/inventory/v1/offer/{offerId}/publish"
+  },
+  "effect": "Publish inventory item US-B0888SRMHS to EBAY_US at 172.97 USD",
+  "risk": "Creates a live eBay listing; reversible via withdrawOffer (offer unpublished, inventory retained).",
+  "rollback": "withdrawOffer for US-B0888SRMHS",
+  "validation": {
+    "pass": true,
+    "checkedAt": "2026-09-05T01:22:56Z"
+  },
+  "packSha256": "e9582ff3b02a6e5b70e4e3eb4c3d8e5a1131058e235be960de9c2e96baa95145"
+}

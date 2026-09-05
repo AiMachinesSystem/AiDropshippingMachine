@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "sku": "US-B0749WPC6V",
+  "manifestSha256": "86f6f502cbe5a42c8238468452b04c2cfbdd6fd403f841fd7ebe6d5febcbac78",
+  "inventoryAction": {
+    "method": "PUT",
+    "path": "/sell/inventory/v1/inventory_item/US-B0749WPC6V",
+    "payloadSha256": "189ce73df80ecacb90d26983b244b65acc675e58c08e319fe2f0838bdf1aa8db"
+  },
+  "offerAction": {
+    "method": "POST",
+    "path": "/sell/inventory/v1/offer",
+    "payloadSha256": "af48f4f118ab340799c1a980d5204c56f66089b13c1d36252222a3023e3f5956"
+  },
+  "publishAction": {
+    "method": "POST",
+    "pathTemplate": "/sell/inventory/v1/offer/{offerId}/publish"
+  },
+  "effect": "Publish inventory item US-B0749WPC6V to EBAY_US at 140.97 USD",
+  "risk": "Creates a live eBay listing; reversible via withdrawOffer (offer unpublished, inventory retained).",
+  "rollback": "withdrawOffer for US-B0749WPC6V",
+  "validation": {
+    "pass": true,
+    "checkedAt": "2026-09-05T01:01:25Z"
+  },
+  "packSha256": "d00828262016bffc28fc5215d063ffb555d54164d1b45b3769edc18955b6152c"
+}
