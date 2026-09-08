@@ -1,7 +1,0 @@
-=== PUBLISH RUN BY-ID | target=5 | candidates=103 ===
-initial drafts (by asin): 450
-importing 17 missing candidates...
-  import B09CW354GD : ok
-  import B092PPHR7B : ok
-  import B0D7NX7LS1 : ok
-  import B076Q5KLR3 : ok

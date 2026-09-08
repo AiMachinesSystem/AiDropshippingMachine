@@ -4,8 +4,11 @@ and enriching aspects with title-inferred Material/Color (reduces eBay item-spec
 import json, re, sys, os, glob
 from datetime import datetime, timezone
 
-SRC = "C:/AI Machine ebay-autoDS/AiDropshippingMachine/05_EXECUTION/EBAY_AUTODS_5_LISTING_LAUNCH/integrations/autods/playwright/_drafts_full.json"
-OUT = "C:/AI Machine ebay-autoDS/AiDropshippingMachine/05_EXECUTION/ebay-direct/manifests"
+# Paths are derived from this script's own location so the tools run on any checkout.
+ROOT = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", ".."))
+SRC = os.path.join(ROOT, "05_EXECUTION", "EBAY_AUTODS_5_LISTING_LAUNCH", "integrations",
+                   "autods", "playwright", "_drafts_full.json")
+OUT = os.path.join(ROOT, "05_EXECUTION", "ebay-direct", "manifests")
 
 POLICIES = {"payment": "282011576018", "fulfillment": "282011584018", "return": "282011577018"}
 LOCATION = "US-WAREHOUSE"

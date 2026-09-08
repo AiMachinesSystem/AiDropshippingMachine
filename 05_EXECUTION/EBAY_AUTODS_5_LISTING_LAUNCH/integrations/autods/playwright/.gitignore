@@ -25,3 +25,48 @@ _tmp/
 
 # --- raw AutoDS settings UI scrapes (findings already captured in the mission report) ---
 _vero_settings_*_log.txt
+
+# --- RUN ARTEFACTS: regenerated on every run, never versioned ---
+# description snapshots written by publish_run_byid.py / batch_publish.py / publish_backlog.py
+_run_desc_*.html
+_batch_desc_*.html
+_bk_desc_*.html
+
+# write-only run outputs (consoles, logs, batch/candidate queues, drivers)
+_publish*
+_*_console.txt
+_*_log.txt
+_*_log.json
+_qbatch*
+_chunkA_*
+_*_cands.json
+_batch*_live_asins.json
+_pub_driver_p*.sh
+_*_stdout.txt
+_*_review.txt
+
+# EXCEPTIONS: these run outputs are cited as evidence by cockpit/mission documents
+# (ERROR_REGISTRY, NEXT_ACTIONS, MASTER_DASHBOARD, REPRICE plan, COMPETITOR_ANALYSIS)
+# and stay versioned. Do not remove a line here without re-checking the citing document.
+!_cold_test_cands.json
+!_publish181a_log.txt
+!_publish36_cands.json
+!_publish4_cands.json
+!_publish_72_stdout.txt
+!_publish_july20_stdout.txt
+!_publish_run_byid_log.txt
+!_qbatch150.json
+!_qbatch181a.json
+!_qbatch36.json
+!_qbatch36_july20.json
+!_qbatch72_july20.json
+!_qbatchD.json
+!_qbatch_retry.json
+!_qbatch_safe.json
+!_qbatch_safe2.json
+!_qbatch_safe3.json
+!_qbatch_webled.json
+!_qbatch_webled30.json
+!_qualitypass_wave1_log.json
+!_vero_blocklist_confirm_log.txt
+!_webled_safe3_console.txt
