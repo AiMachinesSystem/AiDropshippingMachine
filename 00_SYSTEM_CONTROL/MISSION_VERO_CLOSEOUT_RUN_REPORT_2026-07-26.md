@@ -82,18 +82,18 @@ Ho aggiunto anche **`Catify`** oltre a "Best Pet Supplies" perché è la linea d
 
 | Voce | Valore letto |
 |---|---|
-| Email account | ireadeus15@gmail.com |
-| Metodo di pagamento | Stripe — carta **** **** **** 8899 |
+| Email account | <owner-email> |
+| Metodo di pagamento | Stripe — carta [redatto] |
 | **Prossimo ciclo di fatturazione** | **2 agosto 2026** (fra 7 giorni) |
-| Ultimo addebito | **4 luglio 2026 — $113.44** (voce: `subscription, add_on`) |
-| Addebito precedente | 15 giugno 2026 — $0.99 (`subscription, add_on`) |
+| Ultimo addebito | **4 luglio 2026 — [redatto]** (voce: `subscription, add_on`) |
+| Addebito precedente | 15 giugno 2026 — [redatto] |
 | Nome del piano | **[UNKNOWN]** — non esposto nella scheda Account & Billing; il tab "Plans & Add-ons" reindirizza a una pagina promozionale, non allo stato del piano |
 
 [OBSERVED — AutoDS → Settings → Account & Billing, 2026-07-26 (cache: `autods_settings_account_billing.txt/.png`)]
 
 **Nessuna azione di billing è stata compiuta**: niente rimborso richiesto, niente cancellazione, niente cambio piano — come da §0.
 
-**Lettura per la tua decisione (nessuna azione presa):** il pattern è $0.99 il 15/6 (trial/primo mese) → **$113.44 il 4/7** → prossimo ciclo **2/8**. Sei quindi a **22 giorni** dall'addebito da $113.44 e a **7 giorni** dal prossimo. Se vuoi muoverti sul rimborso o sul downgrade, la finestra utile si chiude prima del 2 agosto.
+**Lettura per la tua decisione (nessuna azione presa):** il pattern è [redatto] il 15/6 (trial/primo mese) → **[redatto] il 4/7** → prossimo ciclo **2/8**. Sei quindi a **22 giorni** dall'addebito da [redatto] e a **7 giorni** dal prossimo. Se vuoi muoverti sul rimborso o sul downgrade, la finestra utile si chiude prima del 2 agosto.
 
 ---
 
@@ -134,7 +134,7 @@ Ho aggiunto anche **`Catify`** oltre a "Best Pet Supplies" perché è la linea d
 ## 9. Cosa tocca a te (2 cose, in ordine)
 
 1. **Re-login eBay** (5 min) — sblocca Resolution Center e ogni futura lettura Seller Hub; senza, lo stato dello strike resta [UNKNOWN].
-2. **Decisione billing entro il 2 agosto** — hai i numeri in §5 ($113.44 addebitati il 4/7, prossimo ciclo il 2/8). Dimmi cosa vuoi fare e preparo l'azione fino al gate.
+2. **Decisione billing entro il 2 agosto** — hai i numeri in §5 ([redatto] addebitati il 4/7, prossimo ciclo il 2/8). Dimmi cosa vuoi fare e preparo l'azione fino al gate.
 
 *(Facoltativo, ma è lo stesso rischio che ha innescato tutto: i 2 listing "Furhaven" del punto 7.5 — dimmi se vuoi che li tratti e preparo la proposta.)*
 

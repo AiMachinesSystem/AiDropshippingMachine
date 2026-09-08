@@ -116,7 +116,7 @@ description: "Memoria interrogabile di tutti i run di ricerca. Ogni run di niche
 
 ### AutoDS account read-only status (run 2026-06-16, Playwright read-session)
 - last_run: 2026-06-16 · type: account-intel (read-only, Playwright) · report: `10_OUTPUTS/autods_status_report.md`
-- store: `Divinit-92-Us` (id 3713044, eBay US, USD) · catalog: **214 active listings + 11 drafts (+4 untracked)** · suppliers: Amazon US + AliExpress/CJ
+- store: `Divinit-92-Us` (id <AUTODS_STORE_ID>, eBay US, USD) · catalog: **214 active listings + 11 drafts (+4 untracked)** · suppliers: Amazon US + AliExpress/CJ
 - sales: 23 lifetime orders; last 7d = 3 orders / $320 rev / $62 profit · pricing: 27% margin, $7 min, round .97 · auto-order ON but **NON-FUNCTIONAL** (0 buyer accts, $0 wallet)
 - subscription: **TRIAL → expires 2026-06-18** · AutoDS REST API = paid/gated (no key); **Playwright read-only path = OPERATIONAL**
 - integrity flags: 1 draft VeRO keyword ('alcohol'); some listings OOS/On-Hold/supplier-title-changed; AutoDS Trending/Hand-Picked view = paid addon (walled)

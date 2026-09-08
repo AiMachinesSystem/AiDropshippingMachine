@@ -1,7 +1,10 @@
 import os,re,json
 HERE=os.path.dirname(os.path.abspath(__file__)); STATE=os.path.join(HERE,"storage_state.json"); BASE="https://platform.autods.com"
+STORE_ID=os.environ.get("AUTODS_STORE_ID")
+if not STORE_ID:
+    raise SystemExit("AUTODS_STORE_ID is not set. Export it (or load it from your local autods_credentials.env / .env) before running this script.")
+URL="https://v2-api.autods.com/products/%s/list/"%STORE_ID
 from playwright.sync_api import sync_playwright
-URL="https://v2-api.autods.com/products/3713044/list/"
 cap={}
 with sync_playwright() as p:
     b=p.chromium.launch(headless=True); ctx=b.new_context(storage_state=STATE,viewport={"width":1440,"height":1000}); pg=ctx.new_page()

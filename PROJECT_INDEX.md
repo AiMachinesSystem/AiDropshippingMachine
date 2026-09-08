@@ -32,11 +32,19 @@ Mappa di navigazione della macchina (istanziata dal template `machine-template` 
 | `08_SCALING` | scaling gate e future decisioni | SCALING_GATE |
 | `09_TEMPLATES` | template di output riutilizzabili (sterili, invariati) | TEMPLATE_INDEX |
 | `10_OUTPUTS` | output datati (`<TIPO>/YYYY-MM-DD_...`) | SYSTEM_REPORTS/ (initialization report) |
-| `90_CACHE` | evidenze/screenshot (non versionata) | — |
-| `99_ARCHIVE` / `_ARCHIVE` | baseline sterili e milestone (nessuna cancellazione) | STERILE_BASELINE__* |
+| `90_CACHE` | evidenze/screenshot (non versionata: solo i `.gitkeep` di struttura) | — |
+| `99_ARCHIVE` | baseline sterili, milestone e materiale archiviato (nessuna cancellazione) | STERILE_BASELINE__*, MISPLACED__* |
 
 ## Progetti
-- `store eBay/AutoDS` — `05_EXECUTION\ebay-autods-store\` (da creare al gate Execution) — fase: System init completa → gate **Data Collection**.
+Directory reali sotto `05_EXECUTION\` (verificate 2026-09-08):
+
+| Cartella | Cosa | Stato |
+|---|---|---|
+| `05_EXECUTION\EBAY_AUTODS_5_LISTING_LAUNCH\` | integrazione AutoDS (Playwright): sourcing, draft, repricing, censimenti; listing e immagini di lancio | attiva — lato read/source |
+| `05_EXECUTION\ebay-direct\` | client Deno/TypeScript sulla Sell Inventory API eBay: OAuth, manifest, action-pack, publish idempotente, audit | attiva — **write path di produzione** |
+| `05_EXECUTION\ebay-api-compliance\` | endpoint Deno Deploy per le notifiche Marketplace Account Deletion (sblocco keyset Production) | attiva — solo compliance |
+
+Ultimo lancio registrato: **batch 5, 2026-09-04, 30 listing LIVE** (`05_EXECUTION/ebay-direct/audit/publish-outcome-20260904-batch5.md`).
 
 ## Toolkit
 - Skill e command in `.claude\` (vedi `.claude\skills\README.md`). Configurazione dei placeholder del toolkit: step separato, GO owner.

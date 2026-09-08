@@ -24,8 +24,8 @@ No new external data · no web research · no eBay/AutoDS/supplier login · no s
 - A = strong [OBSERVED] official eBay verbatim + cached · B = [OBSERVED] official export-mirror (walled-help substitute) · C = [OBSERVED] AutoDS vendor claim (esp. its eBay-policy restatement) · D = unverified / [PUBLIC RESEARCH REQUIRED] / [UNKNOWN] · DEP = seller-country-dependent / USER INPUT NEEDED.
 
 ## Outputs
-- `03_ANALYSIS/2026-06-15_ebay-autods-policy-fee-feature_analysis.md` (module analysis, 11 sections)
-- `10_OUTPUTS/ANALYSIS_REPORTS/2026-06-15_ebay-autods-policy-fee-feature_analysis_v1.md` (dated deliverable, same)
+- `10_OUTPUTS/ANALYSIS_REPORTS/2026-06-15_ebay-autods-policy-fee-feature_analysis_v1.md` (dated deliverable, canonical — 11 sections)
+- `03_ANALYSIS/2026-06-15_ebay-autods-policy-fee-feature_analysis.md` (pointer stub since 2026-09-08; was a byte-identical duplicate)
 - update `03_ANALYSIS/README.md`; cockpit AUTO-REFRESH; ACTION_LOG.
 
 ## Verification

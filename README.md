@@ -1,7 +1,7 @@
 ---
 machine: "eBay / AutoDS Dropshipping Machine"
 type: master_foundation
-status: initialized
+status: active
 date: 2026-06-15
 created_real: 2026-06-15
 ---
@@ -25,8 +25,17 @@ Data → Analysis → Strategy → Execution → Measurement → Learning → Sc
 
 ## Active Phase
 
-System initialization complete.
-Next gate: Data Collection approval.
+**Execution — live store, publishing through the eBay Sell Inventory API.**
+
+The machine is past initialization and past the AutoDS-only phase. The last recorded launch is
+batch 5 on 2026-09-04: **30 listings LIVE**, 4 blocked on item specifics, 0 system errors
+(`05_EXECUTION/ebay-direct/audit/publish-outcome-20260904-batch5.md`). The write path is the
+local Deno client in `05_EXECUTION/ebay-direct/`; AutoDS remains the read/source side driven by
+the Playwright integration under `05_EXECUTION/EBAY_AUTODS_5_LISTING_LAUNCH/`.
+
+The Hard Gates below still hold — none of them is retired by the machine being live. For the
+current state and the open owner decisions, read `00_SYSTEM_CONTROL/MASTER_DASHBOARD.md` and
+`00_SYSTEM_CONTROL/NEXT_ACTIONS.md`, which are refreshed per run; this README is not.
 
 ## Key Files
 

@@ -11,7 +11,7 @@ created_real: 2026-06-16
 
 | Item | Status |
 |---|---|
-| AutoDS account | **CONNECTED (read-only) — `Divinit-92-Us` id 3713044** (verified live via Playwright 2026-06-16) |
+| AutoDS account | **CONNECTED (read-only) — `Divinit-92-Us` id <AUTODS_STORE_ID>** (verified live via Playwright 2026-06-16) |
 | eBay store | **`divinit-92-us` (eBay.com / US / USD)** — **214 active listings, 11 drafts (+4 untracked), 23 lifetime orders, $62 profit/7d** [OBSERVED 2026-06-16] |
 | AutoDS subscription | **TRIAL — expires 2026-06-18** (orders_processor add-on trial too); decision needed (renew vs lapse) |
 | AutoDS read-only access | **OPERATIONAL via Playwright** — saved `storage_state.json` (gitignored); scripts: smoke_test / login / read_autods_status / read_products_counts / read_drafts_count / read_marketplace |

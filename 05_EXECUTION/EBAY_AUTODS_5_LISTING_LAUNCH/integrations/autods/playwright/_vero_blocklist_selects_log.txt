@@ -1,4 +1,0 @@
-﻿selects in dialog: 3
-  select[0] options: ['Do nothing', "Don't upload the product", 'Delete from the uploaded text']
-  select[1] options: ['Do nothing', "Don't upload the product", 'Delete from the uploaded text']
-  select[2] options: ['Do nothing', "Don't upload the product"]

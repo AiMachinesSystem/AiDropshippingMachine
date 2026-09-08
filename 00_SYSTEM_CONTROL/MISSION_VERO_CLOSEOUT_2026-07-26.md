@@ -13,7 +13,7 @@ created_real: 2026-07-26
 **Owner:** Luca · **Autorizzazione:** OWNER GO EXPLICIT, given in an interactive Claude Code
 session on 2026-07-26 ("completa l'opera ora. go owner"), on an item the machine itself had
 listed as blocked-awaiting-owner. Provenance: eBay Resolution Center notice mailed to
-sam@masteryforgecrafts.com 2026-07-13 (msg 19f5a3b0e37518f6), escalated in
+<machine-inbox> 2026-07-13 (msg 19f5a3b0e37518f6), escalated in
 `MASTERYFORGE_CRAFTS/MACHINE_INBOX/STATE/escalations.md` row 1, **OPEN for 13 days**.
 **Durata target:** 30–45 min. **Modalità:** autonoma fino al gate dichiarato sotto.
 

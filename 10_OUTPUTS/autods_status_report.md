@@ -24,7 +24,7 @@ evidence_cache:
 > the rendered UI and screenshots. Evidence cached before citing (paths in frontmatter).
 
 ## TL;DR
-- **Store:** `Divinit-92-Us` (ID `3713044`) — **eBay US** store, currency USD. **Operating** (214 live listings + real sales) but a young account on a **3-day trial expiring 2026-06-18**.
+- **Store:** `Divinit-92-Us` (ID `<AUTODS_STORE_ID>`) — **eBay US** store, currency USD. **Operating** (214 live listings + real sales) but a young account on a **3-day trial expiring 2026-06-18**.
 - **Catalog:** **214 published/active eBay listings** (+4 untracked) and **11 drafts** (Scheduled 0 · Recurring 0). Supplier: **Amazon US**. Some listings flagged OOS / On-Hold / supplier-title-change; **1 draft has a VeRO keyword alert ("alcohol")**.
 - **Sales so far:** 23 orders all-time; last 7 days = 3 orders, **$320 revenue / $62 profit**. Top sellers: *Dog Water Ramp* (2), *Hedgehog Dryer Balls* (1).
 - **Pricing:** primary profile = **27% margin**, 15% break-even, **$7 min profit**, prices rounded to `.97`, dynamic eBay business policies ON (3-day handling).
@@ -35,26 +35,26 @@ evidence_cache:
 
 ## 1. Active store (name · marketplace · status)
 - **Name:** `Divinit-92-Us` — [OBSERVED — dashboard header + Settings store selector, 2026-06-16]
-- **Store ID:** `3713044` — [OBSERVED — `v2-api.autods.com/store/3713044/...`]
+- **Store ID:** `<AUTODS_STORE_ID>` — [OBSERVED — `v2-api.autods.com/store/<AUTODS_STORE_ID>/...`]
 - **Marketplace:** **eBay (US)** — [OBSERVED — product images served from `i.ebayimg.com`; eBay-specific settings present: dynamic business policies, Global Shipping Program option, listing fee; location United States / Las Vegas, NV 89103; currency USD]
-- **Status:** **Active & transacting** — 23 lifetime orders, sales in the last 7 days — [OBSERVED — `dashboard/3713044/sales-overview`, `orders/3713044/count`]. However the account is **early-stage / in onboarding**: the "Store Setup Guide" still shows incomplete steps (incl. "Connect your store", "Add your first draft") — [OBSERVED — dashboard].
+- **Status:** **Active & transacting** — 23 lifetime orders, sales in the last 7 days — [OBSERVED — `dashboard/<AUTODS_STORE_ID>/sales-overview`, `orders/<AUTODS_STORE_ID>/count`]. However the account is **early-stage / in onboarding**: the "Store Setup Guide" still shows incomplete steps (incl. "Connect your store", "Add your first draft") — [OBSERVED — dashboard].
 - **Subscription:** trial plan (package `701`), started 2026-06-15, **expires 2026-06-18**; `orders_processor` add-on (auto-ordering) also on trial to 2026-06-18; next payment 2026-06-18 — [OBSERVED — `subscriptions/user-subscription`].
 - **Credits / wallet:** AI credits 30 (plus credit buckets 5 / 400 / 30); auto-order wallet **$0 USD, £0 GBP** — [OBSERVED — `auto-order-v3/wallet/external/list`].
 
 ## 2. Products in DRAFT
-- **Drafts: 11** — [OBSERVED — Drafts page (`/upload`, "Drafts (11)") + `products/3713044/count/` → 11, 2026-06-16].
+- **Drafts: 11** — [OBSERVED — Drafts page (`/upload`, "Drafts (11)") + `products/<AUTODS_STORE_ID>/count/` → 11, 2026-06-16].
 - Also **Scheduled 0 · Recurring 0** (no scheduled or recurring listings queued) — [OBSERVED].
 - Draft source supplier: **Amazon US** — [OBSERVED — draft cards]. Recent draft-creation jobs visible (e.g. #158504443, 7/7 finished).
 - ⚠️ **At least one draft carries a compliance flag:** *"Product Description contains a VeRO word, keyword (alcohol)"* — an eBay VeRO/keyword warning to resolve before publishing — [OBSERVED — drafts page].
 - Access note: the Drafts list lives at the `/upload` route; the `/products` deep-link first hits a trial UGC upsell, which was dismissed ("No Thanks") to read the lists.
 
 ## 3. Products PUBLISHED (active)
-- **Published / active listings: 214** (paginated 20×11) **+ 4 untracked** eBay products not linked to AutoDS — [OBSERVED — Products page "Products (214)" / "out of 214" + `products/3713044/count/` → 214, 2026-06-16].
+- **Published / active listings: 214** (paginated 20×11) **+ 4 untracked** eBay products not linked to AutoDS — [OBSERVED — Products page "Products (214)" / "out of 214" + `products/<AUTODS_STORE_ID>/count/` → 214, 2026-06-16].
 - Catalog imported **Dec 18, 2025**; supplier **Amazon US**; sell prices set with the 27% profile (e.g. buy $49.79 → sell $79). Top sellers to date: *Dog Water Ramp* (2 sold), *Hedgehog Dryer Balls* (1) — [OBSERVED].
-- ⚠️ **Listing health issues present:** several products show **Out Of Stock** or **On Hold**, and there are **supplier-side errors** (e.g. "Title on the supplier's side changed") flagged on listings — [OBSERVED — `products/3713044/list/` `error_list` + products page status columns]. Exact per-status breakdown not tallied this run — [LOW-SAMPLE].
+- ⚠️ **Listing health issues present:** several products show **Out Of Stock** or **On Hold**, and there are **supplier-side errors** (e.g. "Title on the supplier's side changed") flagged on listings — [OBSERVED — `products/<AUTODS_STORE_ID>/list/` `error_list` + products page status columns]. Exact per-status breakdown not tallied this run — [LOW-SAMPLE].
 
 ## 4. Active pricing settings
-[OBSERVED — `v2-api.autods.com/store/3713044/settings/list` + Settings → Supplier Settings screenshot, 2026-06-16]
+[OBSERVED — `v2-api.autods.com/store/<AUTODS_STORE_ID>/settings/list` + Settings → Supplier Settings screenshot, 2026-06-16]
 
 **Primary supplier profile** (supplier `11971105`, site_id 1, US / Las Vegas, NV):
 | Setting | Value |
@@ -76,7 +76,7 @@ evidence_cache:
 - A **second supplier profile** exists (id `12809249`, site_id 2, Denver, CO): profit **10%**, break-even 13%, default qty 1, max shipping 60 days — [OBSERVED]. (Supplier-source names not asserted; reported by observed attributes only.)
 
 ## 5. Auto-ordering status
-[OBSERVED — `v2-api.autods.com/store/3713044/order_settings` + `gw.autods.com/auto-order/*`, 2026-06-16]
+[OBSERVED — `v2-api.autods.com/store/<AUTODS_STORE_ID>/order_settings` + `gw.autods.com/auto-order/*`, 2026-06-16]
 - **Auto-order: ENABLED** (`auto_order = true`, `managed_auto_order = true`).
 - Guardrails: **max order price $500**, **max acceptable loss $5**, mark "update as shipped" on, auto-delivery **disabled**.
 - Automatic buyer messages: **1 active** ("Thank you for buying from us!"); 4 more templates configured but inactive.

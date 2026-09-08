@@ -13,7 +13,7 @@ design: reversibility beats tidiness.
 - Operates on `10_OUTPUTS\` (research outputs), `00_SYSTEM_CONTROL\
   RESEARCH_MEMORY_INDEX.md`, `MACHINE_STATE.md`, `BACKLOG.md`.
 - NEVER touches: other projects' execution folders (e.g. 05_EXECUTION\*),
-  governance/constitution files, `_ARCHIVE` snapshots, `.git`.
+  governance/constitution files, `99_ARCHIVE` snapshots, `.git`.
 - Every move/rename = git mv (or move + add) with a commit; never delete
   content — superseded files get a `> SUPERSEDED by <path>` header line
   ONLY if the owner authorized editing them.

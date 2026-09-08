@@ -28,7 +28,7 @@ created_real: 2026-07-26
 ### FASE 3 · Richiesta refund AutoDS — **INVIATA e presa in carico**
 - **Un solo invio**, 13:14:43, via chat di supporto in-app (widget Intercom della piattaforma AutoDS, sessione loggata — nessuna credenziale digitata).
 - Verificato prima dell'invio che la sessione precedente NON avesse inviato nulla (screenshot 12:12–12:13 = solo esplorazione, composer mai aperto).
-- Messaggio (fattuale, cortese, senza minacce né cancellazione): *"Hello! I have a billing question about my account (store Divinit-92-Us). On July 4, 2026 my card ending in 8899 was charged $113.44. I would like to request a refund of that specific charge. Could you please review it and process the refund? Thank you very much!"*
+- Messaggio (fattuale, cortese, senza minacce né cancellazione): *"Hello! I have a billing question about my account (store Divinit-92-Us). On July 4, 2026 my card ending in [redatto] was charged [redatto]. I would like to request a refund of that specific charge. Could you please review it and process the refund? Thank you very much!"*
 - Esito: thread "Refund request" creato; AutoDS AI Agent (Orin) risponde **"Understood, let me look into your account."** [OBSERVED — 13:16, `refund_thread_read_131625.json`]. Follow-up umano AutoDS atteso in chat/email → azione owner: controllare la risposta nei prossimi 1–2 giorni.
 - Nota tecnica (per run futuri): il widget Intercom NON si avvia headless (script scaricato ma mai eseguito) e ha `hide_default_launcher` — serve browser headed + `Intercom('boot', intercomSettings)` esplicito (codificato in `_refund_chat.py`).
 
@@ -51,4 +51,4 @@ Auto-renew/subscription **non toccati** · 6 BET **non repriced** · nessun altr
 | Verificate OK | **1087 (99.8%)** |
 | OFF documentate | 2 (1 on-hold/OOS, 1 causa UNKNOWN) |
 | Titoli Furhaven puliti | 2/2 |
-| Richieste refund inviate | 1 (Jul 4, $113.44, card ****8899) |
+| Richieste refund inviate | 1 (Jul 4, [redatto], card [redatto]) |

@@ -45,7 +45,7 @@ MISSION_REPRICE_PLUS19, 2026-07-26). **Durata target:** 60–90 min.
    `set_title_live_by_id.py` path. VeRO-safe rule: no brand names not owned by us.
 3. **Send ONE refund request via AutoDS support chat** (if a chat/ticket UI is reachable
    from the logged-in session): factual, polite, citing the **Jul 4 2026 charge of
-   $113.44** on card ****8899, requesting refund of that charge. NO threats, no
+   [redatto]** on card [redatto], requesting refund of that charge. NO threats, no
    cancellation talk. If the chat requires human-verification loops or is unreachable,
    STOP that phase and report — do not improvise other contact channels.
 

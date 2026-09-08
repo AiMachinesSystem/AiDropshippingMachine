@@ -22,7 +22,7 @@ note: internal architect actions — distinct from the owner cockpit 00_SYSTEM_C
 - **Git history scan for past secret commits** (G1) — closes R1 fully; read-only, can run on GO-light.
 
 ## NEEDS OWNER GO — strategic / firewall
-- **R4 firewall decision:** is `10_OUTPUTS/n8n_digital_products/` + `shopify_daily_snapshot` intentional template scaffolding, or contamination to remove? Do not act unilaterally.
+- **R4 firewall decision — PARTIALLY CLOSED 2026-09-08:** the n8n digital-products folder was ruled contamination (owner GO) and archived to `99_ARCHIVE/MISPLACED__n8n_digital_products/`. `shopify_daily_snapshot` is still undecided — do not act unilaterally on it.
 
 ## NEXT 1–3 (Phase 2 — Data Mining & Intelligence)
 1. Inventory the real `05_EXECUTION` project files (scripts roles, listing data) → DATA_INVENTORY.
