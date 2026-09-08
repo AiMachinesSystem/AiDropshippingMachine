@@ -22,3 +22,6 @@ _*.py
 *.png
 # local scratch dir for ephemeral scripts
 _tmp/
+
+# --- raw AutoDS settings UI scrapes (findings already captured in the mission report) ---
+_vero_settings_*_log.txt

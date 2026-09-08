@@ -10,7 +10,7 @@ created_real: 2026-07-26
 
 # MISSION_REPRICE_PLUS19 — RUN AUTONOMO (2026-07-26)
 
-**Owner:** Luca · **Autorizzazione:** owner command received via sam@masteryforgecrafts.com
+**Owner:** Luca · **Autorizzazione:** owner command received via <machine-inbox>
 (msg 19f91d98a637d263, 2026-07-23: "Di alla macchina di alzare i prezzi del 19%… Non ci
 siamo coi prezzi" + msg 19f91e20f3f903fd: "Va fatto un lavoro incrociato… prendere gli
 annunci da amazon ma vedere i prezzi di temu"), re-confirmed in interactive session
