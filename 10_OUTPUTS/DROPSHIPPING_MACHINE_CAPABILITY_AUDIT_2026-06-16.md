@@ -17,7 +17,7 @@ forbidden_respected: no live AutoDS/eBay actions; no list/publish/edit/delete/bu
 
 **What it can actually do now (proven):**
 - Run a **governance-controlled research / planning / analysis workspace**: missions-to-disk, GO gates, evidence labels, error registry, git audit trail — all real and followed [OBSERVED: CLAUDE.md, GO_GATES.md, ACTION_LOG.md, ERROR_REGISTRY.md].
-- **Read live AutoDS account data, read-only, via Playwright** — proven 2026-06-16 (store `Divinit-92-Us`/3713044, 214 listings, 11 drafts, 23 orders) [OBSERVED: 10_OUTPUTS/autods_status_report.md, integrations/autods/playwright/*.py].
+- **Read live AutoDS account data, read-only, via Playwright** — proven 2026-06-16 (store `Divinit-92-Us`/<AUTODS_STORE_ID>, 214 listings, 11 drafts, 23 orders) [OBSERVED: 10_OUTPUTS/autods_status_report.md, integrations/autods/playwright/*.py].
 - Produce **evidence-graded analysis** (eBay policy/fee/feature) and **listing drafts** (7 draft files + import CSVs + JSON schema + validation checklist) [OBSERVED: 03_ANALYSIS report, 05_EXECUTION/.../listings/].
 - Maintain **durable markdown+git memory** (machine state, dashboards, decision/action logs) [OBSERVED].
 

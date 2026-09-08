@@ -14,7 +14,7 @@ description: "DEADCLEAN_TOP50 — rimozione di 126 listing morti (cap owner 150)
 
 **Classe di rischio:** GO-CLASS (cancellazioni su AutoDS + eBay, write su listing live). GO owner esplicito, ripetuto due volte, in apertura di missione.
 
-**Store:** AutoDS `3713044` → eBay. **Orologio:** `Get-Date` → 2026-07-27, run 12:19–13:10 EDT.
+**Store:** AutoDS `<AUTODS_STORE_ID>` → eBay. **Orologio:** `Get-Date` → 2026-07-27, run 12:19–13:10 EDT.
 
 ---
 
@@ -53,7 +53,7 @@ Un listing è MORTO se, contemporaneamente:
 ### Come è stato eseguito
 
 1. **Cold-test UI (1 item)** con cattura di rete → appresa l'API sottostante:
-   `DELETE https://v2-api.autods.com/products/3713044/bulk` con
+   `DELETE https://v2-api.autods.com/products/<AUTODS_STORE_ID>/bulk` con
    `{"filters":[{"name":"id","value_list":[<hex>],"op":"in","value_type":"list"}],"remove_from_marketplace":true,"product_status":2}`.
    `remove_from_marketplace: true` = chiude anche l'annuncio eBay, non solo il prodotto AutoDS.
 2. **Replay API** dei restanti 125 in chunk da 5 e 20 → tutti HTTP 200.
@@ -103,7 +103,7 @@ Guardie automatiche in `_top50_copy.py` (girano all'import, quindi una modifica 
 
 ### Come è stato applicato
 
-Cold-test UI su 1 item → appresa l'API di salvataggio: `PUT https://v2-api.autods.com/products/3713044/product/<hex>/` con l'**oggetto prodotto completo**. Da lì, read-modify-write puro:
+Cold-test UI su 1 item → appresa l'API di salvataggio: `PUT https://v2-api.autods.com/products/<AUTODS_STORE_ID>/product/<hex>/` con l'**oggetto prodotto completo**. Da lì, read-modify-write puro:
 
 GET oggetto → **guard** (titolo sul server ∈ {old_title, new_title}) → sostituisci **solo** `title` e `description` → PUT → verifica in passata separata.
 

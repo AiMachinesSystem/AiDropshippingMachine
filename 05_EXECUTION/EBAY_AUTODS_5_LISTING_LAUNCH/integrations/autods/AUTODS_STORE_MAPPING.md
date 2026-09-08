@@ -21,6 +21,7 @@ label: USER-PROVIDED CONTEXT
 
 ## Notes
 - The Store ID is read from `.env` / n8n credential, never hard-coded here.
+- Consumers read it from the environment variable `AUTODS_STORE_ID` (declared in `.env.example`); e.g. `playwright/inventory_all.py` exits with an explicit message when it is unset.
 - Seller context: US-registered seller → US buyers (see `02_DATA/owner_context.md`); US-domestic.
 - This mapping is the canonical reference for the workflow's store target; do not list to any other store.
 
