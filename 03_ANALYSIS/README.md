@@ -2,7 +2,8 @@
 
 Status: **Analysis authorized & performed for policy/fee/feature (2026-06-15).** Strategy NOT authorized.
 
-- `2026-06-15_ebay-autods-policy-fee-feature_analysis.md` — analysis of the collected eBay.com/US + AutoDS
+- `2026-06-15_ebay-autods-policy-fee-feature_analysis.md` — **pointer stub** (since 2026-09-08) to the canonical
+  `10_OUTPUTS/ANALYSIS_REPORTS/2026-06-15_ebay-autods-policy-fee-feature_analysis_v1.md`; analysis of the collected eBay.com/US + AutoDS
   policy/fee/feature data (evidence-graded; buyer-market vs seller-country split). **No strategy, no
   recommendations, no product/competitor/supplier analysis, no profitability inference.** (Dated deliverable
   copy in `10_OUTPUTS/ANALYSIS_REPORTS/`.)

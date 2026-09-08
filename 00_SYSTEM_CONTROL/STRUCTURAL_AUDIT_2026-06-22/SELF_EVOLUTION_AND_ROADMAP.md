@@ -40,7 +40,7 @@ covers: SELF_EVOLUTION_PLAN + OPTIMIZATION_ROADMAP + SKILL_AND_AUTOMATION_CANDID
 | Weekly profit-run via `/schedule` or `/loop` | PLAN ONLY | scheduling/automation = GO; needs operational store first |
 
 ## D. Enforcement & test plan
-- **Anti-contamination test:** before any cross-domain reference, assert source domain == active machine; flag `n8n_digital_products`/`shopify` residue (R4) until owner rules.
+- **Anti-contamination test:** before any cross-domain reference, assert source domain == active machine; flag `n8n_digital_products`/`shopify` residue (R4) until owner rules. (n8n half ruled and archived 2026-09-08 — see `99_ARCHIVE/MISPLACED__n8n_digital_products/`.)
 - **Anti-overlap:** new skill must not duplicate an existing one (checked: the 3 new skills are distinct).
 - **Data-quality gates:** (1) destructive actions verified by independent read (E-005); (2) market numbers only from CANONE CORRENTE; (3) freshest registered run wins on conflict (skill rule added).
 - **Refresh gate:** a research/profit run is INCOMPLETE without RESEARCH_MEMORY_INDEX + cockpit update.

@@ -69,7 +69,7 @@ forbidden_respected: no live AutoDS/eBay actions; no list/publish/edit/delete/bu
 | `integrations/autods/autods_readonly_test.py` | AutoDS REST API GET probe | parses; **never run** (API paid-gated) | py_compile PASS only | would (read-only) | yes (fails safe w/o creds) |
 | `integrations/autods/AUTODS_API_READINESS.md` | API blocker documentation | yes | n/a | no | yes |
 | `10_OUTPUTS/autods_status_report.md` | Live account read-only report | yes (real data) | n/a | derived from external read | yes |
-| `03_ANALYSIS/2026-06-15_ebay-autods-policy-fee-feature_analysis_v1.md` | Policy/fee/feature analysis | yes (output exists) | n/a | from cached public sources | yes |
+| `10_OUTPUTS/ANALYSIS_REPORTS/2026-06-15_ebay-autods-policy-fee-feature_analysis_v1.md` | Policy/fee/feature analysis | yes (output exists) | n/a | from cached public sources | yes |
 | `05_EXECUTION/.../listings/drafts/01..07_*.md` + `ebay_listing_schema.json` + `autods_import.csv` | Listing draft pack | drafts exist, **unvalidated** | not validated | no | yes |
 | `06_MEASUREMENT/KPI_MAP.md` + tracker | KPI framework | template (empty) | n/a | no | yes |
 | `08_SCALING/SCALING_GATE.md` | Scaling readiness gate | template (locked) | n/a | no | yes |

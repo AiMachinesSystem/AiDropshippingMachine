@@ -26,7 +26,7 @@ covers: INTELLIGENCE_EXTRACTION_REPORT + PATTERN_AND_ANOMALY_REPORT
 ## Redundancies / stale / premature
 - **Duplicate:** `_IMPORT/ebay_autods_initialization/...` full nested machine copy + root `.zip` (stale; both gitignored).
 - **Stale caches:** `audit_2026-06-17_*`, `products/run/marketplace_2026-06-16/17`, `listing_audit_actions_2026-06-17.csv` — all pre-kill (214-era), superseded by `audit_2026-06-22_044324`.
-- **Premature/other-domain automation (firewall R4):** `10_OUTPUTS/n8n_digital_products/` (Stripe/digital delivery) + `PLAYBOOKS/n8n_workflows/03_shopify_daily_snapshot.json` — "digital products"/"Shopify" are NOT this eBay machine's domain; built before the store is even operational. → owner decision: template scaffolding vs contamination.
+- **Premature/other-domain automation (firewall R4):** `99_ARCHIVE/MISPLACED__n8n_digital_products/` (Stripe/digital delivery — archived 2026-09-08, was in `10_OUTPUTS/`) + `PLAYBOOKS/n8n_workflows/03_shopify_daily_snapshot.json` — "digital products"/"Shopify" are NOT this eBay machine's domain; built before the store is even operational. → owner decision: template scaffolding vs contamination.
 
 ## Bottlenecks (recurring walls)
 - eBay aggregate sold = **403 wall** → counts are lower-bound proxies.

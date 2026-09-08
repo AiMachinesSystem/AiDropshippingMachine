@@ -15,8 +15,13 @@ created_real: 2026-06-22
 - **Kernel/registries/playbooks:** `00_SYSTEM_CONTROL/` (VISION_ALIGNMENT, RESEARCH_MEMORY_INDEX, ERROR_REGISTRY, MASTER_DASHBOARD, NEXT_ACTIONS, PLAYBOOKS/EBAY_DROPSHIP_PROFIT_MASTERY).
 
 ## What this hub ADDS (genuinely new, non-duplicative)
-- `00_KERNEL/KERNEL_PRINCIPLES.md` — the extracted governing rule-set (pointer to CLAUDE.md).
+- `00_SYSTEM_CONTROL/KERNEL_PRINCIPLES.md` — the extracted governing rule-set (pointer to CLAUDE.md).
 - This bootstrap report + the health scorecard + source-of-truth register below.
+
+> **Moved 2026-09-08.** This report and `KERNEL_PRINCIPLES.md` were written into a top-level
+> `_CONTROL_HUB/` directory that the vault map in `CLAUDE.md` does not declare. They now live under
+> `00_SYSTEM_CONTROL/` (this report inside the structural-audit folder it describes); the empty
+> `_CONTROL_HUB/` was removed. Content unchanged.
 
 ## MACHINE HEALTH SCORECARD (0-100, INFERRED from audit 2026-06-22)
 | Dimension | Score | Why |

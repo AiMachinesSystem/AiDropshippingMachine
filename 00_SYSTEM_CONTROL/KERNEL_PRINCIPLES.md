@@ -24,7 +24,7 @@ Internal (research, analysis, drafts, reports, plans, audit, safe reversible fix
 **GO-class (stop, cite the gate):** publishing/editing listings, prices, business policies; AutoDS automations; supplier orders/payments; account login/connect; any spend; external writes; credentials; deletions; moving/renaming main folders; git push.
 
 ## FIREWALL (CORE → DOMAIN → CATEGORY → INSTANCE, never upward)
-This is an INSTANCE (eBay/AutoDS dropship). No cross-project transfer of data/claims/skills. Poker/trading/digital-products stay isolated. (Active flag: `n8n_digital_products/` + `shopify_*` residue = R4, owner decision.)
+This is an INSTANCE (eBay/AutoDS dropship). No cross-project transfer of data/claims/skills. Poker/trading/digital-products stay isolated. (Active flag: `shopify_*` residue = R4, owner decision. `n8n_digital_products/` archived 2026-09-08 to `99_ARCHIVE/MISPLACED__n8n_digital_products/`.)
 
 ## DATA-QUALITY GATES (learned, enforced)
 - Destructive actions verified by independent read before "done" (E-005).

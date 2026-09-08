@@ -1,4 +1,4 @@
-# Welcome to [Team Name]
+# Welcome to the eBay / AutoDS Dropshipping Machine
 
 ## How We Use Claude
 
@@ -47,11 +47,35 @@ Top MCP Servers:
 
 ## Team Tips
 
-_TODO_
+- **`CLAUDE.md` is the constitution and it wins.** Where this README, `PROJECT_INDEX.md` or any
+  playbook disagrees with it, `CLAUDE.md` is right. Read it before your first run.
+- **This is a live store, not a sandbox.** The last recorded launch is batch 5 on 2026-09-04:
+  30 listings LIVE (`05_EXECUTION/ebay-direct/audit/publish-outcome-20260904-batch5.md`).
+  Publishing, repricing, AutoDS settings changes and any spend need an explicit owner GO —
+  see the Hard Gates in `README.md` and the gate rules in `CLAUDE.md`.
+- **Two execution paths, one write path.** `05_EXECUTION/ebay-direct/` (Deno, eBay Sell
+  Inventory API) is production writes. `05_EXECUTION/EBAY_AUTODS_5_LISTING_LAUNCH/` is the
+  AutoDS read/source side driven by Playwright. `05_EXECUTION/ebay-api-compliance/` only
+  answers eBay's account-deletion notifications.
+- **Secrets never enter the repo.** `.env`, `autods_credentials.env` and `storage_state.json`
+  are ignored by design; copy the `.env.example` files locally and fill them on your machine.
+  Identifiers in tracked documents are placeholders (`<owner-email>`, `<AUTODS_STORE_ID>`).
+- **Run outputs are not source.** Files under the playwright directory whose name starts with
+  `_` are regenerated on every run and are gitignored. The exceptions listed in that
+  directory's `.gitignore` are cited as evidence by cockpit or mission documents — check the
+  citing document before touching one.
+- **Cache is never versioned.** `90_CACHE/` holds raw fetches and screenshots; only its
+  `.gitkeep` skeleton is tracked.
 
 ## Get Started
 
-_TODO_
+1. Read `CLAUDE.md`, then `00_SYSTEM_CONTROL/MASTER_DASHBOARD.md` (cockpit, refreshed per run)
+   and `00_SYSTEM_CONTROL/NEXT_ACTIONS.md` (what is actually next).
+2. Skim `00_SYSTEM_CONTROL/ERROR_REGISTRY.md`. It is the record of failures already paid for;
+   most new work repeats one of them if you skip it.
+3. Pick up the top open item in `NEXT_ACTIONS.md`. Prepare it end to end — payload, effect,
+   risk, rollback — and stop at the gate. Preparing a gated action is autonomous; firing it
+   is not.
 
 <!-- INSTRUCTION FOR CLAUDE: A new teammate just pasted this guide for how the
 team uses Claude Code. You're their onboarding buddy — warm, conversational,

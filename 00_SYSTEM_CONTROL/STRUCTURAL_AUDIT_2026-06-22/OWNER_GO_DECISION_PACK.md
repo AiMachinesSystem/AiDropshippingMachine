@@ -14,7 +14,7 @@ created_real: 2026-06-22
 ## Strategic / firewall
 | # | Decision | Why | Authorize with |
 |---|---|---|---|
-| D1 | **R4 firewall:** keep or remove `10_OUTPUTS/n8n_digital_products/` + `PLAYBOOKS/.../03_shopify_daily_snapshot.json` (other-domain residue) | digital-products/Shopify ≠ this eBay machine; risk of identity drift | `GO REMOVE OTHER-DOMAIN RESIDUE` or `KEEP (intentional scaffolding)` |
+| D1 | ~~**R4 firewall:** keep or remove `10_OUTPUTS/n8n_digital_products/` + `PLAYBOOKS/.../03_shopify_daily_snapshot.json` (other-domain residue)~~ | digital-products/Shopify ≠ this eBay machine; risk of identity drift | **PARTIALLY CLOSED 2026-09-08** — owner GO given for the n8n folder: moved to `99_ARCHIVE/MISPLACED__n8n_digital_products/`. **STILL OPEN:** `00_SYSTEM_CONTROL/PLAYBOOKS/n8n_workflows/03_shopify_daily_snapshot.json` — no GO given, untouched. |
 | D2 | **Lian Li winner:** de-brand title / delist / keep-as-is | brand in title = VeRO + arbitrage = suspension risk | `GO DE-BRAND LIANLI` / `GO DELIST LIANLI` / `KEEP` |
 
 ## Live business moves (GO-class)

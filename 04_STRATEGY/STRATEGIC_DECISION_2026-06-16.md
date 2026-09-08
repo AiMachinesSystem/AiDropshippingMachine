@@ -5,7 +5,7 @@ status: decided (execution GO-gated)
 scope: autonomous strategic decision from registered data — NO live action taken
 date: 2026-06-16
 created_real: 2026-06-17
-inputs: 10_OUTPUTS/autods_status_report.md · 10_OUTPUTS/DROPSHIPPING_MACHINE_CAPABILITY_AUDIT_2026-06-16.md · 03_ANALYSIS/DEEP_PRODUCT_RESEARCH_2026.md · 03_ANALYSIS/2026-06-15_ebay-autods-policy-fee-feature_analysis_v1.md
+inputs: 10_OUTPUTS/autods_status_report.md · 10_OUTPUTS/DROPSHIPPING_MACHINE_CAPABILITY_AUDIT_2026-06-16.md · 03_ANALYSIS/DEEP_PRODUCT_RESEARCH_2026.md · 10_OUTPUTS/ANALYSIS_REPORTS/2026-06-15_ebay-autods-policy-fee-feature_analysis_v1.md
 method: 3-lens strategist judge-panel (cash-now · margin&moat · risk&compliance) + synthesis, then owner-facing decision
 ---
 

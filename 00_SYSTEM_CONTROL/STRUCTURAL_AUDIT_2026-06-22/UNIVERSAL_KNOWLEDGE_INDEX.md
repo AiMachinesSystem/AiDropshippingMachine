@@ -31,7 +31,7 @@ created_real: 2026-06-22
 
 ## Outputs (`10_OUTPUTS`)
 - `ANALYSIS_REPORTS/` (profitability model, per-SKU audit, sourcing plan, reprice targets — all 2026-06-22), `MARKET_RESEARCH_REPORTS/`, `SYSTEM_REPORTS/`, `autods_status_report.md`
-- ⚠ `n8n_digital_products/` — other-domain residue (see RISK R4)
+- ⚠ `n8n_digital_products/` — other-domain residue (see RISK R4); archived 2026-09-08 to `99_ARCHIVE/MISPLACED__n8n_digital_products/`
 
 ## Cache / archive (`90_CACHE`, `_IMPORT`, `99_ARCHIVE`)
 - `90_CACHE/fetches/` (evidence: autods pulls, web research), `screenshots/` — gitignored

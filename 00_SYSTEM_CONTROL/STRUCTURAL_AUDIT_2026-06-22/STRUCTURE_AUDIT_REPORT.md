@@ -26,7 +26,7 @@ evidence: PowerShell recursive scan 2026-06-22 (counts/sizes OBSERVED)
 | `07_LEARNING` | 3 | — | stub | instance | STUB |
 | `08_SCALING` | 2 | — | stub | instance | STUB |
 | `09_TEMPLATES` | 11 | — | reusable output templates | core-local | ACTIVE |
-| `10_OUTPUTS` | 29 | 0.2MB | dated reports + `n8n_digital_products/` (⚠ other-domain residue) | instance | ACTIVE |
+| `10_OUTPUTS` | 29 | 0.2MB | dated reports + `n8n_digital_products/` (⚠ other-domain residue — archived 2026-09-08 to `99_ARCHIVE/MISPLACED__n8n_digital_products/`) | instance | ACTIVE |
 | `90_CACHE` | 210 | 29.6MB | evidence cache (gitignored) | staging | ACTIVE |
 | `_IMPORT` | 42 | 0.2MB | **full nested duplicate of original machine** + foundation | import/stale | STALE |
 | `_ARCHIVE` / `99_ARCHIVE` | 1 / 12 | 0.1MB | milestone/deprecated readable copies | archive | OK |
