@@ -13,12 +13,9 @@ node_modules/
 !/_tmp/README.md
 
 # --- 90_CACHE: NON versionata (si mantiene solo lo scheletro via .gitkeep) ---
-/90_CACHE/fetches/**
-/90_CACHE/screenshots/**
-/90_CACHE/tools/**
-/90_CACHE/selftests/**
-/90_CACHE/*.py
-/90_CACHE/sims/**
+/90_CACHE/**
+!/90_CACHE/**/
+!/90_CACHE/**/.gitkeep
 
 # riammetti i segnaposto di struttura
 !**/.gitkeep
@@ -26,6 +23,9 @@ node_modules/
 # --- scaffolding di import (NON versionato; rimuovibile dopo verifica owner) ---
 /_IMPORT/
 /ebay_autods_dropshipping_machine.zip
+
+# --- output generati (screenshot di smoke test: rigenerabili) ---
+/10_OUTPUTS/*.png
 
 # --- SECRETS: MAI versionati (real .env, chiavi, token, credenziali). .env.example resta tracciato ---
 .env
